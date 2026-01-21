@@ -1,0 +1,49 @@
+{
+  "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemConfig, DT_ConfigurationRepository",
+    "ConnectorType": "Web",
+    "Port": 65535,
+    "UseHttps": false,
+    "ReplyStoreTime": 0,
+    "PublishSwagger": true,
+    "AuthTypeRest": "Bearer",
+    "SslProtocols": [],
+    "CredentialsInBody": true,
+    "IsRateLimitingEnabled": false,
+    "RateLimiterOptions": {
+      "$type": "DT.ConfigurationRepository.Configuration.Adapter.RateLimiter.WebSystemRateLimiterOptions, DT_ConfigurationRepository",
+      "RejectedStatusCode": 429,
+      "ControllerLimit": 1000
+    },
+    "ResponseErrorSettings": null,
+    "Auth": {
+      "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+      "Enabled": false,
+      "UsePasswordHash": false
+    },
+    "HandlersList": [
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+        "IsStarted": true
+      }
+    ],
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "RestIn",
+  "Description": "RestIn",
+  "Comment": null,
+  "Version": 3,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

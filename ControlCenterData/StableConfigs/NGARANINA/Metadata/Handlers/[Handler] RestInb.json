@@ -1,0 +1,42 @@
+{
+  "$type": "DT.MdmMetadata.Types.Method, DT_Core",
+  "MethodType": "Post",
+  "AuthRequired": true,
+  "RouteTemplate": "/RestInb",
+  "Timeout": 10000,
+  "IsTemporary": true,
+  "CompiledRouteTemplate": "/RestInb",
+  "RateLimiterStatus": "InheritedFromSystem",
+  "Integration": "ToPlatform",
+  "Type": "Web",
+  "Code": "[Handler] RestInb [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "Parameters": [],
+  "Values": [],
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+    "Name": "ТипДанныхФайл",
+    "Id": "a41ee14b-55ba-4a24-8f5c-6885fa42493f",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+  "NoTransaction": false,
+  "EntityId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "RestInb",
+  "Description": "RestInb",
+  "Version": 4,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

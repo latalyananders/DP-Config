@@ -1,0 +1,16 @@
+{
+  "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+  "Text": "[ObjectConfig] ТипДанныхФайлФормаСписка [Code].ext",
+  "RefId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+  "FolderId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+  "ConfigType": "DT.ClusterConfiguration.GridElementContent, DT_Core",
+  "EntityId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "ТипДанныхФайлФормаСписка",
+  "Description": "[ТипДанныхФайл] Форма списка",
+  "Comment": "Автоматически сгенерированный объект конфигурации",
+  "Version": 25,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

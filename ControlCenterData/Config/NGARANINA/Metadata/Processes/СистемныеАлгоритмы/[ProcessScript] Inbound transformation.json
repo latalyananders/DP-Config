@@ -1,0 +1,14 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.ProcessScript, DT_Core",
+  "ScriptType": "InTransform",
+  "Variables": [],
+  "Values": [],
+  "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+  "EntityId": "d07ae17c-0ffb-4337-9d28-86a1b31a15da",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "СкриптВходящейТрансформации",
+  "Version": 1,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

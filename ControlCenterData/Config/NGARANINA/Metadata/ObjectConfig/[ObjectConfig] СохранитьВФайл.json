@@ -1,0 +1,16 @@
+{
+  "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+  "Text": "[ObjectConfig] СохранитьВФайл [Code].ext",
+  "RefId": "00000000-0000-0000-0000-000000000000",
+  "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+  "ConfigType": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+  "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "СохранитьВФайл",
+  "Description": "Сохранить в файл",
+  "Comment": "Автоматически сгенерированный объект конфигурации",
+  "Version": 10,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

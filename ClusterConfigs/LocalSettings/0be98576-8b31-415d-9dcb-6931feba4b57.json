@@ -1,0 +1,172 @@
+{
+  "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+    "SendingStrategy": null,
+    "Options": {
+      "$type": "DT.ClusterConfiguration.BlazorPortalOptionConfig, DT_Core",
+      "UserMenu": [
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №2",
+          "Roles": [],
+          "ObjectConfigId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №3",
+          "Roles": [],
+          "ObjectConfigId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №4",
+          "Roles": [],
+          "ObjectConfigId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №5",
+          "Roles": [],
+          "ObjectConfigId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №6",
+          "Roles": [],
+          "ObjectConfigId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №7",
+          "Roles": [],
+          "ObjectConfigId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №8",
+          "Roles": [],
+          "ObjectConfigId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница страница №9",
+          "Roles": [],
+          "ObjectConfigId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+          "ObjectConfigAppliedId": null
+        },
+        {
+          "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+          "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+          "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+          "Name": "Ссылочная страница тестовая страница",
+          "Roles": [],
+          "ObjectConfigId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+          "ObjectConfigAppliedId": null
+        }
+      ],
+      "DashBoardContent": {
+        "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+        "Layouts": [
+          {
+            "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+            "EntityId": "0e1b759f-e082-42f8-a05d-9e482a72755b",
+            "Name": "",
+            "IsVisible": true,
+            "HideSplitter": false,
+            "Columns": [
+              {
+                "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+                "EntityId": "e8c560ea-4685-4faf-b795-e2308dcdb2e3",
+                "Name": "",
+                "VScroll": true,
+                "GScroll": false,
+                "Elements": [
+                  {
+                    "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                    "UpdateFields": null,
+                    "EntityId": "8dba14bd-2027-4104-b5d0-44b4bc703afb",
+                    "Name": "Ссылочный UI элемент",
+                    "ObjectConfigId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+                    "ObjectConfigAppliedId": null,
+                    "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+                    "DataSourceId": null,
+                    "Roles": []
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Title": null,
+                "Size": ""
+              }
+            ],
+            "Roles": [],
+            "VisibilityContextNames": [],
+            "DataSourceId": null,
+            "RequiredValue": null,
+            "Title": null,
+            "Size": ""
+          }
+        ],
+        "ContentType": "SolidLayout",
+        "EntityId": "8aae86c3-69fc-42da-8b00-303ccd5f2f1b",
+        "Name": ""
+      },
+      "DataSources": []
+    },
+    "PeriodUpdateMenuIndicatorsInSeconds": 30,
+    "VisibilityContexts": null,
+    "NotificationConfig": null,
+    "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+    "PeriodUpdateUserRolesSec": 30,
+    "ShowNavIfMenuEmptyOn": true,
+    "Port": 666,
+    "UseHttps": false,
+    "Auth": {
+      "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+      "Enabled": false,
+      "UsePasswordHash": false
+    },
+    "Timeout": 10000
+  },
+  "IsActive": true,
+  "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "ПорталВАд",
+  "Description": "Портал_В_Ад",
+  "Comment": "Lasciate ogne speranza, voi ch'entrate",
+  "Version": 17,
+  "TagsCollection": null,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

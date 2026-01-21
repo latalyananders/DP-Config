@@ -1,0 +1,121 @@
+{
+  "$type": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+  "ContentElementType": "EditForm",
+  "Title": "",
+  "ColumnModel": {
+    "$type": "DT.ClusterConfiguration.ColumnModelCollection, DT_Core",
+    "Columns": [
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "69a8e9f6-4735-441e-8a06-a5afd2745474",
+        "Name": "EntityId",
+        "Path": "ТипДанныхФайл.EntityId",
+        "IsVisible": false,
+        "IsEditable": false,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "Parameters": {
+          "MaxLength": "50"
+        },
+        "EntityId": "5921d757-a294-4ce2-85a0-63c5ba4dea1a",
+        "Name": "testField1",
+        "Path": "ТипДанныхФайл.testField1",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "Parameters": {
+          "MaxLength": "50"
+        },
+        "EntityId": "7ecc67ac-88ce-43d6-bd9a-573b36be27fc",
+        "Name": "testField2",
+        "Path": "ТипДанныхФайл.testField2",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      }
+    ]
+  },
+  "IsVisibleEmpty": true,
+  "Groups": [],
+  "IsAttacheButtonOnTop": false,
+  "IsButtonsOnRightSide": true,
+  "EnableValidation": true,
+  "ReadOnlySettings": null,
+  "DetailDialog": "Изменение {ТипДанныхФайл.testField1}",
+  "DoGetContentOnOpen": false,
+  "NameGroupOutsideGroupsColumnModel": null,
+  "TypeGroupOutsideGroupsColumnModel": "Accordion",
+  "PositionOutsideGroupsColumnModel": "Bottom",
+  "OnShowOption": true,
+  "ToolBarButtonIds": null,
+  "DialogOptionSelf": null,
+  "ViewMode": "Full",
+  "StretchingByHeightOn": false,
+  "DoInsertColumModelByPlatformType": false,
+  "ObserveAndMarkChangeWithStartInDialogOn": true,
+  "IsVisible": true,
+  "Order": 0,
+  "ParentPathInDataSource": null,
+  "AlternativeContextDataSources": null,
+  "InnerElements": [
+    {
+      "$type": "DT.ClusterConfiguration.ProcessButtonContent, DT_Core",
+      "CustomConfigButton": true,
+      "ContentElementType": "ProcessButton",
+      "EntityId": "0c03ef14-744e-41e1-90ce-eaef06b0b545",
+      "DataSourceId": null,
+      "SourceId": "13d3d993-89a6-4332-b120-2cd541153bd5",
+      "TargetId": "00000000-0000-0000-0000-000000000000",
+      "ProcessId": "5c851b14-fceb-47a8-9b13-92268fd00df5",
+      "WaitProcess": "Finish",
+      "MappingToProcess": [
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "c7af5214-21b7-4223-a470-6fb7e1819a5a",
+          "SourceId": "ТипДанныхФайл",
+          "TargetId": "ТипДанныхФайл",
+          "Expression": null,
+          "Type": "Basic",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        }
+      ],
+      "MappingFromProcess": [],
+      "ElementParameters": [],
+      "SourceDataAsLinkOn": false,
+      "TypeProcess": "none",
+      "DoCloseDialog": true,
+      "IsImportant": true,
+      "Position": "Right",
+      "Icon": null,
+      "VisibilityCondition": null,
+      "IsVisible": true,
+      "Order": 0,
+      "Title": "Сохранить",
+      "ParentPathInDataSource": null,
+      "AlternativeContextDataSources": null,
+      "InnerElements": [],
+      "OwnerId": "13d3d993-89a6-4332-b120-2cd541153bd5",
+      "Name": "",
+      "ObjectConfigId": null,
+      "ObjectConfigAppliedId": null,
+      "PlatformTypeId": null,
+      "Roles": []
+    }
+  ],
+  "OwnerId": "8dba14bd-2027-4104-b5d0-44b4bc703afb",
+  "EntityId": "13d3d993-89a6-4332-b120-2cd541153bd5",
+  "Name": "",
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null,
+  "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+  "DataSourceId": null,
+  "Roles": []
+}

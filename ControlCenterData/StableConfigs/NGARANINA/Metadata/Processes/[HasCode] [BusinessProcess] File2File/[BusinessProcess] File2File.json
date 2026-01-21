@@ -1,0 +1,188 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.BusinessProcess, DT_Core",
+  "ProcessVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+      "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+      "Name": "ТипДанныхФайл",
+      "Id": "0572c18f-5601-409d-864c-03c82853aa0d",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": true,
+    "OutVariable": true
+  },
+  "AutoStart": true,
+  "IsSystem": false,
+  "Steps": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.SendToSubscriberStepInfo, DT_Core",
+      "Message": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "0572c18f-5601-409d-864c-03c82853aa0d",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "Receivers": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+        "Type": "System",
+        "IsExact": false
+      },
+      "QueryText": "",
+      "ReceiversType": "ByReceiverId",
+      "WaitForReplyType": "None",
+      "Timeout": 0,
+      "OnResponse": "00000000-0000-0000-0000-000000000000",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "IsBoundToAdapter": false,
+      "OnlyRegistration": false,
+      "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+      "IsResponse": false,
+      "HasSystemVariables": true,
+      "Id": "204aec04-19c6-4aba-894c-ae562250200f",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "InterpretTimeoutAsError": false
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.LogStepInfo, DT_Core",
+      "Message": "Схема обработки вызвалась. Что произошло дальше? Хер его знает",
+      "Id": "4c63b05e-975a-477c-91d0-f925b6d52c12",
+      "Next": "204aec04-19c6-4aba-894c-ae562250200f",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "InterpretTimeoutAsError": false
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.LogStepInfo, DT_Core",
+      "Message": "Схема вызывается",
+      "Id": "ea929193-f678-4167-8381-cff4e9c21663",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "InterpretTimeoutAsError": false
+    }
+  ],
+  "FirstStep": "4c63b05e-975a-477c-91d0-f925b6d52c12",
+  "Positions": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": [
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-1111-1111-1111-111111111111",
+        "X": 250,
+        "Y": 20
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-2222-3333-4444-555555555555",
+        "X": 200,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "204aec04-19c6-4aba-894c-ae562250200f",
+        "X": 250,
+        "Y": 152
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "4c63b05e-975a-477c-91d0-f925b6d52c12",
+        "X": 250,
+        "Y": 93
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "ea929193-f678-4167-8381-cff4e9c21663",
+        "X": -441,
+        "Y": -141
+      }
+    ]
+  },
+  "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+  "LoggingType": "Default",
+  "DumpOnStart": false,
+  "StepsOnError": [],
+  "FirstStepOnError": "00000000-0000-0000-0000-000000000000",
+  "PositionsOnError": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": []
+  },
+  "IsRouter": false,
+  "DeleteIfEmptySubscribers": false,
+  "RouteDataTypes": [],
+  "RouteSystemDataTypes": [],
+  "Subprocess": false,
+  "IsProcessIssueFlow": true,
+  "Isolated": false,
+  "ProcessVariableNotUsed": false,
+  "Variables": [],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "ТипДанныхФайл": 2
+  },
+  "EntityId": "2447705f-aed6-4808-b429-51d22c7c92f6",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "File2File",
+  "Description": "File2File",
+  "Version": 5,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$type": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+  "EntityId": "7312dc74-f66b-4fd8-8154-1ee02f350136",
+  "Url": "/page",
+  "Title": "1111",
+  "Description": "Описание Страница №10",
+  "BlazorMenuType": "SystemDynamic",
+  "ContentOptions": {
+    "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+    "Layouts": [
+      {
+        "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+        "EntityId": "b27ee249-6339-497a-bc47-fe78c3e100d6",
+        "Name": "",
+        "IsVisible": true,
+        "HideSplitter": false,
+        "Columns": [
+          {
+            "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+            "EntityId": "6c005b1c-e558-4d3f-8eca-c754ac58342e",
+            "Name": "",
+            "VScroll": false,
+            "GScroll": false,
+            "Elements": [],
+            "Roles": [],
+            "VisibilityContextNames": [],
+            "Title": null,
+            "Size": ""
+          }
+        ],
+        "Roles": [],
+        "VisibilityContextNames": [],
+        "DataSourceId": null,
+        "RequiredValue": null,
+        "Title": null,
+        "Size": ""
+      }
+    ],
+    "ContentType": "SolidLayout",
+    "EntityId": "eb9e64d2-995c-49ac-ae01-c5ed9c282e0d",
+    "Name": ""
+  },
+  "Children": [],
+  "SqlMenuIndicator": "",
+  "IsActive": true,
+  "Expanded": true,
+  "Icon": null,
+  "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+  "Name": "1111",
+  "Roles": [],
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null
+}

@@ -1,0 +1,16 @@
+{
+  "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+  "Text": "[ObjectConfig] Страница2 [Code].ext",
+  "RefId": "00000000-0000-0000-0000-000000000000",
+  "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+  "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+  "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "Страница2",
+  "Description": "",
+  "Comment": "Автоматически сгенерированный объект конфигурации",
+  "Version": 10,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

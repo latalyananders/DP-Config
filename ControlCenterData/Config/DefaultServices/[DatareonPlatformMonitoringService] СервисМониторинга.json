@@ -1,0 +1,24 @@
+{
+  "$type": "DT.ClusterConfiguration.DefaultService, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MonitoringServiceConfig, DT_ConfigurationRepository",
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "12345678-1234-5678-0000-123456789000",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "EntityId": "87654321-4321-0000-0000-123456789000",
+  "ClusterId": "00000000-0000-0000-0000-000000000000",
+  "Name": "СервисМониторинга",
+  "Description": "Сервис мониторинга",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

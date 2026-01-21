@@ -1,0 +1,94 @@
+{
+  "$type": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+  "ContentElementType": "EditForm",
+  "Title": "",
+  "ColumnModel": {
+    "$type": "DT.ClusterConfiguration.ColumnModelCollection, DT_Core",
+    "Columns": [
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "2993a9e1-14d0-4995-bdf8-da8dc85ddf4a",
+        "Name": "textField2",
+        "Path": "Поле №2",
+        "IsVisible": true,
+        "IsEditable": true,
+        "OrderNumber": 2,
+        "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "ab0ad8c0-cccf-4b65-a4ed-9c11e60eeb9a",
+        "Name": "textField1",
+        "Path": "Поле №1",
+        "IsVisible": true,
+        "IsEditable": true,
+        "OrderNumber": 1,
+        "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+        "RefreshParentElementAfterChangeValueOn": false,
+        "ProcessConfig": {
+          "$type": "DT.ClusterConfiguration.MdmBlazor.ProcessConfig, DT_Core",
+          "BpId": "2447705f-aed6-4808-b429-51d22c7c92f6",
+          "MappingToProcess": [
+            {
+              "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+              "Id": "4c7c2197-018a-4272-88b7-8dec0923324b",
+              "SourceId": "Поле №1",
+              "TargetId": "ТипДанныхФайл.testField1",
+              "Expression": null,
+              "Type": "Basic",
+              "Aliases": [],
+              "AddOption": "Replace",
+              "FillOption": "AutoMapping",
+              "HasExpression": false
+            },
+            {
+              "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+              "Id": "ce358206-5509-43f6-87e5-f46d4d971668",
+              "SourceId": "Поле №2",
+              "TargetId": "ТипДанныхФайл.testField2",
+              "Expression": null,
+              "Type": "Basic",
+              "Aliases": [],
+              "AddOption": "Replace",
+              "FillOption": "AutoMapping",
+              "HasExpression": false
+            }
+          ],
+          "MappingFromProcess": []
+        }
+      }
+    ]
+  },
+  "IsVisibleEmpty": true,
+  "Groups": [],
+  "IsAttacheButtonOnTop": false,
+  "IsButtonsOnRightSide": true,
+  "EnableValidation": true,
+  "ReadOnlySettings": null,
+  "DetailDialog": null,
+  "DoGetContentOnOpen": false,
+  "NameGroupOutsideGroupsColumnModel": null,
+  "TypeGroupOutsideGroupsColumnModel": "Simple",
+  "PositionOutsideGroupsColumnModel": "Bottom",
+  "OnShowOption": true,
+  "ToolBarButtonIds": null,
+  "DialogOptionSelf": null,
+  "ViewMode": "Full",
+  "StretchingByHeightOn": false,
+  "DoInsertColumModelByPlatformType": false,
+  "ObserveAndMarkChangeWithStartInDialogOn": true,
+  "IsVisible": true,
+  "Order": 0,
+  "ParentPathInDataSource": null,
+  "AlternativeContextDataSources": null,
+  "InnerElements": [],
+  "OwnerId": null,
+  "EntityId": "6467971a-29f6-4b78-9555-001998285608",
+  "Name": "",
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null,
+  "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+  "DataSourceId": null,
+  "Roles": []
+}

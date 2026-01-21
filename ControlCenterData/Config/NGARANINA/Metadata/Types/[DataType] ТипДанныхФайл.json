@@ -1,0 +1,118 @@
+{
+  "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+  "FieldsTemplates": [],
+  "Categories": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+    "Codes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "Items": [],
+    "Name": "Категории",
+    "Id": "854a5cf9-e4c7-450b-bf80-b260179f4536",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "PortalSettings": {
+    "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+    "FormElementViewerId": "13d3d993-89a6-4332-b120-2cd541153bd5",
+    "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+    "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+    "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+    "GridElementViewerId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+    "GroupHistoryChangeDataOn": false,
+    "DisplayName": "",
+    "VisibleCategoryAttributesAsFlagOn": true,
+    "TypesCategoryColumnView": {},
+    "LinkFieldAsNotSelector": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "DisplayFieldNames": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "SeparateCategoriesTypeViewOnForm": {},
+    "LinkFieldTypeView": {},
+    "LinkQueryConditionForDataType": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "ProcessSettings": {
+      "$type": "DT.MdmMetadata.Types.PortalProcessSettings, DT_Core",
+      "CreateAndEditProcessId": "5c851b14-fceb-47a8-9b13-92268fd00df5",
+      "DeleteProcessId": "09626ac9-ac77-4dbb-82af-0af9ea37c9dc"
+    }
+  },
+  "FolderId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+  "ClassId": 1,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 50,
+        "MaxLength": false,
+        "AutoTrim": false
+      },
+      "Name": "testField1",
+      "Id": "5028f3d5-6a07-414a-8ac3-b2c0174434aa",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 50,
+        "MaxLength": false,
+        "AutoTrim": false
+      },
+      "Name": "testField2",
+      "Id": "e6da2c67-a2cc-47f5-86d5-b51adea0e51a",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "testField1": 1,
+    "testField2": 2
+  },
+  "EntityId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "ТипДанныхФайл",
+  "Description": "ТипДанныхФайл",
+  "Comment": "Простой тип данных для тестирования сценария FIle to file",
+  "Version": 6,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

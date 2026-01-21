@@ -1,0 +1,90 @@
+{
+  "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+    "SendingStrategy": null,
+    "Options": {
+      "$type": "DT.ClusterConfiguration.BlazorPortalOptionConfig, DT_Core",
+      "UserMenu": [],
+      "DashBoardContent": {
+        "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+        "Layouts": [
+          {
+            "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+            "EntityId": "79ed1a11-ecdd-448d-9341-c84031e040cb",
+            "Name": "",
+            "IsVisible": true,
+            "HideSplitter": false,
+            "Columns": [
+              {
+                "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+                "EntityId": "9111151b-4388-414b-9400-7a2491ae1fa7",
+                "Name": "",
+                "VScroll": true,
+                "GScroll": false,
+                "Elements": [
+                  {
+                    "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                    "UpdateFields": null,
+                    "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                    "Name": "Ссылочный UI элемент",
+                    "ObjectConfigId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                    "ObjectConfigAppliedId": null,
+                    "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                    "DataSourceId": null,
+                    "Roles": []
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Title": null,
+                "Size": ""
+              }
+            ],
+            "Roles": [],
+            "VisibilityContextNames": [],
+            "DataSourceId": null,
+            "RequiredValue": null,
+            "Title": null,
+            "Size": ""
+          }
+        ],
+        "ContentType": "SolidLayout",
+        "EntityId": "35649acd-c8d1-49fb-b0e1-9aace4bfab39",
+        "Name": ""
+      },
+      "DataSources": []
+    },
+    "PeriodUpdateMenuIndicatorsInSeconds": 30,
+    "VisibilityContexts": null,
+    "NotificationConfig": null,
+    "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+    "PeriodUpdateUserRolesSec": 30,
+    "ShowNavIfMenuEmptyOn": true,
+    "Port": 667,
+    "UseHttps": false,
+    "Auth": {
+      "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+      "Enabled": false,
+      "UsePasswordHash": false
+    },
+    "Timeout": 10000
+  },
+  "IsActive": true,
+  "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "ПорталВАд2",
+  "Description": "Портал_В_Ад2",
+  "Comment": "",
+  "Version": 6,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

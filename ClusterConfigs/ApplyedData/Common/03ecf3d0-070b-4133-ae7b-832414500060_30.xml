@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>03ecf3d0-070b-4133-ae7b-832414500060_30</name>
+    </assembly>
+    <members>
+        <member name="M:SystemModels.DefaultController.Method_9dce2d9b(SystemModels.ТипДанныхФайл)">
+            <summary>
+            RestInb
+            </summary>
+        </member>
+        <member name="P:SystemModels.RestInb.ТипДанныхФайл">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

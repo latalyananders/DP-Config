@@ -1,0 +1,175 @@
+{
+  "$type": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+  "ContentElementType": "EditForm",
+  "Title": "",
+  "ColumnModel": {
+    "$type": "DT.ClusterConfiguration.ColumnModelCollection, DT_Core",
+    "Columns": [
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "0896af6e-cfee-428f-9aa5-c78628ddf354",
+        "Name": "Поле №1",
+        "Path": "Поле №1",
+        "GridColumnType": "Boolean",
+        "IsVisible": true,
+        "IsEditable": false,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "a6eb8ab0-3a40-487b-a8c3-f262416d09a4",
+        "Name": "Поле №2",
+        "Path": "Поле №2",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "caafb486-19d8-4608-ac1b-121966b17cd5",
+        "Name": "Поле №3",
+        "Path": "Поле №3",
+        "GridColumnType": "Boolean",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "6b7d1f3e-0aca-4a33-bbe1-2b86c2b55bec",
+        "Name": "Поле №4",
+        "Path": "Поле №4",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "b8ec894e-b731-4930-8eec-e3e08ad63b0f",
+        "Name": "Поле №5",
+        "Path": "Поле №5",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "a53242c6-114c-40c8-b500-a4ac24b9e466",
+        "Name": "Поле №6",
+        "Path": "Поле №6",
+        "GridColumnType": "Enum",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "5f29ae8d-709f-41f4-a9e4-0e659f792d6a",
+        "Name": "Поле №7",
+        "Path": "Поле №7",
+        "GridColumnType": "Boolean",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "Parameters": {
+          "ParentDataTypeId": "00000000-0000-0000-0000-000000000000"
+        },
+        "EntityId": "c8e46330-2f81-4442-96a7-2691dae4e14d",
+        "Name": "Поле №8",
+        "Path": "Поле №8",
+        "GridColumnType": "Boolean",
+        "IsVisible": true,
+        "IsEditable": true,
+        "RefreshParentElementAfterChangeValueOn": false
+      }
+    ]
+  },
+  "IsVisibleEmpty": true,
+  "Groups": [
+    {
+      "$type": "DT.ClusterConfiguration.GroupGridColumn, DT_Core",
+      "EntityId": "92d32ac2-e951-4e52-be1f-5eacde73381b",
+      "Paths": [
+        [
+          "Поле №1"
+        ]
+      ],
+      "Name": "",
+      "GroupViewMode": "Simple",
+      "Groups": null,
+      "CountAutoSeparateByColumn": 0
+    },
+    {
+      "$type": "DT.ClusterConfiguration.GroupGridColumn, DT_Core",
+      "EntityId": "4c0a759d-c2c4-4c8b-9a09-d3400d0116f5",
+      "Paths": [
+        [
+          "Поле №2",
+          "Поле №3",
+          "Поле №4"
+        ]
+      ],
+      "GroupViewMode": "Accordion",
+      "Groups": null,
+      "CountAutoSeparateByColumn": 0
+    },
+    {
+      "$type": "DT.ClusterConfiguration.GroupGridColumn, DT_Core",
+      "EntityId": "aa5663b3-4aa0-4ea7-908e-c08e3a260c5e",
+      "Paths": [
+        [
+          "Поле №5",
+          "Поле №6"
+        ]
+      ],
+      "GroupViewMode": "Fieldset",
+      "Groups": null,
+      "CountAutoSeparateByColumn": 0
+    },
+    {
+      "$type": "DT.ClusterConfiguration.GroupGridColumn, DT_Core",
+      "EntityId": "7247fe76-a077-431d-bb07-c202c4a17158",
+      "Paths": [
+        [
+          "Поле №7",
+          "Поле №8"
+        ]
+      ],
+      "GroupViewMode": "Accordion",
+      "Groups": null,
+      "CountAutoSeparateByColumn": 0
+    }
+  ],
+  "IsAttacheButtonOnTop": false,
+  "IsButtonsOnRightSide": true,
+  "EnableValidation": true,
+  "ReadOnlySettings": null,
+  "DetailDialog": null,
+  "DoGetContentOnOpen": false,
+  "NameGroupOutsideGroupsColumnModel": "",
+  "TypeGroupOutsideGroupsColumnModel": "Simple",
+  "PositionOutsideGroupsColumnModel": "Top",
+  "OnShowOption": true,
+  "ToolBarButtonIds": null,
+  "DialogOptionSelf": null,
+  "ViewMode": "Full",
+  "StretchingByHeightOn": false,
+  "DoInsertColumModelByPlatformType": false,
+  "ObserveAndMarkChangeWithStartInDialogOn": true,
+  "IsVisible": true,
+  "Order": 0,
+  "ParentPathInDataSource": null,
+  "AlternativeContextDataSources": null,
+  "InnerElements": [],
+  "OwnerId": null,
+  "EntityId": "016a7a8e-8612-487f-8213-dc9bc5a85411",
+  "Name": "",
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null,
+  "PlatformTypeId": null,
+  "DataSourceId": null,
+  "Roles": []
+}

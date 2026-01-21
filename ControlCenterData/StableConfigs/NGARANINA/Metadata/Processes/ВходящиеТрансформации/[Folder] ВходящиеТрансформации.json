@@ -1,0 +1,13 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+  "ChildrenType": "Processes",
+  "EntityId": "9fb6b9e6-9639-40d8-8f53-bf987f8f5ec8",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "ВходящиеТрансформации",
+  "Description": "Входящие трансформации",
+  "Version": 1,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

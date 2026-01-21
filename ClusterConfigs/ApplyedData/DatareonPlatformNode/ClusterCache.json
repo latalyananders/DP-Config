@@ -1,0 +1,1534 @@
+{
+  "$type": "DT.MdmCommon.ClusterContent, DT_Core",
+  "Cluster": {
+    "$type": "DT.ClusterConfiguration.Cluster, DT_Core",
+    "Coordinators": [],
+    "HeartbeatPeriod": 30000,
+    "OtherMachineSenderThreadsCount": 8,
+    "FailThreshold": 3,
+    "CounterSettings": null,
+    "Auth": null,
+    "UseCertificateForChannels": false,
+    "UseBalancing": true,
+    "RedirectDiagnostics": true,
+    "ProcessParams": {
+      "$type": "DT.MdmCommon.ProcessParams, DT_Core",
+      "ThreadCount": 5,
+      "MaxSleepingProcessCount": 100,
+      "MaxSleepingProcessMB": 200,
+      "MaxUnprocessedQueueMB": 30,
+      "MinWaitBeforeSleep": 10000,
+      "MaxRunnedRequests": 50,
+      "MaxSleepTimeMinutes": 1440,
+      "MinMessageCountForThread": 50
+    },
+    "QueueParams": {
+      "$type": "DT.Params.QueueParams, DT_Core",
+      "MinFileSizeMb": 10,
+      "MaxMessageSizeMb": 2047
+    },
+    "CommonParams": {
+      "$type": "DT.MdmCommon.CommonParams, DT_Core",
+      "MaxModuleMemoryUsage": 2,
+      "ModuleWorkersCount": null,
+      "SystemParallelThreads": null,
+      "ModuleParallelThreads": null,
+      "NodeParallelThreads": null
+    },
+    "NodeParams": {
+      "$type": "DT.MdmCommon.NodeParams, DT_Core",
+      "MaxUnprocessedQueueLength": 200,
+      "ExcessUnprocessedQueuePercent": 50,
+      "MaxOtherMachinesQueueLength": null
+    },
+    "MessageProcessingParams": {
+      "$type": "DT.MdmCommon.MessageProcessingParams, DT_Core",
+      "MaxDelayCount": 30,
+      "MaxSnapshotCount": 100,
+      "SnapshotStoreMinutes": 15,
+      "MaxBatchWaitTimeoutMs": 300,
+      "MaxBatchSize": 100
+    },
+    "GlobalDiagnosticParams": {
+      "$type": "DT.MdmCommon.DiagnosticParams, DT_Config",
+      "IssueCollectPeriod": 300,
+      "MinLogLevel": "Debug",
+      "DefaultEventLevel": "Debug",
+      "MinLogLevelHistory": "Info",
+      "DefaultEventLevelHistory": "Info",
+      "EventsLogLevels": {
+        "$type": "System.Collections.Generic.Dictionary`2[[DT.Diagnostics.Trace.MessageEventType, DT_Config],[DT.Diagnostics.Issues.IssueLevel, DT_Config]], System.Private.CoreLib"
+      },
+      "Features": [],
+      "TrackingMessages": false,
+      "EventMessageBodySizeBytes": 0,
+      "TrackingCustomProperties": true,
+      "CounterAlwaysOn": false,
+      "CounterDiagnosticData": [],
+      "SystemDiagnosticParams": {
+        "$type": "DT.MdmCommon.SystemDiagnosticParams, DT_Config",
+        "MinLogLevel": null
+      },
+      "ExecuteRequestTimeoutMs": 600000
+    },
+    "LocalDiagnosticParams": null,
+    "CacheSettings": {
+      "$type": "DT.MdmCommon.CacheSettings, DT_Core",
+      "IssuesCacheSettings": {
+        "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "LogsCacheSettings": {
+        "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+        "MetadataRequestFrequency": 30,
+        "StopRequestSendTimeout": 10
+      },
+      "CountersCacheSettings": {
+        "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "ComponentStatesCacheSettings": {
+        "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+        "MetadataRequestFrequency": 5,
+        "StopRequestSendTimeout": 5
+      },
+      "MetadataSettings": {
+        "$type": "DT.MdmCommon.MetadataSettings, DT_Core",
+        "GetTimeOut": 1,
+        "CacheTime": 15
+      },
+      "SearchMessageCacheTimeMinutes": 5
+    },
+    "HotRecoverySettingsGlobal": {
+      "$type": "DT.MdmCommon.HotRecoverySettings, DT_Core",
+      "ReplicateByDefault": false,
+      "Modules": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "LastClusterRecoveryInfo": null,
+      "ReplicateOnlyWithinNodeGroup": false,
+      "FaultTolerance": 0,
+      "Nodes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    "HotRecoverySettingsEffective": {
+      "$type": "DT.MdmCommon.HotRecoverySettings, DT_Core",
+      "ReplicateByDefault": false,
+      "Modules": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "LastClusterRecoveryInfo": null,
+      "ReplicateOnlyWithinNodeGroup": false,
+      "FaultTolerance": 0,
+      "Nodes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    "ResolveList": [],
+    "DataBankParams": null,
+    "DiskUsageParams": {
+      "$type": "DT.DiskUsageParams, DT_Core",
+      "ArchiveMaxSizeMb": 100,
+      "TrackingMaxSizeMb": 100,
+      "DataMaxSizeMb": 1024,
+      "LogsMaxSizeMb": 100,
+      "TotalMaxSizeMb": 2048
+    },
+    "LogStorageParams": {
+      "$type": "DT.LogStorageParams, DT_Config",
+      "StoreDays": 0,
+      "FolderMaxSizeMb": 50,
+      "UncompressedDays": 0,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "ArchiveStorageParams": {
+      "$type": "DT.ArchiveStorageParams, DT_Config",
+      "ArchiveMaxSizeMb": 100
+    },
+    "TrackingStorageParams": {
+      "$type": "DT.TrackingStorageParams, DT_Config",
+      "TrackingMaxSizeMb": 100
+    },
+    "EventsStorageParams": {
+      "$type": "DT.MdmCommon.EventsStorageParams, DT_Config",
+      "Format": "BinaryFiles",
+      "SaveAsBinFiles": true,
+      "SaveAsTextFiles": false,
+      "MaxEventsFileSizeBytes": 10485760,
+      "MaxMessagesFileSizeBytes": 10485760,
+      "MaxBinaryDataFileSizeBytes": 10485760,
+      "SaveBodies": false,
+      "MaxBodySizeBytes": 0
+    },
+    "DumpStorageParams": {
+      "$type": "DT.LogStorageParams, DT_Config",
+      "StoreDays": 1,
+      "FolderMaxSizeMb": 50,
+      "UncompressedDays": 1,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "UseSystemUDPSender": true,
+    "UpdateTimeout": 30000,
+    "LargeObjectQueueParams": {
+      "$type": "DT.Params.LargeObjectQueueParams, DT_Core",
+      "EnableQueue": false,
+      "MinFileSizeMb": 100,
+      "MaxMessageSizeMb": 1024,
+      "MinLargeMessageSizeMb": 50
+    },
+    "AllocationOptions": {
+      "$type": "DT.ClusterConfiguration.Allocation.AllocationOptions, DT_Core",
+      "Auto": true,
+      "CheckPeriodSecond": 300,
+      "UseDbConnectAddress": true,
+      "UseNodePriorityList": false,
+      "NodePriorityList": []
+    },
+    "NodeGroupCollection": {
+      "$type": "DT.ClusterConfiguration.NodeGroupCollection, DT_Core",
+      "NodeGroups": [
+        {
+          "$type": "DT.ClusterConfiguration.NodeGroup, DT_Core",
+          "NodeGroupId": "12345678-9999-9999-9999-999999999999",
+          "NodeGroupName": "Группа по умолчанию",
+          "NodeIds": [
+            "418dcccf-6f65-4a33-a0d0-601528e5cc4c"
+          ],
+          "SystemsAndModulesIds": [
+            "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+            "c19daf81-5968-4964-b93a-81b09d63a36e",
+            "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+            "03ecf3d0-070b-4133-ae7b-832414500060",
+            "41d9723b-0c10-41e9-95e6-e9300da2e018",
+            "0be98576-8b31-415d-9dcb-6931feba4b57",
+            "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          ]
+        }
+      ],
+      "DistributeWorkloadToAllNodes": false
+    },
+    "DeprecatedParams": {
+      "$type": "DT.ClusterConfiguration.ClusterDeprecatedParams.DeprecatedParams, DT_Core",
+      "v311": {
+        "$type": "DT.ClusterConfiguration.ClusterDeprecatedParams.v311DepricatedParams, DT_Core",
+        "UseOldDateConverter": false
+      },
+      "v312": {
+        "$type": "DT.ClusterConfiguration.ClusterDeprecatedParams.v312DepricatedParams, DT_Core",
+        "UseOldServiceUI": false
+      }
+    },
+    "EntityId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "Name": "NGARANINA",
+    "Description": "NGARANINA",
+    "Comment": null,
+    "Version": 1,
+    "TagsCollection": null,
+    "FieldsFromGlobalBusiness": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    }
+  },
+  "ClusterNodes": [
+    {
+      "$type": "DT.ClusterConfiguration.ClusterNode, DT_Core",
+      "IsCoordinator": true,
+      "HasControlCenter": true,
+      "Address": "127.0.0.1",
+      "Port": 7290,
+      "IpAddress": "192.168.56.1",
+      "ControlCenterPort": 7200,
+      "ServiceKey": "00000000-0000-0000-0000-000000000000",
+      "ReplicateTo": [],
+      "AllocationsGlobal": {
+        "$type": "DT.ClusterConfiguration.Allocation.AllocationConfig, DT_Core",
+        "Systems": [
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          }
+        ],
+        "Modules": [
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          }
+        ]
+      },
+      "AllocationsLocal": {
+        "$type": "DT.ClusterConfiguration.Allocation.AllocationConfig, DT_Core",
+        "Systems": [],
+        "Modules": []
+      },
+      "AllocationsEffective": {
+        "$type": "DT.ClusterConfiguration.Allocation.AllocationConfig, DT_Core",
+        "Systems": [
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          }
+        ],
+        "Modules": [
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          },
+          {
+            "$type": "DT.ClusterConfiguration.Allocation.AllocationInfo, DT_Core",
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+            "Reason": "Auto",
+            "InitialReason": "Auto",
+            "FromNode": null
+          }
+        ]
+      },
+      "IsBroken": false,
+      "BrokenReason": "None",
+      "IsActive": true,
+      "FolderId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "NodeParams": null,
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "NodeResolveList": [],
+      "DataBankParams": null,
+      "DiskUsageParams": null,
+      "LogStorageParams": null,
+      "EventsStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "MaxThreads": 0,
+      "MinThreads": 0,
+      "EntityId": "418dcccf-6f65-4a33-a0d0-601528e5cc4c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "NGARANINA",
+      "Description": "NGARANINA",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "NodeModules": [
+    {
+      "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.ProcessesConfig, DT_ConfigurationRepository",
+        "UseBalancing": null,
+        "ProcessParams": null,
+        "CommonParams": null,
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Сервис обработки процессов",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "SendingStrategy": null,
+        "Options": {
+          "$type": "DT.ClusterConfiguration.BlazorPortalOptionConfig, DT_Core",
+          "UserMenu": [
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №2",
+              "Roles": [],
+              "ObjectConfigId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №3",
+              "Roles": [],
+              "ObjectConfigId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №4",
+              "Roles": [],
+              "ObjectConfigId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №5",
+              "Roles": [],
+              "ObjectConfigId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №6",
+              "Roles": [],
+              "ObjectConfigId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №7",
+              "Roles": [],
+              "ObjectConfigId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №8",
+              "Roles": [],
+              "ObjectConfigId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №9",
+              "Roles": [],
+              "ObjectConfigId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+              "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница тестовая страница",
+              "Roles": [],
+              "ObjectConfigId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+              "ObjectConfigAppliedId": null
+            }
+          ],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+                "EntityId": "0e1b759f-e082-42f8-a05d-9e482a72755b",
+                "Name": "",
+                "IsVisible": true,
+                "HideSplitter": false,
+                "Columns": [
+                  {
+                    "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+                    "EntityId": "e8c560ea-4685-4faf-b795-e2308dcdb2e3",
+                    "Name": "",
+                    "VScroll": true,
+                    "GScroll": false,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "UpdateFields": null,
+                        "EntityId": "8dba14bd-2027-4104-b5d0-44b4bc703afb",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+                        "ObjectConfigAppliedId": null,
+                        "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+                        "DataSourceId": null,
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Title": null,
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "DataSourceId": null,
+                "RequiredValue": null,
+                "Title": null,
+                "Size": ""
+              }
+            ],
+            "ContentType": "SolidLayout",
+            "EntityId": "8aae86c3-69fc-42da-8b00-303ccd5f2f1b",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "VisibilityContexts": null,
+        "NotificationConfig": null,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 666,
+        "UseHttps": false,
+        "Auth": {
+          "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+          "Enabled": false,
+          "UsePasswordHash": false
+        },
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд",
+      "Description": "Портал_В_Ад",
+      "Comment": "Lasciate ogne speranza, voi ch'entrate",
+      "Version": 17,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "SendingStrategy": null,
+        "Options": {
+          "$type": "DT.ClusterConfiguration.BlazorPortalOptionConfig, DT_Core",
+          "UserMenu": [],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+                "EntityId": "79ed1a11-ecdd-448d-9341-c84031e040cb",
+                "Name": "",
+                "IsVisible": true,
+                "HideSplitter": false,
+                "Columns": [
+                  {
+                    "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+                    "EntityId": "9111151b-4388-414b-9400-7a2491ae1fa7",
+                    "Name": "",
+                    "VScroll": true,
+                    "GScroll": false,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "UpdateFields": null,
+                        "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "ObjectConfigAppliedId": null,
+                        "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                        "DataSourceId": null,
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Title": null,
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "DataSourceId": null,
+                "RequiredValue": null,
+                "Title": null,
+                "Size": ""
+              }
+            ],
+            "ContentType": "SolidLayout",
+            "EntityId": "35649acd-c8d1-49fb-b0e1-9aace4bfab39",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "VisibilityContexts": null,
+        "NotificationConfig": null,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 667,
+        "UseHttps": false,
+        "Auth": {
+          "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+          "Enabled": false,
+          "UsePasswordHash": false
+        },
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд2",
+      "Description": "Портал_В_Ад2",
+      "Comment": "",
+      "Version": 6,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "Systems": [
+    {
+      "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "ParallelDegree": null,
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "IsDeleteFiles": false,
+        "OutputDirectory": "C:\\Test\\from_portal",
+        "FileNamePattern": "{Message/Id}.message",
+        "CheckLastWriteTime": false,
+        "Auth": null,
+        "HandlersList": [
+          {
+            "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ],
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "FileOut",
+      "Description": "FileOut",
+      "Comment": null,
+      "Version": 2,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "ParallelDegree": null,
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "C:\\Test\\in",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "",
+        "FileNamePattern": "",
+        "CheckLastWriteTime": false,
+        "Auth": null,
+        "HandlersList": [
+          {
+            "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+            "HandlerId": "3a5339ef-25db-4f0b-824b-7e3b68c562da",
+            "IsStarted": true
+          }
+        ],
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File1",
+      "Description": "File1",
+      "Comment": null,
+      "Version": 7,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "ParallelDegree": null,
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "C:\\Test\\out",
+        "FileNamePattern": "{/Message/Id}.json",
+        "CheckLastWriteTime": false,
+        "Auth": null,
+        "HandlersList": [
+          {
+            "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ],
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File2",
+      "Description": "File2",
+      "Comment": null,
+      "Version": 10,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "Web",
+        "Port": 65535,
+        "UseHttps": false,
+        "ReplyStoreTime": 0,
+        "PublishSwagger": true,
+        "AuthTypeRest": "Bearer",
+        "SslProtocols": [],
+        "CredentialsInBody": true,
+        "IsRateLimitingEnabled": false,
+        "RateLimiterOptions": {
+          "$type": "DT.ConfigurationRepository.Configuration.Adapter.RateLimiter.WebSystemRateLimiterOptions, DT_ConfigurationRepository",
+          "RejectedStatusCode": 429,
+          "ControllerLimit": 1000
+        },
+        "ResponseErrorSettings": null,
+        "Auth": {
+          "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+          "Enabled": false,
+          "UsePasswordHash": false
+        },
+        "HandlersList": [
+          {
+            "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+            "HandlerId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+            "IsStarted": true
+          }
+        ],
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "RestIn",
+      "Description": "RestIn",
+      "Comment": null,
+      "Version": 3,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "ProcessScripts": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.ProcessScript, DT_Core",
+      "Code": null,
+      "ScriptType": "Qualifier",
+      "Variables": [],
+      "Values": [],
+      "ProcessVariable": null,
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "f976808d-d0cf-488e-8041-875a6960aefa",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВыбораСхемыОбработки",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "Roles": [],
+  "BusinessRoles": [],
+  "Folders": [
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "b74a3dfc-65b7-415c-ac5d-2f6d0fbc6569",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "ea76c92c-2fbe-458b-945d-63b75d656d16",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Процессы",
+      "Comment": null,
+      "Version": 2,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СистемныеАлгоритмы",
+      "Description": "Системные алгоритмы",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "8f8c648d-6af1-471b-b9a9-61d99b237723",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "DataTypeFile",
+      "Description": "DataTypeFile",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "9fb6b9e6-9639-40d8-8f53-bf987f8f5ec8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ВходящиеТрансформации",
+      "Description": "Входящие трансформации",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "db36b383-53e2-429f-8077-d5bfd0f87ba5",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПрограммныеМодули",
+      "Description": "Программные модули",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "5a31b3a2-88e2-4599-9071-1d41c931c335",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Функции",
+      "Description": "Функции",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "11111111-5717-48e9-bc6f-886ceddf0a36",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсточникиДанных",
+      "Description": "Источники данных",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.Folder, DT_Core",
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "2b599827-0341-4e6e-a27c-ece5b79535d6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсходящиеТрансформации",
+      "Description": "Исходящие трансформации",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "VirtualFolders": [
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Types",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Типы",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Plugins",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "e35fd210-2b22-4005-a91b-9265ecf49036",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Плагины",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Roles",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "c9abdbb8-584a-4b59-8dae-ae61ea195c4d",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Роли",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "ClusterNodes",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Серверы",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Modules",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Сервисы",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "ObjectConfigs",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Конфигурация объекта",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Processes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Схемы обработки",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Attributes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "5ddabdb2-8184-40fe-a5c9-96d970551946",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Атрибуты",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Triggers",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0bb16ea6-8a50-44bd-813f-81a6bc7a986b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задания по расписанию",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "SendingStrategies",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0df1e980-db7e-4dd3-9c91-add19cdd22e4",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Правила обработки очередей",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "EtlProcesses",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "ee7e24c4-266f-4916-a1b3-03efab2f8e01",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы ETL",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "UiForm",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "01908598-8b5f-4134-b34d-071558d863ac",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Формы интерфейса",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Systems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние системы",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "ProcessIssues",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "12d00502-903d-4046-a369-e790b9241a22",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задачи",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "GlobalConstants",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "883f798d-7214-4969-ad20-1d3acb1db0e6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Глобальные константы",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Subsystems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "7c933660-b794-4a7b-9a58-f556a558471e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Подсистемы",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Handlers",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Обработчики",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Routes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "3a7acb25-32f7-4415-a553-570ab1d87bc3",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Маршруты",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "UiMenu",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0ef42c85-9592-4bd7-9028-abf7f96376d9",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Настройка меню",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "SystemsMetadataTypes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "dfb43312-a4bf-4bdf-8080-385be807a873",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние типы данных",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.VirtualFolder, DT_Core",
+      "Type": "Metadata",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Метаданные",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "InTransformScripts": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.ProcessScript, DT_Core",
+      "Code": null,
+      "ScriptType": "InTransform",
+      "Variables": [],
+      "Values": [],
+      "ProcessVariable": null,
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "d07ae17c-0ffb-4337-9d28-86a1b31a15da",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВходящейТрансформации",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "OutTransformScripts": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.ProcessScript, DT_Core",
+      "Code": null,
+      "ScriptType": "OutTransform",
+      "Variables": [],
+      "Values": [],
+      "ProcessVariable": null,
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "c92398ab-b6c9-48b6-ab70-2dcf30346d3c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптИсходящейТрансформации",
+      "Description": null,
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "UiFroms": [],
+  "UiGroups": [],
+  "UiMenuCollection": [],
+  "Triggers": [],
+  "SendingStragies": [],
+  "Routes": [],
+  "DefaultServices": [
+    {
+      "$type": "DT.ClusterConfiguration.DefaultService, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MonitoringServiceConfig, DT_ConfigurationRepository",
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "EntityId": "87654321-4321-0000-0000-123456789000",
+      "ClusterId": "00000000-0000-0000-0000-000000000000",
+      "Name": "СервисМониторинга",
+      "Description": "Сервис мониторинга",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.DefaultService, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.CredentialConfig, DT_ConfigurationRepository",
+        "DatabaseConfiguration": null,
+        "ReuseAfter": 10,
+        "StoreJournalPeriod": 7,
+        "LoggingActions": [],
+        "TokenSettings": {
+          "$type": "DT.Credential.TokenConfig, DT_Core",
+          "TokenLifetime": 60,
+          "RefreshTokenLifetime": 1440
+        },
+        "CreditalsLifetime": 300,
+        "UpdateTime": 60,
+        "NumberOfLastBannedUserPasswords": 0,
+        "WithoutLoginDays": 0,
+        "UserUpdatingProccessTime": null,
+        "MaxFailedPasswordAttempts": 0,
+        "AuthDomainSettings": {
+          "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.AuthenticationDomainConfig, DT_ConfigurationRepository",
+          "Enabled": false,
+          "AuthProtocol": null,
+          "ServerAuthenticationAddress": "",
+          "ServerAuthenticationPort": 0
+        },
+        "SecretFields": [],
+        "AdditionalFields": [],
+        "InternalStorage": true,
+        "HotRecoverySettingsGlobal": {
+          "$type": "DT.HotRecovery.CredentialHotRecoverySettings, DT_Core",
+          "ReplicateOnlyWithinNodeGroup": false,
+          "FaultTolerance": 0,
+          "Nodes": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+          }
+        },
+        "HotRecoverySettingsEffective": {
+          "$type": "DT.HotRecovery.CredentialHotRecoverySettings, DT_Core",
+          "ReplicateOnlyWithinNodeGroup": false,
+          "FaultTolerance": 0,
+          "Nodes": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+          }
+        },
+        "PasswordSettings": null,
+        "LogoutAfterPswChanged": false,
+        "SchedulerOptions": "*/10 * * * * *",
+        "StorageDataReplicator": "ReplicationOn",
+        "MaxArchiveSendSize": 1048576,
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "EntityId": "00000000-1234-5678-0000-123456789000",
+      "ClusterId": "00000000-0000-0000-0000-000000000000",
+      "Name": "УправлениеПользователями",
+      "Description": "Управление пользователями",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.ClusterConfiguration.DefaultService, DT_Core",
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsStorageConfig, DT_ConfigurationRepository",
+        "CollectorConfig": {
+          "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsCollectorConfig, DT_ConfigurationRepository",
+          "Enabled": true,
+          "CollectPeriodSec": 15,
+          "CollectMaxCount": 1000,
+          "ProcessPackSize": 500,
+          "CollectMaxDepthMinutes": 120
+        },
+        "FilesStoragePeriodDays": 30,
+        "CleanFilesJobSchedule": "0 * * * *",
+        "DbStorageMaxNumberOfStoredEvents": 0,
+        "DbStorageMaxRetentionTimeInDays": 30,
+        "SendingStrategy": null
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "GlobalDiagnosticParams": null,
+      "LocalDiagnosticParams": null,
+      "LogStorageParams": null,
+      "ArchiveStorageParams": null,
+      "TrackingStorageParams": null,
+      "EntityId": "12345678-0000-0000-0000-1234567890ea",
+      "ClusterId": "00000000-0000-0000-0000-000000000000",
+      "Name": "СборщикСобытий",
+      "Description": "Сервис для сбора событий",
+      "Comment": null,
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "MinorVersion": 1,
+  "MajorVersion": 30,
+  "DiagnosticVersion": 0,
+  "Subsystems": [],
+  "BusinessDomains": [],
+  "ConfigTemplates": []
+}

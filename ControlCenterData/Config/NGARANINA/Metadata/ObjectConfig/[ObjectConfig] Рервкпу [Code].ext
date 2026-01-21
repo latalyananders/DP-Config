@@ -1,0 +1,65 @@
+{
+  "$type": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+  "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+  "Url": "/page",
+  "Title": "Тестовая страница",
+  "Description": "Описание Страница №11",
+  "BlazorMenuType": "SystemDynamic",
+  "ContentOptions": {
+    "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+    "Layouts": [
+      {
+        "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+        "EntityId": "1db98871-e897-419c-b486-244b573f58b0",
+        "Name": "",
+        "IsVisible": true,
+        "HideSplitter": false,
+        "Columns": [
+          {
+            "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+            "EntityId": "6aeffe26-c409-4966-82fc-ec6d0752f8bb",
+            "Name": "",
+            "VScroll": false,
+            "GScroll": false,
+            "Elements": [
+              {
+                "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                "UpdateFields": null,
+                "EntityId": "6467971a-29f6-4b78-9555-001998285608",
+                "Name": "Ссылочный UI элемент",
+                "ObjectConfigId": "6467971a-29f6-4b78-9555-001998285608",
+                "ObjectConfigAppliedId": null,
+                "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                "DataSourceId": null,
+                "Roles": []
+              }
+            ],
+            "Roles": [],
+            "VisibilityContextNames": [],
+            "Title": null,
+            "Size": ""
+          }
+        ],
+        "Roles": [],
+        "VisibilityContextNames": [],
+        "DataSourceId": null,
+        "RequiredValue": null,
+        "Title": null,
+        "Size": ""
+      }
+    ],
+    "ContentType": "SolidLayout",
+    "EntityId": "39197645-61d3-4f7f-9e75-52773b1cc5d0",
+    "Name": ""
+  },
+  "Children": [],
+  "SqlMenuIndicator": "",
+  "IsActive": true,
+  "Expanded": true,
+  "Icon": "adb",
+  "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+  "Name": "Ссылочная страница тестовая страница",
+  "Roles": [],
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null
+}

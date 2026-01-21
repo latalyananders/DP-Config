@@ -1,0 +1,32 @@
+{
+  "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+    "ConnectorType": "File",
+    "FileShareReadWrite": false,
+    "ReadInterval": 1000,
+    "InputDirectory": "",
+    "IsDeleteFiles": false,
+    "OutputDirectory": "C:\\Test\\from_portal",
+    "FileNamePattern": "{Message/Id}.message",
+    "CheckLastWriteTime": false,
+    "HandlersList": [
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+        "IsStarted": true
+      }
+    ]
+  },
+  "IsActive": true,
+  "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+  "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "FileOut",
+  "Description": "FileOut",
+  "Version": 2,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

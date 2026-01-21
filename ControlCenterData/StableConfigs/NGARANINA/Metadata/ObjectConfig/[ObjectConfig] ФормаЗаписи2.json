@@ -1,0 +1,16 @@
+{
+  "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+  "Text": "[ObjectConfig] ФормаЗаписи2 [Code].ext",
+  "RefId": "00000000-0000-0000-0000-000000000000",
+  "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+  "ConfigType": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+  "EntityId": "016a7a8e-8612-487f-8213-dc9bc5a85411",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "ФормаЗаписи2",
+  "Description": "Форма записи_2",
+  "Comment": "Автоматически сгенерированный объект конфигурации",
+  "Version": 3,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

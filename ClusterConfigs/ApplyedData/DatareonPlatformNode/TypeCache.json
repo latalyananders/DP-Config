@@ -1,0 +1,681 @@
+{
+  "$type": "DT.MdmCommon.DataModelContent, DT_Core",
+  "Enums": [],
+  "DataTypes": [
+    {
+      "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+      "FieldsTemplates": [],
+      "Categories": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+        "Codes": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "Items": [],
+        "Name": "Категории",
+        "Id": "854a5cf9-e4c7-450b-bf80-b260179f4536",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "PortalSettings": {
+        "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+        "FormElementViewerId": "13d3d993-89a6-4332-b120-2cd541153bd5",
+        "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+        "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+        "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+        "GridElementViewerId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+        "GroupHistoryChangeDataOn": false,
+        "DisplayName": "",
+        "Description": null,
+        "FullDescription": null,
+        "VisibleCategoryAttributesAsFlagOn": true,
+        "TypesCategoryColumnView": {},
+        "LinkFieldAsNotSelector": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "DisplayFieldNames": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "SeparateCategoriesTypeViewOnForm": {},
+        "LinkFieldTypeView": {},
+        "LinkQueryConditionForDataType": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "ProcessSettings": {
+          "$type": "DT.MdmMetadata.Types.PortalProcessSettings, DT_Core",
+          "CreateAndEditProcessId": "5c851b14-fceb-47a8-9b13-92268fd00df5",
+          "DeleteProcessId": "09626ac9-ac77-4dbb-82af-0af9ea37c9dc"
+        }
+      },
+      "FolderId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+      "ClassId": 1,
+      "IsObject": false,
+      "ServiceIds": [],
+      "IndexGroups": [],
+      "FuzzySearch": [],
+      "Fields": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "testField1",
+          "Id": "5028f3d5-6a07-414a-8ac3-b2c0174434aa",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "testField2",
+          "Id": "e6da2c67-a2cc-47f5-86d5-b51adea0e51a",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Interfaces": [],
+      "CheckFunctions": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "StoreChanges": false,
+      "StoreStates": false,
+      "Codes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "testField1": 1,
+        "testField2": 2
+      },
+      "EntityId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Comment": "Простой тип данных для тестирования сценария FIle to file",
+      "Version": 6,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+      "FieldsTemplates": [],
+      "Categories": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+        "Codes": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "Items": [],
+        "Name": "Категории",
+        "Id": "57cc0cac-a37b-4d8a-b46f-c013af5b702f",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "PortalSettings": {
+        "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+        "FormElementViewerId": "00000000-0000-0000-0000-000000000000",
+        "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+        "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+        "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+        "GridElementViewerId": "00000000-0000-0000-0000-000000000000",
+        "GroupHistoryChangeDataOn": false,
+        "DisplayName": "",
+        "Description": null,
+        "FullDescription": null,
+        "VisibleCategoryAttributesAsFlagOn": true,
+        "TypesCategoryColumnView": {},
+        "LinkFieldAsNotSelector": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "DisplayFieldNames": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "SeparateCategoriesTypeViewOnForm": {},
+        "LinkFieldTypeView": {},
+        "LinkQueryConditionForDataType": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "ProcessSettings": {
+          "$type": "DT.MdmMetadata.Types.PortalProcessSettings, DT_Core",
+          "CreateAndEditProcessId": "f77268d4-47ff-4890-ba80-ad37d25fd97f",
+          "DeleteProcessId": "56a47819-fc30-4455-8e1a-8a2588113acd"
+        }
+      },
+      "FolderId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+      "ClassId": 2,
+      "IsObject": false,
+      "ServiceIds": [],
+      "IndexGroups": [],
+      "FuzzySearch": [],
+      "Fields": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "Поле1",
+          "Id": "be3abeea-0bc8-4526-8f21-00cc9c04d452",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Interfaces": [],
+      "CheckFunctions": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "StoreChanges": false,
+      "StoreStates": false,
+      "Codes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "Поле1": 1
+      },
+      "EntityId": "ed6f4499-3f89-48c5-9c4f-5126a40ac8f0",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "DataTypeFile",
+      "Description": "DataTypeFile",
+      "Comment": null,
+      "Version": 5,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "DynamicTypes": [],
+  "EtlProcesses": [],
+  "CodeTemplates": [
+    {
+      "$type": "DT.MdmMetadata.Types.HandlerFile, DT_Core",
+      "FileName": null,
+      "FilePatternName": null,
+      "Integration": "FromPlatform",
+      "Type": "File",
+      "Code": "",
+      "WaitResponse": false,
+      "SubscriptionObject": "",
+      "SystemDataTypeId": null,
+      "Parameters": [],
+      "Values": [],
+      "DataFromPlatform": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+        "Name": "ТипДанныхФайл",
+        "Id": "bd959785-b812-4619-bb69-0c3c4a228e45",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "DataToPlatform": null,
+      "FolderId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "NoTransaction": false,
+      "EntityId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "PlatformToFile",
+      "Description": "PlatformToFile",
+      "Comment": null,
+      "Version": 3,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.Types.Method, DT_Core",
+      "MethodType": "Post",
+      "AuthRequired": true,
+      "RouteTemplate": "/RestInb",
+      "Timeout": 10000,
+      "IsTemporary": true,
+      "CompiledRouteTemplate": "/RestInb",
+      "ControllerName": null,
+      "RateLimiterStatus": "InheritedFromSystem",
+      "RateLimiterOptions": null,
+      "Integration": "ToPlatform",
+      "Type": "Web",
+      "Code": "",
+      "WaitResponse": false,
+      "SubscriptionObject": "",
+      "SystemDataTypeId": null,
+      "Parameters": [],
+      "Values": [],
+      "DataFromPlatform": null,
+      "DataToPlatform": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+        "Name": "ТипДанныхФайл",
+        "Id": "a41ee14b-55ba-4a24-8f5c-6885fa42493f",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "FolderId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "NoTransaction": false,
+      "EntityId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "RestInb",
+      "Description": "RestInb",
+      "Comment": null,
+      "Version": 4,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.Types.HandlerFile, DT_Core",
+      "FileName": null,
+      "FilePatternName": null,
+      "Integration": "ToPlatform",
+      "Type": "File",
+      "Code": "",
+      "WaitResponse": false,
+      "SubscriptionObject": "",
+      "SystemDataTypeId": null,
+      "Parameters": [],
+      "Values": [],
+      "DataFromPlatform": null,
+      "DataToPlatform": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+        "Name": "ТипДанныхФайл",
+        "Id": "0f904da5-2fe7-4679-a069-0b8e854962a2",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "FolderId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "NoTransaction": false,
+      "EntityId": "3a5339ef-25db-4f0b-824b-7e3b68c562da",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "FileToPlatform",
+      "Description": "FileToPlatform",
+      "Comment": null,
+      "Version": 6,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "Classifiers": [],
+  "Algorithms": [],
+  "SystemsMetadataTypes": [],
+  "Interfaces": [],
+  "UserModules": [],
+  "InputTransformerAlgorithms": [],
+  "OutputTransformerAlgorithms": [],
+  "Attributes": [],
+  "ObjectConfigs": [
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.GridElementContent, DT_Core\",\r\n  \"FilterDelayMSec\": 500,\r\n  \"IsFilterCaseSensitivity\": false,\r\n  \"FilterMode\": \"Simple\",\r\n  \"ColorGroupRowHEX\": null,\r\n  \"ItemsToolBar\": [],\r\n  \"IsHideHeaderTitle\": false,\r\n  \"ContentElementType\": \"Grid\",\r\n  \"Title\": \"\",\r\n  \"ShowRowDetails\": true,\r\n  \"DetailElementId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"MapperDetailDataParentPath\": null,\r\n  \"GroupPath\": null,\r\n  \"GroupTitleTemplate\": null,\r\n  \"SortOrderGroup\": \"Descending\",\r\n  \"ColumnModel\": null,\r\n  \"VScroll\": true,\r\n  \"IsRemoteProcessing\": true,\r\n  \"SelectColorConfig\": [],\r\n  \"IsSingleSelectionMode\": true,\r\n  \"SelectedFirstElementAfterInit\": false,\r\n  \"DetailRowConfig\": {\r\n    \"$type\": \"DT.ClusterConfiguration.DialogConfig, DT_Core\",\r\n    \"Height\": null,\r\n    \"Width\": null\r\n  },\r\n  \"ReadOnlySettings\": null,\r\n  \"EnableValidation\": true,\r\n  \"DetailDialog\": null,\r\n  \"OnRowDbClickByFirstButton\": false,\r\n  \"SubrowTemplate\": null,\r\n  \"CategoryTreeOn\": false,\r\n  \"OnShowCategoryDataAsTree\": null,\r\n  \"PageSize\": 25,\r\n  \"SortFirstConfig\": null,\r\n  \"GroupNumberOn\": false,\r\n  \"SortGroupByTemplateOn\": false,\r\n  \"IsHideRefreshButton\": false,\r\n  \"DuplicateModeOn\": false,\r\n  \"DuplicateTimeoutMSec\": 60000,\r\n  \"DialogOptionSelf\": null,\r\n  \"AdditionalWhereInDataSourceOn\": false,\r\n  \"ExclusiveFilterOperator\": [\r\n    \"IsNotNull\",\r\n    \"IsNull\",\r\n    \"IsNotEmpty\",\r\n    \"IsEmpty\"\r\n  ],\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"AdvancedFilterConfig\": null,\r\n  \"ResizeHeightRowOn\": false,\r\n  \"DbClickRowUrl\": null,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [],\r\n  \"OwnerId\": null,\r\n  \"EntityId\": \"54b1a129-3b0c-45cf-bd7a-991fee8b4a75\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": null,\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.GridElementContent, DT_Core",
+      "EntityId": "54b1a129-3b0c-45cf-bd7a-991fee8b4a75",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ФормаСпискаФайл",
+      "Description": "Форма списка Файл",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 1,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"9a87826f-c4ea-4633-937c-cde1250407b3\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №5\",\r\n  \"Description\": \"Описание Страница №5\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"4a714295-4033-4c55-86bc-f1163274a7e1\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"9afc593e-9e37-4330-aa3a-960c9221e3e1\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"7b1aedfd-20b3-45c1-90c1-ec356daaafba\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"rib_cage\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №5\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница5",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.FormElementContent, DT_Core\",\r\n  \"ContentElementType\": \"EditForm\",\r\n  \"Title\": \"\",\r\n  \"ColumnModel\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ColumnModelCollection, DT_Core\",\r\n    \"Columns\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"32263bb5-0750-433d-b264-145f02a9e434\",\r\n        \"Name\": \"Поле №1\",\r\n        \"Path\": \"Поле №1\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": false,\r\n        \"PlatformTypeId\": \"ed6f4499-3f89-48c5-9c4f-5126a40ac8f0\",\r\n        \"RefreshParentElementAfterChangeValueOn\": false,\r\n        \"ProcessConfig\": {\r\n          \"$type\": \"DT.ClusterConfiguration.MdmBlazor.ProcessConfig, DT_Core\",\r\n          \"BpId\": \"db74fd06-d4ae-45fe-82c3-48d290989d81\",\r\n          \"MappingToProcess\": [\r\n            {\r\n              \"$type\": \"DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities\",\r\n              \"Id\": \"90c6429e-135a-4eee-9c49-f325a0fca551\",\r\n              \"SourceId\": \"Поле №1\",\r\n              \"TargetId\": \"DataTypeFile.Поле1\",\r\n              \"Expression\": null,\r\n              \"Type\": \"Basic\",\r\n              \"Aliases\": [],\r\n              \"AddOption\": \"Replace\",\r\n              \"FillOption\": \"AutoMapping\",\r\n              \"HasExpression\": false\r\n            }\r\n          ],\r\n          \"MappingFromProcess\": null\r\n        }\r\n      }\r\n    ]\r\n  },\r\n  \"IsVisibleEmpty\": true,\r\n  \"Groups\": [],\r\n  \"IsAttacheButtonOnTop\": false,\r\n  \"IsButtonsOnRightSide\": true,\r\n  \"EnableValidation\": true,\r\n  \"ReadOnlySettings\": null,\r\n  \"DetailDialog\": null,\r\n  \"DoGetContentOnOpen\": false,\r\n  \"NameGroupOutsideGroupsColumnModel\": null,\r\n  \"TypeGroupOutsideGroupsColumnModel\": \"Accordion\",\r\n  \"PositionOutsideGroupsColumnModel\": \"Bottom\",\r\n  \"OnShowOption\": true,\r\n  \"ToolBarButtonIds\": null,\r\n  \"DialogOptionSelf\": null,\r\n  \"ViewMode\": \"Full\",\r\n  \"StretchingByHeightOn\": false,\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"ObserveAndMarkChangeWithStartInDialogOn\": true,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [],\r\n  \"OwnerId\": null,\r\n  \"EntityId\": \"ac84524a-bd8c-449c-a2e8-47a80792abf1\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": null,\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+      "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СохранитьВФайл",
+      "Description": "Сохранить в файл",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 5,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №2\",\r\n  \"Description\": \"Описание Страница №2\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"cd7380ae-a414-4b60-adc1-a5f3b0354d39\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"5e28644b-3dbf-4fe1-94b2-ce637d1c77c2\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"f8612e7a-2e56-4531-9767-8c352a4852e7\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"swipe_down\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №2\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница2",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.GridElementContent, DT_Core\",\r\n  \"FilterDelayMSec\": 500,\r\n  \"IsFilterCaseSensitivity\": false,\r\n  \"FilterMode\": \"Simple\",\r\n  \"ColorGroupRowHEX\": null,\r\n  \"ItemsToolBar\": [\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ToolbarItemOption, DT_Core\",\r\n      \"ButtonId\": \"bdd735ea-ee1d-47ae-a85f-990c350be884\",\r\n      \"Items\": [],\r\n      \"EntityId\": \"e9414cf8-7d16-425a-9c66-f45300ff70d1\",\r\n      \"Text\": \"Создать\",\r\n      \"IconName\": \"add\",\r\n      \"IsVisible\": true,\r\n      \"DisableIfParentDataNotSelect\": false,\r\n      \"Title\": null\r\n    },\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ToolbarItemOption, DT_Core\",\r\n      \"ButtonId\": \"39896623-c805-4c57-9111-fcd11af48ca6\",\r\n      \"Items\": [],\r\n      \"EntityId\": \"e218ade5-1799-4eb8-9120-21a35488af5c\",\r\n      \"Text\": \"Удалить\",\r\n      \"IconName\": \"delete\",\r\n      \"IsVisible\": true,\r\n      \"DisableIfParentDataNotSelect\": true,\r\n      \"Title\": null\r\n    }\r\n  ],\r\n  \"IsHideHeaderTitle\": true,\r\n  \"ContentElementType\": \"Grid\",\r\n  \"Title\": \"ТипДанныхФайл\",\r\n  \"ShowRowDetails\": true,\r\n  \"DetailElementId\": \"b06014f4-b833-4122-9b1e-0d127e4615ef\",\r\n  \"MapperDetailDataParentPath\": null,\r\n  \"GroupPath\": null,\r\n  \"GroupTitleTemplate\": null,\r\n  \"SortOrderGroup\": \"Descending\",\r\n  \"ColumnModel\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ColumnModelCollection, DT_Core\",\r\n    \"Columns\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"0bcf85a1-61be-4582-96d3-fd614aa32826\",\r\n        \"Name\": \"EntityId\",\r\n        \"Path\": \"ТипДанныхФайл.EntityId\",\r\n        \"IsVisible\": false,\r\n        \"IsEditable\": false,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"Parameters\": {\r\n          \"MaxLength\": \"50\"\r\n        },\r\n        \"EntityId\": \"50e4ec87-20ba-4b0a-bacd-66213bb69a98\",\r\n        \"Name\": \"testField1\",\r\n        \"Path\": \"ТипДанныхФайл.testField1\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": false,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"Parameters\": {\r\n          \"MaxLength\": \"50\"\r\n        },\r\n        \"EntityId\": \"5a19ad50-9ff1-4b3b-9ffd-e8bcc8e2f9b2\",\r\n        \"Name\": \"testField2\",\r\n        \"Path\": \"ТипДанныхФайл.testField2\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": false,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      }\r\n    ]\r\n  },\r\n  \"VScroll\": true,\r\n  \"IsRemoteProcessing\": true,\r\n  \"SelectColorConfig\": [],\r\n  \"IsSingleSelectionMode\": true,\r\n  \"SelectedFirstElementAfterInit\": false,\r\n  \"DetailRowConfig\": {\r\n    \"$type\": \"DT.ClusterConfiguration.DialogConfig, DT_Core\",\r\n    \"Height\": null,\r\n    \"Width\": null\r\n  },\r\n  \"ReadOnlySettings\": null,\r\n  \"EnableValidation\": true,\r\n  \"DetailDialog\": null,\r\n  \"OnRowDbClickByFirstButton\": false,\r\n  \"SubrowTemplate\": null,\r\n  \"CategoryTreeOn\": false,\r\n  \"OnShowCategoryDataAsTree\": null,\r\n  \"PageSize\": 25,\r\n  \"SortFirstConfig\": null,\r\n  \"GroupNumberOn\": false,\r\n  \"SortGroupByTemplateOn\": false,\r\n  \"IsHideRefreshButton\": false,\r\n  \"DuplicateModeOn\": false,\r\n  \"DuplicateTimeoutMSec\": 60000,\r\n  \"DialogOptionSelf\": null,\r\n  \"AdditionalWhereInDataSourceOn\": false,\r\n  \"ExclusiveFilterOperator\": [\r\n    \"IsNotNull\",\r\n    \"IsNull\",\r\n    \"IsNotEmpty\",\r\n    \"IsEmpty\"\r\n  ],\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"AdvancedFilterConfig\": null,\r\n  \"ResizeHeightRowOn\": false,\r\n  \"DbClickRowUrl\": null,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ShowButtonContent, DT_Core\",\r\n      \"TargetId\": \"00000000-0000-0000-0000-000000000000\",\r\n      \"TitleDialog\": \"Создание ТипДанныхФайл\",\r\n      \"IsResizable\": true,\r\n      \"IsDraggable\": true,\r\n      \"Height\": null,\r\n      \"ShowBottomButtonPanel\": true,\r\n      \"DetailTitle\": null,\r\n      \"InitFromOwner\": false,\r\n      \"TargetPathSourceData\": null,\r\n      \"SourceDataAsLinkOn\": false,\r\n      \"DataSourceId\": null,\r\n      \"EntityId\": \"bdd735ea-ee1d-47ae-a85f-990c350be884\",\r\n      \"TypeUIElementGeneric\": \"Form\",\r\n      \"ContentElementType\": \"ShowButton\",\r\n      \"IsImportant\": true,\r\n      \"Position\": \"Right\",\r\n      \"Icon\": null,\r\n      \"VisibilityCondition\": null,\r\n      \"Order\": 0,\r\n      \"Title\": \"Создать\",\r\n      \"ParentPathInDataSource\": null,\r\n      \"AlternativeContextDataSources\": null,\r\n      \"InnerElements\": [],\r\n      \"OwnerId\": \"aef44472-f008-4af7-b9cd-00027b6f5cd0\",\r\n      \"Name\": \"\",\r\n      \"ObjectConfigId\": null,\r\n      \"ObjectConfigAppliedId\": null,\r\n      \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n      \"Roles\": []\r\n    },\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ProcessButtonContent, DT_Core\",\r\n      \"CustomConfigButton\": true,\r\n      \"ContentElementType\": \"ProcessButton\",\r\n      \"EntityId\": \"39896623-c805-4c57-9111-fcd11af48ca6\",\r\n      \"DataSourceId\": null,\r\n      \"SourceId\": \"aef44472-f008-4af7-b9cd-00027b6f5cd0\",\r\n      \"TargetId\": \"aef44472-f008-4af7-b9cd-00027b6f5cd0\",\r\n      \"ProcessId\": \"00000000-0000-0000-0000-000000000000\",\r\n      \"WaitProcess\": \"Finish\",\r\n      \"MappingToProcess\": [\r\n        {\r\n          \"$type\": \"DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities\",\r\n          \"Id\": \"861fe0b6-43a9-4f43-8165-201d685d57ec\",\r\n          \"SourceId\": \"ТипДанныхФайл\",\r\n          \"TargetId\": \"ТипДанныхФайл\",\r\n          \"Expression\": null,\r\n          \"Type\": \"Basic\",\r\n          \"Aliases\": [],\r\n          \"AddOption\": \"Replace\",\r\n          \"FillOption\": \"AutoMapping\",\r\n          \"HasExpression\": false\r\n        }\r\n      ],\r\n      \"MappingFromProcess\": [],\r\n      \"ElementParameters\": [],\r\n      \"SourceDataAsLinkOn\": false,\r\n      \"TypeProcess\": \"Delete\",\r\n      \"DoCloseDialog\": true,\r\n      \"IsImportant\": true,\r\n      \"Position\": \"Right\",\r\n      \"Icon\": null,\r\n      \"VisibilityCondition\": null,\r\n      \"IsVisible\": true,\r\n      \"Order\": 0,\r\n      \"Title\": \"Удалить\",\r\n      \"ParentPathInDataSource\": null,\r\n      \"AlternativeContextDataSources\": null,\r\n      \"InnerElements\": [],\r\n      \"OwnerId\": \"aef44472-f008-4af7-b9cd-00027b6f5cd0\",\r\n      \"Name\": \"\",\r\n      \"ObjectConfigId\": null,\r\n      \"ObjectConfigAppliedId\": null,\r\n      \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n      \"Roles\": []\r\n    },\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.RefUIElement, DT_Core\",\r\n      \"UpdateFields\": null,\r\n      \"EntityId\": \"b06014f4-b833-4122-9b1e-0d127e4615ef\",\r\n      \"Name\": \"Ссылочный UI элемент\",\r\n      \"ObjectConfigId\": \"13d3d993-89a6-4332-b120-2cd541153bd5\",\r\n      \"ObjectConfigAppliedId\": null,\r\n      \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n      \"DataSourceId\": null,\r\n      \"Roles\": []\r\n    }\r\n  ],\r\n  \"OwnerId\": null,\r\n  \"EntityId\": \"aef44472-f008-4af7-b9cd-00027b6f5cd0\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+      "FolderId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+      "ConfigType": "DT.ClusterConfiguration.GridElementContent, DT_Core",
+      "EntityId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайлФормаСписка",
+      "Description": "[ТипДанныхФайл] Форма списка",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 22,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.FormElementContent, DT_Core\",\r\n  \"ContentElementType\": \"EditForm\",\r\n  \"Title\": \"\",\r\n  \"ColumnModel\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ColumnModelCollection, DT_Core\",\r\n    \"Columns\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"69a8e9f6-4735-441e-8a06-a5afd2745474\",\r\n        \"Name\": \"EntityId\",\r\n        \"Path\": \"ТипДанныхФайл.EntityId\",\r\n        \"IsVisible\": false,\r\n        \"IsEditable\": false,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"Parameters\": {\r\n          \"MaxLength\": \"50\"\r\n        },\r\n        \"EntityId\": \"5921d757-a294-4ce2-85a0-63c5ba4dea1a\",\r\n        \"Name\": \"testField1\",\r\n        \"Path\": \"ТипДанныхФайл.testField1\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"Parameters\": {\r\n          \"MaxLength\": \"50\"\r\n        },\r\n        \"EntityId\": \"7ecc67ac-88ce-43d6-bd9a-573b36be27fc\",\r\n        \"Name\": \"testField2\",\r\n        \"Path\": \"ТипДанныхФайл.testField2\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      }\r\n    ]\r\n  },\r\n  \"IsVisibleEmpty\": true,\r\n  \"Groups\": [],\r\n  \"IsAttacheButtonOnTop\": false,\r\n  \"IsButtonsOnRightSide\": true,\r\n  \"EnableValidation\": true,\r\n  \"ReadOnlySettings\": null,\r\n  \"DetailDialog\": \"Изменение {ТипДанныхФайл.testField1}\",\r\n  \"DoGetContentOnOpen\": false,\r\n  \"NameGroupOutsideGroupsColumnModel\": null,\r\n  \"TypeGroupOutsideGroupsColumnModel\": \"Accordion\",\r\n  \"PositionOutsideGroupsColumnModel\": \"Bottom\",\r\n  \"OnShowOption\": true,\r\n  \"ToolBarButtonIds\": null,\r\n  \"DialogOptionSelf\": null,\r\n  \"ViewMode\": \"Full\",\r\n  \"StretchingByHeightOn\": false,\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"ObserveAndMarkChangeWithStartInDialogOn\": true,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ProcessButtonContent, DT_Core\",\r\n      \"CustomConfigButton\": true,\r\n      \"ContentElementType\": \"ProcessButton\",\r\n      \"EntityId\": \"0c03ef14-744e-41e1-90ce-eaef06b0b545\",\r\n      \"DataSourceId\": null,\r\n      \"SourceId\": \"13d3d993-89a6-4332-b120-2cd541153bd5\",\r\n      \"TargetId\": \"00000000-0000-0000-0000-000000000000\",\r\n      \"ProcessId\": \"5c851b14-fceb-47a8-9b13-92268fd00df5\",\r\n      \"WaitProcess\": \"Finish\",\r\n      \"MappingToProcess\": [\r\n        {\r\n          \"$type\": \"DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities\",\r\n          \"Id\": \"c7af5214-21b7-4223-a470-6fb7e1819a5a\",\r\n          \"SourceId\": \"ТипДанныхФайл\",\r\n          \"TargetId\": \"ТипДанныхФайл\",\r\n          \"Expression\": null,\r\n          \"Type\": \"Basic\",\r\n          \"Aliases\": [],\r\n          \"AddOption\": \"Replace\",\r\n          \"FillOption\": \"AutoMapping\",\r\n          \"HasExpression\": false\r\n        }\r\n      ],\r\n      \"MappingFromProcess\": [],\r\n      \"ElementParameters\": [],\r\n      \"SourceDataAsLinkOn\": false,\r\n      \"TypeProcess\": \"none\",\r\n      \"DoCloseDialog\": true,\r\n      \"IsImportant\": true,\r\n      \"Position\": \"Right\",\r\n      \"Icon\": null,\r\n      \"VisibilityCondition\": null,\r\n      \"IsVisible\": true,\r\n      \"Order\": 0,\r\n      \"Title\": \"Сохранить\",\r\n      \"ParentPathInDataSource\": null,\r\n      \"AlternativeContextDataSources\": null,\r\n      \"InnerElements\": [],\r\n      \"OwnerId\": \"13d3d993-89a6-4332-b120-2cd541153bd5\",\r\n      \"Name\": \"\",\r\n      \"ObjectConfigId\": null,\r\n      \"ObjectConfigAppliedId\": null,\r\n      \"PlatformTypeId\": null,\r\n      \"Roles\": []\r\n    }\r\n  ],\r\n  \"OwnerId\": \"8dba14bd-2027-4104-b5d0-44b4bc703afb\",\r\n  \"EntityId\": \"13d3d993-89a6-4332-b120-2cd541153bd5\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+      "FolderId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+      "ConfigType": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+      "EntityId": "13d3d993-89a6-4332-b120-2cd541153bd5",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайлФормаЗаписи",
+      "Description": "[ТипДанныхФайл] Форма записи",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 20,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.FormElementContent, DT_Core\",\r\n  \"ContentElementType\": \"EditForm\",\r\n  \"Title\": \"\",\r\n  \"ColumnModel\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ColumnModelCollection, DT_Core\",\r\n    \"Columns\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"2993a9e1-14d0-4995-bdf8-da8dc85ddf4a\",\r\n        \"Name\": \"textField2\",\r\n        \"Path\": \"Поле №2\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"OrderNumber\": 2,\r\n        \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"ab0ad8c0-cccf-4b65-a4ed-9c11e60eeb9a\",\r\n        \"Name\": \"textField1\",\r\n        \"Path\": \"Поле №1\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"OrderNumber\": 1,\r\n        \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n        \"RefreshParentElementAfterChangeValueOn\": false,\r\n        \"ProcessConfig\": {\r\n          \"$type\": \"DT.ClusterConfiguration.MdmBlazor.ProcessConfig, DT_Core\",\r\n          \"BpId\": \"2447705f-aed6-4808-b429-51d22c7c92f6\",\r\n          \"MappingToProcess\": [\r\n            {\r\n              \"$type\": \"DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities\",\r\n              \"Id\": \"4c7c2197-018a-4272-88b7-8dec0923324b\",\r\n              \"SourceId\": \"Поле №1\",\r\n              \"TargetId\": \"ТипДанныхФайл.testField1\",\r\n              \"Expression\": null,\r\n              \"Type\": \"Basic\",\r\n              \"Aliases\": [],\r\n              \"AddOption\": \"Replace\",\r\n              \"FillOption\": \"AutoMapping\",\r\n              \"HasExpression\": false\r\n            },\r\n            {\r\n              \"$type\": \"DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities\",\r\n              \"Id\": \"ce358206-5509-43f6-87e5-f46d4d971668\",\r\n              \"SourceId\": \"Поле №2\",\r\n              \"TargetId\": \"ТипДанныхФайл.testField2\",\r\n              \"Expression\": null,\r\n              \"Type\": \"Basic\",\r\n              \"Aliases\": [],\r\n              \"AddOption\": \"Replace\",\r\n              \"FillOption\": \"AutoMapping\",\r\n              \"HasExpression\": false\r\n            }\r\n          ],\r\n          \"MappingFromProcess\": []\r\n        }\r\n      }\r\n    ]\r\n  },\r\n  \"IsVisibleEmpty\": true,\r\n  \"Groups\": [],\r\n  \"IsAttacheButtonOnTop\": false,\r\n  \"IsButtonsOnRightSide\": true,\r\n  \"EnableValidation\": true,\r\n  \"ReadOnlySettings\": null,\r\n  \"DetailDialog\": null,\r\n  \"DoGetContentOnOpen\": false,\r\n  \"NameGroupOutsideGroupsColumnModel\": null,\r\n  \"TypeGroupOutsideGroupsColumnModel\": \"Simple\",\r\n  \"PositionOutsideGroupsColumnModel\": \"Bottom\",\r\n  \"OnShowOption\": true,\r\n  \"ToolBarButtonIds\": null,\r\n  \"DialogOptionSelf\": null,\r\n  \"ViewMode\": \"Full\",\r\n  \"StretchingByHeightOn\": false,\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"ObserveAndMarkChangeWithStartInDialogOn\": true,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [],\r\n  \"OwnerId\": null,\r\n  \"EntityId\": \"6467971a-29f6-4b78-9555-001998285608\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+      "EntityId": "6467971a-29f6-4b78-9555-001998285608",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Файл",
+      "Description": "Файл",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 25,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"7efc9c7a-a920-4484-a57b-230433328eb0\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №3\",\r\n  \"Description\": \"Описание Страница №3\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"dfbe0f37-52e2-438b-9a4b-5b4e610f61a1\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"9a18a6c0-0512-4d9b-a5d0-459be768935b\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"81b6c207-6506-47b7-b2e7-ddfedf819f64\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"php\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №3\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница3",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"1a80d8ed-a46b-46da-b540-27cb7c91529d\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №9\",\r\n  \"Description\": \"Описание Страница №9\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"7d63bf1f-f7ac-40df-97f1-eb1b99bb7590\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"c7e97400-0ef8-4a47-bf7f-a3b26087d9b1\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"e816d992-feae-4b9d-ae21-f1070f4269a6\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"pill_off\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №9\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница9",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"42bac85a-3284-496c-b3ef-5a2871e69f9a\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №7\",\r\n  \"Description\": \"Описание Страница №7\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"733b454d-2d3f-4dcb-b1ec-0672e584d5e3\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"a19ad92c-8780-44ba-93de-b918f57f7a6d\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [\r\n              {\r\n                \"$type\": \"DT.ClusterConfiguration.RefUIElement, DT_Core\",\r\n                \"UpdateFields\": null,\r\n                \"EntityId\": \"94fa8600-a180-444b-8682-cc267aab5ffd\",\r\n                \"Name\": \"Ссылочный UI элемент\",\r\n                \"ObjectConfigId\": \"94fa8600-a180-444b-8682-cc267aab5ffd\",\r\n                \"ObjectConfigAppliedId\": null,\r\n                \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n                \"DataSourceId\": null,\r\n                \"Roles\": []\r\n              }\r\n            ],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"19bfb5a2-bb8e-4294-8b47-30c41cddeae7\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"cannabis\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №7\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница7",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"0a57e233-d7a0-454f-b4ec-9b7f302f7a0e\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Тестовая страница\",\r\n  \"Description\": \"Описание Страница №11\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"1db98871-e897-419c-b486-244b573f58b0\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"6aeffe26-c409-4966-82fc-ec6d0752f8bb\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [\r\n              {\r\n                \"$type\": \"DT.ClusterConfiguration.RefUIElement, DT_Core\",\r\n                \"UpdateFields\": null,\r\n                \"EntityId\": \"6467971a-29f6-4b78-9555-001998285608\",\r\n                \"Name\": \"Ссылочный UI элемент\",\r\n                \"ObjectConfigId\": \"6467971a-29f6-4b78-9555-001998285608\",\r\n                \"ObjectConfigAppliedId\": null,\r\n                \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n                \"DataSourceId\": null,\r\n                \"Roles\": []\r\n              }\r\n            ],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"39197645-61d3-4f7f-9e75-52773b1cc5d0\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"adb\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница тестовая страница\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Рервкпу",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 5,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"293ac42f-dab4-4952-81fa-b20bbce748ba\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №4\",\r\n  \"Description\": \"Описание Страница №4\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"9d407db1-bd56-4737-941b-f806a76f4427\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"1f5b789c-b410-4a71-b406-6d7c5118423d\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"a9c8fa4c-a8c1-4aa5-81e1-e61ead162ee5\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"cruelty_free\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №4\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница4",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"bd57436b-f3e9-44e2-94a4-e831e9c56ecf\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №8\",\r\n  \"Description\": \"Описание Страница №8\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"6390f003-85c9-4759-b965-30130c954767\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"a27270c2-b668-44d9-b1fb-30524043a462\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [\r\n              {\r\n                \"$type\": \"DT.ClusterConfiguration.RefUIElement, DT_Core\",\r\n                \"UpdateFields\": null,\r\n                \"EntityId\": \"f33337b8-fd48-4526-bb08-9bfaa8f840d2\",\r\n                \"Name\": \"Ссылочный UI элемент\",\r\n                \"ObjectConfigId\": \"aef44472-f008-4af7-b9cd-00027b6f5cd0\",\r\n                \"ObjectConfigAppliedId\": null,\r\n                \"PlatformTypeId\": \"515aa5c6-e6a8-4319-83c9-c06d5bbf30a6\",\r\n                \"DataSourceId\": null,\r\n                \"Roles\": []\r\n              }\r\n            ],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"78d90842-d4de-4f13-9fb4-a50901440b69\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"siren_open\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №8\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница8",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"e69c0fd7-2810-4ac5-9ddf-d47a96858b1f\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №11\",\r\n  \"Description\": \"Описание Страница №11\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"bb07005e-6a05-4805-a7d3-5e8372a29d37\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"35e0f0f7-ab54-4856-bd80-baa041296194\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"adae8350-289f-4a32-8c25-55e53ba3640e\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": null,\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №11\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "e69c0fd7-2810-4ac5-9ddf-d47a96858b1f",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница11",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 9,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"98c80a08-3ffd-431e-80be-91955d7ca345\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Страница №6\",\r\n  \"Description\": \"Описание Страница №6\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"4721afc4-995f-4a83-ba73-8188acff317c\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"7184c01a-1f1e-4fc3-8bea-b8e9d4c87614\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"d465332e-9952-4aa1-9c66-eceb3678b6e4\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": \"crown\",\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Ссылочная страница страница №6\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница6",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 10,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.GridElementContent, DT_Core\",\r\n  \"FilterDelayMSec\": 500,\r\n  \"IsFilterCaseSensitivity\": false,\r\n  \"FilterMode\": \"Simple\",\r\n  \"ColorGroupRowHEX\": null,\r\n  \"ItemsToolBar\": [\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ToolbarItemOption, DT_Core\",\r\n      \"ButtonId\": \"d11d6f81-6bdd-4d09-bcb5-8a2c21a4c4cf\",\r\n      \"Items\": [],\r\n      \"EntityId\": \"8ae5f6c1-bc3e-4dbc-91f3-f752310d85d7\",\r\n      \"Text\": \"Кнопка показа №1\",\r\n      \"IconName\": \"preview\",\r\n      \"IsVisible\": true,\r\n      \"DisableIfParentDataNotSelect\": false,\r\n      \"Title\": \"Это текст подсказки\"\r\n    }\r\n  ],\r\n  \"IsHideHeaderTitle\": false,\r\n  \"ContentElementType\": \"Grid\",\r\n  \"Title\": \"\",\r\n  \"ShowRowDetails\": true,\r\n  \"DetailElementId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"MapperDetailDataParentPath\": null,\r\n  \"GroupPath\": null,\r\n  \"GroupTitleTemplate\": null,\r\n  \"SortOrderGroup\": \"Descending\",\r\n  \"ColumnModel\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ColumnModelCollection, DT_Core\",\r\n    \"Columns\": []\r\n  },\r\n  \"VScroll\": true,\r\n  \"IsRemoteProcessing\": true,\r\n  \"SelectColorConfig\": [],\r\n  \"IsSingleSelectionMode\": true,\r\n  \"SelectedFirstElementAfterInit\": false,\r\n  \"DetailRowConfig\": {\r\n    \"$type\": \"DT.ClusterConfiguration.DialogConfig, DT_Core\",\r\n    \"Height\": null,\r\n    \"Width\": null\r\n  },\r\n  \"ReadOnlySettings\": null,\r\n  \"EnableValidation\": true,\r\n  \"DetailDialog\": null,\r\n  \"OnRowDbClickByFirstButton\": false,\r\n  \"SubrowTemplate\": null,\r\n  \"CategoryTreeOn\": false,\r\n  \"OnShowCategoryDataAsTree\": null,\r\n  \"PageSize\": 25,\r\n  \"SortFirstConfig\": null,\r\n  \"GroupNumberOn\": false,\r\n  \"SortGroupByTemplateOn\": false,\r\n  \"IsHideRefreshButton\": false,\r\n  \"DuplicateModeOn\": false,\r\n  \"DuplicateTimeoutMSec\": 60000,\r\n  \"DialogOptionSelf\": null,\r\n  \"AdditionalWhereInDataSourceOn\": false,\r\n  \"ExclusiveFilterOperator\": [\r\n    \"IsNotNull\",\r\n    \"IsNull\",\r\n    \"IsNotEmpty\",\r\n    \"IsEmpty\"\r\n  ],\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"AdvancedFilterConfig\": null,\r\n  \"ResizeHeightRowOn\": false,\r\n  \"DbClickRowUrl\": null,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.ShowButtonContent, DT_Core\",\r\n      \"TargetId\": \"00000000-0000-0000-0000-000000000000\",\r\n      \"TitleDialog\": \"\",\r\n      \"IsResizable\": true,\r\n      \"IsDraggable\": false,\r\n      \"Height\": null,\r\n      \"ShowBottomButtonPanel\": true,\r\n      \"DetailTitle\": null,\r\n      \"InitFromOwner\": false,\r\n      \"TargetPathSourceData\": null,\r\n      \"SourceDataAsLinkOn\": false,\r\n      \"DataSourceId\": null,\r\n      \"EntityId\": \"d11d6f81-6bdd-4d09-bcb5-8a2c21a4c4cf\",\r\n      \"TypeUIElementGeneric\": \"none\",\r\n      \"ContentElementType\": \"ShowButton\",\r\n      \"IsImportant\": true,\r\n      \"Position\": \"Right\",\r\n      \"Icon\": null,\r\n      \"VisibilityCondition\": null,\r\n      \"Order\": 0,\r\n      \"Title\": null,\r\n      \"ParentPathInDataSource\": null,\r\n      \"AlternativeContextDataSources\": null,\r\n      \"InnerElements\": [],\r\n      \"OwnerId\": \"94fa8600-a180-444b-8682-cc267aab5ffd\",\r\n      \"Name\": \"\",\r\n      \"ObjectConfigId\": null,\r\n      \"ObjectConfigAppliedId\": null,\r\n      \"PlatformTypeId\": null,\r\n      \"Roles\": []\r\n    }\r\n  ],\r\n  \"OwnerId\": null,\r\n  \"EntityId\": \"94fa8600-a180-444b-8682-cc267aab5ffd\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.GridElementContent, DT_Core",
+      "EntityId": "94fa8600-a180-444b-8682-cc267aab5ffd",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ФормаСписка2",
+      "Description": "Форма списка_2",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 12,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.FormElementContent, DT_Core\",\r\n  \"ContentElementType\": \"EditForm\",\r\n  \"Title\": \"\",\r\n  \"ColumnModel\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ColumnModelCollection, DT_Core\",\r\n    \"Columns\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"0896af6e-cfee-428f-9aa5-c78628ddf354\",\r\n        \"Name\": \"Поле №1\",\r\n        \"Path\": \"Поле №1\",\r\n        \"GridColumnType\": \"Boolean\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": false,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"a6eb8ab0-3a40-487b-a8c3-f262416d09a4\",\r\n        \"Name\": \"Поле №2\",\r\n        \"Path\": \"Поле №2\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"caafb486-19d8-4608-ac1b-121966b17cd5\",\r\n        \"Name\": \"Поле №3\",\r\n        \"Path\": \"Поле №3\",\r\n        \"GridColumnType\": \"Boolean\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"6b7d1f3e-0aca-4a33-bbe1-2b86c2b55bec\",\r\n        \"Name\": \"Поле №4\",\r\n        \"Path\": \"Поле №4\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"b8ec894e-b731-4930-8eec-e3e08ad63b0f\",\r\n        \"Name\": \"Поле №5\",\r\n        \"Path\": \"Поле №5\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"a53242c6-114c-40c8-b500-a4ac24b9e466\",\r\n        \"Name\": \"Поле №6\",\r\n        \"Path\": \"Поле №6\",\r\n        \"GridColumnType\": \"Enum\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"EntityId\": \"5f29ae8d-709f-41f4-a9e4-0e659f792d6a\",\r\n        \"Name\": \"Поле №7\",\r\n        \"Path\": \"Поле №7\",\r\n        \"GridColumnType\": \"Boolean\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      },\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.GridColumn, DT_Core\",\r\n        \"Parameters\": {\r\n          \"ParentDataTypeId\": \"00000000-0000-0000-0000-000000000000\"\r\n        },\r\n        \"EntityId\": \"c8e46330-2f81-4442-96a7-2691dae4e14d\",\r\n        \"Name\": \"Поле №8\",\r\n        \"Path\": \"Поле №8\",\r\n        \"GridColumnType\": \"Boolean\",\r\n        \"IsVisible\": true,\r\n        \"IsEditable\": true,\r\n        \"RefreshParentElementAfterChangeValueOn\": false\r\n      }\r\n    ]\r\n  },\r\n  \"IsVisibleEmpty\": true,\r\n  \"Groups\": [\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.GroupGridColumn, DT_Core\",\r\n      \"EntityId\": \"92d32ac2-e951-4e52-be1f-5eacde73381b\",\r\n      \"Paths\": [\r\n        [\r\n          \"Поле №1\"\r\n        ]\r\n      ],\r\n      \"Name\": \"\",\r\n      \"GroupViewMode\": \"Simple\",\r\n      \"Groups\": null,\r\n      \"CountAutoSeparateByColumn\": 0\r\n    },\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.GroupGridColumn, DT_Core\",\r\n      \"EntityId\": \"4c0a759d-c2c4-4c8b-9a09-d3400d0116f5\",\r\n      \"Paths\": [\r\n        [\r\n          \"Поле №2\",\r\n          \"Поле №3\",\r\n          \"Поле №4\"\r\n        ]\r\n      ],\r\n      \"GroupViewMode\": \"Accordion\",\r\n      \"Groups\": null,\r\n      \"CountAutoSeparateByColumn\": 0\r\n    },\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.GroupGridColumn, DT_Core\",\r\n      \"EntityId\": \"aa5663b3-4aa0-4ea7-908e-c08e3a260c5e\",\r\n      \"Paths\": [\r\n        [\r\n          \"Поле №5\",\r\n          \"Поле №6\"\r\n        ]\r\n      ],\r\n      \"GroupViewMode\": \"Fieldset\",\r\n      \"Groups\": null,\r\n      \"CountAutoSeparateByColumn\": 0\r\n    },\r\n    {\r\n      \"$type\": \"DT.ClusterConfiguration.GroupGridColumn, DT_Core\",\r\n      \"EntityId\": \"7247fe76-a077-431d-bb07-c202c4a17158\",\r\n      \"Paths\": [\r\n        [\r\n          \"Поле №7\",\r\n          \"Поле №8\"\r\n        ]\r\n      ],\r\n      \"GroupViewMode\": \"Accordion\",\r\n      \"Groups\": null,\r\n      \"CountAutoSeparateByColumn\": 0\r\n    }\r\n  ],\r\n  \"IsAttacheButtonOnTop\": false,\r\n  \"IsButtonsOnRightSide\": true,\r\n  \"EnableValidation\": true,\r\n  \"ReadOnlySettings\": null,\r\n  \"DetailDialog\": null,\r\n  \"DoGetContentOnOpen\": false,\r\n  \"NameGroupOutsideGroupsColumnModel\": \"\",\r\n  \"TypeGroupOutsideGroupsColumnModel\": \"Simple\",\r\n  \"PositionOutsideGroupsColumnModel\": \"Top\",\r\n  \"OnShowOption\": true,\r\n  \"ToolBarButtonIds\": null,\r\n  \"DialogOptionSelf\": null,\r\n  \"ViewMode\": \"Full\",\r\n  \"StretchingByHeightOn\": false,\r\n  \"DoInsertColumModelByPlatformType\": false,\r\n  \"ObserveAndMarkChangeWithStartInDialogOn\": true,\r\n  \"IsVisible\": true,\r\n  \"Order\": 0,\r\n  \"ParentPathInDataSource\": null,\r\n  \"AlternativeContextDataSources\": null,\r\n  \"InnerElements\": [],\r\n  \"OwnerId\": null,\r\n  \"EntityId\": \"016a7a8e-8612-487f-8213-dc9bc5a85411\",\r\n  \"Name\": \"\",\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null,\r\n  \"PlatformTypeId\": null,\r\n  \"DataSourceId\": null,\r\n  \"Roles\": []\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+      "EntityId": "016a7a8e-8612-487f-8213-dc9bc5a85411",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ФормаЗаписи2",
+      "Description": "Форма записи_2",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 3,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.ObjectConfig, DT_Core",
+      "Text": "{\r\n  \"$type\": \"DT.ClusterConfiguration.BlazorMenu, DT_Core\",\r\n  \"EntityId\": \"bdd2b40a-bc52-4b7f-b7ab-26e0746fcb3b\",\r\n  \"Url\": \"/page\",\r\n  \"Title\": \"Записать значение в файл\",\r\n  \"Description\": \"Описание Страница №10\",\r\n  \"BlazorMenuType\": \"SystemDynamic\",\r\n  \"ContentOptions\": {\r\n    \"$type\": \"DT.ClusterConfiguration.ContentOption, DT_Core\",\r\n    \"Layouts\": [\r\n      {\r\n        \"$type\": \"DT.ClusterConfiguration.ContentLayout, DT_Core\",\r\n        \"EntityId\": \"136c053a-db79-4acb-ba59-08e0ae87e665\",\r\n        \"Name\": \"\",\r\n        \"IsVisible\": true,\r\n        \"HideSplitter\": false,\r\n        \"Columns\": [\r\n          {\r\n            \"$type\": \"DT.ClusterConfiguration.ContentLayoutColumn, DT_Core\",\r\n            \"EntityId\": \"52bb3f0f-9392-4ef9-8304-a186f3cd5bb5\",\r\n            \"Name\": \"\",\r\n            \"VScroll\": false,\r\n            \"GScroll\": false,\r\n            \"Elements\": [\r\n              {\r\n                \"$type\": \"DT.ClusterConfiguration.RefUIElement, DT_Core\",\r\n                \"UpdateFields\": null,\r\n                \"EntityId\": \"ac84524a-bd8c-449c-a2e8-47a80792abf1\",\r\n                \"Name\": \"Ссылочный UI элемент\",\r\n                \"ObjectConfigId\": \"ac84524a-bd8c-449c-a2e8-47a80792abf1\",\r\n                \"ObjectConfigAppliedId\": null,\r\n                \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n                \"DataSourceId\": null,\r\n                \"Roles\": []\r\n              }\r\n            ],\r\n            \"Roles\": [],\r\n            \"VisibilityContextNames\": [],\r\n            \"Title\": null,\r\n            \"Size\": \"\"\r\n          }\r\n        ],\r\n        \"Roles\": [],\r\n        \"VisibilityContextNames\": [],\r\n        \"DataSourceId\": null,\r\n        \"RequiredValue\": null,\r\n        \"Title\": null,\r\n        \"Size\": \"\"\r\n      }\r\n    ],\r\n    \"ContentType\": \"SolidLayout\",\r\n    \"EntityId\": \"a4bf959d-30cc-4afb-b9ca-f73c9a909ae7\",\r\n    \"Name\": \"\"\r\n  },\r\n  \"Children\": [],\r\n  \"SqlMenuIndicator\": \"\",\r\n  \"IsActive\": true,\r\n  \"Expanded\": true,\r\n  \"Icon\": null,\r\n  \"PlatformTypeId\": \"00000000-0000-0000-0000-000000000000\",\r\n  \"Name\": \"Записать значение в файл\",\r\n  \"Roles\": [],\r\n  \"ObjectConfigId\": null,\r\n  \"ObjectConfigAppliedId\": null\r\n}",
+      "RefId": "00000000-0000-0000-0000-000000000000",
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ConfigType": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+      "EntityId": "bdd2b40a-bc52-4b7f-b7ab-26e0746fcb3b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Страница10",
+      "Description": "",
+      "Comment": "Автоматически сгенерированный объект конфигурации",
+      "Version": 9,
+      "TagsCollection": null,
+      "FieldsFromGlobalBusiness": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      }
+    }
+  ],
+  "ProcessIssues": [],
+  "Categories": [],
+  "Version": 30
+}

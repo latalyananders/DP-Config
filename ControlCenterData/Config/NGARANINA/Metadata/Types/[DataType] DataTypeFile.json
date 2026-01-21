@@ -1,0 +1,96 @@
+{
+  "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+  "FieldsTemplates": [],
+  "Categories": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+    "Codes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "Items": [],
+    "Name": "Категории",
+    "Id": "57cc0cac-a37b-4d8a-b46f-c013af5b702f",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "PortalSettings": {
+    "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+    "FormElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+    "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+    "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+    "GridElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GroupHistoryChangeDataOn": false,
+    "DisplayName": "",
+    "VisibleCategoryAttributesAsFlagOn": true,
+    "TypesCategoryColumnView": {},
+    "LinkFieldAsNotSelector": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "DisplayFieldNames": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "SeparateCategoriesTypeViewOnForm": {},
+    "LinkFieldTypeView": {},
+    "LinkQueryConditionForDataType": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "ProcessSettings": {
+      "$type": "DT.MdmMetadata.Types.PortalProcessSettings, DT_Core",
+      "CreateAndEditProcessId": "f77268d4-47ff-4890-ba80-ad37d25fd97f",
+      "DeleteProcessId": "56a47819-fc30-4455-8e1a-8a2588113acd"
+    }
+  },
+  "FolderId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+  "ClassId": 2,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 50,
+        "MaxLength": false,
+        "AutoTrim": false
+      },
+      "Name": "Поле1",
+      "Id": "be3abeea-0bc8-4526-8f21-00cc9c04d452",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "Поле1": 1
+  },
+  "EntityId": "ed6f4499-3f89-48c5-9c4f-5126a40ac8f0",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "DataTypeFile",
+  "Description": "DataTypeFile",
+  "Version": 5,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

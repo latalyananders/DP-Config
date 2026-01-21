@@ -1,0 +1,35 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFile, DT_Core",
+  "Integration": "ToPlatform",
+  "Type": "File",
+  "Code": "[Handler] FileToPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "Parameters": [],
+  "Values": [],
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+    "Name": "ТипДанныхФайл",
+    "Id": "0f904da5-2fe7-4679-a069-0b8e854962a2",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+  "NoTransaction": false,
+  "EntityId": "3a5339ef-25db-4f0b-824b-7e3b68c562da",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "FileToPlatform",
+  "Description": "FileToPlatform",
+  "Version": 6,
+  "TagsCollection": [],
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

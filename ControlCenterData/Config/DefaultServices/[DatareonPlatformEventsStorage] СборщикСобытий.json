@@ -1,0 +1,36 @@
+{
+  "$type": "DT.ClusterConfiguration.DefaultService, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsStorageConfig, DT_ConfigurationRepository",
+    "CollectorConfig": {
+      "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsCollectorConfig, DT_ConfigurationRepository",
+      "Enabled": true,
+      "CollectPeriodSec": 15,
+      "CollectMaxCount": 1000,
+      "ProcessPackSize": 500,
+      "CollectMaxDepthMinutes": 120
+    },
+    "FilesStoragePeriodDays": 30,
+    "CleanFilesJobSchedule": "0 * * * *",
+    "DbStorageMaxNumberOfStoredEvents": 0,
+    "DbStorageMaxRetentionTimeInDays": 30,
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "12345678-1234-5678-0000-123456789000",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "EntityId": "12345678-0000-0000-0000-1234567890ea",
+  "ClusterId": "00000000-0000-0000-0000-000000000000",
+  "Name": "СборщикСобытий",
+  "Description": "Сервис для сбора событий",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

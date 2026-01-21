@@ -1,0 +1,65 @@
+{
+  "$type": "DT.ClusterConfiguration.BlazorMenu, DT_Core",
+  "EntityId": "bdd2b40a-bc52-4b7f-b7ab-26e0746fcb3b",
+  "Url": "/page",
+  "Title": "Записать значение в файл",
+  "Description": "Описание Страница №10",
+  "BlazorMenuType": "SystemDynamic",
+  "ContentOptions": {
+    "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+    "Layouts": [
+      {
+        "$type": "DT.ClusterConfiguration.ContentLayout, DT_Core",
+        "EntityId": "136c053a-db79-4acb-ba59-08e0ae87e665",
+        "Name": "",
+        "IsVisible": true,
+        "HideSplitter": false,
+        "Columns": [
+          {
+            "$type": "DT.ClusterConfiguration.ContentLayoutColumn, DT_Core",
+            "EntityId": "52bb3f0f-9392-4ef9-8304-a186f3cd5bb5",
+            "Name": "",
+            "VScroll": false,
+            "GScroll": false,
+            "Elements": [
+              {
+                "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                "UpdateFields": null,
+                "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                "Name": "Ссылочный UI элемент",
+                "ObjectConfigId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                "ObjectConfigAppliedId": null,
+                "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                "DataSourceId": null,
+                "Roles": []
+              }
+            ],
+            "Roles": [],
+            "VisibilityContextNames": [],
+            "Title": null,
+            "Size": ""
+          }
+        ],
+        "Roles": [],
+        "VisibilityContextNames": [],
+        "DataSourceId": null,
+        "RequiredValue": null,
+        "Title": null,
+        "Size": ""
+      }
+    ],
+    "ContentType": "SolidLayout",
+    "EntityId": "a4bf959d-30cc-4afb-b9ca-f73c9a909ae7",
+    "Name": ""
+  },
+  "Children": [],
+  "SqlMenuIndicator": "",
+  "IsActive": true,
+  "Expanded": true,
+  "Icon": null,
+  "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+  "Name": "Записать значение в файл",
+  "Roles": [],
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null
+}

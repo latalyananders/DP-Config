@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>22222222-ba34-43ca-9864-9141987b4a72_30</name>
+    </assembly>
+    <members>
+        <member name="T:SystemModels.DataTypeFile">
+            <summary>
+            DataTypeFile
+            </summary>
+        </member>
+        <member name="P:SystemModels.DataTypeFile.Поле1">
+            <summary>
+            	String [50]
+            </summary>
+        </member>
+        <member name="T:SystemModels.ТипДанныхФайл">
+            <summary>
+            ТипДанныхФайл
+            </summary>
+        </member>
+        <member name="P:SystemModels.ТипДанныхФайл.testField1">
+            <summary>
+            	String [50]
+            </summary>
+        </member>
+        <member name="P:SystemModels.ТипДанныхФайл.testField2">
+            <summary>
+            	String [50]
+            </summary>
+        </member>
+    </members>
+</doc>

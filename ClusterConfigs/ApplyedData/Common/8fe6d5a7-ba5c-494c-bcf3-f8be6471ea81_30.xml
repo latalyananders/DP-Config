@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81_30</name>
+    </assembly>
+    <members>
+        <member name="P:SystemModels.PlatformToFile.fileName">
+            <summary>
+            	String [256]Путь к файлу, Nullable
+            </summary>
+        </member>
+        <member name="P:SystemModels.PlatformToFile.fileNamePattern">
+            <summary>
+            	String [Max]Шаблон имени файла, Nullable
+            </summary>
+        </member>
+        <member name="P:SystemModels.PlatformToFile.ТипДанныхФайл">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

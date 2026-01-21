@@ -1,0 +1,25 @@
+{
+  "$type": "DT.MdmCommon.CommonConfig, DT_Config",
+  "EventsStorageClientPort": 7217,
+  "EventsAnalyticsClientPort": 7218,
+  "ControlCenterPort": 7200,
+  "ControlCenterClientPort": 7210,
+  "MonitoringServicePort": 7201,
+  "MonitoringServiceTcpPort": 7206,
+  "LocalNodeApiPort": 7202,
+  "NodeListeningPort": 7290,
+  "SystemRequestsPort": 7298,
+  "SystemRequestsPortRest": 7297,
+  "CredentialListeningPort": 7215,
+  "EventsStorageApiPort": 7209,
+  "SnmpPort": 162,
+  "DevelopmentCenterPort": 7205,
+  "CertificateSettings": {
+    "$type": "DT.MdmCommon.CertificateSettings, DT_Config",
+    "Source": "File",
+    "Description": "",
+    "Thumbprint": "7BE0480D23CE20298ECFE43519B94FA701CA47F4",
+    "Path": "C:\\ProgramData\\Datareon\\Platform\\Datareon.pfx",
+    "Password": "7IUAOUKzzp3AYbnOQgi0Bg=="
+  }
+}

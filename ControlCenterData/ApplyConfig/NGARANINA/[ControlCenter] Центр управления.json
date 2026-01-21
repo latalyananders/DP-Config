@@ -1,0 +1,13 @@
+{
+  "$type": "DT.ClusterConfiguration.ControlCenterModule, DT_Core",
+  "NodeId": "418dcccf-6f65-4a33-a0d0-601528e5cc4c",
+  "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "IntegratedAuthentication": false,
+  "EntityId": "1be98b27-2d2c-422b-a613-1fa674eee5a1",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "Центр управления",
+  "Version": 1,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

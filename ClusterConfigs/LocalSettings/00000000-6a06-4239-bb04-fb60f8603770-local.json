@@ -1,0 +1,119 @@
+{
+  "$type": "DT.ConfigurationRepository.Configuration.LocalConfig, DT_ConfigurationRepository",
+  "NodeId": "418dcccf-6f65-4a33-a0d0-601528e5cc4c",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "RootFolderPath": "C:\\ProgramData\\Datareon\\Platform",
+  "DataFolderPath": "C:\\ProgramData\\Datareon\\Platform",
+  "LoggerFolderPath": "C:\\ProgramData\\Datareon\\Platform",
+  "ArchiveSettingsPath": null,
+  "SessionId": "8df5d151-91d5-4d7e-9a9d-56b3119607a7",
+  "ServiceKey": "c7f48722-8cef-44ca-9971-a1d322f3d89b",
+  "MasterControlServerAddress": null,
+  "CertificateSource": "File",
+  "CertificateThumbprint": "7BE0480D23CE20298ECFE43519B94FA701CA47F4",
+  "CertificatePath": "C:\\ProgramData\\Datareon\\Platform\\Datareon.pfx",
+  "GlobalDiagnosticParams": {
+    "$type": "DT.MdmCommon.DiagnosticParams, DT_Config",
+    "IssueCollectPeriod": 300,
+    "MinLogLevel": "Debug",
+    "DefaultEventLevel": "Debug",
+    "MinLogLevelHistory": "Info",
+    "DefaultEventLevelHistory": "Info",
+    "EventsLogLevels": {
+      "$type": "System.Collections.Generic.Dictionary`2[[DT.Diagnostics.Trace.MessageEventType, DT_Config],[DT.Diagnostics.Issues.IssueLevel, DT_Config]], System.Private.CoreLib"
+    },
+    "Features": [],
+    "TrackingMessages": false,
+    "EventMessageBodySizeBytes": 0,
+    "TrackingCustomProperties": true,
+    "CounterAlwaysOn": false,
+    "CounterDiagnosticData": [],
+    "SystemDiagnosticParams": {
+      "$type": "DT.MdmCommon.SystemDiagnosticParams, DT_Config",
+      "MinLogLevel": null
+    },
+    "ExecuteRequestTimeoutMs": 600000
+  },
+  "LocalDiagnosticParams": {
+    "$type": "DT.MdmCommon.DiagnosticParams, DT_Config",
+    "IssueCollectPeriod": 300,
+    "MinLogLevel": "None",
+    "DefaultEventLevel": "None",
+    "MinLogLevelHistory": "None",
+    "DefaultEventLevelHistory": "None",
+    "EventsLogLevels": {
+      "$type": "System.Collections.Generic.Dictionary`2[[DT.Diagnostics.Trace.MessageEventType, DT_Config],[DT.Diagnostics.Issues.IssueLevel, DT_Config]], System.Private.CoreLib"
+    },
+    "Features": [],
+    "TrackingMessages": false,
+    "EventMessageBodySizeBytes": 0,
+    "TrackingCustomProperties": true,
+    "CounterAlwaysOn": false,
+    "CounterDiagnosticData": [],
+    "SystemDiagnosticParams": {
+      "$type": "DT.MdmCommon.SystemDiagnosticParams, DT_Config",
+      "MinLogLevel": null
+    },
+    "ExecuteRequestTimeoutMs": 600000
+  },
+  "LogStorageParams": {
+    "$type": "DT.LogStorageParams, DT_Config",
+    "StoreDays": 0,
+    "FolderMaxSizeMb": 50,
+    "UncompressedDays": 0,
+    "UncompressedMaxSizeMb": 30,
+    "TempFolderMinSizeMb": 10,
+    "TempFolderMaxSizeMb": 30,
+    "TempStoreMinutes": 4
+  },
+  "EventsStorageParams": {
+    "$type": "DT.MdmCommon.EventsStorageParams, DT_Config",
+    "Format": "BinaryFiles",
+    "SaveAsBinFiles": true,
+    "SaveAsTextFiles": false,
+    "MaxEventsFileSizeBytes": 10485760,
+    "MaxMessagesFileSizeBytes": 10485760,
+    "MaxBinaryDataFileSizeBytes": 10485760,
+    "SaveBodies": false,
+    "MaxBodySizeBytes": 0
+  },
+  "CacheSettings": {
+    "$type": "DT.MdmCommon.CacheSettings, DT_Core",
+    "IssuesCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 60,
+      "StopRequestSendTimeout": 10
+    },
+    "LogsCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 30,
+      "StopRequestSendTimeout": 10
+    },
+    "CountersCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 60,
+      "StopRequestSendTimeout": 10
+    },
+    "ComponentStatesCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 5,
+      "StopRequestSendTimeout": 5
+    },
+    "MetadataSettings": {
+      "$type": "DT.MdmCommon.MetadataSettings, DT_Core",
+      "GetTimeOut": 1,
+      "CacheTime": 15
+    },
+    "SearchMessageCacheTimeMinutes": 5
+  },
+  "CertificatePassword": "7IUAOUKzzp3AYbnOQgi0Bg==",
+  "CertificateDescription": "",
+  "UseCertificateForChannels": false,
+  "TokenSettings": {
+    "$type": "DT.Credential.TokenConfig, DT_Core",
+    "TokenLifetime": 60,
+    "RefreshTokenLifetime": 1440
+  },
+  "NodeTcpPort": 0,
+  "PathHash": ""
+}

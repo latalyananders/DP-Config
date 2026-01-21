@@ -1,0 +1,46 @@
+{
+  "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+  "Config": {
+    "$type": "DT.MdmCommon.ControlServerConfig, DT_Config",
+    "IsMasterControlServer": true,
+    "UseGuard": false,
+    "GuardBackupPath": "C:\\ProgramData\\Datareon\\Platform\\Security\\Backup",
+    "GuardPath": "C:\\ProgramData\\Datareon\\Platform\\Security",
+    "ApiAddress": "https://localhost:7203",
+    "LocalConfig": {
+      "$type": "DT.Core.Configuration, DT_Config",
+      "PublicationPort": 7203,
+      "DataFolder": "C:\\ProgramData\\Datareon\\Platform\\Security",
+      "CertificateFilePath": null,
+      "CertificateFilePassword": null,
+      "CertificateSource": null,
+      "CertificateThumbprint": null,
+      "LogLevel": "Warning",
+      "LogFileSizeMb": 5,
+      "LogFileCount": 5,
+      "BackupUse": true,
+      "BackupFilesPath": "C:\\ProgramData\\Datareon\\Platform\\Security\\Backup",
+      "BackupCopysCount": 5,
+      "BackupPeriod": 1440,
+      "FileConfigMode": false
+    },
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "00000000-0000-0000-0000-000000000000",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "EntityId": "00000000-6a06-4239-bb04-fb60f8603770",
+  "ClusterId": "00000000-0000-0000-0000-000000000000",
+  "Name": "Control Server",
+  "Description": null,
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

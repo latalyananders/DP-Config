@@ -1,0 +1,9 @@
+Необработанное исключение: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DT.Services.Triggers.SystemEventsTriggers.LogWrappers.DatareonLoggerWrapper.TryInitHandlers()
+   at DT.Services.Triggers.SystemEventsTriggers.LogWrappers.DatareonLoggerWrapper.RunJobIfPossible(String level, String message)
+   at DT.Services.Triggers.SystemEventsTriggers.LogWrappers.DatareonLoggerWrapper.Debug(String message, Object[] propertyValues)
+   at DT.Net.Protocols.DataProtocol.DataProtocolStateMachine.State.Stop()
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()

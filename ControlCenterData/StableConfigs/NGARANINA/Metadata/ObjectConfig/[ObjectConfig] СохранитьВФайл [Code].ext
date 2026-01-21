@@ -1,0 +1,70 @@
+{
+  "$type": "DT.ClusterConfiguration.FormElementContent, DT_Core",
+  "ContentElementType": "EditForm",
+  "Title": "",
+  "ColumnModel": {
+    "$type": "DT.ClusterConfiguration.ColumnModelCollection, DT_Core",
+    "Columns": [
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "32263bb5-0750-433d-b264-145f02a9e434",
+        "Name": "Поле №1",
+        "Path": "Поле №1",
+        "IsVisible": true,
+        "IsEditable": false,
+        "PlatformTypeId": "ed6f4499-3f89-48c5-9c4f-5126a40ac8f0",
+        "RefreshParentElementAfterChangeValueOn": false,
+        "ProcessConfig": {
+          "$type": "DT.ClusterConfiguration.MdmBlazor.ProcessConfig, DT_Core",
+          "BpId": "db74fd06-d4ae-45fe-82c3-48d290989d81",
+          "MappingToProcess": [
+            {
+              "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+              "Id": "90c6429e-135a-4eee-9c49-f325a0fca551",
+              "SourceId": "Поле №1",
+              "TargetId": "DataTypeFile.Поле1",
+              "Expression": null,
+              "Type": "Basic",
+              "Aliases": [],
+              "AddOption": "Replace",
+              "FillOption": "AutoMapping",
+              "HasExpression": false
+            }
+          ],
+          "MappingFromProcess": null
+        }
+      }
+    ]
+  },
+  "IsVisibleEmpty": true,
+  "Groups": [],
+  "IsAttacheButtonOnTop": false,
+  "IsButtonsOnRightSide": true,
+  "EnableValidation": true,
+  "ReadOnlySettings": null,
+  "DetailDialog": null,
+  "DoGetContentOnOpen": false,
+  "NameGroupOutsideGroupsColumnModel": null,
+  "TypeGroupOutsideGroupsColumnModel": "Accordion",
+  "PositionOutsideGroupsColumnModel": "Bottom",
+  "OnShowOption": true,
+  "ToolBarButtonIds": null,
+  "DialogOptionSelf": null,
+  "ViewMode": "Full",
+  "StretchingByHeightOn": false,
+  "DoInsertColumModelByPlatformType": false,
+  "ObserveAndMarkChangeWithStartInDialogOn": true,
+  "IsVisible": true,
+  "Order": 0,
+  "ParentPathInDataSource": null,
+  "AlternativeContextDataSources": null,
+  "InnerElements": [],
+  "OwnerId": null,
+  "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+  "Name": "",
+  "ObjectConfigId": null,
+  "ObjectConfigAppliedId": null,
+  "PlatformTypeId": null,
+  "DataSourceId": null,
+  "Roles": []
+}
