@@ -1,0 +1,102 @@
+﻿{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Datareon RestIn API",
+    "description": "Описание методов RestIn",
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "http://NGaranina:65535"
+    }
+  ],
+  "paths": {
+    "/{messageId}": {
+      "get": {
+        "tags": [
+          "CheckRequestState"
+        ],
+        "operationId": "GetRequestStatus",
+        "parameters": [
+          {
+            "name": "messageId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "Not Found"
+          },
+          "408": {
+            "description": "Request Timeout"
+          }
+        }
+      }
+    },
+    "/RestInb": {
+      "post": {
+        "tags": [
+          "Default"
+        ],
+        "summary": "RestInb",
+        "operationId": "Method_9dce2d9b",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипДанныхФайл"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "202": {
+            "description": "Accepted"
+          },
+          "503": {
+            "description": "Server Error"
+          },
+          "500": {
+            "description": "Server Error"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "408": {
+            "description": "Request Timeout"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ТипДанныхФайл": {
+        "type": "object",
+        "properties": {
+          "testField1": {
+            "type": "string"
+          },
+          "testField2": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

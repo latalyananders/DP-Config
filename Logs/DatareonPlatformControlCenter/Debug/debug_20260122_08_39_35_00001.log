@@ -1,0 +1,93 @@
+﻿2026-01-22 08:39:35,525 -903516239 [51] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения остановлен
+2026-01-22 08:39:35,552 -903516238 [51] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:35,552 -903516237 [34] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-22 08:39:41,948 -903516236 [9] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:41,976 -903516235 [9] INFORMATION All Main - Идентификатор текущего процесса: 21628
+2026-01-22 08:39:41,976 -903516234 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:42,003 -903516233 [9] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-22 08:39:42,981 -903516232 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:43,554 -903516231 [11] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:43,944 -903516230 [9] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-22 08:39:45,638 -903516229 [11] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-22 08:39:45,652 -903516228 [9] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-22 08:39:45,666 -903516227 [9] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-22 08:39:45,666 -903516226 [9] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-22 08:39:45,849 -903516225 [9] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 08:39:46,045 -903516224 [9] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-22 08:39:46,087 -903516223 [9] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 08:39:46,133 -903516222 [9] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-22 08:39:46,133 -903516221 [9] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-22 09:31:33,466 -903516220 [16] INFORMATION AccessControl ModuleSessionManager - Подключился пользователь Администратор. Создана сессия 9f197b05-ea1c-4b7c-a02f-c79ab62f9b27.
+2026-01-22 09:31:33,748 -903516219 [28] WARNING All FileMetadataProvider - Для обьектов [87654321-4321-0000-0000-123456789000, DatareonPlatformMonitoringService, СервисМониторинга], [00000000-1234-5678-0000-123456789000, DatareonPlatformCredential, УправлениеПользователями], [12345678-0000-0000-0000-1234567890ea, DatareonPlatformEventsStorage, СборщикСобытий] не определены родители, поэтому они не будут экспортированы
+2026-01-22 09:31:50,345 -903516218 [10] INFORMATION All MetadataStateManager - Запуск применения конфигурации. Запущено пользователем: Администратор. Версия до применения конфигурации: 30. Номер версии будет увеличен при применении.
+2026-01-22 09:31:50,363 -903516217 [10] INFORMATION All ClusterApplyHelpers - Определен узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator False) 127.0.0.1:7290 для отправки метаданных кластера.
+2026-01-22 09:31:50,986 -903516216 [28] INFORMATION All MetadataStateManager - Создание снимка конфигурации в хранилище завершено успешно, заняло 00:00:00.0001181
+2026-01-22 09:31:55,760 -903516215 [28] INFORMATION Apply CheckMetadataService - Время генерации файлов ui маппингов: 12 ms
+Время компиляции dll ui маппингов: 25 ms
+Время генерации файлов стратегий отправки: 2 ms
+Время компиляции dll стратегий отправки: 7 ms
+Время генерации файлов скриптов обработки: 11 ms
+Время компиляции dll скриптов обработки: 51 ms
+Время генерации файлов методов: 51 ms
+Время компиляции dll методов: 174 ms
+Время генерации файлов бд обработчиков: 6 ms
+Время компиляции dll бд обработчиков: 6 ms
+Время генерации файлов сериализаторов типов: 251 ms
+Время компиляции dll сериализаторов типов: 189 ms
+Время генерации файлов сериализаторов процессов: 59 ms
+Время компиляции dll сериализаторов процессов: 59 ms
+Время генерации файлов процессов: 313 ms
+Время компиляции dll процессов: 238 ms
+Время генерации файлов типов: 219 ms
+Время компиляции dll типов: 2618 ms
+Общее время компиляции/генерации: 4707 ms
+
+2026-01-22 09:31:55,883 -903516214 [28] INFORMATION All MetadataStateManager - Обновление актуальной конфигурации в хранилище завершено успешно, заняло 00:00:00.0027874
+2026-01-22 09:31:56,096 -903516213 [14] INFORMATION Apply MetadataStateManager - Актуальное состояние для кластера 8b7ea74b-365a-48da-8746-d36ab2adcb19 успешно применено. Версия 31
+2026-01-22 09:31:59,510 -903516212 [10] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,514 -903516211 [10] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [c19daf81-5968-4964-b93a-81b09d63a36e, File1]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,580 -903516210 [20] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,593 -903516209 [33] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [87654321-4321-0000-0000-123456789000, СервисМониторинга]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,696 -903516208 [14] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,756 -903516207 [14] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,757 -903516206 [14] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,926 -903516205 [33] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:32:00,205 -903516204 [33] INFORMATION Apply ControlServerMessageHandler - Обновлена конфигурация модуля [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:32:02,567 -903516203 [20] INFORMATION Apply ControlServerMessageHandler - Загружена конфигурация модуля [00000000-1234-5678-0000-123456789000, УправлениеПользователями]. Версия: 31.
+2026-01-22 09:32:09,567 -903516202 [28] WARNING Connections CpBroker [ControlServer] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 09:32:42,546 -903516201 [28] INFORMATION All ClusterApplyHelpers - Событие произошло 1 раз:
+Определен узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator False) 127.0.0.1:7290 для отправки метаданных кластера.

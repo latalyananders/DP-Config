@@ -1,0 +1,140 @@
+﻿2026-01-22 08:39:29,064 -634909154 [15] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:29,136 -634909153 [15] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:29,816 -634909152 [15] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:16, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:29,816 -634909151 [15] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:31,229 -634909150 [15] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:18, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:31,229 -634909149 [15] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:32,347 -634909148 [15] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:22, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,347 -634909147 [15] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-22 08:39:34,199 -634909146 [15] WARNING Connections CpBroker [MonitoringService] - Точка подключения EventsStorageClient самостоятельно остановилась
+2026-01-22 08:39:34,298 -634909145 [28] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:17, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:34,298 -634909144 [28] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut, DatareonPlatformSystem]
+2026-01-22 08:39:34,500 -634909143 [35] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:20, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:34,500 -634909142 [35] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-22 08:39:34,698 -634909141 [10] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:24, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:34,698 -634909140 [10] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2, DatareonPlatformMdmUI]
+2026-01-22 08:39:34,928 -634909139 [42] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:19, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:34,928 -634909138 [42] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-22 08:39:35,129 -634909137 [42] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:21, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:35,129 -634909136 [42] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-22 08:39:38,362 -634909135 [43] WARNING Connections CpBroker [DataBroker] - Точка подключения NMDataClient самостоятельно остановилась
+2026-01-22 08:39:38,713 -634909134 [47] WARNING Connections CpBroker [ServiceBroker] - Точка подключения NMClient самостоятельно остановилась
+2026-01-22 08:39:38,885 -634909133 [35] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=25) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:38,893 -634909132 [10] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-22 08:39:39,216 -634909131 [15] ERROR Connections CpBroker [MonitoringService] - Точка подключения EventsStorageClient не запущена
+2026-01-22 08:39:39,675 -634909130 [43] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=26) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,681 -634909129 [15] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=27) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,700 -634909128 [22] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-22 08:39:39,700 -634909127 [13] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:39,703 -634909126 [42] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=28) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,704 -634909125 [35] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=29) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,714 -634909124 [42] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2, DatareonPlatformMdmUI]
+2026-01-22 08:39:39,728 -634909123 [15] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut, DatareonPlatformSystem]
+2026-01-22 08:39:39,751 -634909122 [15] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=30) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,768 -634909121 [8] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=31) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,777 -634909120 [8] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:39,809 -634909119 [15] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=32) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,812 -634909118 [13] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:39,812 -634909117 [47] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-22 08:39:39,845 -634909116 [33] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:23, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:39,846 -634909115 [33] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 08:39:39,895 -634909114 [25] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=33) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:39,900 -634909113 [33] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-22 08:39:41,682 -634909112 [47] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 08:39:42,298 -634909111 [28] ERROR All Server [NGARANINA->dt_platform_MonitoringServer] - Ошибка обработки сообщения Id=9d33ed1d-ddf1-47e3-9eb8-8023e4d90854,StreamId=00000000-0000-0000-0000-000000000000,MessageType=Dt-DiagnosticComponent,Source=418dcccf-6f65-4a33-a0d0-601528e5cc4c,BodySize=1,Properties=[EntityType = 10; ]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentMonitoringService.UpdateDataFromClient(DiagnosticComponentState data, Guid clientId, NodeType nodeType)
+   at DT.Diagnostics.Cache.Handlers.MonitoringFromClientsHandler.HandleMessageAsync(PlatformMessageReceivedContext messageContext)
+   at DT.MessageHandler.MessageHandlerEventLoopEx`2.HandleMessageAsync(TMessageReceivedContext messageContext)
+   at DT.Net.Protocols.DataProtocol.DataProtocolStateMachine.WorkState.HandleMessage(InternalMessage message, Boolean sendAck)
+2026-01-22 08:39:42,894 -634909110 [22] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=34) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:42,903 -634909109 [25] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 08:39:43,181 -634909108 [33] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-22 08:39:43,206 -634909107 [45] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:43,228 -634909106 [45] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:43,237 -634909105 [45] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:43,259 -634909104 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:33, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909103 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:33, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909102 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:28, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909101 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:28, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909100 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:29, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909099 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:29, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909098 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:31, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909097 [25] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:27, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909096 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:31, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909095 [25] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:27, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909094 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:34, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909093 [25] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:25, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909092 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:34, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909091 [25] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:25, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909090 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:30, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,260 -634909089 [25] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:26, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,261 -634909088 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:30, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,261 -634909087 [25] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:26, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,261 -634909086 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:32, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,261 -634909085 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:32, CurrentState:END, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,261 -634909084 [45] INFORMATION Connections CpBroker [MonitoringService] - Брокер точек подключения остановлен
+2026-01-22 08:39:43,282 -634909083 [45] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:43,282 -634909082 [45] INFORMATION All ModuleService - Модуль остановлен
+2026-01-22 08:39:51,454 -634909081 [7] INFORMATION All Main - Assembly: DatareonPlatformMonitoringService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:51,477 -634909080 [7] INFORMATION All Main - Идентификатор текущего процесса: 7984
+2026-01-22 08:39:51,477 -634909079 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:51,998 -634909078 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:52,002 -634909077 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:52,027 -634909076 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:52,405 -634909075 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:52,773 -634909074 [13] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-22 08:39:52,801 -634909073 [13] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [87654321-4321-0000-0000-123456789000, СервисМониторинга]
+2026-01-22 08:39:52,926 -634909072 [7] INFORMATION States MonitoringServiceModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-22 08:39:53,101 -634909071 [7] INFORMATION All MonitoringServiceApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 08:39:53,247 -634909070 [7] INFORMATION All MonitoringServiceApi - Веб-сервис сервиса мониторинга успешно запущен по адресу: https://NGaranina:7201
+2026-01-22 08:39:53,247 -634909069 [7] INFORMATION All MonitoringServiceApi - Swagger веб-сервиса сервиса мониторинга успешно запущен по адресу: https://NGaranina:7201/swagger
+2026-01-22 08:39:53,250 -634909068 [13] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7206/] - Запуск точки подключения (Endpoint=0.0.0.0:7206)
+2026-01-22 08:39:53,267 -634909067 [7] INFORMATION Connections CpBroker [MonitoringService] - Брокер точек подключения запущен
+2026-01-22 08:39:53,267 -634909066 [9] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,270 -634909065 [15] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,271 -634909064 [7] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-22 08:39:53,278 -634909063 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:53,285 -634909062 [16] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,285 -634909061 [15] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,285 -634909060 [9] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,289 -634909059 [15] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=6) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,289 -634909058 [11] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-22 08:39:53,289 -634909057 [7] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-22 08:39:53,289 -634909056 [8] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:53,289 -634909055 [12] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-22 08:39:53,291 -634909054 [9] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut, DatareonPlatformSystem]
+2026-01-22 08:39:53,292 -634909053 [15] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:53,300 -634909052 [16] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=7) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,300 -634909051 [7] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=8) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,301 -634909050 [7] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:53,301 -634909049 [11] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2, DatareonPlatformMdmUI]
+2026-01-22 08:39:53,318 -634909048 [9] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=9) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,318 -634909047 [16] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=10) к серверу dt_platform_monitoringpipeserver
+2026-01-22 08:39:53,319 -634909046 [8] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-22 08:39:53,319 -634909045 [12] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 08:39:57,929 -634909044 [9] INFORMATION States MonitoringServiceModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-22 09:31:59,572 -634909043 [19] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 31
+2026-01-22 09:31:59,588 -634909042 [19] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [87654321-4321-0000-0000-123456789000, СервисМониторинга]
+2026-01-22 09:31:59,975 -634909041 [45] INFORMATION Connections dt_platform_monitoringpipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:WORK, ServerAddress=dt_platform_monitoringpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 09:31:59,981 -634909040 [45] INFORMATION Connections dt_platform_MonitoringServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 09:32:01,706 -634909039 [40] INFORMATION Connections PipeServer[dt_platform_monitoringpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=11) к серверу dt_platform_monitoringpipeserver
+2026-01-22 09:32:01,728 -634909038 [40] INFORMATION Connections dt_platform_MonitoringServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 09:32:05,617 -634909037 [46] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась

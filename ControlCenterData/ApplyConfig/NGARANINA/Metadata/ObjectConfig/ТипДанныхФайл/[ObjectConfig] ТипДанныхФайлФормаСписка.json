@@ -9,7 +9,7 @@
   "Name": "ТипДанныхФайлФормаСписка",
   "Description": "[ТипДанныхФайл] Форма списка",
   "Comment": "Автоматически сгенерированный объект конфигурации",
-  "Version": 22,
+  "Version": 25,
   "FieldsFromGlobalBusiness": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
   }

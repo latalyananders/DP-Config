@@ -1,0 +1,188 @@
+﻿2026-01-20 10:26:12,857 -1365289719 [7] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 10:26:12,873 -1365289718 [7] INFORMATION All Main - Идентификатор текущего процесса: 1912
+2026-01-20 10:26:12,873 -1365289717 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 10:26:13,420 -1365289716 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 10:26:13,426 -1365289715 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 10:26:14,535 -1365289714 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 10:26:14,544 -1365289713 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 10:26:15,196 -1365289712 [7] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 14
+2026-01-20 10:26:15,224 -1365289711 [7] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:26:15,262 -1365289710 [11] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 10:26:15,292 -1365289709 [9] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 10:26:15,760 -1365289708 [11] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 10:26:16,303 -1365289707 [11] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:26:16,303 -1365289706 [11] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:26:16,305 -1365289705 [11] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-20 10:26:16,305 -1365289704 [11] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-20 10:26:16,306 -1365289703 [7] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-20 10:26:17,934 -1365289702 [7] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 10:36:50,410 -1365289701 [41] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 15
+2026-01-20 10:36:50,411 -1365289700 [41] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:36:50,509 -1365289699 [42] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 10:36:50,536 -1365289698 [42] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:36:50,537 -1365289697 [42] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:36:50,537 -1365289696 [42] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 10:36:55,280 -1365289695 [43] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:43:12,730 -1365289694 [37] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 16
+2026-01-20 10:43:12,734 -1365289693 [37] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:43:12,819 -1365289692 [49] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 10:43:12,886 -1365289691 [49] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:43:12,887 -1365289690 [49] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:43:12,887 -1365289689 [49] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 10:43:15,650 -1365289688 [28] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:49:13,964 -1365289687 [11] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 17
+2026-01-20 10:49:13,964 -1365289686 [11] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:49:14,042 -1365289685 [8] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 10:49:14,141 -1365289684 [8] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:49:14,141 -1365289683 [8] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:49:14,141 -1365289682 [8] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 10:49:16,006 -1365289681 [11] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:50:05,347 -1365289680 [7] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 18
+2026-01-20 10:50:13,124 -1365289679 [32] INFORMATION All WebAdapter - Событие произошло 1 раз:
+Модуль успешно остановлен
+2026-01-20 10:50:13,124 -1365289678 [32] WARNING Connections CpBroker [CredentialBroker] - Событие произошло 1 раз:
+Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:50:13,125 -1365289677 [7] INFORMATION Apply ModuleMetadataHandler - Событие произошло 1 раз:
+Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:50:13,125 -1365289676 [32] INFORMATION All WebAdapter - Событие произошло 1 раз:
+Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:50:13,125 -1365289675 [32] INFORMATION All WebAdapter - Событие произошло 1 раз:
+Сервис успешно перезапущен с новыми метаданными
+2026-01-20 10:50:13,125 -1365289674 [32] INFORMATION All WebAdapter - Событие произошло 1 раз:
+Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:51:02,064 -1365289673 [8] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 10:51:02,089 -1365289672 [8] INFORMATION All Main - Идентификатор текущего процесса: 20136
+2026-01-20 10:51:02,090 -1365289671 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 10:51:02,755 -1365289670 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:07,786 -1365289669 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 10:51:07,793 -1365289668 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:12,783 -1365289667 [8] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 10:51:12,783 -1365289666 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:12,792 -1365289665 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:13,631 -1365289664 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 18
+2026-01-20 10:51:13,660 -1365289663 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:51:13,701 -1365289662 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 10:51:13,742 -1365289661 [16] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 10:51:14,273 -1365289660 [7] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 10:51:14,837 -1365289659 [7] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:51:14,838 -1365289658 [7] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:51:14,845 -1365289657 [7] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-20 10:51:14,845 -1365289656 [7] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-20 10:51:14,846 -1365289655 [11] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-20 10:51:17,175 -1365289654 [11] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 10:51:17,211 -1365289653 [11] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-20 10:51:32,806 -1365289652 [14] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:54:47,110 -1365289651 [27] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 19
+2026-01-20 10:54:47,112 -1365289650 [27] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:54:47,234 -1365289649 [26] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 10:54:47,289 -1365289648 [26] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:54:47,289 -1365289647 [26] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:54:47,289 -1365289646 [26] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 10:54:54,185 -1365289645 [30] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:56:11,617 -1365289644 [36] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 20
+2026-01-20 10:56:11,617 -1365289643 [36] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 10:56:11,695 -1365289642 [35] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 10:56:11,768 -1365289641 [35] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 10:56:11,768 -1365289640 [35] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 10:56:11,768 -1365289639 [35] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 10:56:14,271 -1365289638 [31] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:15:57,039 -1365289637 [9] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 21
+2026-01-20 11:15:57,041 -1365289636 [9] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 11:15:57,189 -1365289635 [41] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 11:15:57,280 -1365289634 [41] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 11:15:57,280 -1365289633 [41] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 11:15:57,280 -1365289632 [41] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 11:16:05,573 -1365289631 [41] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:18:21,636 -1365289630 [3] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 22
+2026-01-20 11:18:21,636 -1365289629 [3] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 11:18:21,810 -1365289628 [3] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 11:18:21,879 -1365289627 [3] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 11:18:21,879 -1365289626 [3] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 11:18:21,879 -1365289625 [3] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 11:18:25,737 -1365289624 [27] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:20:49,270 -1365289623 [3] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 23
+2026-01-20 11:20:49,270 -1365289622 [3] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 11:20:49,358 -1365289621 [43] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 11:20:49,423 -1365289620 [43] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 11:20:49,423 -1365289619 [43] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 11:20:49,423 -1365289618 [43] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 11:20:55,898 -1365289617 [39] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:21:13,581 -1365289616 [16] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 24
+2026-01-20 11:21:13,581 -1365289615 [16] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 11:21:13,720 -1365289614 [43] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 11:21:13,776 -1365289613 [43] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 11:21:13,776 -1365289612 [43] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 11:21:13,776 -1365289611 [43] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-20 11:21:15,926 -1365289610 [48] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 14:33:16,138 -1365289609 [82] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-20 14:33:18,413 -1365289608 [82] INFORMATION Queues AdapterQueue - Прекращение загрузки сообщений с узла для RestIn
+2026-01-20 14:33:18,443 -1365289607 [74] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:18,654 -1365289606 [74] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:18,655 -1365289605 [74] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:18,695 -1365289604 [74] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:18,723 -1365289603 [74] INFORMATION States AdapterUnit - Установлено новое состояние Останавливается. Состояние до изменения: Рабочее состояние
+2026-01-20 14:33:18,773 -1365289602 [74] INFORMATION All AdapterUnit - Все компоненты остановлены
+2026-01-20 14:33:18,773 -1365289601 [74] INFORMATION All AdapterModule[RestIn] - Адаптер успешно остановлен
+2026-01-20 14:33:18,798 -1365289600 [25] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-20 14:33:18,804 -1365289599 [74] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-20 14:33:18,805 -1365289598 [74] INFORMATION All AdapterService - Модуль остановлен
+2026-01-20 14:33:20,663 -1365289597 [9] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 14:33:20,689 -1365289596 [9] INFORMATION All Main - Идентификатор текущего процесса: 19632
+2026-01-20 14:33:20,690 -1365289595 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 14:33:21,509 -1365289594 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:23,106 -1365289593 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:23,113 -1365289592 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:23,116 -1365289591 [9] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:25,423 -1365289590 [12] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 24
+2026-01-20 14:33:25,551 -1365289589 [12] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 14:33:25,663 -1365289588 [12] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 14:33:25,801 -1365289587 [11] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 14:33:26,944 -1365289586 [12] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 14:33:27,691 -1365289585 [12] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 14:33:27,691 -1365289584 [12] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 14:33:27,695 -1365289583 [12] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-20 14:33:27,695 -1365289582 [12] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-20 14:33:27,696 -1365289581 [8] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-20 14:33:30,771 -1365289580 [12] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 14:57:29,463 -1365289579 [8] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 14:57:29,523 -1365289578 [8] INFORMATION All Main - Идентификатор текущего процесса: 9932
+2026-01-20 14:57:29,524 -1365289577 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 14:57:30,517 -1365289576 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:30,525 -1365289575 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:32,409 -1365289574 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:32,413 -1365289573 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:34,908 -1365289572 [15] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 24
+2026-01-20 14:57:34,965 -1365289571 [15] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-20 14:57:35,155 -1365289570 [15] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 14:57:35,306 -1365289569 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 14:57:36,296 -1365289568 [15] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 14:57:37,143 -1365289567 [15] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-20 14:57:37,143 -1365289566 [15] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-20 14:57:37,147 -1365289565 [15] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-20 14:57:37,148 -1365289564 [15] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-20 14:57:37,154 -1365289563 [7] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-20 14:57:39,691 -1365289562 [13] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается

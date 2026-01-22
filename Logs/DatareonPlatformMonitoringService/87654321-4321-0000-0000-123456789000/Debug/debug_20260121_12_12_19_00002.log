@@ -1,0 +1,8 @@
+﻿2026-01-21 12:12:19,679 -1994421020 [8] INFORMATION All Main - Assembly: DatareonPlatformMonitoringService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:19,706 -1994421019 [8] INFORMATION All Main - Идентификатор текущего процесса: 5460
+2026-01-21 12:12:19,707 -1994421018 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:19,713 -1994421017 [8] ERROR All Main - Процесс DatareonPlatformMonitoringService уже запущен
+2026-01-21 12:12:27,149 -1994421016 [7] INFORMATION All Main - Assembly: DatareonPlatformMonitoringService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:27,171 -1994421015 [7] INFORMATION All Main - Идентификатор текущего процесса: 7900
+2026-01-21 12:12:27,172 -1994421014 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:27,178 -1994421013 [7] ERROR All Main - Процесс DatareonPlatformMonitoringService уже запущен

@@ -9,7 +9,7 @@
   "Name": "Страница3",
   "Description": "",
   "Comment": "Автоматически сгенерированный объект конфигурации",
-  "Version": 10,
+  "Version": 12,
   "FieldsFromGlobalBusiness": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
   }

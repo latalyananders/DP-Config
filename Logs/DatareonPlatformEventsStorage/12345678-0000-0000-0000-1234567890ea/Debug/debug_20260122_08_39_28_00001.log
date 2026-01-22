@@ -1,0 +1,89 @@
+﻿2026-01-22 08:39:28,585 1893512356 [36] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-22 08:39:29,033 1893512357 [14] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:29,035 1893512358 [14] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:29,037 1893512359 [14] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:29,038 1893512360 [14] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:29,146 1893512361 [14] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:29,146 1893512362 [14] INFORMATION All ModuleService - Модуль остановлен
+2026-01-22 08:39:35,047 1893512363 [8] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:35,074 1893512364 [8] INFORMATION All Main - Идентификатор текущего процесса: 20908
+2026-01-22 08:39:35,074 1893512365 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:39,762 1893512366 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,781 1893512367 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,799 1893512368 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,847 1893512369 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:40,615 1893512370 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:41,352 1893512371 [11] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-22 08:39:41,393 1893512372 [11] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-22 08:39:41,862 1893512373 [8] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-22 08:39:41,907 1893512374 [8] INFORMATION States EventsStorageModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-22 08:39:41,924 1893512375 [8] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformMdmUI [d987104b-6812-4a38-aa5a-a44cd4cc91fe]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-22 08:39:42,441 1893512376 [8] INFORMATION All EventsStorageApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 08:39:42,738 1893512377 [8] INFORMATION All EventsStorageApi - Веб-сервис узла успешно запущен по адресу: https://NGaranina:7209
+2026-01-22 08:39:42,738 1893512378 [8] INFORMATION All EventsStorageApi - Swagger веб-сервиса узла успешно запущен по адресу: https://NGaranina:7209/swagger
+2026-01-22 08:39:42,748 1893512379 [8] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7217/] - Запуск точки подключения (Endpoint=0.0.0.0:7217)
+2026-01-22 08:39:42,752 1893512380 [8] INFORMATION Connections CpBroker [EventsStorage] - Брокер точек подключения запущен
+2026-01-22 08:39:42,756 1893512381 [8] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-22 08:39:42,766 1893512382 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:45,245 1893512383 [8] INFORMATION States EventsStorageModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-22 08:39:45,295 1893512384 [8] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 08:39:49,790 1893512385 [17] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-22 08:39:49,827 1893512386 [9] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 08:39:53,248 1893512387 [13] INFORMATION Connections PipeServer[dt_platform_eventstoragepipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_eventstoragepipeserver
+2026-01-22 08:39:53,268 1893512388 [13] INFORMATION Connections dt_platform_EventStorageServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:40:35,022 1893512389 [8] WARNING Diagnostic DiagnosticComponentModuleService - Событие произошло 1 раз:
+Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 09:00:00,061 1893512390 [38] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-23 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformMdmUI [d987104b-6812-4a38-aa5a-a44cd4cc91fe]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-22 09:31:59,494 1893512391 [15] INFORMATION EventsStorage EventsCollector - Обновление параметров сборки событий
+2026-01-22 09:31:59,496 1893512392 [15] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformMdmUI [d987104b-6812-4a38-aa5a-a44cd4cc91fe]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-22 09:31:59,514 1893512393 [15] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-22 09:31:59,568 1893512394 [15] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 31
+2026-01-22 09:31:59,570 1893512395 [15] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-22 09:32:03,722 1893512396 [81] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась

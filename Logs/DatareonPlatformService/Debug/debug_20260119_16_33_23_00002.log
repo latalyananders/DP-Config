@@ -1,0 +1,399 @@
+﻿2026-01-19 16:33:23,615 105206556 [1] INFORMATION All Main - Assembly: DatareonPlatformService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:33:23,631 105206557 [1] INFORMATION All Main - Идентификатор текущего процесса: 8916
+2026-01-19 16:33:23,795 105206558 [6] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения запущен
+2026-01-19 16:33:23,796 105206559 [6] INFORMATION All PlatformValidationService - Запуск PlatformValidationService
+2026-01-19 16:33:23,807 105206560 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности основных файлов
+2026-01-19 16:33:24,185 105206561 [6] INFORMATION All PlatformValidationService - Проверка целостности основных файлов завершена успешно
+2026-01-19 16:33:24,186 105206562 [6] INFORMATION All PlatformValidationService - PlatformValidationService запущен
+2026-01-19 16:33:24,259 105206563 [6] WARNING All StartNodeService - Произошла ошибка при запуске процесса для Node: System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101.json' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at DT.NodeManager.ArgumentsFactory.CreateNodeManagerCommand(NodeManagerConfig nmConfig, Guid sessionId)
+   at DT.NodeManager.StartNodeService.StartService(NodeManagerConfig nmConfig, Boolean restart)
+2026-01-19 16:33:24,263 105206564 [6] INFORMATION All NodeManagerHost - Менеджер узлов полностью запущен
+2026-01-19 16:33:24,296 105206565 [12] ERROR All NodeManagerActorService - Не удалось запустить сервер управления
+Adk.Net2.Exceptions.TransportException: Не удалось отправить сообщение клиенту 12345678-0000-0000-0000-123456789101, т.к. клиент ещё не подключен. Id=46cd5147-c7e3-4b91-95b9-4f7c9e367266,StreamId=00000000-0000-0000-0000-000000000000,MessageType=Dt-ServiceFailedStart,BodySize=0,Properties=[NodeId = 12345678-0000-0000-0000-123456789101; ModuleId = 00000000-6a06-4239-bb04-fb60f8603770; Error = System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\Datareon\Platform\ClusterConf...; Dt-LastRequestTime = 01/19/2026 12:33:24; EntityType = 11; ]
+   at DT.NodeManager.StartNodeService.SendStartErrorMessage(NodeManagerConfig nmConfig, ObjectType objectType, Guid id, Exception ex)
+   at DT.NodeManager.StartNodeService.Start(NodeModule module, Boolean restart)
+   at DT.NodeManager.NodeManagerActorService.StartControlServerAsync(CancellationToken token, Boolean isRestart)
+   at DT.NodeManager.NodeManagerActorService.<Start>b__52_0()
+2026-01-19 16:33:54,187 105206566 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности файлов
+2026-01-19 16:34:04,236 105206567 [20] INFORMATION All PlatformValidationService - PlatformValidationService успешно остановлен
+2026-01-19 16:34:04,237 105206568 [20] WARNING All NodesObserver - Остановка при не запущенном мониторинге узлов.
+2026-01-19 16:34:04,240 105206569 [4] INFORMATION All PlatformValidationService - Проверка целостности файлов завершена успешно
+2026-01-19 16:34:04,251 105206570 [20] WARNING All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 не запущен
+2026-01-19 16:34:04,261 105206571 [20] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения остановлен
+2026-01-19 16:34:04,261 105206572 [20] INFORMATION All NodeManagerActorService - Хост менеджера узла успешно остановлен
+2026-01-19 16:34:04,277 105206573 [20] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Останов подключения
+2026-01-19 16:34:04,278 105206574 [20] INFORMATION All NodeManagerHost - Менеджер узлов полностью остановлен
+2026-01-19 16:34:04,278 105206575 [1] INFORMATION All Main - Завершение работы приложения
+2026-01-19 16:34:06,667 105206576 [1] INFORMATION All Main - Assembly: DatareonPlatformService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:34:06,687 105206577 [1] INFORMATION All Main - Идентификатор текущего процесса: 22328
+2026-01-19 16:34:06,861 105206578 [6] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения запущен
+2026-01-19 16:34:06,861 105206579 [6] INFORMATION All PlatformValidationService - Запуск PlatformValidationService
+2026-01-19 16:34:06,871 105206580 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности основных файлов
+2026-01-19 16:34:07,244 105206581 [6] INFORMATION All PlatformValidationService - Проверка целостности основных файлов завершена успешно
+2026-01-19 16:34:07,245 105206582 [6] INFORMATION All PlatformValidationService - PlatformValidationService запущен
+2026-01-19 16:34:07,356 105206583 [6] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 успешно запущен
+2026-01-19 16:34:07,358 105206584 [6] INFORMATION All StartNodeService - Процесс для Node запущен c параметрами -id="12345678-0000-0000-0000-123456789101" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101-local.json". Идентификатор запущенного процесса 3176.
+2026-01-19 16:34:07,359 105206585 [6] INFORMATION All NodeManagerHost - Менеджер узлов полностью запущен
+2026-01-19 16:34:07,400 105206586 [12] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 успешно запущен
+2026-01-19 16:34:07,401 105206587 [12] INFORMATION All StartNodeService - Процесс  для узла [00000000-6a06-4239-bb04-fb60f8603770, Control Server] запущен c параметрами -id="00000000-6a06-4239-bb04-fb60f8603770" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770-local.json". Идентификатор запущенного процесса 5784.
+2026-01-19 16:34:07,401 105206588 [12] INFORMATION All NodeManagerActorService - Сервер управления успешно запущен
+2026-01-19 16:34:07,454 105206589 [12] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 успешно запущен
+2026-01-19 16:34:07,455 105206590 [12] INFORMATION All StartNodeService - Процесс  для узла [87654321-4321-0000-0000-123456789000, СервисМониторинга] запущен c параметрами -id="87654321-4321-0000-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000-local.json". Идентификатор запущенного процесса 23072.
+2026-01-19 16:34:07,457 105206591 [12] INFORMATION All EventsStorageObserver - Успешно запущен
+2026-01-19 16:34:07,481 105206592 [12] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-19 16:34:07,481 105206593 [12] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 16968.
+2026-01-19 16:34:07,518 105206594 [12] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-19 16:34:07,518 105206595 [12] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 9368.
+2026-01-19 16:34:07,531 105206596 [12] INFORMATION All ControlServerMonitor - Пинги выключены, т.к пустой список серверов управления
+2026-01-19 16:34:07,534 105206597 [12] INFORMATION All ControlServerMonitor - ControlServerMonitor запущен
+2026-01-19 16:34:08,282 105206598 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:34:09,148 105206599 [4] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:34:09,506 105206600 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:34:09,888 105206601 [6] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-123456789101, NGaranina-NM, DatareonPlatformNode]
+2026-01-19 16:34:10,063 105206602 [10] INFORMATION All ConnectServerHandler - Подключен узел Control Server [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-19 16:34:10,480 105206603 [10] INFORMATION All ConnectServerHandler - Подключен узел NM Node [12345678-0000-0000-0000-123456789101]
+2026-01-19 16:34:18,347 105206604 [11] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:34:18,369 105206605 [10] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:34:18,753 105206606 [10] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:34:18,763 105206607 [10] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:34:19,204 105206608 [6] INFORMATION All ConnectServerHandler - Подключен узел СервисМониторинга [87654321-4321-0000-0000-123456789000]
+2026-01-19 16:34:19,204 105206609 [19] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-19 16:34:20,739 105206610 [20] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:34:23,374 105206611 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:34:23,701 105206612 [11] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:34:24,131 105206613 [19] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-19 16:34:37,253 105206614 [12] INFORMATION All PlatformValidationService - Запуск проверки целостности файлов
+2026-01-19 16:34:42,901 105206615 [14] INFORMATION All PlatformValidationService - PlatformValidationService успешно остановлен
+2026-01-19 16:34:42,901 105206616 [14] INFORMATION All ControlServerMonitor - ControlServerMonitor остановлен
+2026-01-19 16:34:42,902 105206617 [27] INFORMATION All PlatformValidationService - Проверка целостности файлов завершена успешно
+2026-01-19 16:34:42,903 105206618 [14] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-19 16:34:42,994 105206619 [27] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-19 16:34:43,002 105206620 [27] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-123456789101, NGaranina-NM, DatareonPlatformNode]
+2026-01-19 16:34:43,003 105206621 [27] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,011 105206622 [16] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 PID=3176 завершился с кодом 0
+2026-01-19 16:34:43,017 105206623 [14] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-123456789101
+2026-01-19 16:34:43,025 105206624 [14] WARNING All StopNodeService - Попытка принудительной остановки сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:34:43,025 105206625 [27] WARNING All StopNodeService - Попытка принудительной остановки сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:34:43,025 105206626 [20] WARNING All StopNodeService - Попытка принудительной остановки сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:34:43,025 105206627 [6] WARNING All StopNodeService - Попытка принудительной остановки сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-19 16:34:43,079 105206628 [8] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-19 16:34:43,080 105206629 [8] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:34:43,080 105206630 [8] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,080 105206631 [10] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,081 105206632 [10] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:34:43,083 105206633 [19] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,083 105206634 [19] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:34:43,099 105206635 [18] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 PID=23072 завершился с кодом 0
+2026-01-19 16:34:43,099 105206636 [14] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:34:43,101 105206637 [11] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,101 105206638 [11] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:34:43,101 105206639 [10] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,105 105206640 [16] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=16968 завершился с кодом 0
+2026-01-19 16:34:43,105 105206641 [20] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:34:43,124 105206642 [16] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 PID=5784 завершился с кодом 0
+2026-01-19 16:34:43,124 105206643 [6] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-19 16:34:43,130 105206644 [16] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea PID=9368 завершился с кодом 0
+2026-01-19 16:34:43,131 105206645 [27] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:34:43,134 105206646 [14] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,134 105206647 [14] INFORMATION All NodeManagerActorService - Хост менеджера узла успешно остановлен
+2026-01-19 16:34:43,152 105206648 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Останов подключения
+2026-01-19 16:34:43,153 105206649 [14] INFORMATION All NodeManagerHost - Менеджер узлов полностью остановлен
+2026-01-19 16:34:43,154 105206650 [1] INFORMATION All Main - Завершение работы приложения
+2026-01-19 16:36:32,045 105206651 [1] INFORMATION All Main - Assembly: DatareonPlatformService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:36:32,079 105206652 [1] INFORMATION All Main - Идентификатор текущего процесса: 11260
+2026-01-19 16:36:32,461 105206653 [6] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения запущен
+2026-01-19 16:36:32,461 105206654 [6] INFORMATION All PlatformValidationService - Запуск PlatformValidationService
+2026-01-19 16:36:32,491 105206655 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности основных файлов
+2026-01-19 16:36:33,259 105206656 [6] INFORMATION All PlatformValidationService - Проверка целостности основных файлов завершена успешно
+2026-01-19 16:36:33,265 105206657 [6] INFORMATION All PlatformValidationService - PlatformValidationService запущен
+2026-01-19 16:36:33,421 105206658 [6] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 успешно запущен
+2026-01-19 16:36:33,424 105206659 [6] INFORMATION All StartNodeService - Процесс для Node запущен c параметрами -id="12345678-0000-0000-0000-123456789101" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101-local.json". Идентификатор запущенного процесса 20640.
+2026-01-19 16:36:33,425 105206660 [6] INFORMATION All NodeManagerHost - Менеджер узлов полностью запущен
+2026-01-19 16:36:33,467 105206661 [12] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 успешно запущен
+2026-01-19 16:36:33,467 105206662 [12] INFORMATION All StartNodeService - Процесс  для узла [00000000-6a06-4239-bb04-fb60f8603770, Control Server] запущен c параметрами -id="00000000-6a06-4239-bb04-fb60f8603770" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770-local.json". Идентификатор запущенного процесса 23124.
+2026-01-19 16:36:33,467 105206663 [12] INFORMATION All NodeManagerActorService - Сервер управления успешно запущен
+2026-01-19 16:36:33,538 105206664 [12] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 успешно запущен
+2026-01-19 16:36:33,539 105206665 [12] INFORMATION All StartNodeService - Процесс  для узла [87654321-4321-0000-0000-123456789000, СервисМониторинга] запущен c параметрами -id="87654321-4321-0000-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000-local.json". Идентификатор запущенного процесса 23460.
+2026-01-19 16:36:33,541 105206666 [12] INFORMATION All EventsStorageObserver - Успешно запущен
+2026-01-19 16:36:33,576 105206667 [12] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-19 16:36:33,576 105206668 [12] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 11844.
+2026-01-19 16:36:33,630 105206669 [12] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-19 16:36:33,630 105206670 [12] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 15760.
+2026-01-19 16:36:33,637 105206671 [12] INFORMATION All ControlServerMonitor - Пинги выключены, т.к пустой список серверов управления
+2026-01-19 16:36:33,638 105206672 [12] INFORMATION All ControlServerMonitor - ControlServerMonitor запущен
+2026-01-19 16:36:34,577 105206673 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:36:35,759 105206674 [11] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:36:36,891 105206675 [14] INFORMATION All ConnectServerHandler - Подключен узел Control Server [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-19 16:36:37,071 105206676 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:36:37,679 105206677 [14] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-123456789101, NGaranina-NM, DatareonPlatformNode]
+2026-01-19 16:36:38,405 105206678 [11] INFORMATION All ConnectServerHandler - Подключен узел NM Node [12345678-0000-0000-0000-123456789101]
+2026-01-19 16:36:44,690 105206679 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:36:44,818 105206680 [11] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:36:45,136 105206681 [11] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:36:45,269 105206682 [11] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:36:45,656 105206683 [11] INFORMATION All ConnectServerHandler - Подключен узел СервисМониторинга [87654321-4321-0000-0000-123456789000]
+2026-01-19 16:36:45,796 105206684 [11] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-19 16:36:48,699 105206685 [15] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:36:49,847 105206686 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-19 16:36:50,264 105206687 [14] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:36:50,753 105206688 [14] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-19 16:37:03,278 105206689 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности файлов
+2026-01-19 16:37:17,337 105206690 [8] INFORMATION All PlatformValidationService - Проверка целостности файлов завершена успешно
+2026-01-19 16:37:32,008 105206691 [8] WARNING All GetRunningServicesHandler - Событие произошло 8 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:37:32,010 105206692 [12] INFORMATION All EventsStorageObserver - Событие произошло 2 раз:
+Успешно запущен
+2026-01-19 16:37:33,832 105206693 [20] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:38:32,016 105206694 [21] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:38:34,004 105206695 [20] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:39:32,017 105206696 [20] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:39:34,214 105206697 [20] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:40:32,038 105206698 [34] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:40:34,345 105206699 [41] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:41:32,058 105206700 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:41:34,513 105206701 [37] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:42:32,071 105206702 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:42:34,672 105206703 [43] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:43:32,089 105206704 [43] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:43:34,786 105206705 [38] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:44:32,090 105206706 [43] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:44:34,959 105206707 [49] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:45:32,104 105206708 [49] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:45:35,127 105206709 [47] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:46:32,115 105206710 [49] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:46:35,265 105206711 [17] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:47:32,136 105206712 [17] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:47:35,431 105206713 [17] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:48:32,149 105206714 [31] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:48:35,562 105206715 [38] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:49:32,153 105206716 [51] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:49:35,737 105206717 [31] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:50:32,171 105206718 [53] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:50:35,865 105206719 [53] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:51:32,181 105206720 [53] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:51:36,025 105206721 [53] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:52:32,196 105206722 [31] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:52:36,186 105206723 [9] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:53:32,214 105206724 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:53:36,336 105206725 [49] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:54:32,293 105206726 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:54:36,536 105206727 [17] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:55:32,370 105206728 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:55:36,738 105206729 [36] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:56:32,448 105206730 [9] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:56:36,972 105206731 [9] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:57:32,530 105206732 [56] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:57:37,186 105206733 [41] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:58:32,602 105206734 [36] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:58:37,360 105206735 [3] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 16:59:32,616 105206736 [41] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 16:59:37,479 105206737 [60] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:00:32,618 105206738 [3] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:00:37,598 105206739 [47] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:01:32,632 105206740 [51] WARNING All GetRunningServicesHandler - Событие произошло 10 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:01:32,760 105206741 [51] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:02:32,647 105206742 [65] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:02:32,936 105206743 [65] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:03:32,657 105206744 [70] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:03:33,105 105206745 [64] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:04:32,675 105206746 [73] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:04:33,246 105206747 [73] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:05:32,679 105206748 [73] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:05:33,396 105206749 [68] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:06:32,696 105206750 [28] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:06:33,524 105206751 [28] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:07:32,696 105206752 [67] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:07:33,663 105206753 [72] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:08:32,703 105206754 [67] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:08:33,794 105206755 [28] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:09:32,712 105206756 [48] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:09:33,951 105206757 [28] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:10:32,713 105206758 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:10:34,107 105206759 [46] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:11:32,725 105206760 [28] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:11:34,237 105206761 [28] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:12:32,748 105206762 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:12:34,386 105206763 [48] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:13:32,777 105206764 [48] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:13:34,549 105206765 [23] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:14:32,802 105206766 [19] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:14:34,641 105206767 [15] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:15:32,824 105206768 [20] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:15:34,805 105206769 [18] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:16:32,832 105206770 [3] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:16:34,925 105206771 [3] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:17:32,845 105206772 [63] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:17:35,056 105206773 [39] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:18:32,852 105206774 [64] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:18:35,178 105206775 [26] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:19:32,856 105206776 [23] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:19:35,276 105206777 [14] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:20:32,867 105206778 [19] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:20:35,430 105206779 [23] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:21:32,867 105206780 [19] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:21:35,572 105206781 [65] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:22:32,868 105206782 [23] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:22:35,711 105206783 [48] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:23:32,882 105206784 [22] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:23:35,836 105206785 [48] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:24:32,892 105206786 [20] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:24:35,946 105206787 [20] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:25:32,902 105206788 [28] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:25:36,090 105206789 [28] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:26:32,915 105206790 [42] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:26:36,210 105206791 [28] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:27:32,928 105206792 [34] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:27:36,320 105206793 [40] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:28:32,931 105206794 [34] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:28:36,462 105206795 [45] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:29:32,945 105206796 [41] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:29:36,605 105206797 [45] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:30:32,960 105206798 [42] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:30:36,741 105206799 [8] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:31:32,975 105206800 [21] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:31:36,900 105206801 [20] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:32:32,976 105206802 [44] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:32:37,046 105206803 [31] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:33:32,976 105206804 [8] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:33:37,196 105206805 [8] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:34:32,983 105206806 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:34:37,336 105206807 [38] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:35:32,995 105206808 [17] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:35:37,479 105206809 [38] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:36:33,007 105206810 [17] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:36:37,585 105206811 [52] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:37:33,010 105206812 [56] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:37:37,743 105206813 [61] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:38:33,018 105206814 [51] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:38:37,901 105206815 [61] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:39:33,032 105206816 [59] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:39:38,038 105206817 [59] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:40:33,042 105206818 [76] WARNING All GetRunningServicesHandler - Событие произошло 10 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:40:33,178 105206819 [75] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:41:33,054 105206820 [66] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:41:33,323 105206821 [56] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:42:33,059 105206822 [76] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:42:33,460 105206823 [8] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:43:33,059 105206824 [48] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:43:33,633 105206825 [78] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:44:33,071 105206826 [8] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:44:33,763 105206827 [23] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:45:33,086 105206828 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:45:33,900 105206829 [6] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:46:33,087 105206830 [49] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:46:34,070 105206831 [24] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:47:33,100 105206832 [48] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:47:34,179 105206833 [48] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:48:33,105 105206834 [39] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:48:34,340 105206835 [50] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:49:33,106 105206836 [78] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:49:34,448 105206837 [14] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:50:33,112 105206838 [28] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:50:34,600 105206839 [60] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:51:33,113 105206840 [63] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:51:34,739 105206841 [50] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:52:33,113 105206842 [12] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:52:34,865 105206843 [12] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:53:33,126 105206844 [78] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:53:34,956 105206845 [11] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:54:33,127 105206846 [8] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:54:35,084 105206847 [46] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:55:33,130 105206848 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:55:35,226 105206849 [46] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:56:33,130 105206850 [46] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:56:35,392 105206851 [26] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:57:33,149 105206852 [72] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:57:35,540 105206853 [59] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:58:33,178 105206854 [8] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-19 17:58:35,706 105206855 [71] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-19 17:59:33,236 105206856 [27] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.

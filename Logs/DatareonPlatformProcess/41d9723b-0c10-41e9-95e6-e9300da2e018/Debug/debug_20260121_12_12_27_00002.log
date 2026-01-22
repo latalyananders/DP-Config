@@ -1,0 +1,4 @@
+﻿2026-01-21 12:12:27,100 -1931443244 [7] INFORMATION All Main - Assembly: DatareonPlatformProcess, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:27,130 -1931443243 [7] INFORMATION All Main - Идентификатор текущего процесса: 14544
+2026-01-21 12:12:27,131 -1931443242 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:27,138 -1931443241 [7] ERROR All Main - Процесс DatareonPlatformProcess уже запущен

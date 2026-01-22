@@ -1,0 +1,798 @@
+﻿2026-01-19 16:07:51,210 748597450 [9] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:07:51,238 748597451 [9] INFORMATION All Main - Идентификатор текущего процесса: 16568
+2026-01-19 16:07:51,239 748597452 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:07:51,491 748597453 [9] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:07:51,502 748597454 [9] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:07:51,503 748597455 [9] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:07:57,424 748597456 [9] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:07:57,425 748597457 [9] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0469945
+2026-01-19 16:07:57,496 748597458 [9] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:07:57,496 748597459 [9] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:07:57,547 748597460 [9] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:07:57,908 748597461 [9] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:07:58,656 748597462 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:07:59,006 748597463 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:08:04,029 748597464 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:08:04,031 748597465 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:08:04,034 748597466 [15] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:08:04,038 748597467 [9] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:08:04,070 748597468 [9] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:08:04,070 748597469 [9] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0317535
+2026-01-19 16:08:04,563 748597470 [18] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:08:04,563 748597471 [18] INFORMATION Queues Other - Успешно запущено, время 00:00:00.4715097
+2026-01-19 16:08:04,568 748597472 [9] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:08:04,568 748597473 [9] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.4768412
+2026-01-19 16:08:04,595 748597474 [9] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:08:04,685 748597475 [9] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:08:04,693 748597476 [9] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:08:04,695 748597477 [9] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:08:07,336 748597478 [31] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:08:07,336 748597479 [18] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:08:07,349 748597480 [30] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:08:07,363 748597481 [31] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:08:07,363 748597482 [35] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:08:07,671 748597483 [17] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:08:09,034 748597484 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:08:09,035 748597485 [32] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:08:09,041 748597486 [30] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:08:14,420 748597487 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:08:14,428 748597488 [18] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:08:14,428 748597489 [15] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:08:14,960 748597490 [36] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:08:14,975 748597491 [32] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:08:14,977 748597492 [32] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:10:27,386 748597493 [38] INFORMATION Queues Other - Успешно остановлено
+2026-01-19 16:10:27,386 748597494 [31] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-19 16:10:27,389 748597495 [31] INFORMATION All NodeCounterService - Компонент успешно остановлен
+2026-01-19 16:10:27,393 748597496 [31] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-19 16:10:27,398 748597497 [8] INFORMATION Queues Q12345_11112 - Успешно остановлено
+2026-01-19 16:10:27,406 748597498 [31] INFORMATION None Q55554_55554 - Успешно остановлено
+2026-01-19 16:10:27,423 748597499 [31] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,426 748597500 [31] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,426 748597501 [30] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,426 748597502 [38] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,426 748597503 [32] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,426 748597504 [11] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,426 748597505 [16] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,427 748597506 [32] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,427 748597507 [38] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,427 748597508 [31] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,427 748597509 [11] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,427 748597510 [16] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,427 748597511 [30] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,428 748597512 [31] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,428 748597513 [31] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно остановлен
+2026-01-19 16:10:27,428 748597514 [31] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:10:31,323 748597515 [9] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:10:31,346 748597516 [9] INFORMATION All Main - Идентификатор текущего процесса: 23900
+2026-01-19 16:10:31,346 748597517 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:10:31,586 748597518 [9] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:10:31,593 748597519 [9] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:10:31,593 748597520 [9] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:10:32,858 748597521 [9] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:10:32,859 748597522 [9] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0324816
+2026-01-19 16:10:32,961 748597523 [9] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:10:32,961 748597524 [9] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:10:32,988 748597525 [9] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:10:33,201 748597526 [9] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:10:33,829 748597527 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:10:34,187 748597528 [15] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:10:39,208 748597529 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:10:39,210 748597530 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:10:39,212 748597531 [13] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:10:39,215 748597532 [9] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:10:39,220 748597533 [9] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:10:39,220 748597534 [9] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0032571
+2026-01-19 16:10:39,239 748597535 [11] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:10:39,240 748597536 [11] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0024704
+2026-01-19 16:10:39,240 748597537 [9] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:10:39,240 748597538 [9] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0028394
+2026-01-19 16:10:39,259 748597539 [9] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:10:39,289 748597540 [9] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:10:39,293 748597541 [9] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:10:39,294 748597542 [9] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:10:46,585 748597543 [34] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:10:46,595 748597544 [35] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:10:46,595 748597545 [16] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:10:46,619 748597546 [35] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:10:46,619 748597547 [8] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:10:46,918 748597548 [36] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:10:48,031 748597549 [33] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:10:48,032 748597550 [35] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:10:48,039 748597551 [33] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:10:53,030 748597552 [35] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:10:53,034 748597553 [35] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:10:53,034 748597554 [35] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:10:53,212 748597555 [35] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:10:53,213 748597556 [41] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:10:53,213 748597557 [33] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:15:56,120 748597558 [8] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:15:56,186 748597559 [8] INFORMATION All Main - Идентификатор текущего процесса: 10068
+2026-01-19 16:15:56,186 748597560 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:15:56,533 748597561 [8] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:15:56,584 748597562 [8] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:15:56,584 748597563 [8] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:15:59,235 748597564 [8] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:15:59,236 748597565 [8] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0486867
+2026-01-19 16:15:59,398 748597566 [8] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:15:59,398 748597567 [8] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:15:59,442 748597568 [8] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:15:59,820 748597569 [8] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:16:00,962 748597570 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:16:01,480 748597571 [9] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:16:06,525 748597572 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:16:06,527 748597573 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:16:06,529 748597574 [12] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:16:06,533 748597575 [8] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:16:06,540 748597576 [8] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:16:06,540 748597577 [8] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0069616
+2026-01-19 16:16:06,577 748597578 [16] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:16:06,577 748597579 [8] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:16:06,577 748597580 [16] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0075835
+2026-01-19 16:16:06,577 748597581 [8] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0076607
+2026-01-19 16:16:06,615 748597582 [8] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:16:06,656 748597583 [8] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:16:06,659 748597584 [8] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:16:06,660 748597585 [8] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:16:11,510 748597586 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:16:11,529 748597587 [32] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:16:11,551 748597588 [31] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:16:11,561 748597589 [32] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:16:11,651 748597590 [31] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:16:12,001 748597591 [8] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:16:13,228 748597592 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:16:13,229 748597593 [38] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:16:13,236 748597594 [30] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:16:18,200 748597595 [39] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:16:18,209 748597596 [8] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:16:18,209 748597597 [31] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:16:18,315 748597598 [30] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:16:18,315 748597599 [38] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:16:18,315 748597600 [31] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:23:00,780 748597601 [36] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-19 16:23:00,780 748597602 [3] INFORMATION Queues Other - Успешно остановлено
+2026-01-19 16:23:00,788 748597603 [36] INFORMATION All NodeCounterService - Компонент успешно остановлен
+2026-01-19 16:23:00,795 748597604 [36] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-19 16:23:00,813 748597605 [12] INFORMATION Queues Q12345_11112 - Успешно остановлено
+2026-01-19 16:23:00,825 748597606 [36] INFORMATION None Q55554_55554 - Успешно остановлено
+2026-01-19 16:23:00,833 748597607 [18] INFORMATION All FromOtherMachineExecutor - Завершен цикл обработки сообщений
+2026-01-19 16:23:00,855 748597608 [36] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:23:00,859 748597609 [32] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,859 748597610 [30] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,859 748597611 [12] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,859 748597612 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,859 748597613 [38] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,859 748597614 [3] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597615 [38] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597616 [3] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597617 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597618 [12] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597619 [30] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597620 [32] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:00,860 748597621 [36] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения остановлен
+2026-01-19 16:23:00,860 748597622 [36] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно остановлен
+2026-01-19 16:23:00,863 748597623 [36] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:25:02,734 748597624 [8] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:25:02,793 748597625 [8] INFORMATION All Main - Идентификатор текущего процесса: 1156
+2026-01-19 16:25:02,793 748597626 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:25:03,160 748597627 [8] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:25:03,170 748597628 [8] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:25:03,171 748597629 [8] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:25:08,778 748597630 [8] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:25:08,779 748597631 [8] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0590880
+2026-01-19 16:25:08,936 748597632 [8] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:25:08,937 748597633 [8] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:25:09,004 748597634 [8] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:25:09,877 748597635 [8] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:25:11,229 748597636 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:25:12,023 748597637 [10] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:25:17,055 748597638 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:25:17,059 748597639 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:25:17,061 748597640 [10] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:25:17,065 748597641 [8] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:25:17,072 748597642 [8] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:25:17,072 748597643 [8] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0036351
+2026-01-19 16:25:17,101 748597644 [17] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:25:17,101 748597645 [8] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:25:17,101 748597646 [17] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0034565
+2026-01-19 16:25:17,101 748597647 [8] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0035322
+2026-01-19 16:25:17,140 748597648 [8] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:25:17,195 748597649 [8] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:25:17,199 748597650 [8] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:25:17,201 748597651 [8] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:25:18,942 748597652 [7] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:25:18,942 748597653 [31] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:25:18,974 748597654 [7] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:25:19,342 748597655 [7] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:25:20,743 748597656 [17] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:25:20,745 748597657 [7] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:25:20,753 748597658 [15] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:25:20,997 748597659 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:25:21,000 748597660 [6] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:25:26,527 748597661 [34] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:25:26,531 748597662 [34] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:25:26,531 748597663 [38] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:25:27,973 748597664 [38] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:25:27,974 748597665 [38] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:25:27,974 748597666 [34] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:25:49,951 748597667 [6] INFORMATION Queues Other - Успешно остановлено
+2026-01-19 16:25:49,951 748597668 [30] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-19 16:25:49,953 748597669 [30] INFORMATION All NodeCounterService - Компонент успешно остановлен
+2026-01-19 16:25:49,956 748597670 [30] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-19 16:25:49,963 748597671 [10] INFORMATION Queues Q12345_11112 - Успешно остановлено
+2026-01-19 16:25:49,983 748597672 [30] INFORMATION None Q55554_55554 - Успешно остановлено
+2026-01-19 16:25:50,001 748597673 [30] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,004 748597674 [11] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,004 748597675 [32] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,004 748597676 [16] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,004 748597677 [29] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,004 748597678 [41] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,004 748597679 [10] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597680 [16] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597681 [11] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597682 [41] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597683 [32] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597684 [29] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597685 [10] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,005 748597686 [30] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,005 748597687 [30] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно остановлен
+2026-01-19 16:25:50,006 748597688 [6] INFORMATION All FromOtherMachineExecutor - Завершен цикл обработки сообщений
+2026-01-19 16:25:50,007 748597689 [30] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:25:53,639 748597690 [8] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:25:53,670 748597691 [8] INFORMATION All Main - Идентификатор текущего процесса: 21808
+2026-01-19 16:25:53,671 748597692 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:25:53,885 748597693 [8] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:25:53,891 748597694 [8] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:25:53,892 748597695 [8] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:25:57,438 748597696 [8] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:25:57,438 748597697 [8] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0208395
+2026-01-19 16:25:57,502 748597698 [8] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:25:57,502 748597699 [8] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:25:57,537 748597700 [8] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:25:57,738 748597701 [8] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:25:58,377 748597702 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:25:58,721 748597703 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:26:03,736 748597704 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:26:03,739 748597705 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:26:03,740 748597706 [15] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:26:03,744 748597707 [8] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:26:03,747 748597708 [8] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:26:03,747 748597709 [8] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0032025
+2026-01-19 16:26:03,767 748597710 [9] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:26:03,767 748597711 [9] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0057687
+2026-01-19 16:26:03,768 748597712 [8] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:26:03,768 748597713 [8] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0059896
+2026-01-19 16:26:03,786 748597714 [8] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:26:03,821 748597715 [8] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:26:03,823 748597716 [8] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:26:03,824 748597717 [8] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:26:08,806 748597718 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:26:08,823 748597719 [30] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:26:08,834 748597720 [17] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:26:08,834 748597721 [30] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:26:08,867 748597722 [30] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:26:09,205 748597723 [33] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:26:10,566 748597724 [34] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:26:10,568 748597725 [34] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:26:10,576 748597726 [12] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:26:15,374 748597727 [17] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:26:15,383 748597728 [34] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:26:15,383 748597729 [17] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:26:15,557 748597730 [8] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:26:15,558 748597731 [8] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:26:15,558 748597732 [8] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:31:42,909 748597733 [18] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-19 16:31:42,909 748597734 [12] INFORMATION Queues Other - Успешно остановлено
+2026-01-19 16:31:42,911 748597735 [18] INFORMATION All NodeCounterService - Компонент успешно остановлен
+2026-01-19 16:31:42,914 748597736 [18] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-19 16:31:42,919 748597737 [15] INFORMATION Queues Q12345_11112 - Успешно остановлено
+2026-01-19 16:31:42,926 748597738 [18] INFORMATION None Q55554_55554 - Успешно остановлено
+2026-01-19 16:31:42,941 748597739 [18] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:31:42,944 748597740 [12] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,944 748597741 [32] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,944 748597742 [37] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,944 748597743 [15] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597744 [15] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597745 [12] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597746 [32] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597747 [37] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597748 [12] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597749 [15] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597750 [12] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,945 748597751 [15] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:42,946 748597752 [18] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения остановлен
+2026-01-19 16:31:42,946 748597753 [18] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно остановлен
+2026-01-19 16:31:42,946 748597754 [18] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:34:08,079 748597755 [8] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:34:08,109 748597756 [8] INFORMATION All Main - Идентификатор текущего процесса: 3176
+2026-01-19 16:34:08,109 748597757 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:34:08,332 748597758 [8] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:34:08,340 748597759 [8] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:34:08,340 748597760 [8] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:34:08,983 748597761 [8] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:34:08,984 748597762 [8] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0277243
+2026-01-19 16:34:09,068 748597763 [8] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:34:09,068 748597764 [8] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:34:09,102 748597765 [8] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:34:09,297 748597766 [8] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:34:10,066 748597767 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:34:10,585 748597768 [12] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:34:15,626 748597769 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:34:15,628 748597770 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:34:15,631 748597771 [9] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:34:15,635 748597772 [8] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:34:15,638 748597773 [8] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:34:15,638 748597774 [8] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0028795
+2026-01-19 16:34:15,658 748597775 [8] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:34:15,658 748597776 [17] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:34:15,658 748597777 [8] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0028415
+2026-01-19 16:34:15,659 748597778 [17] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0029040
+2026-01-19 16:34:15,679 748597779 [8] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:34:15,714 748597780 [8] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:34:15,717 748597781 [8] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:34:15,718 748597782 [8] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:34:23,357 748597783 [12] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:34:23,357 748597784 [34] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:34:23,376 748597785 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:34:23,390 748597786 [31] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:34:23,390 748597787 [34] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:34:23,701 748597788 [7] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:34:24,872 748597789 [16] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:34:24,874 748597790 [13] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:34:24,881 748597791 [16] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:34:30,000 748597792 [34] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:34:30,001 748597793 [34] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:34:30,001 748597794 [7] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:34:30,086 748597795 [33] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:34:30,087 748597796 [13] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:34:30,087 748597797 [34] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:34:42,934 748597798 [16] INFORMATION Queues Other - Успешно остановлено
+2026-01-19 16:34:42,934 748597799 [31] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-19 16:34:42,936 748597800 [31] INFORMATION All NodeCounterService - Компонент успешно остановлен
+2026-01-19 16:34:42,939 748597801 [31] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-19 16:34:42,943 748597802 [15] INFORMATION Queues Q12345_11112 - Успешно остановлено
+2026-01-19 16:34:42,951 748597803 [31] INFORMATION None Q55554_55554 - Успешно остановлено
+2026-01-19 16:34:42,971 748597804 [31] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:34:42,974 748597805 [31] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,974 748597806 [9] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,974 748597807 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,974 748597808 [8] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,974 748597809 [17] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,974 748597810 [13] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,975 748597811 [31] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,975 748597812 [9] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,975 748597813 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,975 748597814 [8] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,975 748597815 [17] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,975 748597816 [13] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:42,977 748597817 [31] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения остановлен
+2026-01-19 16:34:42,977 748597818 [31] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно остановлен
+2026-01-19 16:34:42,977 748597819 [31] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:36:34,356 748597820 [10] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:36:34,389 748597821 [10] INFORMATION All Main - Идентификатор текущего процесса: 20640
+2026-01-19 16:36:34,389 748597822 [10] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:36:34,725 748597823 [10] INFORMATION All NodeManagerService - Параметры пула потоков: max = (32767,1000), min = (8,8).
+2026-01-19 16:36:34,738 748597824 [10] INFORMATION All NodeManagerService - Роутер для маршрутов между узлами кластера не создан, т.к. узел не подключен к кластеру HasNodeId=False
+2026-01-19 16:36:34,739 748597825 [10] INFORMATION All NodeManagerService - ServiceParams: instanceId = 12345678-0000-0000-0000-123456789101, nodeName = NGaranina-NM
+2026-01-19 16:36:36,086 748597826 [10] INFORMATION Queues Q12345_11112 - Загружено сообщений 0
+2026-01-19 16:36:36,087 748597827 [10] INFORMATION Queues Q12345_11112 - Успешно запущено, время 00:00:00.0351745
+2026-01-19 16:36:36,232 748597828 [10] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-19 16:36:36,232 748597829 [10] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-19 16:36:36,270 748597830 [10] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:36:36,731 748597831 [10] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:36:37,907 748597832 [10] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:36:38,516 748597833 [11] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:36:43,531 748597834 [10] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:36:43,533 748597835 [10] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:36:43,534 748597836 [11] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-19 16:36:43,539 748597837 [10] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-19 16:36:43,551 748597838 [10] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-19 16:36:43,552 748597839 [10] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0131988
+2026-01-19 16:36:43,591 748597840 [8] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-19 16:36:43,591 748597841 [8] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0075098
+2026-01-19 16:36:43,591 748597842 [10] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-19 16:36:43,591 748597843 [10] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0076041
+2026-01-19 16:36:43,615 748597844 [10] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:36:43,676 748597845 [10] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-19 16:36:43,681 748597846 [10] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-19 16:36:43,684 748597847 [10] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-19 16:36:49,668 748597848 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:36:49,691 748597849 [35] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:36:49,791 748597850 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:36:49,794 748597851 [20] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:36:49,838 748597852 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-19 16:36:50,264 748597853 [9] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:36:51,613 748597854 [8] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:36:51,614 748597855 [33] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:36:51,621 748597856 [8] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-19 16:36:56,489 748597857 [11] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:36:56,502 748597858 [34] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:36:56,502 748597859 [18] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-19 16:36:56,698 748597860 [20] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-19 16:36:56,699 748597861 [8] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-19 16:36:56,699 748597862 [20] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 00000000-1234-5678-0000-123456789000
+2026-01-19 16:37:45,293 748597863 [4] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 9d49d512-99f3-4784-b9b1-d96bc151caeb ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:37:45,302 748597864 [18] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 2b6bce9c-97ca-4777-879c-7bd8ef68bc61 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:37:46,994 748597865 [9] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 106b68db-bfe0-465d-a806-ede620370f7c ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:37:50,036 748597866 [11] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 2a6abcde-a032-453a-862e-84c10ee5353d ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:37:54,097 748597867 [37] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 0738c2be-eb1a-47d9-8f33-e84990acd1ba ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:37:59,182 748597868 [37] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение b120ef16-4e9d-4f68-af7b-92fb821c9faa ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:38:05,266 748597869 [18] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 0979c0d4-861d-4d7d-bd16-56fcb4a0f8e2 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:38:12,361 748597870 [35] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение a227add8-b489-4cf0-85b7-6688f7309b45 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:38:20,463 748597871 [9] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение febdd3b0-4969-4830-aca1-acb6bc15a561 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:38:29,611 748597872 [33] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение de1b1b0b-e1cf-4691-9135-ea0ecb31fac7 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:38:39,773 748597873 [33] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 9a94aec3-34f3-4ecb-8c18-2845b33c59ce ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:38:50,924 748597874 [8] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 17252158-a3b5-4bd1-9cf3-7dcd65340a08 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 16:39:03,127 748597875 [10] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение ecc0dc45-c0c0-4961-b6c4-aa6e2d0cc632 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-19 17:14:57,599 748597876 [33] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение a35ab669-45a5-4a09-8031-5f638b50c3b3 ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)

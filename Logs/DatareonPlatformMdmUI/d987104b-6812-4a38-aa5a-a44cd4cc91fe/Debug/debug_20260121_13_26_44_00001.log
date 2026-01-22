@@ -1,0 +1,70 @@
+﻿2026-01-21 13:26:44,473 968746909 [8] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 13:26:44,492 968746910 [8] INFORMATION All Main - Идентификатор текущего процесса: 4416
+2026-01-21 13:26:44,492 968746911 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 13:26:45,076 968746912 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 13:26:45,083 968746913 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 13:26:46,238 968746914 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 13:26:46,256 968746915 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 13:26:46,727 968746916 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 13:26:47,074 968746917 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 28
+2026-01-21 13:26:47,110 968746918 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]
+2026-01-21 13:26:47,647 968746919 [15] INFORMATION Apply ConfigService - Для UI элемента ac84524a-bd8c-449c-a2e8-47a80792abf1 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 13:26:47,773 968746920 [15] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 13:26:48,192 968746921 [15] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:6666
+2026-01-21 13:26:48,196 968746922 [15] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 13:26:48,204 968746923 [15] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 13:26:49,523 968746924 [8] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 13:28:20,552 968746925 [23] INFORMATION Apply ConfigService - Для UI элемента ac84524a-bd8c-449c-a2e8-47a80792abf1 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 13:28:20,601 968746926 [23] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 29
+2026-01-21 13:28:20,603 968746927 [23] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]
+2026-01-21 13:28:26,359 968746928 [24] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:33:46,381 968746929 [41] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 13:33:46,383 968746930 [41] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 13:33:46,383 968746931 [41] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 13:33:46,383 968746932 [41] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 13:33:46,390 968746933 [41] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 13:33:46,390 968746934 [41] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 13:33:47,670 968746935 [9] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 13:33:47,693 968746936 [9] INFORMATION All Main - Идентификатор текущего процесса: 13008
+2026-01-21 13:33:47,693 968746937 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 13:33:48,889 968746938 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 13:33:48,894 968746939 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 13:33:50,708 968746940 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 13:33:50,753 968746941 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 13:33:50,854 968746942 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 13:33:51,359 968746943 [13] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-21 13:33:51,375 968746944 [13] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]
+2026-01-21 13:33:52,094 968746945 [12] INFORMATION Apply ConfigService - Для UI элемента ac84524a-bd8c-449c-a2e8-47a80792abf1 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 13:33:52,215 968746946 [12] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 13:33:52,812 968746947 [12] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:667
+2026-01-21 13:33:52,821 968746948 [12] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 13:33:52,824 968746949 [12] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 13:33:57,771 968746950 [16] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 14:21:13,356 968746951 [37] WARNING Connections CpBroker [ServiceBroker] - Точка подключения NMClient самостоятельно остановилась
+2026-01-21 14:21:14,966 968746952 [47] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-21 14:21:15,011 968746953 [30] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:15,012 968746954 [30] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:15,014 968746955 [30] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:15,015 968746956 [30] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:15,067 968746957 [30] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 14:21:15,067 968746958 [30] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 14:21:26,277 968746959 [8] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 14:21:26,301 968746960 [8] INFORMATION All Main - Идентификатор текущего процесса: 18980
+2026-01-21 14:21:26,301 968746961 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 14:21:27,117 968746962 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:27,129 968746963 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:28,754 968746964 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:28,778 968746965 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 14:21:29,308 968746966 [15] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 14:21:29,742 968746967 [14] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-21 14:21:29,773 968746968 [14] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]
+2026-01-21 14:21:30,427 968746969 [7] INFORMATION Apply ConfigService - Для UI элемента ac84524a-bd8c-449c-a2e8-47a80792abf1 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 14:21:30,576 968746970 [7] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 14:21:32,080 968746971 [7] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:667
+2026-01-21 14:21:32,088 968746972 [7] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 14:21:32,179 968746973 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:36,714 968746974 [8] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 15:07:33,690 968746975 [15] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа System.InvalidOperationException: Матрица доступов еще рассчитывается. Попробуйте позже
+   at DT.InternalMessageExtensions.CheckForErrors(InternalMessage response)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()

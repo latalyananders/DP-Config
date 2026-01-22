@@ -11,7 +11,7 @@
         "Name": "Поле №1",
         "Path": "Поле №1",
         "IsVisible": true,
-        "IsEditable": false,
+        "IsEditable": true,
         "PlatformTypeId": "ed6f4499-3f89-48c5-9c4f-5126a40ac8f0",
         "RefreshParentElementAfterChangeValueOn": false,
         "ProcessConfig": {
@@ -33,6 +33,16 @@
           ],
           "MappingFromProcess": null
         }
+      },
+      {
+        "$type": "DT.ClusterConfiguration.GridColumn, DT_Core",
+        "EntityId": "ae1ec622-9081-415b-a03e-a7dd3137fbee",
+        "Name": "Поле №2",
+        "Path": "Поле №2",
+        "GridColumnType": "Boolean",
+        "IsVisible": true,
+        "IsEditable": false,
+        "RefreshParentElementAfterChangeValueOn": false
       }
     ]
   },

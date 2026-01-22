@@ -9,7 +9,7 @@
   "Name": "Файл",
   "Description": "Файл",
   "Comment": "Автоматически сгенерированный объект конфигурации",
-  "Version": 25,
+  "Version": 27,
   "FieldsFromGlobalBusiness": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
   }

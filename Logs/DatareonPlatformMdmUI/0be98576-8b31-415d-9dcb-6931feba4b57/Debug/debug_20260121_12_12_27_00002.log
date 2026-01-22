@@ -1,0 +1,4 @@
+﻿2026-01-21 12:12:27,074 -2130866894 [8] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:27,107 -2130866893 [8] INFORMATION All Main - Идентификатор текущего процесса: 25068
+2026-01-21 12:12:27,107 -2130866892 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:27,113 -2130866891 [8] ERROR All Main - Процесс DatareonPlatformMdmUI уже запущен

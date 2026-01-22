@@ -1,0 +1,1056 @@
+﻿2026-01-19 16:07:51,683 2079913653 [9] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:07:51,712 2079913654 [9] INFORMATION All Main - Идентификатор текущего процесса: 15168
+2026-01-19 16:07:51,712 2079913655 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:07:57,324 2079913656 [9] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:07:57,327 2079913657 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:08:02,327 2079913658 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:08:02,327 2079913659 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:08:02,899 2079913660 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:08:03,322 2079913661 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:08:03,330 2079913662 [9] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:08:13,487 2079913663 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:08:13,552 2079913664 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:08:14,355 2079913665 [12] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:08:14,361 2079913666 [12] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:08:14,376 2079913667 [12] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:08:14,378 2079913668 [12] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:08:14,379 2079913669 [12] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:08:14,384 2079913670 [14] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:08:14,385 2079913671 [15] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:08:14,413 2079913672 [15] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:08:14,413 2079913673 [14] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:08:14,884 2079913674 [12] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:08:14,899 2079913675 [12] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:08:14,900 2079913676 [12] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0004187
+2026-01-19 16:08:14,912 2079913677 [11] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:08:14,922 2079913678 [11] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:08:14,923 2079913679 [11] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:08:14,930 2079913680 [11] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:08:14,930 2079913681 [7] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:08:14,930 2079913682 [7] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:08:14,930 2079913683 [7] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:08:14,937 2079913684 [7] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:14,937 2079913685 [11] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:14,937 2079913686 [7] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:14,945 2079913687 [12] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:14,949 2079913688 [12] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:08:14,958 2079913689 [12] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:08:14,980 2079913690 [12] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:08:17,322 2079913691 [16] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:08:17,323 2079913692 [8] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:08:17,357 2079913693 [9] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:08:20,018 2079913694 [16] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:08:51,675 2079913695 [23] ERROR All CredentialReplicatorJob - Событие произошло 3 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:08:51,676 2079913696 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:08:51,676 2079913697 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:08:51,676 2079913698 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:51,676 2079913699 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:08:51,676 2079913700 [16] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:08:51,676 2079913701 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:08:51,676 2079913702 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 4 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:51,676 2079913703 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:08:51,676 2079913704 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:08:51,676 2079913705 [12] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:08:51,677 2079913706 [16] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:09:00,013 2079913707 [25] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:09:51,689 2079913708 [6] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:10:00,003 2079913709 [9] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:10:27,487 2079913710 [23] WARNING Connections CpBroker [ServiceBroker] - Точка подключения NMClient самостоятельно остановилась
+2026-01-19 16:10:27,506 2079913711 [4] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,506 2079913712 [4] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,506 2079913713 [4] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,520 2079913714 [4] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,520 2079913715 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,520 2079913716 [24] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,522 2079913717 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,522 2079913718 [4] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,522 2079913719 [24] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,524 2079913720 [4] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,525 2079913721 [4] INFORMATION AccessControl CredentialRepository - Остановка репозитория Credential
+2026-01-19 16:10:27,526 2079913722 [4] INFORMATION AccessControl CredentialRepository - Репозиторий Credential остановлен
+2026-01-19 16:10:27,526 2079913723 [4] INFORMATION All CredentialManager - Сервис CredentialManager остановлен
+2026-01-19 16:10:27,527 2079913724 [4] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,527 2079913725 [4] INFORMATION All ModuleService - Модуль остановлен
+2026-01-19 16:10:27,530 2079913726 [30] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-19 16:10:27,530 2079913727 [13] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-19 16:10:31,480 2079913728 [8] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:10:31,506 2079913729 [8] INFORMATION All Main - Идентификатор текущего процесса: 10036
+2026-01-19 16:10:31,507 2079913730 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:10:36,582 2079913731 [11] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:10:36,584 2079913732 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:10:41,587 2079913733 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:10:41,587 2079913734 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:10:42,058 2079913735 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:10:42,427 2079913736 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:10:42,431 2079913737 [8] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:10:52,518 2079913738 [13] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:10:52,545 2079913739 [13] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:10:53,014 2079913740 [14] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:10:53,020 2079913741 [7] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:10:53,035 2079913742 [14] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:10:53,036 2079913743 [14] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:10:53,037 2079913744 [14] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:10:53,038 2079913745 [13] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:10:53,038 2079913746 [7] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:10:53,066 2079913747 [16] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:10:53,066 2079913748 [11] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:10:53,168 2079913749 [14] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:10:53,177 2079913750 [14] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:10:53,177 2079913751 [14] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0002941
+2026-01-19 16:10:53,183 2079913752 [7] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:10:53,187 2079913753 [9] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:10:53,188 2079913754 [7] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:10:53,190 2079913755 [9] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:10:53,191 2079913756 [7] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:10:53,191 2079913757 [9] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:10:53,191 2079913758 [7] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:10:53,194 2079913759 [7] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:10:53,195 2079913760 [9] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:10:53,195 2079913761 [7] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:10:53,200 2079913762 [14] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:10:53,204 2079913763 [14] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:10:53,211 2079913764 [14] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:10:53,213 2079913765 [14] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:10:56,601 2079913766 [17] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:10:56,603 2079913767 [19] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:10:56,608 2079913768 [16] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:11:00,006 2079913769 [16] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:11:31,453 2079913770 [9] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:11:31,455 2079913771 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:11:31,455 2079913772 [14] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:11:31,455 2079913773 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:11:31,455 2079913774 [9] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:11:31,455 2079913775 [17] ERROR All CredentialReplicatorJob - Событие произошло 3 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:11:31,455 2079913776 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 4 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:11:31,455 2079913777 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:11:31,455 2079913778 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:11:31,455 2079913779 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:11:31,455 2079913780 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:11:31,455 2079913781 [9] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:11:40,004 2079913782 [17] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:12:31,475 2079913783 [20] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:12:40,014 2079913784 [14] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:13:31,476 2079913785 [16] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:13:40,013 2079913786 [17] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:14:31,487 2079913787 [22] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:14:40,005 2079913788 [35] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:15:56,342 2079913789 [7] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:15:56,375 2079913790 [7] INFORMATION All Main - Идентификатор текущего процесса: 7160
+2026-01-19 16:15:56,375 2079913791 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:16:01,491 2079913792 [7] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:16:01,494 2079913793 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:16:06,506 2079913794 [7] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:16:06,506 2079913795 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:16:07,124 2079913796 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:16:07,595 2079913797 [13] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:16:07,601 2079913798 [7] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:16:17,682 2079913799 [14] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:16:17,711 2079913800 [14] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:16:18,102 2079913801 [9] WARNING All HealthManager - Работа модуля Credential завершилась некорректно, выполняем самовосстановление.
+2026-01-19 16:16:18,107 2079913802 [9] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:16:18,110 2079913803 [9] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:16:18,120 2079913804 [9] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:16:18,122 2079913805 [9] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:16:18,123 2079913806 [9] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:16:18,143 2079913807 [13] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:16:18,143 2079913808 [20] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:16:18,170 2079913809 [13] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:16:18,171 2079913810 [20] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:16:18,276 2079913811 [9] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:16:18,284 2079913812 [9] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:16:18,284 2079913813 [9] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0002989
+2026-01-19 16:16:18,289 2079913814 [12] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:16:18,293 2079913815 [8] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:16:18,294 2079913816 [12] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:16:18,297 2079913817 [8] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:16:18,297 2079913818 [8] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:16:18,297 2079913819 [12] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:16:18,297 2079913820 [8] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:16:18,301 2079913821 [12] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:18,301 2079913822 [8] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:18,301 2079913823 [12] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:18,305 2079913824 [9] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:18,307 2079913825 [9] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:16:18,314 2079913826 [9] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:16:18,316 2079913827 [9] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:16:20,012 2079913828 [7] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:16:21,540 2079913829 [20] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:16:21,643 2079913830 [8] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:16:21,644 2079913831 [20] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:16:56,353 2079913832 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:16:56,354 2079913833 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:16:56,354 2079913834 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:16:56,354 2079913835 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:16:56,354 2079913836 [18] ERROR All CredentialReplicatorJob - Событие произошло 3 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:16:56,354 2079913837 [9] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:56,354 2079913838 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:16:56,354 2079913839 [20] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:56,354 2079913840 [20] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:16:56,354 2079913841 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:16:56,354 2079913842 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:16:56,354 2079913843 [20] INFORMATION AccessControl CredentialRepository - Событие произошло 4 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:17:00,013 2079913844 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:17:56,360 2079913845 [35] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:17:59,999 2079913846 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:18:56,361 2079913847 [37] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:19:00,006 2079913848 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:19:56,376 2079913849 [12] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:20:00,021 2079913850 [43] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:20:56,388 2079913851 [8] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:21:00,013 2079913852 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:21:56,395 2079913853 [35] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:22:00,026 2079913854 [20] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:22:56,536 2079913855 [23] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:23:00,009 2079913856 [19] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:23:01,040 2079913857 [30] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:23:01,042 2079913858 [30] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-19 16:23:01,042 2079913859 [30] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-19 16:23:01,052 2079913860 [34] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:01,054 2079913861 [34] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:01,054 2079913862 [19] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:01,054 2079913863 [34] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:01,054 2079913864 [19] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:01,054 2079913865 [34] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:23:01,054 2079913866 [30] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения остановлен
+2026-01-19 16:23:01,060 2079913867 [30] INFORMATION AccessControl CredentialRepository - Остановка репозитория Credential
+2026-01-19 16:23:01,062 2079913868 [30] INFORMATION AccessControl CredentialRepository - Репозиторий Credential остановлен
+2026-01-19 16:23:01,062 2079913869 [30] INFORMATION All CredentialManager - Сервис CredentialManager остановлен
+2026-01-19 16:23:01,065 2079913870 [30] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:23:01,066 2079913871 [30] INFORMATION All ModuleService - Модуль остановлен
+2026-01-19 16:23:01,067 2079913872 [22] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-19 16:25:05,822 2079913873 [9] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:25:05,857 2079913874 [9] INFORMATION All Main - Идентификатор текущего процесса: 7988
+2026-01-19 16:25:05,857 2079913875 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:25:10,980 2079913876 [9] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:25:10,985 2079913877 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:25:15,977 2079913878 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:25:15,977 2079913879 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:25:16,725 2079913880 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:25:17,231 2079913881 [12] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:25:17,238 2079913882 [9] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:25:27,346 2079913883 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:25:27,382 2079913884 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:25:27,750 2079913885 [7] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:25:27,754 2079913886 [10] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:25:27,766 2079913887 [7] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:25:27,767 2079913888 [7] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:25:27,767 2079913889 [7] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:25:27,772 2079913890 [13] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:25:27,773 2079913891 [12] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:25:27,796 2079913892 [14] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:25:27,796 2079913893 [13] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:25:27,931 2079913894 [7] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:25:27,940 2079913895 [7] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:25:27,941 2079913896 [7] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0002993
+2026-01-19 16:25:27,945 2079913897 [13] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:25:27,949 2079913898 [13] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:25:27,950 2079913899 [10] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:25:27,953 2079913900 [10] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:25:27,953 2079913901 [13] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:25:27,953 2079913902 [10] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:25:27,953 2079913903 [13] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:25:27,957 2079913904 [10] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:25:27,957 2079913905 [13] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:25:27,957 2079913906 [10] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:25:27,962 2079913907 [7] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:25:27,964 2079913908 [7] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:25:27,972 2079913909 [7] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:25:27,974 2079913910 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:25:28,918 2079913911 [20] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:25:28,919 2079913912 [10] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:25:30,002 2079913913 [10] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:25:30,955 2079913914 [10] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:25:50,108 2079913915 [25] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,108 2079913916 [25] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,108 2079913917 [25] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,116 2079913918 [25] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,118 2079913919 [25] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,132 2079913920 [25] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,132 2079913921 [25] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,132 2079913922 [25] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,132 2079913923 [25] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:25:50,133 2079913924 [25] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,134 2079913925 [25] INFORMATION AccessControl CredentialRepository - Остановка репозитория Credential
+2026-01-19 16:25:50,134 2079913926 [25] INFORMATION AccessControl CredentialRepository - Репозиторий Credential остановлен
+2026-01-19 16:25:50,134 2079913927 [25] INFORMATION All CredentialManager - Сервис CredentialManager остановлен
+2026-01-19 16:25:50,138 2079913928 [25] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,139 2079913929 [25] INFORMATION All ModuleService - Модуль остановлен
+2026-01-19 16:25:53,724 2079913930 [8] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:25:53,750 2079913931 [8] INFORMATION All Main - Идентификатор текущего процесса: 21416
+2026-01-19 16:25:53,750 2079913932 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:25:58,814 2079913933 [8] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:25:58,818 2079913934 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:26:03,810 2079913935 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:26:03,810 2079913936 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:26:04,309 2079913937 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:26:04,718 2079913938 [9] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:26:04,722 2079913939 [8] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:26:14,809 2079913940 [11] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:26:14,851 2079913941 [11] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:26:15,265 2079913942 [8] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:26:15,270 2079913943 [8] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:26:15,279 2079913944 [14] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:26:15,279 2079913945 [13] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:26:15,283 2079913946 [8] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:26:15,286 2079913947 [8] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:26:15,287 2079913948 [8] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:26:15,305 2079913949 [13] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:26:15,305 2079913950 [16] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:26:15,498 2079913951 [8] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:26:15,511 2079913952 [8] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:26:15,512 2079913953 [8] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0005758
+2026-01-19 16:26:15,520 2079913954 [13] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:26:15,526 2079913955 [9] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:26:15,527 2079913956 [13] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:26:15,531 2079913957 [13] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:26:15,531 2079913958 [13] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:26:15,531 2079913959 [9] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:26:15,532 2079913960 [9] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:26:15,536 2079913961 [13] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:15,536 2079913962 [9] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:15,536 2079913963 [13] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:15,542 2079913964 [8] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:15,547 2079913965 [8] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:26:15,555 2079913966 [8] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:26:15,558 2079913967 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:26:18,832 2079913968 [13] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:26:18,876 2079913969 [13] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:26:18,877 2079913970 [19] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:26:20,011 2079913971 [7] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:26:53,710 2079913972 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:26:53,712 2079913973 [8] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:53,712 2079913974 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:26:53,712 2079913975 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:26:53,712 2079913976 [9] ERROR All CredentialReplicatorJob - Событие произошло 3 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:26:53,712 2079913977 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:26:53,712 2079913978 [19] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:26:53,712 2079913979 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 4 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:53,712 2079913980 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:26:53,712 2079913981 [19] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:26:53,712 2079913982 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:26:53,712 2079913983 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:27:00,027 2079913984 [21] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:27:53,721 2079913985 [19] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:28:00,014 2079913986 [26] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:28:53,740 2079913987 [21] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:29:00,009 2079913988 [15] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:29:53,761 2079913989 [31] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:30:00,010 2079913990 [15] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:30:53,781 2079913991 [34] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:31:00,011 2079913992 [28] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:31:43,007 2079913993 [40] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:31:43,007 2079913994 [40] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-19 16:31:43,008 2079913995 [40] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-19 16:31:43,014 2079913996 [16] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:43,015 2079913997 [4] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:43,015 2079913998 [44] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:43,016 2079913999 [16] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:43,016 2079914000 [4] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:43,016 2079914001 [44] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:31:43,016 2079914002 [40] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения остановлен
+2026-01-19 16:31:43,017 2079914003 [40] INFORMATION AccessControl CredentialRepository - Остановка репозитория Credential
+2026-01-19 16:31:43,017 2079914004 [40] INFORMATION AccessControl CredentialRepository - Репозиторий Credential остановлен
+2026-01-19 16:31:43,017 2079914005 [40] INFORMATION All CredentialManager - Сервис CredentialManager остановлен
+2026-01-19 16:31:43,020 2079914006 [40] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:31:43,020 2079914007 [40] INFORMATION All ModuleService - Модуль остановлен
+2026-01-19 16:34:08,236 2079914008 [10] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:34:08,266 2079914009 [10] INFORMATION All Main - Идентификатор текущего процесса: 16968
+2026-01-19 16:34:08,266 2079914010 [10] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:34:13,345 2079914011 [10] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:34:13,348 2079914012 [10] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:34:18,354 2079914013 [10] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:34:18,354 2079914014 [10] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:34:18,889 2079914015 [10] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:34:19,287 2079914016 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:34:19,292 2079914017 [10] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:34:29,388 2079914018 [12] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:34:29,421 2079914019 [12] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:34:29,844 2079914020 [10] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:34:29,850 2079914021 [12] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:34:29,860 2079914022 [16] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:34:29,861 2079914023 [7] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:34:29,865 2079914024 [10] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:34:29,867 2079914025 [10] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:34:29,868 2079914026 [10] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:34:29,894 2079914027 [14] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:34:29,894 2079914028 [12] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:34:30,024 2079914029 [9] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:34:30,045 2079914030 [10] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:34:30,054 2079914031 [10] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:34:30,054 2079914032 [10] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0002705
+2026-01-19 16:34:30,059 2079914033 [13] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:34:30,064 2079914034 [15] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:34:30,064 2079914035 [13] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:34:30,067 2079914036 [15] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:34:30,067 2079914037 [13] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:34:30,067 2079914038 [15] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:34:30,067 2079914039 [13] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:34:30,070 2079914040 [15] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:34:30,070 2079914041 [13] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:34:30,070 2079914042 [15] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:34:30,075 2079914043 [10] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:34:30,078 2079914044 [10] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:34:30,084 2079914045 [10] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:34:30,087 2079914046 [10] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:34:33,346 2079914047 [18] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:34:33,364 2079914048 [14] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:34:33,365 2079914049 [14] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:34:43,050 2079914050 [6] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,050 2079914051 [6] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,051 2079914052 [6] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,060 2079914053 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,062 2079914054 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,062 2079914055 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,062 2079914056 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,062 2079914057 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,063 2079914058 [6] INFORMATION Connections dt_platform_credentialpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_credentialpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-19 16:34:43,066 2079914059 [6] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,068 2079914060 [6] INFORMATION AccessControl CredentialRepository - Остановка репозитория Credential
+2026-01-19 16:34:43,068 2079914061 [6] INFORMATION AccessControl CredentialRepository - Репозиторий Credential остановлен
+2026-01-19 16:34:43,068 2079914062 [6] INFORMATION All CredentialManager - Сервис CredentialManager остановлен
+2026-01-19 16:34:43,072 2079914063 [6] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,072 2079914064 [6] INFORMATION All ModuleService - Модуль остановлен
+2026-01-19 16:36:34,663 2079914065 [10] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:36:34,696 2079914066 [10] INFORMATION All Main - Идентификатор текущего процесса: 11844
+2026-01-19 16:36:34,696 2079914067 [10] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:36:39,784 2079914068 [8] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:36:39,786 2079914069 [10] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-19 16:36:44,794 2079914070 [10] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:36:44,795 2079914071 [10] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-19 16:36:45,425 2079914072 [10] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:36:45,886 2079914073 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:36:45,894 2079914074 [10] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-19 16:36:56,011 2079914075 [13] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 0
+2026-01-19 16:36:56,049 2079914076 [13] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [00000000-1234-5678-0000-123456789000, УправлениеПользователями]
+2026-01-19 16:36:56,481 2079914077 [8] INFORMATION States CredentialModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-19 16:36:56,486 2079914078 [8] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7215/] - Запуск точки подключения (Endpoint=0.0.0.0:7215)
+2026-01-19 16:36:56,499 2079914079 [8] INFORMATION Connections CpBroker [Credential] - Брокер точек подключения запущен
+2026-01-19 16:36:56,501 2079914080 [8] INFORMATION All CredentialManager - Сервис CredentialManager запущен
+2026-01-19 16:36:56,502 2079914081 [8] INFORMATION AccessControl CredentialRepository - Запуск репозитория Credential
+2026-01-19 16:36:56,509 2079914082 [7] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:36:56,509 2079914083 [16] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:36:56,533 2079914084 [13] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-19 16:36:56,533 2079914085 [10] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-19 16:36:56,652 2079914086 [8] INFORMATION AccessControl CredentialRepository - Репозиторий Credential запущен
+2026-01-19 16:36:56,661 2079914087 [8] INFORMATION AccessControl CredentialRepository - Обновление списка ролей roles:[]
+2026-01-19 16:36:56,662 2079914088 [8] INFORMATION AccessControl CredentialRepository - Все роли применены за 00:00:00.0003207
+2026-01-19 16:36:56,667 2079914089 [16] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:36:56,672 2079914090 [13] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:36:56,673 2079914091 [16] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:36:56,676 2079914092 [13] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:36:56,676 2079914093 [16] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:36:56,676 2079914094 [13] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:36:56,676 2079914095 [16] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:36:56,681 2079914096 [16] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:36:56,681 2079914097 [13] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:36:56,681 2079914098 [16] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:36:56,686 2079914099 [8] INFORMATION All CredentialManager - Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:36:56,689 2079914100 [8] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:36:56,697 2079914101 [8] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-19 16:36:56,700 2079914102 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-19 16:36:59,810 2079914103 [14] INFORMATION States CredentialModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-19 16:36:59,844 2079914104 [8] INFORMATION Connections PipeServer[dt_platform_credentialpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_credentialpipeserver
+2026-01-19 16:36:59,845 2079914105 [14] INFORMATION Connections dt_platform_CredPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-19 16:37:00,015 2079914106 [14] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:37:14,789 2079914107 [9] INFORMATION AccessControl CredentialRepository - Поиск пользователя по имени name:Администратор
+2026-01-19 16:37:14,844 2079914108 [23] INFORMATION All CredentialManager - Поиск пользователя по имени name:'Администратор'
+2026-01-19 16:37:14,877 2079914109 [9] INFORMATION All CredentialManager - Попытка добавления сессии для логина login:Администратор
+2026-01-19 16:37:14,889 2079914110 [9] INFORMATION AccessControl CredentialRepository - Проверка пароля для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:14,891 2079914111 [9] ERROR All CredentialManager - Ошибка проверки пользователя: Неверный пароль
+2026-01-19 16:37:14,944 2079914112 [9] ERROR All CredentialModuleHandler - Не удалось выполнить команду Login
+System.Exception: Неверный пароль
+   at DT.Credential.CredentialManager.CheckUserLogin(UserDto user, String encreptedPassword, Boolean checkPassword, String login, String machine, String objectType, Guid entityId)
+   at DT.Credential.CredentialManager.AddSession(String login, String password, ServiceType system, String machine, String objectType, Guid serviceId, Guid systemSourceId)
+   at DT.MDMService.Handlers.CredentialModuleHandler.HandleLogin(InternalMessage request, ServiceType system)
+   at DT.MDMService.Handlers.CredentialModuleHandler.HandleMessage(PlatformMessageReceivedContext context)
+2026-01-19 16:37:24,766 2079914113 [8] INFORMATION AccessControl CredentialRepository - регистрация сессии для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:24,782 2079914114 [16] INFORMATION AccessControl CredentialRepository - Создана сессия [c67d9dbc-d901-4823-b842-30600f6edabf] для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:34,648 2079914115 [8] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Проверка существования учетной записи userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914116 [7] INFORMATION AccessControl CredentialRepository - Событие произошло 6 раз:
+Поиск пользователя по имени name:Администратор
+2026-01-19 16:37:34,650 2079914117 [8] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Попытка добавления сессии для логина login:Администратор
+2026-01-19 16:37:34,650 2079914118 [7] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Поиск пользователя по имени name:'Администратор'
+2026-01-19 16:37:34,650 2079914119 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:37:34,650 2079914120 [8] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Проверка пароля для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914121 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:37:34,650 2079914122 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 4 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914123 [13] ERROR All CredentialReplicatorJob - Событие произошло 3 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:37:34,650 2079914124 [16] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914125 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914126 [16] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914127 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:37:34,650 2079914128 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:34,650 2079914129 [16] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Запрос списка пользователей с флагом enabledOnly:False
+2026-01-19 16:37:34,650 2079914130 [8] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:40,008 2079914131 [25] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:37:40,059 2079914132 [13] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:40,084 2079914133 [16] INFORMATION All CredentialManager - Проверка существования учетной записи userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:40,090 2079914134 [16] INFORMATION AccessControl CredentialRepository - Проверка пароля для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:40,091 2079914135 [16] INFORMATION AccessControl CredentialRepository - Попытка установки пароля пользователю Администратор userId:11111111-2222-3333-0000-000000000000 учетной записью user:[11111111-2222-3333-0000-000000000000, Администратор]
+2026-01-19 16:37:40,768 2079914136 [16] INFORMATION AccessControl CredentialRepository - Установлен новый пароль пользователю Администратор userId:11111111-2222-3333-0000-000000000000 учетной записью user:[11111111-2222-3333-0000-000000000000, Администратор]
+2026-01-19 16:37:41,726 2079914137 [19] INFORMATION AccessControl CredentialRepository - Выполнено завершение сессии sessionId:c67d9dbc-d901-4823-b842-30600f6edabf
+2026-01-19 16:37:41,734 2079914138 [24] INFORMATION AccessControl CredentialRepository - Поиск пользователя по имени name:Администратор
+2026-01-19 16:37:41,736 2079914139 [24] INFORMATION All CredentialManager - Поиск пользователя по имени name:'Администратор'
+2026-01-19 16:37:41,738 2079914140 [19] INFORMATION All CredentialManager - Попытка добавления сессии для логина login:Администратор
+2026-01-19 16:37:41,739 2079914141 [19] INFORMATION AccessControl CredentialRepository - регистрация сессии для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:41,742 2079914142 [24] INFORMATION AccessControl CredentialRepository - Создана сессия [aa8408cd-67e8-4d99-953f-038be9a021b2] для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:45,260 2079914143 [10] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:37:45,260 2079914144 [10] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:45,260 2079914145 [10] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:37:45,260 2079914146 [10] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:37:45,260 2079914147 [10] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:37:45,260 2079914148 [10] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:37:45,260 2079914149 [10] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:37:45,260 2079914150 [10] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:37:45,260 2079914151 [10] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:34,649 2079914152 [10] INFORMATION AccessControl CredentialRepository - Событие произошло 3 раз:
+Поиск пользователя по имени name:Администратор
+2026-01-19 16:38:34,650 2079914153 [10] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Поиск пользователя по имени name:'Администратор'
+2026-01-19 16:38:34,650 2079914154 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 19 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:38:34,650 2079914155 [19] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Проверка пароля для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:34,650 2079914156 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 19 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:38:34,650 2079914157 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 9 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:34,650 2079914158 [25] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:38:34,650 2079914159 [14] INFORMATION All CredentialManager - Событие произошло 9 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:34,650 2079914160 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 9 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:34,650 2079914161 [14] INFORMATION All CredentialManager - Событие произошло 9 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:34,650 2079914162 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 19 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:38:34,650 2079914163 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 9 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:34,650 2079914164 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 9 раз:
+Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:38:34,650 2079914165 [14] INFORMATION AccessControl CredentialRepository - Событие произошло 15 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:39,769 2079914166 [14] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:38:39,769 2079914167 [14] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:39,769 2079914168 [14] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:39,769 2079914169 [14] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:38:39,770 2079914170 [14] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:38:39,770 2079914171 [14] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:38:39,770 2079914172 [14] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:38:39,770 2079914173 [14] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:39,770 2079914174 [14] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:39,770 2079914175 [14] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:38:40,007 2079914176 [10] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:39:34,678 2079914177 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:39:34,681 2079914178 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:39:34,681 2079914179 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:39:34,681 2079914180 [34] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:39:34,681 2079914181 [37] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:39:34,681 2079914182 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:39:34,681 2079914183 [37] INFORMATION All CredentialManager - Событие произошло 2 раз:
+Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 16:39:34,681 2079914184 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 5 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 16:39:34,682 2079914185 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:39:34,682 2079914186 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 16:39:34,682 2079914187 [37] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:39:40,009 2079914188 [14] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:40:34,683 2079914189 [20] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:40:40,019 2079914190 [25] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:41:34,691 2079914191 [37] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:41:40,018 2079914192 [20] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:42:34,696 2079914193 [22] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:42:40,009 2079914194 [33] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:43:34,706 2079914195 [17] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:43:40,003 2079914196 [6] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:44:09,756 2079914197 [39] INFORMATION All CredentialManager - Поиск пользователя по имени name:'Администратор'
+2026-01-19 16:44:09,756 2079914198 [39] INFORMATION AccessControl CredentialRepository - Поиск пользователя по имени name:Администратор
+2026-01-19 16:44:09,760 2079914199 [30] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:44:09,762 2079914200 [17] INFORMATION All CredentialManager - Попытка добавления сессии для логина login:Администратор
+2026-01-19 16:44:09,763 2079914201 [17] INFORMATION AccessControl CredentialRepository - Проверка пароля для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:44:09,763 2079914202 [17] INFORMATION AccessControl CredentialRepository - регистрация сессии для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:44:09,766 2079914203 [17] INFORMATION AccessControl CredentialRepository - Создана сессия [a812dc23-edba-490e-b61f-b0de4b728400] для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:44:11,265 2079914204 [8] INFORMATION All CredentialManager - Попытка обновления сессии session:[a812dc23-edba-490e-b61f-b0de4b728400]
+2026-01-19 16:44:11,265 2079914205 [8] INFORMATION AccessControl CredentialRepository - поиск сессии sessionId:a812dc23-edba-490e-b61f-b0de4b728400
+2026-01-19 16:44:11,268 2079914206 [8] INFORMATION AccessControl CredentialRepository - Попытка обновления сессии session:[a812dc23-edba-490e-b61f-b0de4b728400]
+2026-01-19 16:44:11,656 2079914207 [41] INFORMATION AccessControl CredentialRepository - Сессия session:[a812dc23-edba-490e-b61f-b0de4b728400] 
+2026-01-19 16:44:34,707 2079914208 [41] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя по имени name:Администратор
+2026-01-19 16:44:34,707 2079914209 [41] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Поиск пользователя по имени name:'Администратор'
+2026-01-19 16:44:34,707 2079914210 [24] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:44:34,707 2079914211 [8] INFORMATION AccessControl CredentialRepository - Событие произошло 2 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 16:44:40,006 2079914212 [31] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:45:34,725 2079914213 [21] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:45:40,012 2079914214 [50] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:46:34,743 2079914215 [47] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:46:40,024 2079914216 [50] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:47:34,748 2079914217 [57] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:47:40,005 2079914218 [47] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:48:34,753 2079914219 [27] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:48:40,019 2079914220 [57] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:49:34,752 2079914221 [31] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:49:40,015 2079914222 [13] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:50:34,762 2079914223 [63] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:50:40,021 2079914224 [63] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:51:34,771 2079914225 [63] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:51:40,021 2079914226 [70] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:52:34,784 2079914227 [31] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:52:40,014 2079914228 [43] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:53:34,806 2079914229 [39] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:53:40,011 2079914230 [63] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:54:34,894 2079914231 [8] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:54:40,026 2079914232 [58] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:55:34,963 2079914233 [56] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:55:40,019 2079914234 [4] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:56:35,043 2079914235 [56] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:56:40,023 2079914236 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:57:35,120 2079914237 [13] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:57:40,010 2079914238 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:58:35,177 2079914239 [4] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:58:40,006 2079914240 [56] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 16:59:35,180 2079914241 [45] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 16:59:40,001 2079914242 [45] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:00:35,193 2079914243 [17] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:00:40,015 2079914244 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:01:35,202 2079914245 [55] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:01:40,011 2079914246 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:02:35,209 2079914247 [58] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:02:40,012 2079914248 [45] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:03:35,236 2079914249 [62] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:03:40,001 2079914250 [45] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:04:13,069 2079914251 [45] INFORMATION AccessControl CredentialRepository - Поиск пользователя по имени name:Администратор
+2026-01-19 17:04:13,089 2079914252 [45] INFORMATION All CredentialManager - Поиск пользователя по имени name:'Администратор'
+2026-01-19 17:04:13,090 2079914253 [55] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:04:13,091 2079914254 [67] INFORMATION All CredentialManager - Попытка добавления сессии для логина login:Администратор
+2026-01-19 17:04:13,092 2079914255 [67] INFORMATION AccessControl CredentialRepository - Проверка пароля для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:04:13,092 2079914256 [67] INFORMATION AccessControl CredentialRepository - регистрация сессии для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:04:13,095 2079914257 [67] INFORMATION AccessControl CredentialRepository - Создана сессия [73ed4420-1857-46cf-8591-032f92b0d86c] для пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:04:35,248 2079914258 [67] INFORMATION AccessControl CredentialRepository - Событие произошло 3 раз:
+Поиск пользователя по имени name:Администратор
+2026-01-19 17:04:35,248 2079914259 [67] INFORMATION All CredentialManager - Событие произошло 1 раз:
+Поиск пользователя по имени name:'Администратор'
+2026-01-19 17:04:35,248 2079914260 [45] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:04:35,249 2079914261 [67] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:04:40,023 2079914262 [3] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:05:35,261 2079914263 [43] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:05:40,001 2079914264 [57] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:06:35,271 2079914265 [45] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:06:40,002 2079914266 [27] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:07:35,284 2079914267 [8] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:07:40,021 2079914268 [52] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:08:35,297 2079914269 [57] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:08:40,008 2079914270 [8] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:09:35,320 2079914271 [8] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:09:40,015 2079914272 [62] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:10:35,324 2079914273 [43] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:10:40,015 2079914274 [3] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:11:35,329 2079914275 [3] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:11:40,018 2079914276 [42] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:12:35,335 2079914277 [42] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:12:40,008 2079914278 [62] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:13:35,354 2079914279 [69] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:13:40,010 2079914280 [58] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:14:35,370 2079914281 [53] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:14:40,001 2079914282 [45] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:14:45,007 2079914283 [31] INFORMATION AccessControl CredentialRepository - поиск сессии sessionId:73ed4420-1857-46cf-8591-032f92b0d86c
+2026-01-19 17:14:45,007 2079914284 [31] INFORMATION AccessControl CredentialRepository - Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:14:57,582 2079914285 [59] INFORMATION AccessControl CredentialRepository - Запрос списка пользователей с флагом enabledOnly:True
+2026-01-19 17:14:57,583 2079914286 [59] INFORMATION All CredentialManager - Получение списка ролей для пользователя Администратор с EntityId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:14:57,583 2079914287 [59] INFORMATION AccessControl CredentialRepository - Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 17:14:57,583 2079914288 [59] INFORMATION AccessControl CredentialRepository - Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 17:14:57,583 2079914289 [59] INFORMATION AccessControl CredentialRepository - Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 17:14:57,583 2079914290 [59] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:14:57,583 2079914291 [59] INFORMATION All CredentialManager - Получение списка ролей для пользователя Система с EntityId:44444444-2222-3333-0000-000000000000
+2026-01-19 17:14:57,583 2079914292 [59] INFORMATION AccessControl CredentialRepository - Поиск пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 17:14:57,583 2079914293 [59] INFORMATION AccessControl CredentialRepository - Получен список ролей пользователя Система userId:44444444-2222-3333-0000-000000000000
+2026-01-19 17:15:35,387 2079914294 [59] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Получен список ролей каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 17:15:35,387 2079914295 [59] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Запрос списка ролей для каталога folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 17:15:35,387 2079914296 [4] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:15:35,387 2079914297 [59] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Поиск папки folderId:11111111-0000-0000-0000-000000000000
+2026-01-19 17:15:35,387 2079914298 [59] INFORMATION AccessControl CredentialRepository - Событие произошло 1 раз:
+Поиск пользователя Администратор userId:11111111-2222-3333-0000-000000000000
+2026-01-19 17:15:40,007 2079914299 [64] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:16:35,387 2079914300 [45] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:16:40,007 2079914301 [4] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:17:35,396 2079914302 [53] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:17:40,008 2079914303 [42] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:18:35,396 2079914304 [31] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:18:40,007 2079914305 [42] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:19:35,397 2079914306 [64] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:19:40,013 2079914307 [59] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:20:35,413 2079914308 [4] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:20:39,999 2079914309 [39] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:21:35,428 2079914310 [57] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:21:40,007 2079914311 [60] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:22:35,433 2079914312 [62] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:22:40,013 2079914313 [57] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:23:35,444 2079914314 [55] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:23:40,009 2079914315 [56] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:24:35,459 2079914316 [59] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:24:40,006 2079914317 [54] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:25:35,462 2079914318 [27] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:25:40,009 2079914319 [56] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:26:35,463 2079914320 [58] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:26:40,010 2079914321 [48] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:27:35,475 2079914322 [16] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:27:40,008 2079914323 [16] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:28:35,482 2079914324 [35] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:28:40,007 2079914325 [49] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:29:35,497 2079914326 [37] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:29:40,008 2079914327 [35] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:30:35,510 2079914328 [41] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:30:40,010 2079914329 [65] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:31:35,525 2079914330 [34] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:31:40,009 2079914331 [65] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:32:35,537 2079914332 [65] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:32:40,014 2079914333 [44] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:33:35,545 2079914334 [16] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:33:40,008 2079914335 [51] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:34:35,555 2079914336 [37] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:34:40,008 2079914337 [44] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:35:35,569 2079914338 [33] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:35:40,008 2079914339 [33] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:36:35,581 2079914340 [33] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:36:40,011 2079914341 [51] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:37:35,584 2079914342 [50] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:37:40,010 2079914343 [33] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:38:35,592 2079914344 [33] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:38:40,006 2079914345 [35] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:39:35,602 2079914346 [50] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:39:40,009 2079914347 [36] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:40:35,604 2079914348 [36] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:40:40,012 2079914349 [6] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:41:35,617 2079914350 [55] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:41:40,006 2079914351 [22] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:42:35,619 2079914352 [55] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:42:40,011 2079914353 [41] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:43:35,624 2079914354 [29] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:43:40,006 2079914355 [38] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:44:35,633 2079914356 [29] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:44:40,009 2079914357 [25] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:45:35,647 2079914358 [52] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:45:40,009 2079914359 [55] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:46:35,650 2079914360 [39] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:46:40,008 2079914361 [44] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:47:35,664 2079914362 [54] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:47:40,009 2079914363 [54] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:48:35,677 2079914364 [49] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:48:40,009 2079914365 [17] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:49:35,676 2079914366 [63] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:49:40,010 2079914367 [42] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:50:35,676 2079914368 [56] ERROR All CredentialReplicatorJob - Событие произошло 6 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:50:40,003 2079914369 [49] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:51:35,683 2079914370 [21] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:51:40,004 2079914371 [28] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:52:35,688 2079914372 [19] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:52:40,003 2079914373 [28] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:53:35,688 2079914374 [28] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:53:39,999 2079914375 [28] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:54:35,702 2079914376 [21] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:54:39,999 2079914377 [21] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:55:35,708 2079914378 [16] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:55:40,016 2079914379 [35] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:56:35,740 2079914380 [16] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:56:40,000 2079914381 [66] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:57:35,751 2079914382 [37] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:57:40,015 2079914383 [61] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам
+2026-01-19 17:58:35,766 2079914384 [37] ERROR All CredentialReplicatorJob - Событие произошло 5 раз:
+Отсутствует подключение к другим узлам
+2026-01-19 17:58:40,014 2079914385 [69] ERROR All CredentialReplicatorJob - Отсутствует подключение к другим узлам

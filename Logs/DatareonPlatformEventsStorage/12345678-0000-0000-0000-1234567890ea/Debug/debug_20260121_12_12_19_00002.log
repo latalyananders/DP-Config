@@ -1,0 +1,8 @@
+﻿2026-01-21 12:12:19,867 696234153 [11] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:19,884 696234154 [11] INFORMATION All Main - Идентификатор текущего процесса: 19788
+2026-01-21 12:12:19,884 696234155 [11] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:19,889 696234156 [11] ERROR All Main - Процесс DatareonPlatformEventsStorage уже запущен
+2026-01-21 12:12:27,131 696234157 [8] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:27,156 696234158 [8] INFORMATION All Main - Идентификатор текущего процесса: 12496
+2026-01-21 12:12:27,156 696234159 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:27,162 696234160 [8] ERROR All Main - Процесс DatareonPlatformEventsStorage уже запущен

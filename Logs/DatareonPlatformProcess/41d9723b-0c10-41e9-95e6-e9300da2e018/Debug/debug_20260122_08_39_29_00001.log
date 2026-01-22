@@ -1,0 +1,117 @@
+﻿2026-01-22 08:39:29,452 1907183447 [59] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-22 08:39:29,803 1907183448 [54] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:29,809 1907183449 [54] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:30,605 1907183450 [54] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:30,613 1907183451 [54] WARNING All Runner - TakeData токен отменен!
+2026-01-22 08:39:30,619 1907183452 [19] INFORMATION All Runner - Поток a0c728a3-08b4-4d32-aff9-4993cc180fd6 завершен 
+2026-01-22 08:39:30,619 1907183453 [18] INFORMATION All Runner - Поток 2a804f64-bf9e-47d3-8e1c-9e4bbd4f12dc завершен 
+2026-01-22 08:39:30,630 1907183454 [20] INFORMATION All Runner - Поток 7603b05c-2395-4ee6-9b92-fe2ee1cec69b завершен 
+2026-01-22 08:39:30,630 1907183455 [21] INFORMATION All Runner - Поток 7758189d-3403-4280-9911-d16cd50da4bc завершен 
+2026-01-22 08:39:30,630 1907183456 [22] INFORMATION All Runner - Поток 18ffd0a2-b7eb-4878-9dbd-df9d46639bcb завершен 
+2026-01-22 08:39:30,641 1907183457 [54] INFORMATION All Runner - Остановлено.
+2026-01-22 08:39:30,642 1907183458 [54] INFORMATION All ProcessManager - Остановлено.
+2026-01-22 08:39:30,642 1907183459 [54] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:30,653 1907183460 [54] WARNING All ProcessManager - Не запущен.
+2026-01-22 08:39:30,656 1907183461 [54] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:30,656 1907183462 [54] INFORMATION All ModuleService - Модуль остановлен
+2026-01-22 08:39:30,657 1907183463 [16] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-22 08:39:35,049 1907183464 [8] INFORMATION All Main - Assembly: DatareonPlatformProcess, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:35,085 1907183465 [8] INFORMATION All Main - Идентификатор текущего процесса: 10704
+2026-01-22 08:39:35,085 1907183466 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:39,735 1907183467 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,843 1907183468 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,860 1907183469 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,908 1907183470 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:40,679 1907183471 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:41,389 1907183472 [7] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-22 08:39:41,431 1907183473 [7] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-22 08:39:41,694 1907183474 [15] INFORMATION States ProcessModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-22 08:39:41,698 1907183475 [15] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-22 08:39:41,699 1907183476 [15] WARNING All ProcessManager - Не запущен.
+2026-01-22 08:39:41,877 1907183477 [15] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-22 08:39:41,882 1907183478 [15] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-22 08:39:41,895 1907183479 [15] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-22 08:39:41,958 1907183480 [15] INFORMATION All Runner - Успешный запуск.
+2026-01-22 08:39:41,958 1907183481 [15] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-22 08:39:41,958 1907183482 [15] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-22 08:39:42,016 1907183483 [15] WARNING All ProcessManager - Уже запущен.
+2026-01-22 08:39:42,036 1907183484 [15] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-22 08:39:42,013 1907183485 [16] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-22 08:39:42,055 1907183486 [12] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 41d9723b-0c10-41e9-95e6-e9300da2e018 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-22 08:39:42,062 1907183487 [15] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:45,245 1907183488 [16] INFORMATION States ProcessModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-22 08:39:45,274 1907183489 [16] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 08:39:49,844 1907183490 [9] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-22 08:39:49,873 1907183491 [12] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 08:39:51,218 1907183492 [14] WARNING AccessControl CredentialAccessManager - Запрос доступа из модуля Credential приостановлен, т.к. модуль не отвечает на запросы.
+2026-01-22 08:40:35,037 1907183493 [15] INFORMATION All ProcessModule - Событие произошло 1 раз:
+Все сервисы успешно запущены
+2026-01-22 08:40:35,040 1907183494 [14] WARNING Diagnostic DiagnosticComponentModuleService - Событие произошло 1 раз:
+Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 09:31:59,602 1907183495 [51] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-22 09:31:59,629 1907183496 [51] WARNING All Runner - TakeData токен отменен!
+2026-01-22 09:31:59,637 1907183497 [19] INFORMATION All Runner - Поток a6b477f7-907a-424d-ad40-1ab8942e7756 завершен 
+2026-01-22 09:31:59,637 1907183498 [20] INFORMATION All Runner - Поток 4c8d0ef1-d263-4d89-a422-21617a35b4a0 завершен 
+2026-01-22 09:31:59,637 1907183499 [21] INFORMATION All Runner - Поток dcb7ac9b-ecfb-4599-b64f-ddbe858e76bb завершен 
+2026-01-22 09:31:59,637 1907183500 [22] INFORMATION All Runner - Поток 8dbdf8fd-4ce9-4256-8085-521efe2c622b завершен 
+2026-01-22 09:31:59,639 1907183501 [18] INFORMATION All Runner - Поток a1004cbb-d211-4c24-accb-9f41caa37e72 завершен 
+2026-01-22 09:31:59,664 1907183502 [51] INFORMATION All Runner - Остановлено.
+2026-01-22 09:31:59,669 1907183503 [51] INFORMATION All ProcessManager - Остановлено.
+2026-01-22 09:31:59,687 1907183504 [42] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 31
+2026-01-22 09:31:59,694 1907183505 [42] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-22 09:31:59,700 1907183506 [51] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-22 09:31:59,701 1907183507 [51] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-22 09:31:59,706 1907183508 [51] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-22 09:31:59,723 1907183509 [51] INFORMATION All Runner - Успешный запуск.
+2026-01-22 09:31:59,723 1907183510 [51] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-22 09:31:59,723 1907183511 [51] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-22 09:32:03,317 1907183512 [8] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 09:32:35,517 1907183513 [51] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!

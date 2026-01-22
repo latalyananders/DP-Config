@@ -1,0 +1,600 @@
+﻿2026-01-21 08:32:37,334 1783297594 [4] INFORMATION Connections dt_platform_eventstoragepipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_eventstoragepipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-21 08:32:37,356 1783297595 [4] INFORMATION Connections dt_platform_EventStorageServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 08:32:39,593 1783297596 [74] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 08:32:42,100 1783297597 [54] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-21 08:32:47,088 1783297598 [56] WARNING Connections CpBroker [DataBroker] - Точка подключения NMDataClient самостоятельно остановилась
+2026-01-21 08:32:47,116 1783297599 [54] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 08:32:52,089 1783297600 [56] ERROR Connections CpBroker [DataBroker] - Точка подключения NMDataClient не запущена
+2026-01-21 08:32:55,586 1783297601 [43] WARNING Connections CpBroker [ServiceBroker] - Точка подключения NMClient самостоятельно остановилась
+2026-01-21 08:32:57,992 1783297602 [74] INFORMATION Connections PipeServer[dt_platform_eventstoragepipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_eventstoragepipeserver
+2026-01-21 08:32:57,994 1783297603 [74] INFORMATION Connections dt_platform_EventStorageServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 08:33:02,030 1783297604 [49] WARNING Diagnostic DiagnosticComponentModuleService - Событие произошло 3 раз:
+Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 08:33:05,243 1783297605 [32] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 09:30:10,169 1783297606 [22] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 10:00:00,028 1783297607 [68] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 11:00:00,029 1783297608 [26] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 11:41:46,080 1783297609 [55] INFORMATION EventsStorage EventsCollector - Обновление параметров сборки событий
+2026-01-21 11:41:46,083 1783297610 [55] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 11:41:46,103 1783297611 [55] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-21 11:41:46,153 1783297612 [55] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 25
+2026-01-21 11:41:46,156 1783297613 [55] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-21 11:41:49,546 1783297614 [62] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 11:41:54,547 1783297615 [62] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:00:00,008 1783297616 [14] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 12:06:34,779 1783297617 [10] INFORMATION EventsStorage EventsCollector - Обновление параметров сборки событий
+2026-01-21 12:06:34,779 1783297618 [10] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 12:06:34,782 1783297619 [10] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-21 12:06:34,802 1783297620 [10] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 26
+2026-01-21 12:06:34,803 1783297621 [10] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-21 12:06:35,947 1783297622 [8] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:09:29,693 1783297623 [17] INFORMATION Connections dt_platform_eventstoragepipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_eventstoragepipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-21 12:09:29,697 1783297624 [17] INFORMATION Connections dt_platform_EventStorageServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 12:09:29,722 1783297625 [23] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:29,723 1783297626 [23] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:29,723 1783297627 [23] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:29,723 1783297628 [23] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:29,763 1783297629 [6] ERROR Connections DatareonMonitoringClient[dt_platform_monitoringpipeserver] - Не удалось отправить датаграмму
+System.IO.IOException: Pipe is broken.
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.GetResult(Int16 token)
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at DT.Net.Framing.Sender.SendBodyAsync(Boolean last, CancellationToken cancellationToken)
+   at DT.Net.Framing.Sender.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken)
+   at DT.Net.ConnectionServiceFraming.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken, Boolean specificHandle)
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+2026-01-21 12:09:29,770 1783297630 [23] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 12:09:29,770 1783297631 [23] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 12:09:29,773 1783297632 [38] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-21 12:09:34,143 1783297633 [8] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:09:34,165 1783297634 [8] INFORMATION All Main - Идентификатор текущего процесса: 20560
+2026-01-21 12:09:34,165 1783297635 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:09:39,229 1783297636 [8] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:09:39,232 1783297637 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:44,241 1783297638 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:09:44,241 1783297639 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:49,238 1783297640 [8] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:09:49,242 1783297641 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:49,697 1783297642 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:09:50,014 1783297643 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:09:50,344 1783297644 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:09:50,372 1783297645 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-21 12:09:50,566 1783297646 [16] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-21 12:09:50,592 1783297647 [16] INFORMATION States EventsStorageModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:09:50,603 1783297648 [16] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 12:09:50,792 1783297649 [16] INFORMATION All EventsStorageApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-21 12:09:50,919 1783297650 [16] INFORMATION All EventsStorageApi - Веб-сервис узла успешно запущен по адресу: https://NGaranina:7209
+2026-01-21 12:09:50,919 1783297651 [16] INFORMATION All EventsStorageApi - Swagger веб-сервиса узла успешно запущен по адресу: https://NGaranina:7209/swagger
+2026-01-21 12:09:50,926 1783297652 [8] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7217/] - Запуск точки подключения (Endpoint=0.0.0.0:7217)
+2026-01-21 12:09:50,929 1783297653 [16] INFORMATION Connections CpBroker [EventsStorage] - Брокер точек подключения запущен
+2026-01-21 12:09:50,932 1783297654 [16] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 12:09:50,934 1783297655 [16] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:54,244 1783297656 [12] INFORMATION States EventsStorageModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:09:54,268 1783297657 [12] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:09:56,738 1783297658 [8] INFORMATION Connections PipeServer[dt_platform_eventstoragepipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_eventstoragepipeserver
+2026-01-21 12:09:56,765 1783297659 [18] INFORMATION Connections dt_platform_EventStorageServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 12:09:58,342 1783297660 [4] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:58,342 1783297661 [4] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:58,343 1783297662 [4] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:58,343 1783297663 [4] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 12:09:58,345 1783297664 [8] INFORMATION Connections dt_platform_eventstoragepipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_eventstoragepipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-21 12:09:58,349 1783297665 [8] INFORMATION Connections dt_platform_EventStorageServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 12:09:58,349 1783297666 [8] INFORMATION Connections dt_platform_eventstoragepipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_eventstoragepipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-21 12:09:58,354 1783297667 [8] ERROR Connections DatareonMonitoringClient[dt_platform_monitoringpipeserver] - Не удалось отправить датаграмму
+System.IO.IOException: Pipe is broken.
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.GetResult(Int16 token)
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at DT.Net.Framing.Sender.SendBodyAsync(Boolean last, CancellationToken cancellationToken)
+   at DT.Net.Framing.Sender.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken)
+   at DT.Net.ConnectionServiceFraming.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken, Boolean specificHandle)
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+2026-01-21 12:09:58,357 1783297668 [4] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 12:09:58,357 1783297669 [4] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 12:10:13,530 1783297670 [9] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:10:13,554 1783297671 [9] INFORMATION All Main - Идентификатор текущего процесса: 24260
+2026-01-21 12:10:13,554 1783297672 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:10:18,642 1783297673 [9] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:18,645 1783297674 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:23,652 1783297675 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:23,652 1783297676 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:28,654 1783297677 [9] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:28,657 1783297678 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:33,651 1783297679 [13] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:10:33,684 1783297680 [9] ERROR Connections CpBroker [Подключение к менеджеру узла] - Точка подключения NmHostClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerhostpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:33,684 1783297681 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:10:33,705 1783297682 [6] ERROR All NodeConnector - Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:10:38,659 1783297683 [13] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:10:43,663 1783297684 [11] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:10:48,727 1783297685 [6] ERROR Connections CpBroker [Подключение к менеджеру узла] - Точка подключения NmHostClient не запущена
+2026-01-21 12:11:13,521 1783297686 [13] ERROR Connections CpBroker [ServiceBroker] - Событие произошло 2 раз:
+Точка подключения NMClient не запущена
+2026-01-21 12:11:13,523 1783297687 [11] ERROR Connections CpBroker [Подключение к менеджеру узла] - Событие произошло 1 раз:
+Точка подключения NmHostClient не запущена
+2026-01-21 12:11:13,523 1783297688 [14] ERROR Connections CpBroker [CredentialBroker] - Событие произошло 1 раз:
+Точка подключения CredentialClient не запущена
+2026-01-21 12:11:13,523 1783297689 [13] ERROR Connections CpBroker [DiagnosticBroker] - Событие произошло 2 раз:
+Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:11:13,523 1783297690 [6] ERROR All NodeConnector - Событие произошло 7 раз:
+Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:11:13,683 1783297691 [15] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:11:13,782 1783297692 [6] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:11:13,792 1783297693 [10] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendLogData(SummaryLog logs)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:11:13,792 1783297694 [7] ERROR All NodeConnector - Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:11:18,679 1783297695 [15] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:11:18,766 1783297696 [11] ERROR Connections CpBroker [Подключение к менеджеру узла] - Точка подключения NmHostClient не запущена
+2026-01-21 12:11:23,673 1783297697 [7] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:13,537 1783297698 [15] ERROR Connections CpBroker [ServiceBroker] - Событие произошло 3 раз:
+Точка подключения NMClient не запущена
+2026-01-21 12:12:13,537 1783297699 [14] ERROR Connections CpBroker [Подключение к менеджеру узла] - Событие произошло 3 раз:
+Точка подключения NmHostClient не запущена
+2026-01-21 12:12:13,539 1783297700 [15] ERROR Connections CpBroker [CredentialBroker] - Событие произошло 3 раз:
+Точка подключения CredentialClient не запущена
+2026-01-21 12:12:13,539 1783297701 [13] ERROR Connections CpBroker [DiagnosticBroker] - Событие произошло 3 раз:
+Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:13,539 1783297702 [11] ERROR All NodeConnector - Событие произошло 11 раз:
+Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:12:13,711 1783297703 [13] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:12:13,788 1783297704 [14] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:13,812 1783297705 [6] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendLogData(SummaryLog logs)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:13,941 1783297706 [18] ERROR All NodeConnector - Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:12:18,735 1783297707 [13] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:12:23,707 1783297708 [14] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:24,500 1783297709 [15] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:12:24,507 1783297710 [9] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 12:12:35,322 1783297711 [6] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:12:35,326 1783297712 [6] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-21 12:12:35,780 1783297713 [6] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-21 12:12:35,837 1783297714 [6] INFORMATION States EventsStorageModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:12:35,861 1783297715 [6] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 12:12:36,221 1783297716 [6] INFORMATION All EventsStorageApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-21 12:12:36,491 1783297717 [6] INFORMATION All EventsStorageApi - Веб-сервис узла успешно запущен по адресу: https://NGaranina:7209
+2026-01-21 12:12:36,491 1783297718 [6] INFORMATION All EventsStorageApi - Swagger веб-сервиса узла успешно запущен по адресу: https://NGaranina:7209/swagger
+2026-01-21 12:12:36,502 1783297719 [6] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7217/] - Запуск точки подключения (Endpoint=0.0.0.0:7217)
+2026-01-21 12:12:36,513 1783297720 [6] INFORMATION Connections CpBroker [EventsStorage] - Брокер точек подключения запущен
+2026-01-21 12:12:36,518 1783297721 [6] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 12:12:36,524 1783297722 [6] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:12:39,019 1783297723 [9] INFORMATION States EventsStorageModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:12:44,553 1783297724 [14] ERROR All NodeManagerHostObserver - Ключ сессии сервиса(a0399ef8-20b9-442d-813c-bfc9488d37ca) не совпадает с ключем сессии NodeManager(370144bb-5471-469c-83b0-1ebd427165df).
+2026-01-21 12:12:44,577 1783297725 [20] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,584 1783297726 [20] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,584 1783297727 [20] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,584 1783297728 [20] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,593 1783297729 [20] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,593 1783297730 [20] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 12:12:57,733 1783297731 [9] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:57,770 1783297732 [9] INFORMATION All Main - Идентификатор текущего процесса: 19380
+2026-01-21 12:12:57,771 1783297733 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:13:02,920 1783297734 [8] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:02,924 1783297735 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:07,933 1783297736 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:07,934 1783297737 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:12,936 1783297738 [9] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:12,939 1783297739 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:14,122 1783297740 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:13:15,926 1783297741 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:13:17,468 1783297742 [15] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:13:17,573 1783297743 [15] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-21 12:13:18,094 1783297744 [11] INFORMATION States EventsStorageModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:13:18,108 1783297745 [15] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-21 12:13:18,159 1783297746 [11] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:13:18,246 1783297747 [15] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 12:13:18,908 1783297748 [15] INFORMATION All EventsStorageApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-21 12:13:19,314 1783297749 [15] INFORMATION All EventsStorageApi - Веб-сервис узла успешно запущен по адресу: https://NGaranina:7209
+2026-01-21 12:13:19,315 1783297750 [15] INFORMATION All EventsStorageApi - Swagger веб-сервиса узла успешно запущен по адресу: https://NGaranina:7209/swagger
+2026-01-21 12:13:19,329 1783297751 [15] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7217/] - Запуск точки подключения (Endpoint=0.0.0.0:7217)
+2026-01-21 12:13:19,338 1783297752 [15] INFORMATION Connections CpBroker [EventsStorage] - Брокер точек подключения запущен
+2026-01-21 12:13:19,343 1783297753 [15] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 12:13:19,358 1783297754 [15] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:21,685 1783297755 [8] INFORMATION Connections PipeServer[dt_platform_eventstoragepipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_eventstoragepipeserver
+2026-01-21 12:13:21,736 1783297756 [14] INFORMATION Connections dt_platform_EventStorageServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 12:13:23,176 1783297757 [10] INFORMATION States EventsStorageModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:13:42,989 1783297758 [11] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:14:13,022 1783297759 [4] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:00:00,108 1783297760 [34] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 13:20:54,628 1783297761 [57] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 13:20:54,633 1783297762 [57] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 13:20:54,634 1783297763 [57] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 13:20:54,634 1783297764 [57] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 13:20:54,665 1783297765 [8] INFORMATION Connections dt_platform_eventstoragepipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_eventstoragepipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-21 13:20:54,669 1783297766 [8] INFORMATION Connections dt_platform_EventStorageServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 13:20:54,670 1783297767 [57] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 13:20:54,670 1783297768 [57] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 13:20:54,672 1783297769 [10] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-21 13:20:54,672 1783297770 [54] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-21 13:20:59,876 1783297771 [8] INFORMATION All Main - Assembly: DatareonPlatformEventsStorage, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 13:20:59,921 1783297772 [8] INFORMATION All Main - Идентификатор текущего процесса: 8852
+2026-01-21 13:20:59,921 1783297773 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 13:21:05,058 1783297774 [7] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 13:21:05,061 1783297775 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:10,074 1783297776 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 13:21:10,084 1783297777 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:15,077 1783297778 [8] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 13:21:15,081 1783297779 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:15,701 1783297780 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 13:21:16,139 1783297781 [9] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 13:21:16,574 1783297782 [11] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 27
+2026-01-21 13:21:16,642 1783297783 [11] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]
+2026-01-21 13:21:16,866 1783297784 [12] INFORMATION All EventsAnalyticsProvider - Обновление параметров
+2026-01-21 13:21:16,901 1783297785 [12] INFORMATION States EventsStorageModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 13:21:16,915 1783297786 [12] INFORMATION EventsStorage EventsCollector - Модули и системы для сбора событий: 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 13:21:17,143 1783297787 [12] INFORMATION All EventsStorageApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-21 13:21:17,307 1783297788 [12] INFORMATION All EventsStorageApi - Веб-сервис узла успешно запущен по адресу: https://NGaranina:7209
+2026-01-21 13:21:17,307 1783297789 [12] INFORMATION All EventsStorageApi - Swagger веб-сервиса узла успешно запущен по адресу: https://NGaranina:7209/swagger
+2026-01-21 13:21:17,317 1783297790 [12] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7217/] - Запуск точки подключения (Endpoint=0.0.0.0:7217)
+2026-01-21 13:21:17,321 1783297791 [12] INFORMATION Connections CpBroker [EventsStorage] - Брокер точек подключения запущен
+2026-01-21 13:21:17,324 1783297792 [12] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 13:21:17,327 1783297793 [12] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:20,019 1783297794 [7] INFORMATION States EventsStorageModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 13:21:20,076 1783297795 [7] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 13:21:24,539 1783297796 [7] INFORMATION Connections PipeServer[dt_platform_eventstoragepipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_eventstoragepipeserver
+2026-01-21 13:21:24,600 1783297797 [16] INFORMATION Connections dt_platform_EventStorageServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-21 13:21:45,119 1783297798 [19] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:26:45,513 1783297799 [19] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:28:26,389 1783297800 [24] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:33:46,788 1783297801 [20] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 14:21:11,687 1783297802 [44] WARNING Connections CpBroker [ServiceBroker] - Точка подключения NMClient самостоятельно остановилась
+2026-01-21 14:21:12,836 1783297803 [42] WARNING Connections CpBroker [DataBroker] - Точка подключения NMDataClient самостоятельно остановилась
+2026-01-21 14:21:16,748 1783297804 [44] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 14:21:17,829 1783297805 [42] ERROR Connections CpBroker [DataBroker] - Точка подключения NMDataClient не запущена
+2026-01-21 14:21:25,422 1783297806 [48] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 14:32:43,592 1783297807 [21] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 15:00:00,010 1783297808 [56] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 16:00:00,023 1783297809 [35] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-21 17:00:01,444 1783297810 [21] INFORMATION EventsStorage EventsFilesCleaner - Удаление файлов ранее 2025-12-22 для модулей (систем): 
+DatareonPlatformProcess [41d9723b-0c10-41e9-95e6-e9300da2e018]; 
+DatareonPlatformMdmUI [0be98576-8b31-415d-9dcb-6931feba4b57]; 
+DatareonPlatformSystem [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38]; 
+DatareonPlatformSystem [c19daf81-5968-4964-b93a-81b09d63a36e]; 
+DatareonPlatformSystem [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]; 
+DatareonPlatformSystem [03ecf3d0-070b-4133-ae7b-832414500060]; 
+DatareonPlatformNode [418dcccf-6f65-4a33-a0d0-601528e5cc4c]

@@ -1,0 +1,201 @@
+{
+  "$type": "DT.ClusterConfiguration.Cluster, DT_Core",
+  "Coordinators": [],
+  "HeartbeatPeriod": 30000,
+  "OtherMachineSenderThreadsCount": 8,
+  "FailThreshold": 3,
+  "UseCertificateForChannels": false,
+  "UseBalancing": true,
+  "RedirectDiagnostics": true,
+  "ProcessParams": {
+    "$type": "DT.MdmCommon.ProcessParams, DT_Core",
+    "ThreadCount": 5,
+    "MaxSleepingProcessCount": 100,
+    "MaxSleepingProcessMB": 200,
+    "MaxUnprocessedQueueMB": 30,
+    "MinWaitBeforeSleep": 10000,
+    "MaxRunnedRequests": 50,
+    "MaxSleepTimeMinutes": 1440,
+    "MinMessageCountForThread": 50
+  },
+  "QueueParams": {
+    "$type": "DT.Params.QueueParams, DT_Core",
+    "MinFileSizeMb": 10,
+    "MaxMessageSizeMb": 2047
+  },
+  "CommonParams": {
+    "$type": "DT.MdmCommon.CommonParams, DT_Core",
+    "MaxModuleMemoryUsage": 2
+  },
+  "NodeParams": {
+    "$type": "DT.MdmCommon.NodeParams, DT_Core",
+    "MaxUnprocessedQueueLength": 200,
+    "ExcessUnprocessedQueuePercent": 50
+  },
+  "MessageProcessingParams": {
+    "$type": "DT.MdmCommon.MessageProcessingParams, DT_Core",
+    "MaxDelayCount": 30,
+    "MaxSnapshotCount": 100,
+    "SnapshotStoreMinutes": 15,
+    "MaxBatchWaitTimeoutMs": 300,
+    "MaxBatchSize": 100
+  },
+  "GlobalDiagnosticParams": {
+    "$type": "DT.MdmCommon.DiagnosticParams, DT_Config",
+    "IssueCollectPeriod": 300,
+    "MinLogLevel": "Debug",
+    "DefaultEventLevel": "Debug",
+    "MinLogLevelHistory": "Info",
+    "DefaultEventLevelHistory": "Info",
+    "EventsLogLevels": {
+      "$type": "System.Collections.Generic.Dictionary`2[[DT.Diagnostics.Trace.MessageEventType, DT_Config],[DT.Diagnostics.Issues.IssueLevel, DT_Config]], System.Private.CoreLib"
+    },
+    "Features": [],
+    "TrackingMessages": false,
+    "EventMessageBodySizeBytes": 0,
+    "TrackingCustomProperties": true,
+    "CounterAlwaysOn": false,
+    "CounterDiagnosticData": [],
+    "SystemDiagnosticParams": {
+      "$type": "DT.MdmCommon.SystemDiagnosticParams, DT_Config"
+    },
+    "ExecuteRequestTimeoutMs": 600000
+  },
+  "CacheSettings": {
+    "$type": "DT.MdmCommon.CacheSettings, DT_Core",
+    "IssuesCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 60,
+      "StopRequestSendTimeout": 10
+    },
+    "LogsCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 30,
+      "StopRequestSendTimeout": 10
+    },
+    "CountersCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 60,
+      "StopRequestSendTimeout": 10
+    },
+    "ComponentStatesCacheSettings": {
+      "$type": "DT.MdmCommon.DiagnosticCacheSettings, DT_Core",
+      "MetadataRequestFrequency": 5,
+      "StopRequestSendTimeout": 5
+    },
+    "MetadataSettings": {
+      "$type": "DT.MdmCommon.MetadataSettings, DT_Core",
+      "GetTimeOut": 1,
+      "CacheTime": 15
+    },
+    "SearchMessageCacheTimeMinutes": 5
+  },
+  "HotRecoverySettingsGlobal": {
+    "$type": "DT.MdmCommon.HotRecoverySettings, DT_Core",
+    "ReplicateByDefault": false,
+    "Modules": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "ReplicateOnlyWithinNodeGroup": false,
+    "FaultTolerance": 0,
+    "Nodes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+    }
+  },
+  "HotRecoverySettingsEffective": {
+    "$type": "DT.MdmCommon.HotRecoverySettings, DT_Core",
+    "ReplicateByDefault": false,
+    "Modules": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "ReplicateOnlyWithinNodeGroup": false,
+    "FaultTolerance": 0,
+    "Nodes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+    }
+  },
+  "ResolveList": [],
+  "DiskUsageParams": {
+    "$type": "DT.DiskUsageParams, DT_Core",
+    "ArchiveMaxSizeMb": 100,
+    "TrackingMaxSizeMb": 100,
+    "DataMaxSizeMb": 1024,
+    "LogsMaxSizeMb": 100,
+    "TotalMaxSizeMb": 2048
+  },
+  "LogStorageParams": {
+    "$type": "DT.LogStorageParams, DT_Config",
+    "StoreDays": 0,
+    "FolderMaxSizeMb": 50,
+    "UncompressedDays": 0,
+    "UncompressedMaxSizeMb": 30,
+    "TempFolderMinSizeMb": 10,
+    "TempFolderMaxSizeMb": 30,
+    "TempStoreMinutes": 4
+  },
+  "ArchiveStorageParams": {
+    "$type": "DT.ArchiveStorageParams, DT_Config",
+    "ArchiveMaxSizeMb": 100
+  },
+  "TrackingStorageParams": {
+    "$type": "DT.TrackingStorageParams, DT_Config",
+    "TrackingMaxSizeMb": 100
+  },
+  "EventsStorageParams": {
+    "$type": "DT.MdmCommon.EventsStorageParams, DT_Config",
+    "Format": "BinaryFiles",
+    "SaveAsBinFiles": true,
+    "SaveAsTextFiles": false,
+    "MaxEventsFileSizeBytes": 10485760,
+    "MaxMessagesFileSizeBytes": 10485760,
+    "MaxBinaryDataFileSizeBytes": 10485760,
+    "SaveBodies": false,
+    "MaxBodySizeBytes": 0
+  },
+  "DumpStorageParams": {
+    "$type": "DT.LogStorageParams, DT_Config",
+    "StoreDays": 1,
+    "FolderMaxSizeMb": 50,
+    "UncompressedDays": 1,
+    "UncompressedMaxSizeMb": 30,
+    "TempFolderMinSizeMb": 10,
+    "TempFolderMaxSizeMb": 30,
+    "TempStoreMinutes": 4
+  },
+  "UseSystemUDPSender": true,
+  "UpdateTimeout": 30000,
+  "LargeObjectQueueParams": {
+    "$type": "DT.Params.LargeObjectQueueParams, DT_Core",
+    "EnableQueue": false,
+    "MinFileSizeMb": 100,
+    "MaxMessageSizeMb": 1024,
+    "MinLargeMessageSizeMb": 50
+  },
+  "AllocationOptions": {
+    "$type": "DT.ClusterConfiguration.Allocation.AllocationOptions, DT_Core",
+    "Auto": true,
+    "CheckPeriodSecond": 300,
+    "UseDbConnectAddress": true,
+    "UseNodePriorityList": false,
+    "NodePriorityList": []
+  },
+  "DeprecatedParams": {
+    "$type": "DT.ClusterConfiguration.ClusterDeprecatedParams.DeprecatedParams, DT_Core",
+    "v311": {
+      "$type": "DT.ClusterConfiguration.ClusterDeprecatedParams.v311DepricatedParams, DT_Core",
+      "UseOldDateConverter": false
+    },
+    "v312": {
+      "$type": "DT.ClusterConfiguration.ClusterDeprecatedParams.v312DepricatedParams, DT_Core",
+      "UseOldServiceUI": false
+    }
+  },
+  "EntityId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "NGARANINA",
+  "Description": "NGARANINA",
+  "Version": 1,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

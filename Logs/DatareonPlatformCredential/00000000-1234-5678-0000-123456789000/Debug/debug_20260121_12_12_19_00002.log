@@ -1,0 +1,4 @@
+﻿2026-01-21 12:12:19,799 -1622229195 [8] INFORMATION All Main - Assembly: DatareonPlatformCredential, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:19,818 -1622229194 [8] INFORMATION All Main - Идентификатор текущего процесса: 8480
+2026-01-21 12:12:19,819 -1622229193 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:19,824 -1622229192 [8] ERROR All Main - Процесс DatareonPlatformCredential уже запущен

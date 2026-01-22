@@ -1,0 +1,501 @@
+﻿2026-01-19 16:07:51,332 1952603066 [10] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:07:51,366 1952603067 [10] INFORMATION All Main - Идентификатор текущего процесса: 18224
+2026-01-19 16:07:51,366 1952603068 [10] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:07:51,398 1952603069 [10] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:07:52,702 1952603070 [10] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:07:53,509 1952603071 [9] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:07:53,662 1952603072 [10] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:07:57,447 1952603073 [15] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:08:02,471 1952603074 [10] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:08:02,473 1952603075 [10] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:08:02,531 1952603076 [10] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:08:02,531 1952603077 [10] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:08:02,765 1952603078 [10] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:08:03,069 1952603079 [10] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:08:03,141 1952603080 [10] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:08:03,211 1952603081 [10] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:08:03,211 1952603082 [10] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:10:27,530 1952603083 [22] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения остановлен
+2026-01-19 16:10:27,535 1952603084 [22] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:10:31,355 1952603085 [8] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:10:31,400 1952603086 [8] INFORMATION All Main - Идентификатор текущего процесса: 19028
+2026-01-19 16:10:31,401 1952603087 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:10:31,430 1952603088 [8] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:10:32,482 1952603089 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:10:33,327 1952603090 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:10:33,440 1952603091 [8] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:10:33,944 1952603092 [12] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:10:38,965 1952603093 [8] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:10:38,968 1952603094 [8] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:10:38,981 1952603095 [8] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:10:38,981 1952603096 [8] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:10:39,134 1952603097 [8] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:10:39,311 1952603098 [8] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:10:39,349 1952603099 [8] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:10:39,388 1952603100 [8] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:10:39,388 1952603101 [8] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:15:56,212 1952603102 [7] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:15:56,250 1952603103 [7] INFORMATION All Main - Идентификатор текущего процесса: 10140
+2026-01-19 16:15:56,251 1952603104 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:15:56,286 1952603105 [7] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:15:58,201 1952603106 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:15:59,844 1952603107 [12] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:16:00,098 1952603108 [7] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:16:01,017 1952603109 [7] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:16:06,033 1952603110 [11] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:16:06,035 1952603111 [7] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:16:06,061 1952603112 [7] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:16:06,063 1952603113 [7] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:16:06,245 1952603114 [7] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:16:06,445 1952603115 [7] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:16:06,484 1952603116 [7] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:16:06,542 1952603117 [7] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:16:06,542 1952603118 [7] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:23:01,111 1952603119 [34] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения остановлен
+2026-01-19 16:23:01,133 1952603120 [34] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:25:02,804 1952603121 [8] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:25:02,844 1952603122 [8] INFORMATION All Main - Идентификатор текущего процесса: 18612
+2026-01-19 16:25:02,845 1952603123 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:25:02,882 1952603124 [8] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:25:04,910 1952603125 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:25:06,175 1952603126 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:25:06,368 1952603127 [8] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:25:09,344 1952603128 [7] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:25:14,368 1952603129 [8] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:25:14,373 1952603130 [8] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:25:14,427 1952603131 [8] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:25:14,428 1952603132 [8] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:25:15,648 1952603133 [8] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:25:15,982 1952603134 [8] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:25:16,050 1952603135 [8] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:25:16,248 1952603136 [8] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:25:16,249 1952603137 [8] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:25:50,132 1952603138 [11] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения остановлен
+2026-01-19 16:25:50,137 1952603139 [11] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:25:53,670 1952603140 [8] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:25:53,696 1952603141 [8] INFORMATION All Main - Идентификатор текущего процесса: 20644
+2026-01-19 16:25:53,696 1952603142 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:25:53,718 1952603143 [8] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:25:54,739 1952603144 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:25:55,465 1952603145 [13] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:25:55,637 1952603146 [8] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:25:57,301 1952603147 [8] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:26:02,312 1952603148 [11] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:26:02,315 1952603149 [8] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:26:02,328 1952603150 [8] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:26:02,328 1952603151 [8] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:26:02,475 1952603152 [8] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:26:02,837 1952603153 [8] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:26:02,873 1952603154 [8] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:26:02,912 1952603155 [8] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:26:02,912 1952603156 [8] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:31:43,038 1952603157 [31] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения остановлен
+2026-01-19 16:31:43,041 1952603158 [31] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:34:08,142 1952603159 [9] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:34:08,168 1952603160 [9] INFORMATION All Main - Идентификатор текущего процесса: 5784
+2026-01-19 16:34:08,168 1952603161 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:34:08,197 1952603162 [9] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:34:09,273 1952603163 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:34:10,182 1952603164 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:34:10,330 1952603165 [9] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:34:11,005 1952603166 [9] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:34:16,023 1952603167 [14] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:34:16,025 1952603168 [9] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:34:16,058 1952603169 [9] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:34:16,058 1952603170 [9] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:34:16,218 1952603171 [9] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:34:16,390 1952603172 [9] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:34:16,433 1952603173 [9] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:34:16,476 1952603174 [9] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:34:16,476 1952603175 [9] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:34:43,078 1952603176 [7] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения остановлен
+2026-01-19 16:34:43,084 1952603177 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-19 16:36:34,395 1952603178 [8] INFORMATION All Main - Assembly: DatareonPlatformControlCenter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-19 16:36:34,425 1952603179 [8] INFORMATION All Main - Идентификатор текущего процесса: 23124
+2026-01-19 16:36:34,425 1952603180 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-19 16:36:34,457 1952603181 [8] INFORMATION All ControlServerHost - Запуск сервера управления
+2026-01-19 16:36:35,907 1952603182 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-19 16:36:37,011 1952603183 [11] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-19 16:36:37,265 1952603184 [8] INFORMATION All ControlServerHost - Файла Security.db не существует. Конвертировать нечего или конвертация была выполнена ранее
+2026-01-19 16:36:38,356 1952603185 [11] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7210/] - Запуск точки подключения (Endpoint=0.0.0.0:7210)
+2026-01-19 16:36:43,364 1952603186 [8] ERROR Connections CpBroker [ControlServer] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-19 16:36:43,366 1952603187 [8] INFORMATION Connections CpBroker [ControlServer] - Брокер точек подключения запущен
+2026-01-19 16:36:43,394 1952603188 [8] INFORMATION All ControlServerHost - Старт веб-сервера центра разработки портала MDM
+2026-01-19 16:36:43,394 1952603189 [8] INFORMATION All ControlServerHost - Запускаем. Каталог статического содержимого C:\Program Files (x86)\Datareon\Platform\DevelopmentCenterContent
+2026-01-19 16:36:44,039 1952603190 [8] INFORMATION All ControlServerHost - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:36:44,521 1952603191 [8] INFORMATION All ControlServerHost - Веб-сервер центра разработки запущен по адресу: https://NGaranina:7205
+2026-01-19 16:36:44,597 1952603192 [8] INFORMATION All ControlServerApi - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-19 16:36:44,654 1952603193 [8] INFORMATION All ControlServerApi - Веб-сервис Центра управления успешно запущен по адресу: https://NGaranina:7200
+2026-01-19 16:36:44,654 1952603194 [8] INFORMATION All ControlServerApi - Swagger веб-сервиса Центра управления успешно запущен по адресу: https://NGaranina:7200/swagger
+2026-01-19 16:37:14,958 1952603195 [7] ERROR AccessControl CredentialModuleProxy - При обращении к модулю учетных записей произошла ошибка: System.InvalidOperationException: Неверный пароль
+   at DT.InternalMessageExtensions.CheckForErrors(InternalMessage response)
+   at DT.Credential.Module.CredentialModuleProxy.LoginAsync(String login, String password, String machine, String objectType, Guid serviceId, CancellationToken ct)
+2026-01-19 16:37:14,959 1952603196 [7] ERROR AccessControl ModuleSessionManager - Неверный пароль
+2026-01-19 16:37:14,971 1952603197 [7] ERROR All ControlServerApi - [UnhandledException] An unhandled exception has occurred while executing the request.
+DT.Exceptions.UnauthorizedException: Ошибка авторизации: Неверный пароль
+   at DT.Credential.Module.ModuleSessionManager.GetNewSessionAsync(String login, String password, String machine, String objectType, Guid serviceId, CancellationToken ct)
+   at DT.Credential.Module.ControlCenterSessionManager.CreateToken(String username, String password, String machine)
+   at lambda_method458(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at DT.NodeManager.API.Portal.Middleware.HttpRequestClaimsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at DT.Utilities.Web.CommonApiConfigurer.<>c.<<Configure>b__0_2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2026-01-19 16:37:25,612 1952603198 [7] INFORMATION AccessControl ModuleSessionManager - Подключился пользователь Администратор. Создана сессия c67d9dbc-d901-4823-b842-30600f6edabf.
+2026-01-19 16:37:42,745 1952603199 [14] INFORMATION AccessControl ModuleSessionManager - Подключился пользователь Администратор. Создана сессия aa8408cd-67e8-4d99-953f-038be9a021b2.
+2026-01-19 16:37:42,802 1952603200 [23] WARNING All FileMetadataProvider - Для обьектов [87654321-4321-0000-0000-123456789000, DatareonPlatformMonitoringService, СервисМониторинга], [00000000-1234-5678-0000-123456789000, DatareonPlatformCredential, УправлениеПользователями], [12345678-0000-0000-0000-1234567890ea, DatareonPlatformEventsStorage, СборщикСобытий] не определены родители, поэтому они не будут экспортированы
+2026-01-19 16:38:45,473 1952603201 [29] ERROR AccessControl CredentialsNotifier - Ошибка при вызове Notify в CredentialsNotifier
+DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 00000000-6a06-4239-bb04-fb60f8603770 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Превышен таймаут ожидания 60000 мс ответа на запрос Id=17252158-a3b5-4bd1-9cf3-7dcd65340a08,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=d037e368-4414-4723-a8a0-1cddd28aa99a,MessageType=Dt-CredentialRequestPost,Source=00000000-6a06-4239-bb04-fb60f8603770,BodySize=1239,Properties=[Action = 86; SubjectId = 44444444-2222-3333-0000-000000000000; CheckAccessRights = True; CredentialSystemSource = ControlCenter; CredentialSystemSourceId = 00000000-6a06-4239-bb04-fb60f8603770; Dt-Timeout = 60000; ]
+ ---> System.TimeoutException: Превышен таймаут ожидания 60000 мс ответа на запрос Id=17252158-a3b5-4bd1-9cf3-7dcd65340a08,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=d037e368-4414-4723-a8a0-1cddd28aa99a,MessageType=Dt-CredentialRequestPost,Source=00000000-6a06-4239-bb04-fb60f8603770,BodySize=1239,Properties=[Action = 86; SubjectId = 44444444-2222-3333-0000-000000000000; CheckAccessRights = True; CredentialSystemSource = ControlCenter; CredentialSystemSourceId = 00000000-6a06-4239-bb04-fb60f8603770; Dt-Timeout = 60000; ]
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> System.TimeoutException: Превышен таймаут ожидания 60000 мс ответа на запрос Id=17252158-a3b5-4bd1-9cf3-7dcd65340a08,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=d037e368-4414-4723-a8a0-1cddd28aa99a,MessageType=Dt-CredentialRequestPost,Source=00000000-6a06-4239-bb04-fb60f8603770,BodySize=1239,Properties=[Action = 86; SubjectId = 44444444-2222-3333-0000-000000000000; CheckAccessRights = True; CredentialSystemSource = ControlCenter; CredentialSystemSourceId = 00000000-6a06-4239-bb04-fb60f8603770; Dt-Timeout = 60000; ]
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.ExecuteAsync(InternalMessage message, CancellationToken ct)
+   at DT.Credential.Module.CredentialModuleProxy.UpdateActualMetadataObjectBriefInfo(List`1 metadataObjectsBriefInfo, CancellationToken ct)
+   at DT.ControlServer.Metadata.Managers.CredentialsNotifier.NotifyAsync(List`1 objectsInfo)
+2026-01-19 16:38:45,481 1952603202 [29] ERROR AccessControl CredentialsNotifier - Ошибка при вызове Notify в CredentialsNotifier
+DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 00000000-6a06-4239-bb04-fb60f8603770 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Превышен таймаут ожидания 60000 мс ответа на запрос Id=ecc0dc45-c0c0-4961-b6c4-aa6e2d0cc632,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=6b07609c-d316-4c52-bfe5-5407861586c0,MessageType=Dt-CredentialRequestPost,Source=00000000-6a06-4239-bb04-fb60f8603770,BodySize=1346,Properties=[Action = 86; SubjectId = 44444444-2222-3333-0000-000000000000; CheckAccessRights = True; CredentialSystemSource = ControlCenter; CredentialSystemSourceId = 00000000-6a06-4239-bb04-fb60f8603770; Dt-Timeout = 60000; ]
+ ---> System.TimeoutException: Превышен таймаут ожидания 60000 мс ответа на запрос Id=ecc0dc45-c0c0-4961-b6c4-aa6e2d0cc632,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=6b07609c-d316-4c52-bfe5-5407861586c0,MessageType=Dt-CredentialRequestPost,Source=00000000-6a06-4239-bb04-fb60f8603770,BodySize=1346,Properties=[Action = 86; SubjectId = 44444444-2222-3333-0000-000000000000; CheckAccessRights = True; CredentialSystemSource = ControlCenter; CredentialSystemSourceId = 00000000-6a06-4239-bb04-fb60f8603770; Dt-Timeout = 60000; ]
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> System.TimeoutException: Превышен таймаут ожидания 60000 мс ответа на запрос Id=ecc0dc45-c0c0-4961-b6c4-aa6e2d0cc632,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=6b07609c-d316-4c52-bfe5-5407861586c0,MessageType=Dt-CredentialRequestPost,Source=00000000-6a06-4239-bb04-fb60f8603770,BodySize=1346,Properties=[Action = 86; SubjectId = 44444444-2222-3333-0000-000000000000; CheckAccessRights = True; CredentialSystemSource = ControlCenter; CredentialSystemSourceId = 00000000-6a06-4239-bb04-fb60f8603770; Dt-Timeout = 60000; ]
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.ExecuteAsync(InternalMessage message, CancellationToken ct)
+   at DT.Credential.Module.CredentialModuleProxy.UpdateActualMetadataObjectBriefInfo(List`1 metadataObjectsBriefInfo, CancellationToken ct)
+   at DT.ControlServer.Metadata.Managers.CredentialsNotifier.NotifyAsync(List`1 objectsInfo)
+2026-01-19 16:39:42,242 1952603203 [22] INFORMATION All LicenseManager - Запрос на сервис лицензирования выполнен успешно, полученные данные: <ActivationData><Organisation>компания IBS</Organisation><OwnerEmail></OwnerEmail><DeviceIMEI>6722-4509-5642-3987-6694</DeviceIMEI><ProductCode>DTP</ProductCode><ProductPin>6722-4509-5642-3987-6694</ProductPin><DeliveryNumber></DeliveryNumber><ServerId></ServerId><ValidTo>2026-04-18T23:59:59Z</ValidTo><Options><Option>storage</Option><Option number="50">SP01</Option><Option>analytic</Option></Options><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>1OaWI0p9EhXFMjayOVGgQitZHGi673rM52ChYNaSSjY=</DigestValue></Reference></SignedInfo><SignatureValue>a6kHZdlPav9XBqAknqpyJF0jJNAmInxbXFVE6Q8huK0vMYIzgtMvbjPJq2ugf3K20hWDOd2c6nuC9vOO6RHV5X+bsw2LuU6C+G19KjUUPi6P26IGGKtMf9iESFcMGG1RuY3MuRd4kx9aFSzODd2yjuuCL4vJKhUPYaA1EVAGOk7yYr010kc3Sa2eFPNLJ3fOJBvLSzE316d6plq83CmDpgCDOVxnF4naCsjv6grZBSd6tbHKzvH90Bel26FZUeqY0WO0ortlkdCI1QiuvnfAIDPr4hHhpiUqjhKXlqqHQHUN6ISLHx0BkNle35PHEI2eBAj6zbyWrAAvur6seSoPqQ==</SignatureValue></Signature></ActivationData>
+2026-01-19 16:44:10,625 1952603204 [9] INFORMATION AccessControl ModuleSessionManager - Подключился пользователь Администратор. Создана сессия a812dc23-edba-490e-b61f-b0de4b728400.
+2026-01-19 17:04:13,985 1952603205 [35] INFORMATION AccessControl ModuleSessionManager - Подключился пользователь Администратор. Создана сессия 73ed4420-1857-46cf-8591-032f92b0d86c.
+2026-01-19 17:04:14,084 1952603206 [46] WARNING All FileMetadataProvider - Для обьектов [00000000-1234-5678-0000-123456789000, DatareonPlatformCredential, УправлениеПользователями], [87654321-4321-0000-0000-123456789000, DatareonPlatformMonitoringService, СервисМониторинга], [12345678-0000-0000-0000-1234567890ea, DatareonPlatformEventsStorage, СборщикСобытий] не определены родители, поэтому они не будут экспортированы

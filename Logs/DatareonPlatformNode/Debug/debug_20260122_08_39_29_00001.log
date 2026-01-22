@@ -1,0 +1,3289 @@
+﻿2026-01-22 08:39:29,191 -2044969030 [16] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:29,191 -2044969029 [3] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:6, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:29,218 -2044969028 [3] INFORMATION Connections dt_platform_DataPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:29,218 -2044969027 [16] INFORMATION Connections dt_platform_PipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:30,606 -2044969026 [3] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:6, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:30,606 -2044969025 [3] INFORMATION Connections dt_platform_PipeServer - Отключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:30,606 -2044969024 [3] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:30,611 -2044969023 [3] INFORMATION Connections dt_platform_DataPipeServer - Отключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:30,615 -2044969022 [33] INFORMATION Queues ModuleMessagePusher[Процессы[41d97]] - Прием сообщений из очереди модуля 41d9723b-0c10-41e9-95e6-e9300da2e018 остановлен.
+2026-01-22 08:39:31,231 -2044969021 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:8, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:31,231 -2044969020 [36] INFORMATION Connections dt_platform_PipeServer - Отключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:31,232 -2044969019 [16] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:31,232 -2044969018 [16] INFORMATION Connections dt_platform_DataPipeServer - Отключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:31,232 -2044969017 [16] INFORMATION Queues ModuleMessagePusher[ПорталВАд[0be98]] - Прием сообщений из очереди модуля 0be98576-8b31-415d-9dcb-6931feba4b57 остановлен.
+2026-01-22 08:39:32,200 -2044969016 [10] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-22 08:39:32,203 -2044969015 [31] WARNING All NodeProcessHandler_Local - Не удалось отправить пакет сообщений в модуль процессов: Не удалось отправить сообщение клиенту 41d9723b-0c10-41e9-95e6-e9300da2e018, т.к. клиент ещё не подключен. Id=66e852a3-f29a-4bf7-9eb1-e250366809c2,StreamId=00000000-0000-0000-0000-000000000000,CorrelationId=2d1d969a-60a1-48da-b901-3c648e9f128c,MessageType=Dt-RepositoryObject,Source=418dcccf-6f65-4a33-a0d0-601528e5cc4c,Receivers=41d9723b-0c10-41e9-95e6-e9300da2e018,BodySize=1,Properties=[IDList = null; ]
+2026-01-22 08:39:32,237 -2044969014 [31] ERROR Queues ModuleMessagePusher[ПорталВАд2[d9871]] - Прием сообщений из очереди модуля d987104b-6812-4a38-aa5a-a44cd4cc91fe остановлен.
+2026-01-22 08:39:32,247 -2044969013 [3] INFORMATION All NodeClusterDataProcessor - Остановка сервисов для рероута сообщений из основных очередей
+2026-01-22 08:39:32,248 -2044969012 [3] WARNING Queues ModuleMessagePusher[Процессы[41d97]] - Не запущен.
+2026-01-22 08:39:32,248 -2044969011 [10] WARNING Queues ModuleMessagePusher[ПорталВАд[0be98]] - Не запущен.
+2026-01-22 08:39:32,249 -2044969010 [3] INFORMATION Connections dt_platform_DataPipeServer - Установка запрета обработки сообщений до загрузки кластерного процессора
+2026-01-22 08:39:32,249 -2044969009 [3] INFORMATION Connections dt_platform_TcpServer - Установка запрета обработки сообщений до загрузки кластерного процессора
+2026-01-22 08:39:32,250 -2044969008 [3] INFORMATION All NodeWorkloadUnprocessedSender - Завершен цикл обработки сообщений
+2026-01-22 08:39:32,253 -2044969007 [10] INFORMATION None Q[0be98] - Успешно остановлено
+2026-01-22 08:39:32,253 -2044969006 [16] INFORMATION None Q[03ecf] - Успешно остановлено
+2026-01-22 08:39:32,253 -2044969005 [3] INFORMATION None Q[41d97] - Успешно остановлено
+2026-01-22 08:39:32,253 -2044969004 [33] INFORMATION Queues Other - Успешно остановлено
+2026-01-22 08:39:32,253 -2044969003 [10] INFORMATION None Q[c19da] - Успешно остановлено
+2026-01-22 08:39:32,253 -2044969002 [16] INFORMATION None Q[8fe6d] - Успешно остановлено
+2026-01-22 08:39:32,253 -2044969001 [10] INFORMATION Queues Необработанные_сообщения - Успешно остановлено
+2026-01-22 08:39:32,254 -2044969000 [3] INFORMATION None Q[0e5ac] - Успешно остановлено
+2026-01-22 08:39:32,254 -2044968999 [33] INFORMATION None Q[d9871] - Успешно остановлено
+2026-01-22 08:39:32,254 -2044968998 [10] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-22 08:39:32,260 -2044968997 [3] INFORMATION Balancing BalancingProcessService - Сервис балансировки успешно остановлен
+2026-01-22 08:39:32,261 -2044968996 [3] INFORMATION All NodeCounterService - Компонент успешно остановлен
+2026-01-22 08:39:32,284 -2044968995 [3] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-22 08:39:32,294 -2044968994 [10] INFORMATION Queues Q418dc_11112 - Успешно остановлено
+2026-01-22 08:39:32,298 -2044968993 [10] INFORMATION All FromOtherMachineExecutor - Завершен цикл обработки сообщений
+2026-01-22 08:39:32,334 -2044968992 [3] INFORMATION Triggers TriggerScheduler - Успешная остановка.
+2026-01-22 08:39:32,343 -2044968991 [3] INFORMATION None Q55554_55554 - Успешно остановлено
+2026-01-22 08:39:32,347 -2044968990 [3] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:32,350 -2044968989 [48] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968988 [36] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968987 [48] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968986 [16] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968985 [48] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968984 [15] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968983 [3] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968982 [48] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968981 [15] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968980 [48] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968979 [36] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968978 [48] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968977 [34] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:8, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,350 -2044968976 [16] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968975 [7] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968974 [3] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968973 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968972 [7] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968971 [18] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968970 [34] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:8, CurrentState:END, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968969 [15] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968968 [16] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:11, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968967 [7] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968966 [36] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968965 [16] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:11, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968964 [18] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968963 [3] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968962 [7] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968961 [15] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968960 [3] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:32,351 -2044968959 [3] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения остановлен
+2026-01-22 08:39:32,351 -2044968958 [3] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно остановлен
+2026-01-22 08:39:32,352 -2044968957 [3] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:32,354 -2044968956 [16] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-22 08:39:35,048 -2044968955 [8] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:35,074 -2044968954 [8] INFORMATION All Main - Идентификатор текущего процесса: 1116
+2026-01-22 08:39:35,075 -2044968953 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:35,796 -2044968952 [8] INFORMATION All NodeManagerService - Параметры пула потоков: max = (2147483647,1000), min = (8,8).
+2026-01-22 08:39:36,204 -2044968951 [8] INFORMATION All NodeManagerService - ServiceParams: instanceId = 418dcccf-6f65-4a33-a0d0-601528e5cc4c, nodeName = NGARANINA
+2026-01-22 08:39:36,254 -2044968950 [8] INFORMATION All DirectRouter - Найден модуль процессов 41d9723b-0c10-41e9-95e6-e9300da2e018
+2026-01-22 08:39:37,155 -2044968949 [8] INFORMATION Queues Q418dc_11112 - Загружено сообщений 0
+2026-01-22 08:39:37,155 -2044968948 [8] INFORMATION Queues Q418dc_11112 - Успешно запущено, время 00:00:00.0357456
+2026-01-22 08:39:37,273 -2044968947 [8] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-22 08:39:37,273 -2044968946 [8] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-22 08:39:37,354 -2044968945 [8] INFORMATION States NodeManagerService - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-22 08:39:37,781 -2044968944 [8] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 08:39:38,492 -2044968943 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:38,879 -2044968942 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:38,881 -2044968941 [8] INFORMATION Coordinator HeartbeatAwaiter - Мы координатор. Останавливаем отслеживание heartbeat-сообщений.
+2026-01-22 08:39:38,895 -2044968940 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:38,897 -2044968939 [17] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Запуск точки подключения (Endpoint=0.0.0.0:7290)
+2026-01-22 08:39:38,901 -2044968938 [8] INFORMATION Connections CpBroker [NodeManager] - Брокер точек подключения запущен
+2026-01-22 08:39:38,906 -2044968937 [8] INFORMATION None Q55554_55554 - Загружено сообщений 0
+2026-01-22 08:39:38,906 -2044968936 [8] INFORMATION Queues Q55554_55554 - Успешно запущено, время 00:00:00.0045108
+2026-01-22 08:39:38,914 -2044968935 [17] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,917 -2044968934 [7] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:38,918 -2044968933 [12] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,918 -2044968932 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,931 -2044968931 [12] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,931 -2044968930 [8] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-22 08:39:38,931 -2044968929 [7] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-22 08:39:38,931 -2044968928 [8] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0086654
+2026-01-22 08:39:38,931 -2044968927 [7] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0086996
+2026-01-22 08:39:38,932 -2044968926 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,937 -2044968925 [17] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=6) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,942 -2044968924 [17] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:39:38,950 -2044968923 [7] ERROR All ModuleMessageTracker - Попытка вернуть сообщения в обработку во время перезапуска сервиса 87654321-4321-0000-0000-123456789000
+2026-01-22 08:39:38,953 -2044968922 [7] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=7) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,954 -2044968921 [19] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=8) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,962 -2044968920 [15] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:39:38,965 -2044968919 [17] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=9) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:38,968 -2044968918 [8] INFORMATION All HeartbeatSender - Период отправки heartbeat-сообщений: 30000 мс, количество допустимых пропущенных heartbeat-сообщений: 3
+2026-01-22 08:39:38,987 -2044968917 [17] INFORMATION All HeartbeatSender - Запущена отправка heartbeat-сообщений с периодом 30000 мс.
+2026-01-22 08:39:39,001 -2044968916 [14] INFORMATION Queues Other - Успешно остановлено
+2026-01-22 08:39:39,011 -2044968915 [8] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-22 08:39:39,039 -2044968914 [8] INFORMATION All DistributedNodeRepository - На этой машине есть модуль процессов [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы], создаем очередь новых сообщений
+2026-01-22 08:39:39,103 -2044968913 [8] INFORMATION None Q[41d97] - Загружено сообщений 0
+2026-01-22 08:39:39,104 -2044968912 [8] INFORMATION Queues Q[41d97] - Успешно запущено, время 00:00:00.0098679
+2026-01-22 08:39:39,115 -2044968911 [19] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0201434
+2026-01-22 08:39:39,123 -2044968910 [16] INFORMATION None Q[03ecf] - Загружено сообщений 0
+2026-01-22 08:39:39,124 -2044968909 [16] INFORMATION Queues Q[03ecf] - Успешно запущено, время 00:00:00.0281424
+2026-01-22 08:39:39,124 -2044968908 [19] INFORMATION None Q[d9871] - Загружено сообщений 0
+2026-01-22 08:39:39,124 -2044968907 [19] INFORMATION Queues Q[d9871] - Успешно запущено, время 00:00:00.0088131
+2026-01-22 08:39:39,124 -2044968906 [15] INFORMATION None Q[0be98] - Загружено сообщений 0
+2026-01-22 08:39:39,124 -2044968905 [15] INFORMATION Queues Q[0be98] - Успешно запущено, время 00:00:00.0296845
+2026-01-22 08:39:39,129 -2044968904 [19] INFORMATION Queues Необработанные_сообщения - Загружено сообщений 0
+2026-01-22 08:39:39,129 -2044968903 [19] INFORMATION Queues Необработанные_сообщения - Успешно запущено, время 00:00:00.0053677
+2026-01-22 08:39:39,133 -2044968902 [19] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0034994
+2026-01-22 08:39:39,134 -2044968901 [8] INFORMATION None Q[0e5ac] - Загружено сообщений 0
+2026-01-22 08:39:39,134 -2044968900 [8] INFORMATION Queues Q[0e5ac] - Успешно запущено, время 00:00:00.0308206
+2026-01-22 08:39:39,136 -2044968899 [16] INFORMATION None Q[8fe6d] - Загружено сообщений 0
+2026-01-22 08:39:39,136 -2044968898 [16] INFORMATION Queues Q[8fe6d] - Успешно запущено, время 00:00:00.0124166
+2026-01-22 08:39:39,136 -2044968897 [15] INFORMATION None Q[c19da] - Загружено сообщений 0
+2026-01-22 08:39:39,136 -2044968896 [15] INFORMATION Queues Q[c19da] - Успешно запущено, время 00:00:00.0122567
+2026-01-22 08:39:39,151 -2044968895 [8] INFORMATION Connections dt_platform_DataPipeServer - Разрешение обработки сообщений кластерный процессор загружен
+2026-01-22 08:39:39,159 -2044968894 [8] INFORMATION Connections dt_platform_TcpServer - Разрешение обработки сообщений кластерный процессор загружен
+2026-01-22 08:39:39,406 -2044968893 [8] INFORMATION Coordinator NodeMessagePusher - Текущий контент кластера {
+  "Cluster": {
+    "Coordinators": [],
+    "HeartbeatPeriod": 30000,
+    "OtherMachineSenderThreadsCount": 8,
+    "FailThreshold": 3,
+    "UseBalancing": true,
+    "RedirectDiagnostics": true,
+    "ProcessParams": {
+      "ThreadCount": 5,
+      "MaxSleepingProcessCount": 100,
+      "MaxSleepingProcessMB": 200,
+      "MaxUnprocessedQueueMB": 30,
+      "MinWaitBeforeSleep": 10000,
+      "MaxRunnedRequests": 50,
+      "MaxSleepTimeMinutes": 1440,
+      "MinMessageCountForThread": 50
+    },
+    "QueueParams": {
+      "MinFileSizeMb": 10,
+      "MaxMessageSizeMb": 2047
+    },
+    "CommonParams": {
+      "MaxModuleMemoryUsage": 2
+    },
+    "NodeParams": {
+      "MaxUnprocessedQueueLength": 200,
+      "ExcessUnprocessedQueuePercent": 50
+    },
+    "MessageProcessingParams": {
+      "MaxDelayCount": 30,
+      "MaxSnapshotCount": 100,
+      "SnapshotStoreMinutes": 15,
+      "MaxBatchWaitTimeoutMs": 300,
+      "MaxBatchSize": 100
+    },
+    "GlobalDiagnosticParams": {
+      "IssueCollectPeriod": 300,
+      "MinLogLevel": "Debug",
+      "DefaultEventLevel": "Debug",
+      "MinLogLevelHistory": "Info",
+      "DefaultEventLevelHistory": "Info",
+      "EventsLogLevels": {},
+      "Features": [],
+      "TrackingCustomProperties": true,
+      "CounterDiagnosticData": [],
+      "SystemDiagnosticParams": {},
+      "ExecuteRequestTimeoutMs": 600000
+    },
+    "CacheSettings": {
+      "IssuesCacheSettings": {
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "LogsCacheSettings": {
+        "MetadataRequestFrequency": 30,
+        "StopRequestSendTimeout": 10
+      },
+      "CountersCacheSettings": {
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "ComponentStatesCacheSettings": {
+        "MetadataRequestFrequency": 5,
+        "StopRequestSendTimeout": 5
+      },
+      "MetadataSettings": {
+        "GetTimeOut": 1,
+        "CacheTime": 15
+      },
+      "SearchMessageCacheTimeMinutes": 5
+    },
+    "HotRecoverySettingsGlobal": {
+      "Modules": {},
+      "Nodes": {}
+    },
+    "HotRecoverySettingsEffective": {
+      "Modules": {},
+      "Nodes": {}
+    },
+    "ResolveList": [],
+    "DiskUsageParams": {
+      "ArchiveMaxSizeMb": 100,
+      "TrackingMaxSizeMb": 100,
+      "DataMaxSizeMb": 1024,
+      "LogsMaxSizeMb": 100,
+      "TotalMaxSizeMb": 2048
+    },
+    "LogStorageParams": {
+      "FolderMaxSizeMb": 50,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "ArchiveStorageParams": {
+      "ArchiveMaxSizeMb": 100
+    },
+    "TrackingStorageParams": {
+      "TrackingMaxSizeMb": 100
+    },
+    "EventsStorageParams": {
+      "Format": "BinaryFiles",
+      "SaveAsBinFiles": true,
+      "MaxEventsFileSizeBytes": 10485760,
+      "MaxMessagesFileSizeBytes": 10485760,
+      "MaxBinaryDataFileSizeBytes": 10485760
+    },
+    "DumpStorageParams": {
+      "StoreDays": 1,
+      "FolderMaxSizeMb": 50,
+      "UncompressedDays": 1,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "UseSystemUDPSender": true,
+    "UpdateTimeout": 30000,
+    "LargeObjectQueueParams": {
+      "MinFileSizeMb": 100,
+      "MaxMessageSizeMb": 1024,
+      "MinLargeMessageSizeMb": 50
+    },
+    "AllocationOptions": {
+      "Auto": true,
+      "CheckPeriodSecond": 300,
+      "UseDbConnectAddress": true,
+      "NodePriorityList": []
+    },
+    "NodeGroupCollection": {
+      "NodeGroups": [
+        {
+          "NodeGroupId": "12345678-9999-9999-9999-999999999999",
+          "NodeGroupName": "Группа по умолчанию",
+          "NodeIds": [
+            "418dcccf-6f65-4a33-a0d0-601528e5cc4c"
+          ],
+          "SystemsAndModulesIds": [
+            "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+            "c19daf81-5968-4964-b93a-81b09d63a36e",
+            "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+            "03ecf3d0-070b-4133-ae7b-832414500060",
+            "41d9723b-0c10-41e9-95e6-e9300da2e018",
+            "0be98576-8b31-415d-9dcb-6931feba4b57",
+            "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          ]
+        }
+      ]
+    },
+    "DeprecatedParams": {
+      "v311": {},
+      "v312": {}
+    },
+    "EntityId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "Name": "NGARANINA",
+    "Description": "NGARANINA",
+    "Version": 1,
+    "FieldsFromGlobalBusiness": {}
+  },
+  "ClusterNodes": [
+    {
+      "IsCoordinator": true,
+      "HasControlCenter": true,
+      "Address": "127.0.0.1",
+      "Port": 7290,
+      "IpAddress": "192.168.56.1",
+      "ControlCenterPort": 7200,
+      "ReplicateTo": [],
+      "AllocationsGlobal": {
+        "Systems": [
+          {
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38"
+          },
+          {
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e"
+          },
+          {
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81"
+          },
+          {
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060"
+          }
+        ],
+        "Modules": [
+          {
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018"
+          },
+          {
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57"
+          },
+          {
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          }
+        ]
+      },
+      "AllocationsLocal": {
+        "Systems": [],
+        "Modules": []
+      },
+      "AllocationsEffective": {
+        "Systems": [
+          {
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38"
+          },
+          {
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e"
+          },
+          {
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81"
+          },
+          {
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060"
+          }
+        ],
+        "Modules": [
+          {
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018"
+          },
+          {
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57"
+          },
+          {
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "NodeResolveList": [],
+      "EntityId": "418dcccf-6f65-4a33-a0d0-601528e5cc4c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "NGARANINA",
+      "Description": "NGARANINA",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "NodeModules": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.ProcessesConfig, DT_ConfigurationRepository"
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Сервис обработки процессов",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "Options": {
+          "UserMenu": [
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+              "Name": "Ссылочная страница страница №2",
+              "Roles": [],
+              "ObjectConfigId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+              "Name": "Ссылочная страница страница №3",
+              "Roles": [],
+              "ObjectConfigId": "7efc9c7a-a920-4484-a57b-230433328eb0"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+              "Name": "Ссылочная страница страница №4",
+              "Roles": [],
+              "ObjectConfigId": "293ac42f-dab4-4952-81fa-b20bbce748ba"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+              "Name": "Ссылочная страница страница №5",
+              "Roles": [],
+              "ObjectConfigId": "9a87826f-c4ea-4633-937c-cde1250407b3"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+              "Name": "Ссылочная страница страница №6",
+              "Roles": [],
+              "ObjectConfigId": "98c80a08-3ffd-431e-80be-91955d7ca345"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+              "Name": "Ссылочная страница страница №7",
+              "Roles": [],
+              "ObjectConfigId": "42bac85a-3284-496c-b3ef-5a2871e69f9a"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+              "Name": "Ссылочная страница страница №8",
+              "Roles": [],
+              "ObjectConfigId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+              "Name": "Ссылочная страница страница №9",
+              "Roles": [],
+              "ObjectConfigId": "1a80d8ed-a46b-46da-b540-27cb7c91529d"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+              "Name": "Ссылочная страница тестовая страница",
+              "Roles": [],
+              "ObjectConfigId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e"
+            }
+          ],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "EntityId": "0e1b759f-e082-42f8-a05d-9e482a72755b",
+                "Name": "",
+                "IsVisible": true,
+                "Columns": [
+                  {
+                    "EntityId": "e8c560ea-4685-4faf-b795-e2308dcdb2e3",
+                    "Name": "",
+                    "VScroll": true,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "EntityId": "8dba14bd-2027-4104-b5d0-44b4bc703afb",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+                        "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Size": ""
+              }
+            ],
+            "EntityId": "8aae86c3-69fc-42da-8b00-303ccd5f2f1b",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 666,
+        "Auth": {},
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд",
+      "Description": "Портал_В_Ад",
+      "Comment": "Lasciate ogne speranza, voi ch'entrate",
+      "Version": 17,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "Options": {
+          "UserMenu": [],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "EntityId": "79ed1a11-ecdd-448d-9341-c84031e040cb",
+                "Name": "",
+                "IsVisible": true,
+                "Columns": [
+                  {
+                    "EntityId": "9111151b-4388-414b-9400-7a2491ae1fa7",
+                    "Name": "",
+                    "VScroll": true,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Size": ""
+              }
+            ],
+            "EntityId": "35649acd-c8d1-49fb-b0e1-9aace4bfab39",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 667,
+        "Auth": {},
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд2",
+      "Description": "Портал_В_Ад2",
+      "Comment": "",
+      "Version": 6,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "Systems": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "OutputDirectory": "C:\\Test\\from_portal",
+        "FileNamePattern": "{Message/Id}.message",
+        "HandlersList": [
+          {
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "FileOut",
+      "Description": "FileOut",
+      "Version": 2,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "C:\\Test\\in",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "",
+        "FileNamePattern": "",
+        "HandlersList": [
+          {
+            "HandlerId": "3a5339ef-25db-4f0b-824b-7e3b68c562da",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File1",
+      "Description": "File1",
+      "Version": 7,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "C:\\Test\\out",
+        "FileNamePattern": "{/Message/Id}.json",
+        "HandlersList": [
+          {
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File2",
+      "Description": "File2",
+      "Version": 10,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "Web",
+        "Port": 65535,
+        "PublishSwagger": true,
+        "AuthTypeRest": "Bearer",
+        "SslProtocols": [],
+        "CredentialsInBody": true,
+        "RateLimiterOptions": {
+          "RejectedStatusCode": 429,
+          "ControllerLimit": 1000
+        },
+        "Auth": {},
+        "HandlersList": [
+          {
+            "HandlerId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "RestIn",
+      "Description": "RestIn",
+      "Version": 3,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "ProcessScripts": [
+    {
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "f976808d-d0cf-488e-8041-875a6960aefa",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВыбораСхемыОбработки",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "Roles": [],
+  "BusinessRoles": [],
+  "Folders": [
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "b74a3dfc-65b7-415c-ac5d-2f6d0fbc6569",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "ea76c92c-2fbe-458b-945d-63b75d656d16",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Процессы",
+      "Version": 2,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "8f8c648d-6af1-471b-b9a9-61d99b237723",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "DataTypeFile",
+      "Description": "DataTypeFile",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СистемныеАлгоритмы",
+      "Description": "Системные алгоритмы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "9fb6b9e6-9639-40d8-8f53-bf987f8f5ec8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ВходящиеТрансформации",
+      "Description": "Входящие трансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "db36b383-53e2-429f-8077-d5bfd0f87ba5",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПрограммныеМодули",
+      "Description": "Программные модули",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "5a31b3a2-88e2-4599-9071-1d41c931c335",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Функции",
+      "Description": "Функции",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "11111111-5717-48e9-bc6f-886ceddf0a36",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсточникиДанных",
+      "Description": "Источники данных",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "2b599827-0341-4e6e-a27c-ece5b79535d6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсходящиеТрансформации",
+      "Description": "Исходящие трансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "VirtualFolders": [
+    {
+      "Type": "Types",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Типы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Plugins",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "e35fd210-2b22-4005-a91b-9265ecf49036",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Плагины",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Roles",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "c9abdbb8-584a-4b59-8dae-ae61ea195c4d",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Роли",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ClusterNodes",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Серверы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Modules",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Сервисы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ObjectConfigs",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Конфигурация объекта",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Processes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Схемы обработки",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Attributes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "5ddabdb2-8184-40fe-a5c9-96d970551946",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Атрибуты",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0bb16ea6-8a50-44bd-813f-81a6bc7a986b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задания по расписанию",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "SendingStrategies",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0df1e980-db7e-4dd3-9c91-add19cdd22e4",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Правила обработки очередей",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "EtlProcesses",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "ee7e24c4-266f-4916-a1b3-03efab2f8e01",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы ETL",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "UiForm",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "01908598-8b5f-4134-b34d-071558d863ac",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Формы интерфейса",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Systems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние системы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ProcessIssues",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "12d00502-903d-4046-a369-e790b9241a22",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задачи",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "GlobalConstants",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "883f798d-7214-4969-ad20-1d3acb1db0e6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Глобальные константы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Subsystems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "7c933660-b794-4a7b-9a58-f556a558471e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Подсистемы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Routes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "3a7acb25-32f7-4415-a553-570ab1d87bc3",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Маршруты",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Handlers",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Обработчики",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "UiMenu",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0ef42c85-9592-4bd7-9028-abf7f96376d9",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Настройка меню",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "SystemsMetadataTypes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "dfb43312-a4bf-4bdf-8080-385be807a873",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние типы данных",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Metadata",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Метаданные",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "InTransformScripts": [
+    {
+      "ScriptType": "InTransform",
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "d07ae17c-0ffb-4337-9d28-86a1b31a15da",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВходящейТрансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "OutTransformScripts": [
+    {
+      "ScriptType": "OutTransform",
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "c92398ab-b6c9-48b6-ab70-2dcf30346d3c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптИсходящейТрансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "UiFroms": [],
+  "UiGroups": [],
+  "UiMenuCollection": [],
+  "Triggers": [],
+  "SendingStragies": [],
+  "Routes": [],
+  "DefaultServices": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MonitoringServiceConfig, DT_ConfigurationRepository"
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "87654321-4321-0000-0000-123456789000",
+      "Name": "СервисМониторинга",
+      "Description": "Сервис мониторинга",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.CredentialConfig, DT_ConfigurationRepository",
+        "ReuseAfter": 10,
+        "StoreJournalPeriod": 7,
+        "LoggingActions": [],
+        "TokenSettings": {
+          "TokenLifetime": 60,
+          "RefreshTokenLifetime": 1440
+        },
+        "CreditalsLifetime": 300,
+        "UpdateTime": 60,
+        "AuthDomainSettings": {
+          "ServerAuthenticationAddress": ""
+        },
+        "SecretFields": [],
+        "AdditionalFields": [],
+        "InternalStorage": true,
+        "HotRecoverySettingsGlobal": {
+          "Nodes": {}
+        },
+        "HotRecoverySettingsEffective": {
+          "Nodes": {}
+        },
+        "SchedulerOptions": "*/10 * * * * *",
+        "StorageDataReplicator": "ReplicationOn",
+        "MaxArchiveSendSize": 1048576
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "00000000-1234-5678-0000-123456789000",
+      "Name": "УправлениеПользователями",
+      "Description": "Управление пользователями",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsStorageConfig, DT_ConfigurationRepository",
+        "CollectorConfig": {
+          "Enabled": true,
+          "CollectPeriodSec": 15,
+          "CollectMaxCount": 1000,
+          "ProcessPackSize": 500,
+          "CollectMaxDepthMinutes": 120
+        },
+        "FilesStoragePeriodDays": 30,
+        "CleanFilesJobSchedule": "0 * * * *",
+        "DbStorageMaxRetentionTimeInDays": 30
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "12345678-0000-0000-0000-1234567890ea",
+      "Name": "СборщикСобытий",
+      "Description": "Сервис для сбора событий",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "MinorVersion": 1,
+  "MajorVersion": 30,
+  "Subsystems": [],
+  "BusinessDomains": [],
+  "ConfigTemplates": []
+}
+2026-01-22 08:39:39,460 -2044968892 [7] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2, DatareonPlatformMdmUI]
+2026-01-22 08:39:39,461 -2044968891 [7] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut, DatareonPlatformSystem]
+2026-01-22 08:39:39,475 -2044968890 [15] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-22 08:39:39,484 -2044968889 [15] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:39,485 -2044968888 [15] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:39,531 -2044968887 [12] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-22 08:39:39,531 -2044968886 [12] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:39,567 -2044968885 [19] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-22 08:39:39,772 -2044968884 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:39,773 -2044968883 [16] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:39,775 -2044968882 [9] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut, DatareonPlatformSystem]
+2026-01-22 08:39:39,780 -2044968881 [11] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-22 08:39:39,789 -2044968880 [8] INFORMATION All NodeRestAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 08:39:39,858 -2044968879 [8] INFORMATION All NodeCounterService - Компонент успешно запущен с настройками NodeStoreTime=60, ModulePollInterval=30
+2026-01-22 08:39:39,862 -2044968878 [8] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-22 08:39:39,863 -2044968877 [8] INFORMATION Balancing BalancingProcessService - Балансировщик успешно запущен
+2026-01-22 08:39:39,863 -2044968876 [8] INFORMATION Balancing BalancingProcessService - В модуле [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] балансировка выключена
+2026-01-22 08:39:39,896 -2044968875 [15] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:39,912 -2044968874 [17] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-22 08:39:39,976 -2044968873 [11] INFORMATION All NodeClusterDataProcessor - Остановка сервисов для рероута сообщений из основных очередей
+2026-01-22 08:39:39,980 -2044968872 [11] INFORMATION Connections dt_platform_DataPipeServer - Установка запрета обработки сообщений до загрузки кластерного процессора
+2026-01-22 08:39:39,980 -2044968871 [11] INFORMATION Connections dt_platform_TcpServer - Установка запрета обработки сообщений до загрузки кластерного процессора
+2026-01-22 08:39:39,983 -2044968870 [11] INFORMATION Queues Необработанные_сообщения - Успешно остановлено
+2026-01-22 08:39:40,025 -2044968869 [11] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0414432
+2026-01-22 08:39:40,030 -2044968868 [15] INFORMATION Queues Необработанные_сообщения - Успешно запущено, время 00:00:00.0414103
+2026-01-22 08:39:40,068 -2044968867 [19] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:40,069 -2044968866 [15] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0385590
+2026-01-22 08:39:40,217 -2044968865 [7] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-22 08:39:41,088 -2044968864 [46] INFORMATION Triggers TriggerScheduler - Успешный запуск.
+2026-01-22 08:39:41,089 -2044968863 [46] INFORMATION All NodeManagerService - Управляющий сервис менеджера узла успешно запущен
+2026-01-22 08:39:41,173 -2044968862 [41] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]. Версия: 30.
+2026-01-22 08:39:41,175 -2044968861 [41] WARNING All MetadataHandler - К координатору не подключено ни одного центра управления. Отправка информации об обновлении не будет выполнена
+2026-01-22 08:39:41,196 -2044968860 [14] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut]. Версия: 30.
+2026-01-22 08:39:41,219 -2044968859 [46] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]. Версия: 30.
+2026-01-22 08:39:41,363 -2044968858 [12] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [c19daf81-5968-4964-b93a-81b09d63a36e, File1]. Версия: 30.
+2026-01-22 08:39:41,400 -2044968857 [14] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]. Версия: 30.
+2026-01-22 08:39:41,404 -2044968856 [48] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]. Версия: 30.
+2026-01-22 08:39:41,462 -2044968855 [61] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]. Версия: 30.
+2026-01-22 08:39:41,703 -2044968854 [60] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2]. Версия: 30.
+2026-01-22 08:39:42,046 -2044968853 [12] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=6) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:42,056 -2044968852 [42] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-22 08:39:42,137 -2044968851 [45] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=10) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:42,295 -2044968850 [61] INFORMATION States NodeManagerService - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-22 08:39:42,662 -2044968849 [45] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 08:39:42,759 -2044968848 [49] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=7) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:42,765 -2044968847 [61] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-22 08:39:43,276 -2044968846 [44] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,280 -2044968845 [44] INFORMATION Connections dt_platform_DataPipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:39:43,283 -2044968844 [40] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 08:39:43,284 -2044968843 [40] INFORMATION Connections dt_platform_PipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:39:43,475 -2044968842 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=8) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:43,479 -2044968841 [49] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд, DatareonPlatformMdmUI]
+2026-01-22 08:39:43,520 -2044968840 [49] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=9) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:43,526 -2044968839 [49] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2, DatareonPlatformMdmUI]
+2026-01-22 08:39:44,261 -2044968838 [61] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [00000000-1234-5678-0000-123456789000, УправлениеПользователями]. Версия: 30.
+2026-01-22 08:39:45,570 -2044968837 [45] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=10) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:39:45,571 -2044968836 [17] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 08:39:46,134 -2044968835 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=11) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:46,135 -2044968834 [15] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-22 08:39:47,345 -2044968833 [9] WARNING All DiagnosticComponentNodeService - Не удалось отправить данные дерева состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentNodeService.SendArchiveDataToMonitoring()
+2026-01-22 08:39:47,352 -2044968832 [9] WARNING All DiagnosticComponentNodeService - Не удалось отправить данные дерева состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentNodeService.SendDiagnosticDataToMonitoring()
+2026-01-22 08:39:48,892 -2044968831 [45] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-22 08:39:51,524 -2044968830 [61] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=12) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 08:39:52,804 -2044968829 [62] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [87654321-4321-0000-0000-123456789000, СервисМониторинга]. Версия: 30.
+2026-01-22 08:39:53,272 -2044968828 [15] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=11) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 08:40:35,023 -2044968827 [11] INFORMATION All DirectRouter - Событие произошло 2 раз:
+Найден модуль процессов 41d9723b-0c10-41e9-95e6-e9300da2e018
+2026-01-22 08:40:35,023 -2044968826 [11] INFORMATION Connections dt_platform_DataPipeServer - Событие произошло 1 раз:
+Разрешение обработки сообщений кластерный процессор загружен
+2026-01-22 08:40:35,023 -2044968825 [11] INFORMATION Queues Other - Событие произошло 1 раз:
+Успешно остановлено
+2026-01-22 08:40:35,023 -2044968824 [9] WARNING All DiagnosticComponentNodeService - Событие произошло 1 раз:
+Не удалось отправить данные дерева состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentNodeService.SendArchiveDataToMonitoring()
+2026-01-22 08:40:35,023 -2044968823 [11] INFORMATION Queues Sleep - Событие произошло 1 раз:
+Успешно остановлено
+2026-01-22 08:40:35,023 -2044968822 [9] WARNING All DiagnosticComponentNodeService - Событие произошло 1 раз:
+Не удалось отправить данные дерева состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentNodeService.SendDiagnosticDataToMonitoring()
+2026-01-22 08:40:35,023 -2044968821 [62] WARNING All MetadataHandler - Событие произошло 9 раз:
+К координатору не подключено ни одного центра управления. Отправка информации об обновлении не будет выполнена
+2026-01-22 08:40:35,024 -2044968820 [11] INFORMATION Coordinator NodeMessagePusher - Событие произошло 1 раз:
+Текущий контент кластера {
+  "Cluster": {
+    "Coordinators": [],
+    "HeartbeatPeriod": 30000,
+    "OtherMachineSenderThreadsCount": 8,
+    "FailThreshold": 3,
+    "UseBalancing": true,
+    "RedirectDiagnostics": true,
+    "ProcessParams": {
+      "ThreadCount": 5,
+      "MaxSleepingProcessCount": 100,
+      "MaxSleepingProcessMB": 200,
+      "MaxUnprocessedQueueMB": 30,
+      "MinWaitBeforeSleep": 10000,
+      "MaxRunnedRequests": 50,
+      "MaxSleepTimeMinutes": 1440,
+      "MinMessageCountForThread": 50
+    },
+    "QueueParams": {
+      "MinFileSizeMb": 10,
+      "MaxMessageSizeMb": 2047
+    },
+    "CommonParams": {
+      "MaxModuleMemoryUsage": 2
+    },
+    "NodeParams": {
+      "MaxUnprocessedQueueLength": 200,
+      "ExcessUnprocessedQueuePercent": 50
+    },
+    "MessageProcessingParams": {
+      "MaxDelayCount": 30,
+      "MaxSnapshotCount": 100,
+      "SnapshotStoreMinutes": 15,
+      "MaxBatchWaitTimeoutMs": 300,
+      "MaxBatchSize": 100
+    },
+    "GlobalDiagnosticParams": {
+      "IssueCollectPeriod": 300,
+      "MinLogLevel": "Debug",
+      "DefaultEventLevel": "Debug",
+      "MinLogLevelHistory": "Info",
+      "DefaultEventLevelHistory": "Info",
+      "EventsLogLevels": {},
+      "Features": [],
+      "TrackingCustomProperties": true,
+      "CounterDiagnosticData": [],
+      "SystemDiagnosticParams": {},
+      "ExecuteRequestTimeoutMs": 600000
+    },
+    "CacheSettings": {
+      "IssuesCacheSettings": {
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "LogsCacheSettings": {
+        "MetadataRequestFrequency": 30,
+        "StopRequestSendTimeout": 10
+      },
+      "CountersCacheSettings": {
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "ComponentStatesCacheSettings": {
+        "MetadataRequestFrequency": 5,
+        "StopRequestSendTimeout": 5
+      },
+      "MetadataSettings": {
+        "GetTimeOut": 1,
+        "CacheTime": 15
+      },
+      "SearchMessageCacheTimeMinutes": 5
+    },
+    "HotRecoverySettingsGlobal": {
+      "Modules": {},
+      "Nodes": {}
+    },
+    "HotRecoverySettingsEffective": {
+      "Modules": {},
+      "Nodes": {}
+    },
+    "ResolveList": [],
+    "DiskUsageParams": {
+      "ArchiveMaxSizeMb": 100,
+      "TrackingMaxSizeMb": 100,
+      "DataMaxSizeMb": 1024,
+      "LogsMaxSizeMb": 100,
+      "TotalMaxSizeMb": 2048
+    },
+    "LogStorageParams": {
+      "FolderMaxSizeMb": 50,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "ArchiveStorageParams": {
+      "ArchiveMaxSizeMb": 100
+    },
+    "TrackingStorageParams": {
+      "TrackingMaxSizeMb": 100
+    },
+    "EventsStorageParams": {
+      "Format": "BinaryFiles",
+      "SaveAsBinFiles": true,
+      "MaxEventsFileSizeBytes": 10485760,
+      "MaxMessagesFileSizeBytes": 10485760,
+      "MaxBinaryDataFileSizeBytes": 10485760
+    },
+    "DumpStorageParams": {
+      "StoreDays": 1,
+      "FolderMaxSizeMb": 50,
+      "UncompressedDays": 1,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "UseSystemUDPSender": true,
+    "UpdateTimeout": 30000,
+    "LargeObjectQueueParams": {
+      "MinFileSizeMb": 100,
+      "MaxMessageSizeMb": 1024,
+      "MinLargeMessageSizeMb": 50
+    },
+    "AllocationOptions": {
+      "Auto": true,
+      "CheckPeriodSecond": 300,
+      "UseDbConnectAddress": true,
+      "NodePriorityList": []
+    },
+    "NodeGroupCollection": {
+      "NodeGroups": [
+        {
+          "NodeGroupId": "12345678-9999-9999-9999-999999999999",
+          "NodeGroupName": "Группа по умолчанию",
+          "NodeIds": [
+            "418dcccf-6f65-4a33-a0d0-601528e5cc4c"
+          ],
+          "SystemsAndModulesIds": [
+            "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+            "c19daf81-5968-4964-b93a-81b09d63a36e",
+            "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+            "03ecf3d0-070b-4133-ae7b-832414500060",
+            "41d9723b-0c10-41e9-95e6-e9300da2e018",
+            "0be98576-8b31-415d-9dcb-6931feba4b57",
+            "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          ]
+        }
+      ]
+    },
+    "DeprecatedParams": {
+      "v311": {},
+      "v312": {}
+    },
+    "EntityId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "Name": "NGARANINA",
+    "Description": "NGARANINA",
+    "Version": 1,
+    "FieldsFromGlobalBusiness": {}
+  },
+  "ClusterNodes": [
+    {
+      "IsCoordinator": true,
+      "HasControlCenter": true,
+      "Address": "127.0.0.1",
+      "Port": 7290,
+      "IpAddress": "192.168.56.1",
+      "ControlCenterPort": 7200,
+      "ReplicateTo": [],
+      "AllocationsGlobal": {
+        "Systems": [
+          {
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38"
+          },
+          {
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e"
+          },
+          {
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81"
+          },
+          {
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060"
+          }
+        ],
+        "Modules": [
+          {
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018"
+          },
+          {
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57"
+          },
+          {
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          }
+        ]
+      },
+      "AllocationsLocal": {
+        "Systems": [],
+        "Modules": []
+      },
+      "AllocationsEffective": {
+        "Systems": [
+          {
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38"
+          },
+          {
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e"
+          },
+          {
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81"
+          },
+          {
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060"
+          }
+        ],
+        "Modules": [
+          {
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018"
+          },
+          {
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57"
+          },
+          {
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "NodeResolveList": [],
+      "EntityId": "418dcccf-6f65-4a33-a0d0-601528e5cc4c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "NGARANINA",
+      "Description": "NGARANINA",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "NodeModules": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.ProcessesConfig, DT_ConfigurationRepository"
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Сервис обработки процессов",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "Options": {
+          "UserMenu": [
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+              "Name": "Ссылочная страница страница №2",
+              "Roles": [],
+              "ObjectConfigId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+              "Name": "Ссылочная страница страница №3",
+              "Roles": [],
+              "ObjectConfigId": "7efc9c7a-a920-4484-a57b-230433328eb0"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+              "Name": "Ссылочная страница страница №4",
+              "Roles": [],
+              "ObjectConfigId": "293ac42f-dab4-4952-81fa-b20bbce748ba"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+              "Name": "Ссылочная страница страница №5",
+              "Roles": [],
+              "ObjectConfigId": "9a87826f-c4ea-4633-937c-cde1250407b3"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+              "Name": "Ссылочная страница страница №6",
+              "Roles": [],
+              "ObjectConfigId": "98c80a08-3ffd-431e-80be-91955d7ca345"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+              "Name": "Ссылочная страница страница №7",
+              "Roles": [],
+              "ObjectConfigId": "42bac85a-3284-496c-b3ef-5a2871e69f9a"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+              "Name": "Ссылочная страница страница №8",
+              "Roles": [],
+              "ObjectConfigId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+              "Name": "Ссылочная страница страница №9",
+              "Roles": [],
+              "ObjectConfigId": "1a80d8ed-a46b-46da-b540-27cb7c91529d"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+              "Name": "Ссылочная страница тестовая страница",
+              "Roles": [],
+              "ObjectConfigId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e"
+            }
+          ],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "EntityId": "0e1b759f-e082-42f8-a05d-9e482a72755b",
+                "Name": "",
+                "IsVisible": true,
+                "Columns": [
+                  {
+                    "EntityId": "e8c560ea-4685-4faf-b795-e2308dcdb2e3",
+                    "Name": "",
+                    "VScroll": true,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "EntityId": "8dba14bd-2027-4104-b5d0-44b4bc703afb",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+                        "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Size": ""
+              }
+            ],
+            "EntityId": "8aae86c3-69fc-42da-8b00-303ccd5f2f1b",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 666,
+        "Auth": {},
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд",
+      "Description": "Портал_В_Ад",
+      "Comment": "Lasciate ogne speranza, voi ch'entrate",
+      "Version": 17,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "Options": {
+          "UserMenu": [],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "EntityId": "79ed1a11-ecdd-448d-9341-c84031e040cb",
+                "Name": "",
+                "IsVisible": true,
+                "Columns": [
+                  {
+                    "EntityId": "9111151b-4388-414b-9400-7a2491ae1fa7",
+                    "Name": "",
+                    "VScroll": true,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Size": ""
+              }
+            ],
+            "EntityId": "35649acd-c8d1-49fb-b0e1-9aace4bfab39",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 667,
+        "Auth": {},
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд2",
+      "Description": "Портал_В_Ад2",
+      "Comment": "",
+      "Version": 6,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "Systems": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "OutputDirectory": "C:\\Test\\from_portal",
+        "FileNamePattern": "{Message/Id}.message",
+        "HandlersList": [
+          {
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "FileOut",
+      "Description": "FileOut",
+      "Version": 2,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "C:\\Test\\in",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "",
+        "FileNamePattern": "",
+        "HandlersList": [
+          {
+            "HandlerId": "3a5339ef-25db-4f0b-824b-7e3b68c562da",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File1",
+      "Description": "File1",
+      "Version": 7,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "C:\\Test\\out",
+        "FileNamePattern": "{/Message/Id}.json",
+        "HandlersList": [
+          {
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File2",
+      "Description": "File2",
+      "Version": 10,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "Web",
+        "Port": 65535,
+        "PublishSwagger": true,
+        "AuthTypeRest": "Bearer",
+        "SslProtocols": [],
+        "CredentialsInBody": true,
+        "RateLimiterOptions": {
+          "RejectedStatusCode": 429,
+          "ControllerLimit": 1000
+        },
+        "Auth": {},
+        "HandlersList": [
+          {
+            "HandlerId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "RestIn",
+      "Description": "RestIn",
+      "Version": 3,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "ProcessScripts": [
+    {
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "f976808d-d0cf-488e-8041-875a6960aefa",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВыбораСхемыОбработки",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "Roles": [],
+  "BusinessRoles": [],
+  "Folders": [
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "b74a3dfc-65b7-415c-ac5d-2f6d0fbc6569",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "ea76c92c-2fbe-458b-945d-63b75d656d16",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Процессы",
+      "Version": 2,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "8f8c648d-6af1-471b-b9a9-61d99b237723",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "DataTypeFile",
+      "Description": "DataTypeFile",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СистемныеАлгоритмы",
+      "Description": "Системные алгоритмы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "9fb6b9e6-9639-40d8-8f53-bf987f8f5ec8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ВходящиеТрансформации",
+      "Description": "Входящие трансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "db36b383-53e2-429f-8077-d5bfd0f87ba5",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПрограммныеМодули",
+      "Description": "Программные модули",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "5a31b3a2-88e2-4599-9071-1d41c931c335",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Функции",
+      "Description": "Функции",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "11111111-5717-48e9-bc6f-886ceddf0a36",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсточникиДанных",
+      "Description": "Источники данных",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "2b599827-0341-4e6e-a27c-ece5b79535d6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсходящиеТрансформации",
+      "Description": "Исходящие трансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "VirtualFolders": [
+    {
+      "Type": "Types",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Типы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Plugins",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "e35fd210-2b22-4005-a91b-9265ecf49036",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Плагины",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Roles",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "c9abdbb8-584a-4b59-8dae-ae61ea195c4d",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Роли",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ClusterNodes",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Серверы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Modules",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Сервисы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ObjectConfigs",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Конфигурация объекта",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Processes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Схемы обработки",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Attributes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "5ddabdb2-8184-40fe-a5c9-96d970551946",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Атрибуты",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0bb16ea6-8a50-44bd-813f-81a6bc7a986b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задания по расписанию",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "SendingStrategies",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0df1e980-db7e-4dd3-9c91-add19cdd22e4",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Правила обработки очередей",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "EtlProcesses",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "ee7e24c4-266f-4916-a1b3-03efab2f8e01",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы ETL",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "UiForm",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "01908598-8b5f-4134-b34d-071558d863ac",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Формы интерфейса",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Systems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние системы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ProcessIssues",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "12d00502-903d-4046-a369-e790b9241a22",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задачи",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "GlobalConstants",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "883f798d-7214-4969-ad20-1d3acb1db0e6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Глобальные константы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Subsystems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "7c933660-b794-4a7b-9a58-f556a558471e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Подсистемы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Routes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "3a7acb25-32f7-4415-a553-570ab1d87bc3",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Маршруты",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Handlers",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Обработчики",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "UiMenu",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0ef42c85-9592-4bd7-9028-abf7f96376d9",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Настройка меню",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "SystemsMetadataTypes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "dfb43312-a4bf-4bdf-8080-385be807a873",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние типы данных",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Metadata",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Метаданные",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "InTransformScripts": [
+    {
+      "ScriptType": "InTransform",
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "d07ae17c-0ffb-4337-9d28-86a1b31a15da",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВходящейТрансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "OutTransformScripts": [
+    {
+      "ScriptType": "OutTransform",
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "c92398ab-b6c9-48b6-ab70-2dcf30346d3c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптИсходящейТрансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "UiFroms": [],
+  "UiGroups": [],
+  "UiMenuCollection": [],
+  "Triggers": [],
+  "SendingStragies": [],
+  "Routes": [],
+  "DefaultServices": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MonitoringServiceConfig, DT_ConfigurationRepository"
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "87654321-4321-0000-0000-123456789000",
+      "Name": "СервисМониторинга",
+      "Description": "Сервис мониторинга",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.CredentialConfig, DT_ConfigurationRepository",
+        "ReuseAfter": 10,
+        "StoreJournalPeriod": 7,
+        "LoggingActions": [],
+        "TokenSettings": {
+          "TokenLifetime": 60,
+          "RefreshTokenLifetime": 1440
+        },
+        "CreditalsLifetime": 300,
+        "UpdateTime": 60,
+        "AuthDomainSettings": {
+          "ServerAuthenticationAddress": ""
+        },
+        "SecretFields": [],
+        "AdditionalFields": [],
+        "InternalStorage": true,
+        "HotRecoverySettingsGlobal": {
+          "Nodes": {}
+        },
+        "HotRecoverySettingsEffective": {
+          "Nodes": {}
+        },
+        "SchedulerOptions": "*/10 * * * * *",
+        "StorageDataReplicator": "ReplicationOn",
+        "MaxArchiveSendSize": 1048576
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "00000000-1234-5678-0000-123456789000",
+      "Name": "УправлениеПользователями",
+      "Description": "Управление пользователями",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsStorageConfig, DT_ConfigurationRepository",
+        "CollectorConfig": {
+          "Enabled": true,
+          "CollectPeriodSec": 15,
+          "CollectMaxCount": 1000,
+          "ProcessPackSize": 500,
+          "CollectMaxDepthMinutes": 120
+        },
+        "FilesStoragePeriodDays": 30,
+        "CleanFilesJobSchedule": "0 * * * *",
+        "DbStorageMaxRetentionTimeInDays": 30
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "12345678-0000-0000-0000-1234567890ea",
+      "Name": "СборщикСобытий",
+      "Description": "Сервис для сбора событий",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "MinorVersion": 1,
+  "MajorVersion": 30,
+  "Subsystems": [],
+  "BusinessDomains": [],
+  "ConfigTemplates": []
+}
+2026-01-22 08:40:35,024 -2044968819 [61] INFORMATION Connections dt_platform_DataPipeServer - Событие произошло 1 раз:
+Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:40:35,024 -2044968818 [62] INFORMATION Connections dt_platform_PipeServer - Событие произошло 1 раз:
+Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-22 08:40:35,024 -2044968817 [15] INFORMATION Queues Необработанные_сообщения - Событие произошло 1 раз:
+Загружено сообщений 0
+2026-01-22 08:40:35,024 -2044968816 [11] INFORMATION Queues Other - Событие произошло 2 раз:
+Загружено сообщений 0
+2026-01-22 08:40:35,024 -2044968815 [8] INFORMATION Coordinator HeartbeatAwaiter - Событие произошло 1 раз:
+Мы координатор. Останавливаем отслеживание heartbeat-сообщений.
+2026-01-22 08:40:35,025 -2044968814 [11] INFORMATION Connections dt_platform_TcpServer - Событие произошло 1 раз:
+Разрешение обработки сообщений кластерный процессор загружен
+2026-01-22 08:40:35,025 -2044968813 [15] INFORMATION Queues Sleep - Событие произошло 2 раз:
+Загружено сообщений 0
+2026-01-22 09:31:49,771 -2044968812 [34] ERROR All NodeMessageDataProvider - Не удалось удалить сообщение 9ebe39dc-fc0a-489a-992d-05956bc99f9f ModuleId = 00000000-1234-5678-0000-123456789000
+System.InvalidOperationException: Не найдено хранилище для модуля: 00000000-1234-5678-0000-123456789000
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.GetMaster(Guid moduleId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteFromMasterAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.DistributedRepository.DistributedNodeRepository.DeleteAsync(Guid moduleId, Guid messageId)
+   at DT.NodeMessageProcessing.MessagePushing.NodeMessageDataProvider.DeleteFromStorage(Guid moduleId, String name, InitialMessageProperty messageData, Boolean isRemoteNode)
+2026-01-22 09:31:50,401 -2044968811 [61] INFORMATION Connections TcpServer[net.tcp://0.0.0.0:7290/] - Принято новое TCP-подключение (RemoteEndPoint=127.0.0.1, ConnectionID=1)
+2026-01-22 09:31:50,415 -2044968810 [62] INFORMATION Connections dt_platform_TcpServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-22 09:31:56,148 -2044968809 [47] INFORMATION Apply NodeToNodeMessageHandler - Обновление конфигурации кластера от сервиса [Sender = ControlServer; SenderId = 00000000-6a06-4239-bb04-fb60f8603770; IsLocal = True]
+2026-01-22 09:31:58,628 -2044968808 [62] INFORMATION Apply AssemblyHelper - Начато сохранение библиотек на диск
+2026-01-22 09:31:58,639 -2044968807 [36] INFORMATION Apply AssemblyHelper - Завершено сохранение библиотек на диск
+2026-01-22 09:31:58,747 -2044968806 [36] INFORMATION All SnmpEngine - Компонент успешно остановлен
+2026-01-22 09:31:58,754 -2044968805 [36] INFORMATION All SnmpEngine - Компонент успешно запущен
+2026-01-22 09:31:58,771 -2044968804 [36] INFORMATION All NodeManagerService - Установил максимальный размер трассировки равным 100
+2026-01-22 09:31:58,771 -2044968803 [36] INFORMATION All NodeManagerService - Установил максимальный размер архивных данных равным 100
+2026-01-22 09:31:58,772 -2044968802 [36] INFORMATION Apply MetadataCacheManager - Обновление кэшей узла завершено
+2026-01-22 09:31:58,808 -2044968801 [36] INFORMATION Triggers TriggerScheduler - Успешная остановка.
+2026-01-22 09:31:58,813 -2044968800 [36] INFORMATION Triggers TriggerScheduler - Успешный запуск.
+2026-01-22 09:31:58,814 -2044968799 [36] INFORMATION All NodeToNodeMessageHandler - Конфигурация сети применена, версия 31
+2026-01-22 09:31:58,905 -2044968798 [36] INFORMATION Coordinator ClusterNode - GenerateAllocationInfo Рассчет распределения узла NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c], узел активен True
+2026-01-22 09:31:58,961 -2044968797 [36] INFORMATION All SystemsAllocationRule - Для [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut] подходит узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator True) по операционной системе узла Win32NT
+2026-01-22 09:31:58,961 -2044968796 [36] INFORMATION All SystemsAllocationRule - Для файловой системы [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut] найден узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator True)
+2026-01-22 09:31:58,961 -2044968795 [36] INFORMATION All SystemsAllocationRule - Для [c19daf81-5968-4964-b93a-81b09d63a36e, File1] подходит узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator True) по операционной системе узла Win32NT
+2026-01-22 09:31:58,961 -2044968794 [36] INFORMATION All SystemsAllocationRule - Для файловой системы [c19daf81-5968-4964-b93a-81b09d63a36e, File1] найден узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator True)
+2026-01-22 09:31:58,962 -2044968793 [36] INFORMATION All SystemsAllocationRule - Для [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] подходит узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator True) по операционной системе узла Win32NT
+2026-01-22 09:31:58,962 -2044968792 [36] INFORMATION All SystemsAllocationRule - Для файловой системы [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] найден узел NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c] (IsActive:True, IsBroken:False, IsWorking:True, IsCoordinator True)
+2026-01-22 09:31:59,012 -2044968791 [36] INFORMATION All DirectRouter - Найден модуль процессов 41d9723b-0c10-41e9-95e6-e9300da2e018
+2026-01-22 09:31:59,024 -2044968790 [58] INFORMATION Queues Q418dc_11112 - Успешно остановлено
+2026-01-22 09:31:59,154 -2044968789 [36] INFORMATION All NodeDataAPI - Данные сертификата: [Subject]
+  CN=NGARANINA
+
+[Issuer]
+  CN=NGARANINA
+
+[Serial Number]
+  71810F78CCED6DBD
+
+[Not Before]
+  01/19/2026 00:00:00
+
+[Not After]
+  01/19/2029 00:00:00
+
+[Thumbprint]
+  7BE0480D23CE20298ECFE43519B94FA701CA47F4
+
+2026-01-22 09:31:59,303 -2044968788 [36] INFORMATION Balancing BalancingProcessService - В модуле [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] балансировка выключена
+2026-01-22 09:31:59,307 -2044968787 [36] INFORMATION All NodeClusterDataProcessor - Остановка сервисов для рероута сообщений из основных очередей
+2026-01-22 09:31:59,310 -2044968786 [42] INFORMATION Queues ModuleMessagePusher[ПорталВАд[0be98]] - Прием сообщений из очереди модуля 0be98576-8b31-415d-9dcb-6931feba4b57 остановлен.
+2026-01-22 09:31:59,310 -2044968785 [36] INFORMATION Queues ModuleMessagePusher[Процессы[41d97]] - Прием сообщений из очереди модуля 41d9723b-0c10-41e9-95e6-e9300da2e018 остановлен.
+2026-01-22 09:31:59,310 -2044968784 [8] INFORMATION Queues ModuleMessagePusher[ПорталВАд2[d9871]] - Прием сообщений из очереди модуля d987104b-6812-4a38-aa5a-a44cd4cc91fe остановлен.
+2026-01-22 09:31:59,321 -2044968783 [36] INFORMATION Connections dt_platform_DataPipeServer - Установка запрета обработки сообщений до загрузки кластерного процессора
+2026-01-22 09:31:59,321 -2044968782 [36] INFORMATION Connections dt_platform_TcpServer - Установка запрета обработки сообщений до загрузки кластерного процессора
+2026-01-22 09:31:59,326 -2044968781 [36] INFORMATION Queues Other - Успешно остановлено
+2026-01-22 09:31:59,326 -2044968780 [59] INFORMATION Queues Необработанные_сообщения - Успешно остановлено
+2026-01-22 09:31:59,326 -2044968779 [59] INFORMATION Queues Sleep - Успешно остановлено
+2026-01-22 09:31:59,347 -2044968778 [36] INFORMATION Queues Other - Загружено сообщений 0
+2026-01-22 09:31:59,347 -2044968777 [59] INFORMATION Queues Необработанные_сообщения - Загружено сообщений 0
+2026-01-22 09:31:59,347 -2044968776 [36] INFORMATION Queues Other - Успешно запущено, время 00:00:00.0156462
+2026-01-22 09:31:59,348 -2044968775 [59] INFORMATION Queues Необработанные_сообщения - Успешно запущено, время 00:00:00.0156859
+2026-01-22 09:31:59,360 -2044968774 [59] INFORMATION Queues Sleep - Загружено сообщений 0
+2026-01-22 09:31:59,360 -2044968773 [59] INFORMATION Queues Sleep - Успешно запущено, время 00:00:00.0123866
+2026-01-22 09:31:59,360 -2044968772 [36] INFORMATION Connections dt_platform_DataPipeServer - Разрешение обработки сообщений кластерный процессор загружен
+2026-01-22 09:31:59,361 -2044968771 [36] INFORMATION Connections dt_platform_TcpServer - Разрешение обработки сообщений кластерный процессор загружен
+2026-01-22 09:31:59,362 -2044968770 [36] INFORMATION Coordinator NodeMessagePusher - Текущий контент кластера {
+  "Cluster": {
+    "Coordinators": [],
+    "HeartbeatPeriod": 30000,
+    "OtherMachineSenderThreadsCount": 8,
+    "FailThreshold": 3,
+    "UseBalancing": true,
+    "RedirectDiagnostics": true,
+    "ProcessParams": {
+      "ThreadCount": 5,
+      "MaxSleepingProcessCount": 100,
+      "MaxSleepingProcessMB": 200,
+      "MaxUnprocessedQueueMB": 30,
+      "MinWaitBeforeSleep": 10000,
+      "MaxRunnedRequests": 50,
+      "MaxSleepTimeMinutes": 1440,
+      "MinMessageCountForThread": 50
+    },
+    "QueueParams": {
+      "MinFileSizeMb": 10,
+      "MaxMessageSizeMb": 2047
+    },
+    "CommonParams": {
+      "MaxModuleMemoryUsage": 2
+    },
+    "NodeParams": {
+      "MaxUnprocessedQueueLength": 200,
+      "ExcessUnprocessedQueuePercent": 50
+    },
+    "MessageProcessingParams": {
+      "MaxDelayCount": 30,
+      "MaxSnapshotCount": 100,
+      "SnapshotStoreMinutes": 15,
+      "MaxBatchWaitTimeoutMs": 300,
+      "MaxBatchSize": 100
+    },
+    "GlobalDiagnosticParams": {
+      "IssueCollectPeriod": 300,
+      "MinLogLevel": "Debug",
+      "DefaultEventLevel": "Debug",
+      "MinLogLevelHistory": "Info",
+      "DefaultEventLevelHistory": "Info",
+      "EventsLogLevels": {},
+      "Features": [],
+      "TrackingCustomProperties": true,
+      "CounterDiagnosticData": [],
+      "SystemDiagnosticParams": {},
+      "ExecuteRequestTimeoutMs": 600000
+    },
+    "CacheSettings": {
+      "IssuesCacheSettings": {
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "LogsCacheSettings": {
+        "MetadataRequestFrequency": 30,
+        "StopRequestSendTimeout": 10
+      },
+      "CountersCacheSettings": {
+        "MetadataRequestFrequency": 60,
+        "StopRequestSendTimeout": 10
+      },
+      "ComponentStatesCacheSettings": {
+        "MetadataRequestFrequency": 5,
+        "StopRequestSendTimeout": 5
+      },
+      "MetadataSettings": {
+        "GetTimeOut": 1,
+        "CacheTime": 15
+      },
+      "SearchMessageCacheTimeMinutes": 5
+    },
+    "HotRecoverySettingsGlobal": {
+      "Modules": {},
+      "Nodes": {}
+    },
+    "HotRecoverySettingsEffective": {
+      "Modules": {},
+      "Nodes": {}
+    },
+    "ResolveList": [],
+    "DiskUsageParams": {
+      "ArchiveMaxSizeMb": 100,
+      "TrackingMaxSizeMb": 100,
+      "DataMaxSizeMb": 1024,
+      "LogsMaxSizeMb": 100,
+      "TotalMaxSizeMb": 2048
+    },
+    "LogStorageParams": {
+      "FolderMaxSizeMb": 50,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "ArchiveStorageParams": {
+      "ArchiveMaxSizeMb": 100
+    },
+    "TrackingStorageParams": {
+      "TrackingMaxSizeMb": 100
+    },
+    "EventsStorageParams": {
+      "Format": "BinaryFiles",
+      "SaveAsBinFiles": true,
+      "MaxEventsFileSizeBytes": 10485760,
+      "MaxMessagesFileSizeBytes": 10485760,
+      "MaxBinaryDataFileSizeBytes": 10485760
+    },
+    "DumpStorageParams": {
+      "StoreDays": 1,
+      "FolderMaxSizeMb": 50,
+      "UncompressedDays": 1,
+      "UncompressedMaxSizeMb": 30,
+      "TempFolderMinSizeMb": 10,
+      "TempFolderMaxSizeMb": 30,
+      "TempStoreMinutes": 4
+    },
+    "UseSystemUDPSender": true,
+    "UpdateTimeout": 30000,
+    "LargeObjectQueueParams": {
+      "MinFileSizeMb": 100,
+      "MaxMessageSizeMb": 1024,
+      "MinLargeMessageSizeMb": 50
+    },
+    "AllocationOptions": {
+      "Auto": true,
+      "CheckPeriodSecond": 300,
+      "UseDbConnectAddress": true,
+      "NodePriorityList": []
+    },
+    "NodeGroupCollection": {
+      "NodeGroups": [
+        {
+          "NodeGroupId": "12345678-9999-9999-9999-999999999999",
+          "NodeGroupName": "Группа по умолчанию",
+          "NodeIds": [
+            "418dcccf-6f65-4a33-a0d0-601528e5cc4c"
+          ],
+          "SystemsAndModulesIds": [
+            "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+            "c19daf81-5968-4964-b93a-81b09d63a36e",
+            "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+            "03ecf3d0-070b-4133-ae7b-832414500060",
+            "41d9723b-0c10-41e9-95e6-e9300da2e018",
+            "0be98576-8b31-415d-9dcb-6931feba4b57",
+            "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          ]
+        }
+      ]
+    },
+    "DeprecatedParams": {
+      "v311": {},
+      "v312": {}
+    },
+    "EntityId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+    "Name": "NGARANINA",
+    "Description": "NGARANINA",
+    "Version": 1,
+    "FieldsFromGlobalBusiness": {}
+  },
+  "ClusterNodes": [
+    {
+      "IsCoordinator": true,
+      "HasControlCenter": true,
+      "Address": "127.0.0.1",
+      "Port": 7290,
+      "IpAddress": "192.168.56.1",
+      "ControlCenterPort": 7200,
+      "ReplicateTo": [],
+      "AllocationsGlobal": {
+        "Systems": [
+          {
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38"
+          },
+          {
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e"
+          },
+          {
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81"
+          },
+          {
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060"
+          }
+        ],
+        "Modules": [
+          {
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018"
+          },
+          {
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57"
+          },
+          {
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          }
+        ]
+      },
+      "AllocationsLocal": {
+        "Systems": [],
+        "Modules": []
+      },
+      "AllocationsEffective": {
+        "Systems": [
+          {
+            "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38"
+          },
+          {
+            "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e"
+          },
+          {
+            "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81"
+          },
+          {
+            "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060"
+          }
+        ],
+        "Modules": [
+          {
+            "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018"
+          },
+          {
+            "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57"
+          },
+          {
+            "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe"
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "NodeResolveList": [],
+      "EntityId": "418dcccf-6f65-4a33-a0d0-601528e5cc4c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "NGARANINA",
+      "Description": "NGARANINA",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "NodeModules": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.ProcessesConfig, DT_ConfigurationRepository"
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "41d9723b-0c10-41e9-95e6-e9300da2e018",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Сервис обработки процессов",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "Options": {
+          "UserMenu": [
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4",
+              "Name": "Ссылочная страница страница №2",
+              "Roles": [],
+              "ObjectConfigId": "df2574d6-1dc4-47d3-a2e2-7bc09a9bebd4"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7efc9c7a-a920-4484-a57b-230433328eb0",
+              "Name": "Ссылочная страница страница №3",
+              "Roles": [],
+              "ObjectConfigId": "7efc9c7a-a920-4484-a57b-230433328eb0"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "293ac42f-dab4-4952-81fa-b20bbce748ba",
+              "Name": "Ссылочная страница страница №4",
+              "Roles": [],
+              "ObjectConfigId": "293ac42f-dab4-4952-81fa-b20bbce748ba"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "9a87826f-c4ea-4633-937c-cde1250407b3",
+              "Name": "Ссылочная страница страница №5",
+              "Roles": [],
+              "ObjectConfigId": "9a87826f-c4ea-4633-937c-cde1250407b3"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "98c80a08-3ffd-431e-80be-91955d7ca345",
+              "Name": "Ссылочная страница страница №6",
+              "Roles": [],
+              "ObjectConfigId": "98c80a08-3ffd-431e-80be-91955d7ca345"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "42bac85a-3284-496c-b3ef-5a2871e69f9a",
+              "Name": "Ссылочная страница страница №7",
+              "Roles": [],
+              "ObjectConfigId": "42bac85a-3284-496c-b3ef-5a2871e69f9a"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf",
+              "Name": "Ссылочная страница страница №8",
+              "Roles": [],
+              "ObjectConfigId": "bd57436b-f3e9-44e2-94a4-e831e9c56ecf"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "1a80d8ed-a46b-46da-b540-27cb7c91529d",
+              "Name": "Ссылочная страница страница №9",
+              "Roles": [],
+              "ObjectConfigId": "1a80d8ed-a46b-46da-b540-27cb7c91529d"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
+              "Name": "Ссылочная страница тестовая страница",
+              "Roles": [],
+              "ObjectConfigId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e"
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7312dc74-f66b-4fd8-8154-1ee02f350136",
+              "Name": "Ссылочная страница 1111",
+              "Roles": [],
+              "ObjectConfigId": "7312dc74-f66b-4fd8-8154-1ee02f350136"
+            }
+          ],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "EntityId": "0e1b759f-e082-42f8-a05d-9e482a72755b",
+                "Name": "",
+                "IsVisible": true,
+                "Columns": [
+                  {
+                    "EntityId": "e8c560ea-4685-4faf-b795-e2308dcdb2e3",
+                    "Name": "",
+                    "VScroll": true,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "EntityId": "8dba14bd-2027-4104-b5d0-44b4bc703afb",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "aef44472-f008-4af7-b9cd-00027b6f5cd0",
+                        "PlatformTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Size": ""
+              }
+            ],
+            "EntityId": "8aae86c3-69fc-42da-8b00-303ccd5f2f1b",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 666,
+        "Auth": {},
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "0be98576-8b31-415d-9dcb-6931feba4b57",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд",
+      "Description": "Портал_В_Ад",
+      "Comment": "Lasciate ogne speranza, voi ch'entrate",
+      "Version": 18,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MdmPortalConfig, DT_ConfigurationRepository",
+        "Options": {
+          "UserMenu": [
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7dd2aa25-194f-401a-a129-d825c022e870",
+              "Name": "Ссылочная страница страница №1",
+              "Roles": [],
+              "ObjectConfigId": "7dd2aa25-194f-401a-a129-d825c022e870"
+            }
+          ],
+          "DashBoardContent": {
+            "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
+            "Layouts": [
+              {
+                "EntityId": "79ed1a11-ecdd-448d-9341-c84031e040cb",
+                "Name": "",
+                "IsVisible": true,
+                "Columns": [
+                  {
+                    "EntityId": "9111151b-4388-414b-9400-7a2491ae1fa7",
+                    "Name": "",
+                    "VScroll": true,
+                    "Elements": [
+                      {
+                        "$type": "DT.ClusterConfiguration.RefUIElement, DT_Core",
+                        "EntityId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "Name": "Ссылочный UI элемент",
+                        "ObjectConfigId": "ac84524a-bd8c-449c-a2e8-47a80792abf1",
+                        "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+                        "Roles": []
+                      }
+                    ],
+                    "Roles": [],
+                    "VisibilityContextNames": [],
+                    "Size": ""
+                  }
+                ],
+                "Roles": [],
+                "VisibilityContextNames": [],
+                "Size": ""
+              }
+            ],
+            "EntityId": "35649acd-c8d1-49fb-b0e1-9aace4bfab39",
+            "Name": ""
+          },
+          "DataSources": []
+        },
+        "PeriodUpdateMenuIndicatorsInSeconds": 30,
+        "DelayRefreshOwnerUIElementAfterProcessingMSec": 500,
+        "PeriodUpdateUserRolesSec": 30,
+        "ShowNavIfMenuEmptyOn": true,
+        "Port": 667,
+        "Auth": {},
+        "Timeout": 10000
+      },
+      "IsActive": true,
+      "FolderId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "EntityId": "d987104b-6812-4a38-aa5a-a44cd4cc91fe",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПорталВАд2",
+      "Description": "Портал_В_Ад2",
+      "Comment": "",
+      "Version": 7,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "Systems": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "OutputDirectory": "C:\\Test\\from_portal",
+        "FileNamePattern": "{Message/Id}.message",
+        "HandlersList": [
+          {
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "0e5acb3a-05c1-42f2-94aa-e75d1ace2e38",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "FileOut",
+      "Description": "FileOut",
+      "Version": 2,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "C:\\Test\\in",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "",
+        "FileNamePattern": "",
+        "HandlersList": [
+          {
+            "HandlerId": "3a5339ef-25db-4f0b-824b-7e3b68c562da",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "c19daf81-5968-4964-b93a-81b09d63a36e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File1",
+      "Description": "File1",
+      "Version": 7,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.FileSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "File",
+        "FileShareReadWrite": false,
+        "ReadInterval": 1000,
+        "InputDirectory": "",
+        "IsDeleteFiles": true,
+        "OutputDirectory": "C:\\Test\\out",
+        "FileNamePattern": "{/Message/Id}.json",
+        "HandlersList": [
+          {
+            "HandlerId": "05625a15-e0ec-4f59-94a1-f21d7964c736",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "File2",
+      "Description": "File2",
+      "Version": 10,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemConfig, DT_ConfigurationRepository",
+        "ConnectorType": "Web",
+        "Port": 65535,
+        "PublishSwagger": true,
+        "AuthTypeRest": "Bearer",
+        "SslProtocols": [],
+        "CredentialsInBody": true,
+        "RateLimiterOptions": {
+          "RejectedStatusCode": 429,
+          "ControllerLimit": 1000
+        },
+        "Auth": {},
+        "HandlersList": [
+          {
+            "HandlerId": "9dce2d9b-d26a-4218-bd97-4abd626d5763",
+            "IsStarted": true
+          }
+        ]
+      },
+      "IsActive": true,
+      "FolderId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "EntityId": "03ecf3d0-070b-4133-ae7b-832414500060",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "RestIn",
+      "Description": "RestIn",
+      "Version": 3,
+      "TagsCollection": [],
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "ProcessScripts": [
+    {
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "f976808d-d0cf-488e-8041-875a6960aefa",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВыбораСхемыОбработки",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "Roles": [],
+  "BusinessRoles": [],
+  "Folders": [
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "b74a3dfc-65b7-415c-ac5d-2f6d0fbc6569",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "1bdc83a6-7dfe-4fe6-a347-82046b44ffad",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ТипДанныхФайл",
+      "Description": "ТипДанныхФайл",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "ea76c92c-2fbe-458b-945d-63b75d656d16",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы",
+      "Description": "Процессы",
+      "Version": 2,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СистемныеАлгоритмы",
+      "Description": "Системные алгоритмы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "8f8c648d-6af1-471b-b9a9-61d99b237723",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "DataTypeFile",
+      "Description": "DataTypeFile",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "9fb6b9e6-9639-40d8-8f53-bf987f8f5ec8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ВходящиеТрансформации",
+      "Description": "Входящие трансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "db36b383-53e2-429f-8077-d5bfd0f87ba5",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ПрограммныеМодули",
+      "Description": "Программные модули",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "5a31b3a2-88e2-4599-9071-1d41c931c335",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Функции",
+      "Description": "Функции",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ChildrenType": "ObjectConfigs",
+      "EntityId": "11111111-5717-48e9-bc6f-886ceddf0a36",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсточникиДанных",
+      "Description": "Источники данных",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ChildrenType": "Processes",
+      "EntityId": "2b599827-0341-4e6e-a27c-ece5b79535d6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "ИсходящиеТрансформации",
+      "Description": "Исходящие трансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "VirtualFolders": [
+    {
+      "Type": "Types",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Типы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Plugins",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "e35fd210-2b22-4005-a91b-9265ecf49036",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Плагины",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Roles",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "c9abdbb8-584a-4b59-8dae-ae61ea195c4d",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Роли",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ClusterNodes",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "314ce09c-5661-49f4-9f1b-8d3fee6d273b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Серверы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Modules",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "a3d1a3db-6e48-4dae-b991-a11d842a3bb8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Сервисы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ObjectConfigs",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "2a1c4832-39fc-47d2-b96c-f27269e03905",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Конфигурация объекта",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Processes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "9685cb40-0aff-40de-b896-4114d41e51f8",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Схемы обработки",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Attributes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "5ddabdb2-8184-40fe-a5c9-96d970551946",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Атрибуты",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "SendingStrategies",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0df1e980-db7e-4dd3-9c91-add19cdd22e4",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Правила обработки очередей",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0bb16ea6-8a50-44bd-813f-81a6bc7a986b",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задания по расписанию",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "EtlProcesses",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "ee7e24c4-266f-4916-a1b3-03efab2f8e01",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Процессы ETL",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "UiForm",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "01908598-8b5f-4134-b34d-071558d863ac",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Формы интерфейса",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Systems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "fa379cc0-e2b8-4e27-affa-14bebeac9297",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние системы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "ProcessIssues",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "12d00502-903d-4046-a369-e790b9241a22",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Задачи",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "GlobalConstants",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "883f798d-7214-4969-ad20-1d3acb1db0e6",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Глобальные константы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Subsystems",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "7c933660-b794-4a7b-9a58-f556a558471e",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Подсистемы",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Handlers",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "a3f416e6-5273-46b6-bc9d-a57768f4bceb",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Обработчики",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Routes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "3a7acb25-32f7-4415-a553-570ab1d87bc3",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Маршруты",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "UiMenu",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "0ef42c85-9592-4bd7-9028-abf7f96376d9",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Настройка меню",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "SystemsMetadataTypes",
+      "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "EntityId": "dfb43312-a4bf-4bdf-8080-385be807a873",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Внешние типы данных",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Type": "Metadata",
+      "FolderId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "EntityId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "Метаданные",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "InTransformScripts": [
+    {
+      "ScriptType": "InTransform",
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "d07ae17c-0ffb-4337-9d28-86a1b31a15da",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптВходящейТрансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "OutTransformScripts": [
+    {
+      "ScriptType": "OutTransform",
+      "Variables": [],
+      "Values": [],
+      "FolderId": "a318d2a2-5370-4d47-9992-c3cd4dbf1cf1",
+      "EntityId": "c92398ab-b6c9-48b6-ab70-2dcf30346d3c",
+      "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+      "Name": "СкриптИсходящейТрансформации",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "UiFroms": [],
+  "UiGroups": [],
+  "UiMenuCollection": [],
+  "Triggers": [],
+  "SendingStragies": [],
+  "Routes": [],
+  "DefaultServices": [
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.MonitoringServiceConfig, DT_ConfigurationRepository"
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "87654321-4321-0000-0000-123456789000",
+      "Name": "СервисМониторинга",
+      "Description": "Сервис мониторинга",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.CredentialConfig, DT_ConfigurationRepository",
+        "ReuseAfter": 10,
+        "StoreJournalPeriod": 7,
+        "LoggingActions": [],
+        "TokenSettings": {
+          "TokenLifetime": 60,
+          "RefreshTokenLifetime": 1440
+        },
+        "CreditalsLifetime": 300,
+        "UpdateTime": 60,
+        "AuthDomainSettings": {
+          "ServerAuthenticationAddress": ""
+        },
+        "SecretFields": [],
+        "AdditionalFields": [],
+        "InternalStorage": true,
+        "HotRecoverySettingsGlobal": {
+          "Nodes": {}
+        },
+        "HotRecoverySettingsEffective": {
+          "Nodes": {}
+        },
+        "SchedulerOptions": "*/10 * * * * *",
+        "StorageDataReplicator": "ReplicationOn",
+        "MaxArchiveSendSize": 1048576
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "00000000-1234-5678-0000-123456789000",
+      "Name": "УправлениеПользователями",
+      "Description": "Управление пользователями",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    },
+    {
+      "Config": {
+        "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.EventsStorage.EventsStorageConfig, DT_ConfigurationRepository",
+        "CollectorConfig": {
+          "Enabled": true,
+          "CollectPeriodSec": 15,
+          "CollectMaxCount": 1000,
+          "ProcessPackSize": 500,
+          "CollectMaxDepthMinutes": 120
+        },
+        "FilesStoragePeriodDays": 30,
+        "CleanFilesJobSchedule": "0 * * * *",
+        "DbStorageMaxRetentionTimeInDays": 30
+      },
+      "IsActive": true,
+      "FolderId": "12345678-1234-5678-0000-123456789000",
+      "EntityId": "12345678-0000-0000-0000-1234567890ea",
+      "Name": "СборщикСобытий",
+      "Description": "Сервис для сбора событий",
+      "Version": 1,
+      "FieldsFromGlobalBusiness": {}
+    }
+  ],
+  "MinorVersion": 1,
+  "MajorVersion": 31,
+  "Subsystems": [],
+  "BusinessDomains": [],
+  "ConfigTemplates": []
+}
+2026-01-22 09:31:59,397 -2044968769 [8] INFORMATION Coordinator HeartbeatAwaiter - Мы координатор. Останавливаем отслеживание heartbeat-сообщений.
+2026-01-22 09:31:59,490 -2044968768 [28] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,512 -2044968767 [28] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [c19daf81-5968-4964-b93a-81b09d63a36e, File1]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,576 -2044968766 [8] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [12345678-0000-0000-0000-1234567890ea, СборщикСобытий]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,591 -2044968765 [58] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [87654321-4321-0000-0000-123456789000, СервисМониторинга]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,694 -2044968764 [8] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,749 -2044968763 [8] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [d987104b-6812-4a38-aa5a-a44cd4cc91fe, ПорталВАд2]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,755 -2044968762 [59] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:31:59,867 -2044968761 [8] INFORMATION Connections dt_platform_nodemanagerdatapipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerdatapipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 09:31:59,868 -2044968760 [8] INFORMATION Connections dt_platform_DataPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 09:31:59,870 -2044968759 [58] INFORMATION Connections dt_platform_nodemanagerpipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-22 09:31:59,870 -2044968758 [58] INFORMATION Connections dt_platform_PipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 09:31:59,926 -2044968757 [36] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:32:00,203 -2044968756 [8] INFORMATION Apply MetadataHandler - Обновлена конфигурация модуля [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]. Версия до обновления: 30. Текущая версия: 31
+2026-01-22 09:32:01,098 -2044968755 [59] INFORMATION Connections PipeServer[dt_platform_nodemanagerpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=13) к серверу dt_platform_nodemanagerpipeserver
+2026-01-22 09:32:01,552 -2044968754 [28] INFORMATION Connections dt_platform_PipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 09:32:02,566 -2044968753 [58] INFORMATION Apply MetadataHandler - Загружена конфигурация модуля [00000000-1234-5678-0000-123456789000, УправлениеПользователями]. Версия: 31.
+2026-01-22 09:32:03,617 -2044968752 [58] INFORMATION Connections PipeServer[dt_platform_nodemanagerdatapipeserver] - Принято новое NamedPipe-подключение (ConnectionID=12) к серверу dt_platform_nodemanagerdatapipeserver
+2026-01-22 09:32:03,618 -2044968751 [19] INFORMATION Connections dt_platform_DataPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-22 09:32:35,487 -2044968750 [36] INFORMATION All NodeManagerService - Событие произошло 1 раз:
+Установил максимальный размер трассировки равным 100
+2026-01-22 09:32:35,487 -2044968749 [36] INFORMATION All DirectRouter - Событие произошло 1 раз:
+Найден модуль процессов 41d9723b-0c10-41e9-95e6-e9300da2e018
+2026-01-22 09:32:35,487 -2044968748 [36] INFORMATION All SnmpEngine - Событие произошло 1 раз:
+Компонент успешно запущен
+2026-01-22 09:32:35,487 -2044968747 [36] INFORMATION All NodeManagerService - Событие произошло 1 раз:
+Установил максимальный размер архивных данных равным 100
+2026-01-22 09:32:35,489 -2044968746 [36] INFORMATION Coordinator ClusterNode - Событие произошло 5 раз:
+GenerateAllocationInfo Рассчет распределения узла NGARANINA[418dcccf-6f65-4a33-a0d0-601528e5cc4c], узел активен True
+2026-01-22 09:32:35,489 -2044968745 [36] INFORMATION Apply MetadataCacheManager - Событие произошло 1 раз:
+Обновление кэшей узла завершено
+2026-01-22 09:32:35,489 -2044968744 [36] INFORMATION All SnmpEngine - Событие произошло 1 раз:
+Компонент успешно остановлен

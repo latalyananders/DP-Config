@@ -1,0 +1,57 @@
+﻿2026-01-22 08:39:31,098 -276473146 [13] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-22 08:39:31,230 -276473145 [39] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:31,230 -276473144 [39] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:31,231 -276473143 [39] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:31,231 -276473142 [39] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:31,264 -276473141 [39] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:31,265 -276473140 [39] INFORMATION All ModuleService - Модуль остановлен
+2026-01-22 08:39:31,265 -276473139 [3] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-22 08:39:31,265 -276473138 [56] INFORMATION Connections NmHostClient[dt_platform_nodemanagerhostpipeserver] - Клиент ClientName:NmHostClient, ConnectionId:0, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=False остановлен по причине: подключение остановлено
+2026-01-22 08:39:35,156 -276473137 [7] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:35,193 -276473136 [7] INFORMATION All Main - Идентификатор текущего процесса: 25088
+2026-01-22 08:39:35,193 -276473135 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:39,667 -276473134 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,703 -276473133 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,725 -276473132 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,794 -276473131 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:40,608 -276473130 [13] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:41,169 -276473129 [9] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-22 08:39:41,208 -276473128 [9] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-22 08:39:42,652 -276473127 [9] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-22 08:39:43,455 -276473126 [9] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-22 08:39:43,467 -276473125 [9] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-22 08:39:43,481 -276473124 [9] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:43,522 -276473123 [14] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 0be98576-8b31-415d-9dcb-6931feba4b57 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-22 08:39:45,278 -276473122 [14] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-22 08:39:45,304 -276473121 [14] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 08:39:49,704 -276473120 [11] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-22 08:39:49,743 -276473119 [14] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 08:39:52,654 -276473118 [14] WARNING AccessControl CredentialAccessManager - Запрос доступа из модуля Credential приостановлен, т.к. модуль не отвечает на запросы.
+2026-01-22 08:40:35,117 -276473117 [14] WARNING Diagnostic DiagnosticComponentModuleService - Событие произошло 1 раз:
+Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 09:32:00,194 -276473116 [65] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 31
+2026-01-22 09:32:00,200 -276473115 [65] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-22 09:32:03,117 -276473114 [61] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась

@@ -9,7 +9,7 @@
   "Name": "СохранитьВФайл",
   "Description": "Сохранить в файл",
   "Comment": "Автоматически сгенерированный объект конфигурации",
-  "Version": 5,
+  "Version": 10,
   "FieldsFromGlobalBusiness": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
   }

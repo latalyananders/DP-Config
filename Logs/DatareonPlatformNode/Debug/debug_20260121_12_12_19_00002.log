@@ -1,0 +1,4 @@
+﻿2026-01-21 12:12:19,582 -1058076504 [8] INFORMATION All Main - Assembly: DatareonPlatformNode, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:19,603 -1058076503 [8] INFORMATION All Main - Идентификатор текущего процесса: 23288
+2026-01-21 12:12:19,604 -1058076502 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:12:19,612 -1058076501 [8] ERROR All Main - Процесс DatareonPlatformNode уже запущен

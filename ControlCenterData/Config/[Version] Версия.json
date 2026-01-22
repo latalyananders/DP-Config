@@ -1,8 +1,8 @@
 {
   "$type": "DT.MdmMetadata.MetaVersionInfo, DT_TypeBuilder.Entities",
-  "Version": 30,
+  "Version": 31,
   "SnapshotVersion": 0,
-  "ApplyTs": "2026-01-21T09:33:43.4275691Z",
+  "ApplyTs": "2026-01-22T05:31:55.8813498Z",
   "SnapshotTs": "0001-01-01T00:00:00",
   "PlatformVersion": "3.2.0.0",
   "Description": null

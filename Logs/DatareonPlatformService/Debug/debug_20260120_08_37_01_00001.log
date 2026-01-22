@@ -1,0 +1,993 @@
+﻿2026-01-20 08:37:01,494 3191732 [27] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 08:37:01,508 3191733 [74] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea PID=15760 завершился с кодом 0
+2026-01-20 08:37:01,583 3191734 [27] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 08:37:01,585 3191735 [27] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 08:37:01,494 3191736 [8] ERROR Connections dt_platform_nodemanagerhostpipeserver - Не удалось отправить датаграмму
+System.IO.IOException: Pipe is broken.
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.GetResult(Int16 token)
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at DT.Net.Framing.Sender.SendBodyAsync(Boolean last, CancellationToken cancellationToken)
+   at DT.Net.Framing.Sender.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken)
+   at DT.Net.ConnectionServiceFraming.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken, Boolean specificHandle)
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+2026-01-20 08:37:01,611 3191737 [8] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: ошибка при отправке данных
+2026-01-20 08:37:02,485 3191738 [23] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:37:05,794 3191739 [6] WARNING All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea не запущен
+2026-01-20 08:37:05,811 3191740 [6] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-20 08:37:05,811 3191741 [6] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 21196.
+2026-01-20 08:37:05,814 3191742 [6] WARNING All NodesObserver - Node не отвечает на Ping-сообщения более 00:20:00 и будет перезапущен
+2026-01-20 08:37:05,895 3191743 [53] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 08:37:05,895 3191744 [53] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-123456789101, NGaranina-NM, DatareonPlatformNode]
+2026-01-20 08:37:05,949 3191745 [74] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 PID=20640 завершился с кодом 0
+2026-01-20 08:37:05,951 3191746 [6] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-123456789101
+2026-01-20 08:37:05,975 3191747 [6] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 успешно запущен
+2026-01-20 08:37:05,976 3191748 [6] INFORMATION All StartNodeService - Процесс для Node запущен c параметрами -id="12345678-0000-0000-0000-123456789101" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\12345678-0000-0000-0000-123456789101-local.json". Идентификатор запущенного процесса 16736.
+2026-01-20 08:37:06,255 3191749 [61] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 08:37:06,255 3191750 [61] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 08:37:06,255 3191751 [50] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 08:37:06,379 3191752 [74] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 PID=23124 завершился с кодом 0
+2026-01-20 08:37:06,379 3191753 [6] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-20 08:37:06,382 3191754 [6] ERROR All NodesObserver - При выполнении проверки запущенных процессов произошла ошибка: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DT.NodeManager.NodesObserver.TryRestartModule(Guid serviceId, ClusterContent clusterContent, Boolean forceKill)
+   at DT.NodeManager.NodesObserver.RestartNotRespondedNodes(ClusterContent clusterContent)
+   at DT.NodeManager.NodesObserver.ObserveAsync(StartMonitorNodesRequest message, CancellationToken token)
+2026-01-20 08:37:08,817 3191755 [30] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=6) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 08:37:09,145 3191756 [30] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-123456789101, NGaranina-NM, DatareonPlatformNode]
+2026-01-20 08:37:09,561 3191757 [73] INFORMATION All ConnectServerHandler - Подключен узел NM Node [12345678-0000-0000-0000-123456789101]
+2026-01-20 08:37:10,229 3191758 [73] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=7) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 08:37:10,231 3191759 [30] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 08:37:10,488 3191760 [50] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 08:37:14,808 3191761 [61] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 08:37:14,808 3191762 [61] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 08:37:14,852 3191763 [74] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=11844 завершился с кодом 0
+2026-01-20 08:37:16,380 3191764 [71] WARNING All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 не запущен
+2026-01-20 08:37:16,396 3191765 [71] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 08:37:16,396 3191766 [71] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 19044.
+2026-01-20 08:37:16,411 3191767 [8] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 успешно запущен
+2026-01-20 08:37:16,411 3191768 [8] INFORMATION All StartNodeService - Процесс  для узла [00000000-6a06-4239-bb04-fb60f8603770, Control Server] запущен c параметрами -id="00000000-6a06-4239-bb04-fb60f8603770" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770-local.json". Идентификатор запущенного процесса 17492.
+2026-01-20 08:37:16,943 3191769 [23] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=8) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 08:37:17,243 3191770 [71] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 08:37:17,405 3191771 [23] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=9) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 08:37:17,407 3191772 [23] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 08:37:17,624 3191773 [8] INFORMATION All ConnectServerHandler - Подключен узел Control Server [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 08:37:17,673 3191774 [23] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 08:37:59,520 3191775 [53] WARNING All GetRunningServicesHandler - Событие произошло 9 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:37:59,938 3191776 [53] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:38:59,542 3191777 [8] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:39:00,155 3191778 [59] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:39:59,555 3191779 [8] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:40:00,295 3191780 [59] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:40:59,568 3191781 [64] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:41:00,445 3191782 [8] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:41:59,590 3191783 [74] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:42:00,624 3191784 [23] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:42:59,598 3191785 [64] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:43:00,755 3191786 [64] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:43:59,615 3191787 [74] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:44:00,908 3191788 [48] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:44:59,632 3191789 [74] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:45:01,097 3191790 [74] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:45:59,644 3191791 [53] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:46:01,262 3191792 [32] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:46:59,655 3191793 [52] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:47:01,436 3191794 [75] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:47:59,659 3191795 [56] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:48:01,612 3191796 [77] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:48:59,674 3191797 [48] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:49:01,915 3191798 [48] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:49:59,697 3191799 [6] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:50:02,040 3191800 [6] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:50:59,714 3191801 [50] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:51:02,186 3191802 [50] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:51:59,725 3191803 [23] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:52:02,345 3191804 [78] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:52:59,735 3191805 [78] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:53:02,489 3191806 [60] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:53:59,736 3191807 [50] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:54:02,597 3191808 [11] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:54:59,738 3191809 [11] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:55:02,762 3191810 [55] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:55:59,766 3191811 [11] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:56:02,899 3191812 [3] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:56:59,775 3191813 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:57:03,094 3191814 [4] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:57:59,782 3191815 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:58:03,236 3191816 [67] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:58:59,785 3191817 [38] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 08:59:03,419 3191818 [39] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 08:59:59,802 3191819 [66] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:00:03,554 3191820 [60] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:00:59,810 3191821 [67] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:01:03,724 3191822 [67] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:01:59,814 3191823 [67] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:02:03,875 3191824 [24] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:02:59,828 3191825 [58] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:03:04,027 3191826 [67] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:03:59,843 3191827 [65] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:04:04,240 3191828 [61] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:04:59,856 3191829 [12] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:05:04,782 3191830 [63] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:05:59,873 3191831 [72] WARNING All GetRunningServicesHandler - Событие произошло 10 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:05:59,942 3191832 [58] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:06:59,893 3191833 [44] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:07:00,120 3191834 [44] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:07:59,912 3191835 [20] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:08:00,290 3191836 [18] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:08:59,923 3191837 [25] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:09:00,467 3191838 [36] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:09:59,936 3191839 [18] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:10:00,640 3191840 [58] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:10:59,951 3191841 [36] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:11:00,769 3191842 [21] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:11:59,960 3191843 [21] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:12:00,938 3191844 [21] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:12:59,970 3191845 [36] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:13:01,124 3191846 [41] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:13:59,995 3191847 [47] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:14:01,299 3191848 [41] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:15:00,004 3191849 [12] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:15:01,458 3191850 [47] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:16:00,014 3191851 [65] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:16:01,595 3191852 [36] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:17:00,020 3191853 [23] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:17:01,741 3191854 [24] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:18:00,041 3191855 [12] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:18:01,946 3191856 [36] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:19:00,056 3191857 [25] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:19:02,123 3191858 [54] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:20:00,071 3191859 [25] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:20:02,280 3191860 [36] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:21:00,074 3191861 [62] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:21:02,468 3191862 [72] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:22:00,081 3191863 [25] WARNING All GetRunningServicesHandler - Событие произошло 11 раз:
+Отсутствует конфигурация узла.
+2026-01-20 09:22:02,338 3191864 [66] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:22:02,363 3191865 [66] INFORMATION All NodeManagerActorService - Все модули успешно запущены
+2026-01-20 09:22:02,443 3191866 [25] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:8, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:02,445 3191867 [25] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 09:22:02,445 3191868 [70] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:8, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:02,545 3191869 [71] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 PID=17492 завершился с кодом 0
+2026-01-20 09:22:02,546 3191870 [65] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-20 09:22:02,552 3191871 [65] ERROR All NodesObserver - При выполнении проверки запущенных процессов произошла ошибка: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DT.NodeManager.NodesObserver.TryRestartModule(Guid serviceId, ClusterContent clusterContent, Boolean forceKill)
+   at DT.NodeManager.NodesObserver.RestartNotRespondedNodes(ClusterContent clusterContent)
+   at DT.NodeManager.NodesObserver.ObserveAsync(StartMonitorNodesRequest message, CancellationToken token)
+2026-01-20 09:22:02,626 3191872 [66] WARNING All GetRunningServicesHandler - Отсутствует конфигурация узла.
+2026-01-20 09:22:02,931 3191873 [25] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:6, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:02,931 3191874 [25] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-123456789101, NGaranina-NM, DatareonPlatformNode]
+2026-01-20 09:22:02,931 3191875 [23] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:6, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:02,976 3191876 [71] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-123456789101 PID=16736 завершился с кодом 0
+2026-01-20 09:22:02,977 3191877 [65] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-123456789101
+2026-01-20 09:22:03,046 3191878 [65] INFORMATION All ProcessControl - Процесс для сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c успешно запущен
+2026-01-20 09:22:03,047 3191879 [65] INFORMATION All StartNodeService - Процесс для Node запущен c параметрами -id="418dcccf-6f65-4a33-a0d0-601528e5cc4c" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\418dcccf-6f65-4a33-a0d0-601528e5cc4c.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\418dcccf-6f65-4a33-a0d0-601528e5cc4c-local.json". Идентификатор запущенного процесса 12848.
+2026-01-20 09:22:03,047 3191880 [65] WARNING All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 не запущен
+2026-01-20 09:22:03,047 3191881 [65] INFORMATION All NodeManagerActorService - Сервер управления успешно остановлен
+2026-01-20 09:22:03,094 3191882 [65] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 успешно запущен
+2026-01-20 09:22:03,094 3191883 [65] INFORMATION All StartNodeService - Процесс  для узла [00000000-6a06-4239-bb04-fb60f8603770, Control Server] запущен c параметрами -id="00000000-6a06-4239-bb04-fb60f8603770" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770-local.json" -r. Идентификатор запущенного процесса 14720.
+2026-01-20 09:22:03,094 3191884 [65] INFORMATION All NodeManagerActorService - Сервер управления успешно запущен
+2026-01-20 09:22:03,244 3191885 [19] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:03,245 3191886 [19] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 09:22:03,321 3191887 [71] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 PID=23460 завершился с кодом 0
+2026-01-20 09:22:03,321 3191888 [65] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 87654321-4321-0000-0000-123456789000
+2026-01-20 09:22:03,347 3191889 [65] INFORMATION All EventsStorageObserver - Успешно остановлен
+2026-01-20 09:22:03,389 3191890 [65] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 успешно запущен
+2026-01-20 09:22:03,389 3191891 [65] INFORMATION All StartNodeService - Процесс  для узла [87654321-4321-0000-0000-123456789000, СервисМониторинга] запущен c параметрами -id="87654321-4321-0000-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000-local.json". Идентификатор запущенного процесса 16796.
+2026-01-20 09:22:03,393 3191892 [65] INFORMATION All EventsStorageObserver - Успешно запущен
+2026-01-20 09:22:03,421 3191893 [25] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:03,421 3191894 [25] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:22:03,458 3191895 [71] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=19044 завершился с кодом 0
+2026-01-20 09:22:03,459 3191896 [65] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:22:03,563 3191897 [65] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:22:03,564 3191898 [65] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 11176.
+2026-01-20 09:22:03,633 3191899 [66] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:03,634 3191900 [66] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 09:22:03,637 3191901 [39] ERROR All Server [СборщикСобытий->dt_platform_HostPipeServer] - Ошибка подключения ErrorBadRequest. Подробности: Нарушение протокола. Получена датаграмма Datagram[Type=ENDSESSION_DATAGRAM_TYPE] при состоянии FIN_ACK соединение: 8fbd0a9d-798d-4f8e-b18d-692ad086401c
+2026-01-20 09:22:03,639 3191902 [39] WARNING All Server [СборщикСобытий->dt_platform_HostPipeServer] - Не удалось отправить ErrorDatagram: Adk.Net2.Exceptions.TransportException: Не удалось отправить датаграмму: канал закрыт.
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+   at DT.Net.Protocols.DataProtocol.DataProtocolStateMachine.State.HandleError(ErrorStateCode errorCode, String errorMessage)
+2026-01-20 09:22:03,666 3191903 [71] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea PID=21196 завершился с кодом 0
+2026-01-20 09:22:03,666 3191904 [65] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-20 09:22:03,704 3191905 [65] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-20 09:22:03,704 3191906 [65] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 21824.
+2026-01-20 09:22:03,921 3191907 [62] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=10) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:03,940 3191908 [25] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 успешно запущен
+2026-01-20 09:22:03,940 3191909 [25] INFORMATION All StartNodeService - Процесс  для узла [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] запущен c параметрами -id="41d9723b-0c10-41e9-95e6-e9300da2e018" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018-local.json". Идентификатор запущенного процесса 14520.
+2026-01-20 09:22:04,056 3191910 [62] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 09:22:04,057 3191911 [62] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 3880.
+2026-01-20 09:22:04,080 3191912 [25] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e успешно запущен
+2026-01-20 09:22:04,080 3191913 [25] INFORMATION All StartNodeService - Процесс  для узла [c19daf81-5968-4964-b93a-81b09d63a36e, File1] запущен c параметрами -id="c19daf81-5968-4964-b93a-81b09d63a36e" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e-local.json". Идентификатор запущенного процесса 20992.
+2026-01-20 09:22:04,536 3191914 [65] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 09:22:05,072 3191915 [65] INFORMATION All ConnectServerHandler - Подключен узел Control Server [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 09:22:06,037 3191916 [62] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=11) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:06,359 3191917 [62] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-20 09:22:06,738 3191918 [33] INFORMATION All ConnectServerHandler - Подключен узел NM Node [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-20 09:22:12,252 3191919 [33] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:22:12,254 3191920 [33] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:22:14,298 3191921 [39] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=12) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:14,538 3191922 [19] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=13) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:14,624 3191923 [39] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 09:22:14,863 3191924 [39] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:22:15,033 3191925 [19] WARNING All NodesObserver - Не удалось добавить в список пингуемых [87654321-4321-0000-0000-123456789000]
+2026-01-20 09:22:15,033 3191926 [19] INFORMATION All ConnectServerHandler - Подключен узел СервисМониторинга [87654321-4321-0000-0000-123456789000]
+2026-01-20 09:22:15,294 3191927 [19] WARNING All NodesObserver - Не удалось добавить в список пингуемых [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:22:15,294 3191928 [19] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:22:19,645 3191929 [25] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=14) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:19,847 3191930 [66] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=15) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:19,949 3191931 [25] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 09:22:20,336 3191932 [66] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 09:22:20,736 3191933 [39] WARNING All NodesObserver - Не удалось добавить в список пингуемых [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 09:22:20,736 3191934 [39] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 09:22:21,023 3191935 [62] WARNING All NodesObserver - Не удалось добавить в список пингуемых [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 09:22:21,023 3191936 [62] INFORMATION All ConnectServerHandler - Подключен узел Процессы [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 09:22:21,769 3191937 [39] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=16) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:21,771 3191938 [39] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 09:22:21,775 3191939 [69] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=17) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:22:21,776 3191940 [62] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 09:22:21,811 3191941 [25] WARNING All NodesObserver - Не удалось добавить в список пингуемых [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 09:22:21,811 3191942 [25] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 09:22:21,833 3191943 [25] WARNING All NodesObserver - Не удалось добавить в список пингуемых [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 09:22:21,833 3191944 [25] INFORMATION All ConnectServerHandler - Подключен узел File1 [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 09:22:25,188 3191945 [62] WARNING All NodesObserver - Не удалось добавить в список пингуемых [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 09:22:26,851 3191946 [19] WARNING All NodesObserver - Не удалось добавить в список пингуемых [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-20 09:22:42,425 3191947 [39] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:13, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:42,425 3191948 [25] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:13, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:22:42,450 3191949 [58] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=11176 завершился с кодом 0
+2026-01-20 09:22:42,466 3191950 [18] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 3036.
+2026-01-20 09:22:43,383 3191951 [69] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=18) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:23:00,084 3191952 [33] INFORMATION All NodesObserver - Событие произошло 3 раз:
+Мониторинг узлов успешно остановлен
+2026-01-20 09:23:00,084 3191953 [18] INFORMATION All ProcessControl - Событие произошло 1 раз:
+Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:23:00,084 3191954 [66] INFORMATION All NodeManagerActorService - Событие произошло 1 раз:
+Все модули успешно запущены
+2026-01-20 09:23:00,084 3191955 [39] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 09:23:00,084 3191956 [25] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 09:23:00,084 3191957 [25] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:23:00,084 3191958 [39] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 09:23:00,084 3191959 [65] INFORMATION All EventsStorageObserver - Событие произошло 2 раз:
+Успешно остановлен
+2026-01-20 09:23:00,084 3191960 [65] INFORMATION All EventsStorageObserver - Событие произошло 2 раз:
+Успешно запущен
+2026-01-20 09:23:00,084 3191961 [18] INFORMATION All ProcessControl - Событие произошло 1 раз:
+Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:23:00,084 3191962 [39] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:23:00,084 3191963 [25] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [87654321-4321-0000-0000-123456789000]
+2026-01-20 09:23:00,084 3191964 [69] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 09:23:00,084 3191965 [18] INFORMATION All ConnectServerHandler - Событие произошло 1 раз:
+Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:23:00,084 3191966 [54] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:23:51,634 3191967 [36] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:23:51,634 3191968 [36] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:23:51,641 3191969 [36] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:23:51,701 3191970 [41] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:18, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:23:51,701 3191971 [41] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:23:51,701 3191972 [69] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:18, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:23:51,726 3191973 [70] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=3036 завершился с кодом 0
+2026-01-20 09:23:51,726 3191974 [36] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:23:51,762 3191975 [18] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:23:51,762 3191976 [18] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 16688.
+2026-01-20 09:23:52,806 3191977 [69] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=19) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:23:52,807 3191978 [69] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:23:53,094 3191979 [19] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:26:49,491 3191980 [69] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:26:49,491 3191981 [69] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:26:49,512 3191982 [69] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:26:49,549 3191983 [54] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:19, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:26:49,549 3191984 [54] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:26:49,578 3191985 [71] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=16688 завершился с кодом 0
+2026-01-20 09:26:49,578 3191986 [46] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:26:49,594 3191987 [46] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:26:49,594 3191988 [46] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 15824.
+2026-01-20 09:26:50,547 3191989 [57] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=20) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:26:50,548 3191990 [57] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:26:50,840 3191991 [60] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:29:23,177 3191992 [60] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:29:23,178 3191993 [60] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:29:23,184 3191994 [60] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:29:23,223 3191995 [3] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:20, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:29:23,223 3191996 [3] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:29:23,223 3191997 [25] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:20, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:29:23,242 3191998 [23] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=15824 завершился с кодом 0
+2026-01-20 09:29:23,242 3191999 [24] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:29:23,269 3192000 [24] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:29:23,269 3192001 [24] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 1084.
+2026-01-20 09:29:24,212 3192002 [24] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=21) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:29:24,214 3192003 [54] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:29:24,466 3192004 [54] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:30:11,459 3192005 [46] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:30:11,459 3192006 [46] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:30:11,467 3192007 [46] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:30:11,520 3192008 [57] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:21, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:30:11,520 3192009 [57] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:30:11,520 3192010 [4] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:21, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:30:11,536 3192011 [50] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=1084 завершился с кодом 0
+2026-01-20 09:30:11,536 3192012 [46] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:30:11,547 3192013 [62] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:30:11,547 3192014 [62] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 23352.
+2026-01-20 09:30:12,529 3192015 [57] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=22) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:30:12,530 3192016 [57] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:30:12,820 3192017 [14] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:32:51,125 3192018 [62] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:32:51,125 3192019 [62] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:32:51,134 3192020 [62] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:32:51,166 3192021 [46] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:22, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:32:51,166 3192022 [46] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:32:51,174 3192023 [11] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:22, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:32:51,184 3192024 [50] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=23352 завершился с кодом 0
+2026-01-20 09:32:51,184 3192025 [51] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:32:51,205 3192026 [51] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:32:51,205 3192027 [51] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 11444.
+2026-01-20 09:32:52,159 3192028 [56] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=23) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:32:52,160 3192029 [56] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:32:52,424 3192030 [62] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:35:33,835 3192031 [73] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:35:33,835 3192032 [73] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:35:33,848 3192033 [73] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:35:33,914 3192034 [49] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:23, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:35:33,914 3192035 [49] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:35:33,937 3192036 [63] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=11444 завершился с кодом 0
+2026-01-20 09:35:33,938 3192037 [73] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:35:33,967 3192038 [62] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:35:33,967 3192039 [62] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 12724.
+2026-01-20 09:35:34,879 3192040 [30] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=24) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:35:34,880 3192041 [73] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:35:35,131 3192042 [49] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:37:55,539 3192043 [73] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:37:55,539 3192044 [73] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:37:55,551 3192045 [73] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:37:55,579 3192046 [8] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:24, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:37:55,580 3192047 [8] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:37:55,580 3192048 [65] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:24, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:37:55,598 3192049 [6] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=12724 завершился с кодом 0
+2026-01-20 09:37:55,598 3192050 [4] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:37:55,611 3192051 [4] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:37:55,611 3192052 [4] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 18308.
+2026-01-20 09:37:56,542 3192053 [31] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=25) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:37:56,543 3192054 [31] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:37:56,785 3192055 [4] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:51:46,820 3192056 [40] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:51:46,822 3192057 [40] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:51:46,869 3192058 [40] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:51:46,911 3192059 [16] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:25, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:51:46,911 3192060 [16] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:51:46,911 3192061 [74] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:25, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:51:46,965 3192062 [47] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=18308 завершился с кодом 0
+2026-01-20 09:51:46,965 3192063 [34] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:51:47,001 3192064 [34] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:51:47,001 3192065 [34] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 23256.
+2026-01-20 09:51:47,998 3192066 [40] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=26) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:51:48,006 3192067 [40] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:51:48,266 3192068 [46] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:54:26,509 3192069 [51] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:54:26,509 3192070 [51] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:54:26,520 3192071 [51] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 09:54:26,580 3192072 [43] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:16, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:54:26,580 3192073 [43] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 09:54:26,580 3192074 [29] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:16, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:54:26,607 3192075 [27] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=3880 завершился с кодом 0
+2026-01-20 09:54:26,608 3192076 [51] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81
+2026-01-20 09:54:26,621 3192077 [47] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:26, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:54:26,621 3192078 [47] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:54:26,621 3192079 [35] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:26, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:54:26,641 3192080 [27] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=23256 завершился с кодом 0
+2026-01-20 09:54:26,641 3192081 [16] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:54:26,660 3192082 [16] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:54:26,660 3192083 [16] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 8836.
+2026-01-20 09:54:26,691 3192084 [16] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 09:54:26,691 3192085 [16] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 21488.
+2026-01-20 09:54:27,682 3192086 [51] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=27) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:54:27,683 3192087 [79] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:54:27,952 3192088 [47] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:54:29,453 3192089 [47] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=28) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:54:29,455 3192090 [51] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 09:54:29,483 3192091 [51] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 09:54:47,849 3192092 [16] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:27, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 09:54:47,871 3192093 [27] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=8836 завершился с кодом 0
+2026-01-20 09:54:47,885 3192094 [40] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 2604.
+2026-01-20 09:54:48,881 3192095 [16] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=29) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 09:55:00,445 3192096 [82] INFORMATION All NodesObserver - Событие произошло 1 раз:
+Мониторинг узлов успешно остановлен
+2026-01-20 09:55:00,445 3192097 [40] INFORMATION All ProcessControl - Событие произошло 1 раз:
+Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 09:55:00,445 3192098 [82] INFORMATION All UpdateConfigurationHandler - Событие произошло 1 раз:
+Обработка запроса на обновление конфигурации модулей.
+2026-01-20 09:55:00,445 3192099 [40] INFORMATION All ProcessControl - Событие произошло 1 раз:
+Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 09:55:00,445 3192100 [16] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 09:55:00,445 3192101 [82] INFORMATION All UpdateConfigurationHandler - Событие произошло 1 раз:
+Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 09:55:00,445 3192102 [40] INFORMATION All ConnectServerHandler - Событие произошло 1 раз:
+Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 09:55:00,445 3192103 [51] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:12:33,574 3192104 [57] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:12:33,574 3192105 [57] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:12:33,592 3192106 [57] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:12:33,627 3192107 [31] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:29, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:12:33,628 3192108 [31] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:12:33,628 3192109 [56] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:29, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:12:33,650 3192110 [78] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=2604 завершился с кодом 0
+2026-01-20 10:12:33,650 3192111 [3] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:12:33,683 3192112 [3] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:12:33,683 3192113 [3] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 13992.
+2026-01-20 10:12:34,622 3192114 [55] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=30) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:12:34,625 3192115 [57] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:12:34,902 3192116 [55] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:26:12,261 3192117 [67] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:26:12,261 3192118 [67] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:26:12,347 3192119 [67] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:26:12,391 3192120 [69] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:30, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:26:12,391 3192121 [69] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:26:12,391 3192122 [77] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:30, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:26:12,415 3192123 [37] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=13992 завершился с кодом 0
+2026-01-20 10:26:12,415 3192124 [67] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:26:12,435 3192125 [33] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:26:12,435 3192126 [33] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 3996.
+2026-01-20 10:26:12,480 3192127 [33] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 успешно запущен
+2026-01-20 10:26:12,480 3192128 [33] INFORMATION All StartNodeService - Процесс  для узла [03ecf3d0-070b-4133-ae7b-832414500060, RestIn] запущен c параметрами -id="03ecf3d0-070b-4133-ae7b-832414500060" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060-local.json". Идентификатор запущенного процесса 1912.
+2026-01-20 10:26:13,471 3192129 [71] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=31) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:26:13,472 3192130 [77] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:26:13,736 3192131 [71] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:26:15,260 3192132 [44] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=32) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:26:15,261 3192133 [69] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 10:26:15,291 3192134 [77] INFORMATION All ConnectServerHandler - Подключен узел RestIn [03ecf3d0-070b-4133-ae7b-832414500060]
+2026-01-20 10:36:50,486 3192135 [6] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:36:50,487 3192136 [6] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:36:50,505 3192137 [6] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:36:50,543 3192138 [56] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:31, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:36:50,544 3192139 [56] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:36:50,544 3192140 [84] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:31, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:36:50,564 3192141 [73] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=3996 завершился с кодом 0
+2026-01-20 10:36:50,564 3192142 [6] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:36:50,596 3192143 [16] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:36:50,596 3192144 [16] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 21180.
+2026-01-20 10:36:51,538 3192145 [84] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=33) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:36:51,539 3192146 [16] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:36:51,808 3192147 [66] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:43:12,832 3192148 [81] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:43:12,832 3192149 [81] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:43:12,843 3192150 [81] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:43:12,906 3192151 [79] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:33, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:43:12,906 3192152 [79] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:43:12,906 3192153 [86] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:33, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:43:12,926 3192154 [87] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=21180 завершился с кодом 0
+2026-01-20 10:43:12,927 3192155 [81] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:43:12,955 3192156 [39] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:43:12,955 3192157 [39] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 6604.
+2026-01-20 10:43:14,010 3192158 [86] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=34) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:43:14,010 3192159 [86] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:43:14,322 3192160 [38] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:49:14,099 3192161 [24] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:49:14,099 3192162 [24] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:49:14,118 3192163 [24] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:49:14,163 3192164 [52] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:34, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:49:14,163 3192165 [52] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:49:14,163 3192166 [10] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:34, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:49:14,196 3192167 [83] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=6604 завершился с кодом 0
+2026-01-20 10:49:14,196 3192168 [24] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:49:14,232 3192169 [76] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:49:14,232 3192170 [76] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 12632.
+2026-01-20 10:49:15,266 3192171 [52] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=35) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:49:15,267 3192172 [52] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:49:15,558 3192173 [16] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:50:05,454 3192174 [4] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:50:05,454 3192175 [4] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:50:05,460 3192176 [4] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:50:05,514 3192177 [53] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:35, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:05,514 3192178 [53] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:50:05,514 3192179 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:35, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:05,534 3192180 [45] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=12632 завершился с кодом 0
+2026-01-20 10:50:05,534 3192181 [19] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:50:05,548 3192182 [19] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:50:05,548 3192183 [19] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 16228.
+2026-01-20 10:50:06,614 3192184 [19] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=36) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:50:06,614 3192185 [53] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:50:07,032 3192186 [74] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:50:48,407 3192187 [87] INFORMATION All PlatformValidationService - PlatformValidationService успешно остановлен
+2026-01-20 10:50:48,408 3192188 [87] INFORMATION All ControlServerMonitor - ControlServerMonitor остановлен
+2026-01-20 10:50:48,469 3192189 [66] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:28, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 10:50:48,476 3192190 [66] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 10:50:48,476 3192191 [66] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:28, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,481 3192192 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:15, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 10:50:48,481 3192193 [65] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:17, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 10:50:48,482 3192194 [55] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 10:50:48,482 3192195 [65] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 10:50:48,482 3192196 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:15, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,482 3192197 [65] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:17, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,482 3192198 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:32, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 10:50:48,482 3192199 [55] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 10:50:48,483 3192200 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:32, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,486 3192201 [17] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=21488 завершился с кодом -1
+2026-01-20 10:50:48,495 3192202 [17] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 PID=14520 завершился с кодом -1
+2026-01-20 10:50:48,496 3192203 [49] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e PID=20992 завершился с кодом -1
+2026-01-20 10:50:48,503 3192204 [49] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 PID=1912 завершился с кодом -1
+2026-01-20 10:50:48,515 3192205 [50] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:11, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,515 3192206 [50] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-20 10:50:48,607 3192207 [49] INFORMATION All ProcessControl - Процесс для сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c PID=12848 завершился с кодом 0
+2026-01-20 10:50:48,607 3192208 [87] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c
+2026-01-20 10:50:48,614 3192209 [87] WARNING All StopNodeService - Попытка принудительной остановки сервиса 87654321-4321-0000-0000-123456789000
+2026-01-20 10:50:48,614 3192210 [70] WARNING All StopNodeService - Попытка принудительной остановки сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:50:48,614 3192211 [50] WARNING All StopNodeService - Попытка принудительной остановки сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-20 10:50:48,614 3192212 [59] WARNING All StopNodeService - Попытка принудительной остановки сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-20 10:50:48,640 3192213 [74] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:36, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,658 3192214 [17] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=16228 завершился с кодом 0
+2026-01-20 10:50:48,685 3192215 [38] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:12, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,685 3192216 [38] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 10:50:48,686 3192217 [65] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:12, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,729 3192218 [78] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,729 3192219 [78] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 10:50:48,757 3192220 [81] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:14, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:50:48,758 3192221 [81] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 10:50:48,762 3192222 [17] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 PID=16796 завершился с кодом 0
+2026-01-20 10:50:48,762 3192223 [87] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 87654321-4321-0000-0000-123456789000
+2026-01-20 10:50:48,811 3192224 [17] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea PID=21824 завершился с кодом 0
+2026-01-20 10:50:48,811 3192225 [50] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-20 10:50:48,812 3192226 [17] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 PID=14720 завершился с кодом 0
+2026-01-20 10:50:48,812 3192227 [59] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-20 10:50:48,829 3192228 [87] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения остановлен
+2026-01-20 10:50:48,829 3192229 [87] INFORMATION All NodeManagerActorService - Хост менеджера узла успешно остановлен
+2026-01-20 10:50:48,871 3192230 [87] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Останов подключения
+2026-01-20 10:50:48,873 3192231 [87] INFORMATION All NodeManagerHost - Менеджер узлов полностью остановлен
+2026-01-20 10:50:48,880 3192232 [1] INFORMATION All Main - Завершение работы приложения
+2026-01-20 10:50:50,867 3192233 [1] INFORMATION All Main - Assembly: DatareonPlatformService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 10:50:50,884 3192234 [1] INFORMATION All Main - Идентификатор текущего процесса: 7792
+2026-01-20 10:50:51,143 3192235 [6] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения запущен
+2026-01-20 10:50:51,143 3192236 [6] INFORMATION All PlatformValidationService - Запуск PlatformValidationService
+2026-01-20 10:50:51,153 3192237 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности основных файлов
+2026-01-20 10:50:51,949 3192238 [6] INFORMATION All PlatformValidationService - Проверка целостности основных файлов завершена успешно
+2026-01-20 10:50:51,951 3192239 [6] INFORMATION All PlatformValidationService - PlatformValidationService запущен
+2026-01-20 10:50:52,026 3192240 [6] INFORMATION All ProcessControl - Процесс для сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c успешно запущен
+2026-01-20 10:50:52,027 3192241 [6] INFORMATION All StartNodeService - Процесс для Node запущен c параметрами -id="418dcccf-6f65-4a33-a0d0-601528e5cc4c" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\418dcccf-6f65-4a33-a0d0-601528e5cc4c.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\418dcccf-6f65-4a33-a0d0-601528e5cc4c-local.json". Идентификатор запущенного процесса 11820.
+2026-01-20 10:50:52,028 3192242 [6] INFORMATION All NodeManagerHost - Менеджер узлов полностью запущен
+2026-01-20 10:50:52,052 3192243 [15] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 успешно запущен
+2026-01-20 10:50:52,052 3192244 [15] INFORMATION All StartNodeService - Процесс  для узла [00000000-6a06-4239-bb04-fb60f8603770, Control Server] запущен c параметрами -id="00000000-6a06-4239-bb04-fb60f8603770" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770-local.json". Идентификатор запущенного процесса 23032.
+2026-01-20 10:50:52,052 3192245 [15] INFORMATION All NodeManagerActorService - Сервер управления успешно запущен
+2026-01-20 10:50:52,125 3192246 [15] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 успешно запущен
+2026-01-20 10:50:52,125 3192247 [15] INFORMATION All StartNodeService - Процесс  для узла [87654321-4321-0000-0000-123456789000, СервисМониторинга] запущен c параметрами -id="87654321-4321-0000-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000-local.json". Идентификатор запущенного процесса 10388.
+2026-01-20 10:50:52,133 3192248 [15] INFORMATION All EventsStorageObserver - Успешно запущен
+2026-01-20 10:50:52,152 3192249 [15] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:50:52,152 3192250 [15] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 15604.
+2026-01-20 10:50:52,183 3192251 [15] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-20 10:50:52,183 3192252 [15] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 9848.
+2026-01-20 10:50:52,194 3192253 [15] INFORMATION All ControlServerMonitor - Пинги выключены, т.к пустой список серверов управления
+2026-01-20 10:50:52,194 3192254 [15] INFORMATION All ControlServerMonitor - ControlServerMonitor запущен
+2026-01-20 10:50:52,828 3192255 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:50:53,616 3192256 [6] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 10:50:54,479 3192257 [14] INFORMATION All ConnectServerHandler - Подключен узел Control Server [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 10:50:54,837 3192258 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:50:55,333 3192259 [6] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-20 10:50:55,895 3192260 [15] INFORMATION All ConnectServerHandler - Подключен узел NM Node [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-20 10:51:01,283 3192261 [11] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:51:01,283 3192262 [11] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:51:01,369 3192263 [6] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:51:01,374 3192264 [6] INFORMATION All NodeManagerActorService - Все модули успешно запущены
+2026-01-20 10:51:01,391 3192265 [15] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 успешно запущен
+2026-01-20 10:51:01,391 3192266 [15] INFORMATION All StartNodeService - Процесс  для узла [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] запущен c параметрами -id="41d9723b-0c10-41e9-95e6-e9300da2e018" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018-local.json". Идентификатор запущенного процесса 5296.
+2026-01-20 10:51:01,433 3192267 [15] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e успешно запущен
+2026-01-20 10:51:01,433 3192268 [15] INFORMATION All StartNodeService - Процесс  для узла [c19daf81-5968-4964-b93a-81b09d63a36e, File1] запущен c параметрами -id="c19daf81-5968-4964-b93a-81b09d63a36e" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e-local.json". Идентификатор запущенного процесса 16144.
+2026-01-20 10:51:01,460 3192269 [6] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 успешно запущен
+2026-01-20 10:51:01,460 3192270 [6] INFORMATION All StartNodeService - Процесс  для узла [03ecf3d0-070b-4133-ae7b-832414500060, RestIn] запущен c параметрами -id="03ecf3d0-070b-4133-ae7b-832414500060" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060-local.json". Идентификатор запущенного процесса 20136.
+2026-01-20 10:51:01,483 3192271 [4] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 10:51:01,484 3192272 [4] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 5348.
+2026-01-20 10:51:02,918 3192273 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:02,931 3192274 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:03,247 3192275 [6] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 10:51:03,263 3192276 [6] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:51:03,698 3192277 [14] WARNING All NodesObserver - Не удалось добавить в список пингуемых [87654321-4321-0000-0000-123456789000]
+2026-01-20 10:51:03,700 3192278 [14] INFORMATION All ConnectServerHandler - Подключен узел СервисМониторинга [87654321-4321-0000-0000-123456789000]
+2026-01-20 10:51:03,729 3192279 [14] WARNING All NodesObserver - Не удалось добавить в список пингуемых [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:51:03,731 3192280 [14] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:51:07,914 3192281 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:08,308 3192282 [14] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 10:51:08,761 3192283 [9] WARNING All NodesObserver - Не удалось добавить в список пингуемых [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 10:51:08,761 3192284 [9] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 10:51:12,749 3192285 [15] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=6) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:12,757 3192286 [14] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 10:51:13,082 3192287 [10] WARNING All NodesObserver - Не удалось добавить в список пингуемых [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 10:51:13,082 3192288 [10] INFORMATION All ConnectServerHandler - Подключен узел Процессы [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 10:51:13,700 3192289 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=7) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:13,701 3192290 [15] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 10:51:13,739 3192291 [9] WARNING All NodesObserver - Не удалось добавить в список пингуемых [03ecf3d0-070b-4133-ae7b-832414500060]
+2026-01-20 10:51:13,739 3192292 [9] INFORMATION All ConnectServerHandler - Подключен узел RestIn [03ecf3d0-070b-4133-ae7b-832414500060]
+2026-01-20 10:51:13,748 3192293 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=8) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:13,749 3192294 [9] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 10:51:13,750 3192295 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=9) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:13,751 3192296 [9] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 10:51:13,783 3192297 [15] WARNING All NodesObserver - Не удалось добавить в список пингуемых [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 10:51:13,783 3192298 [15] INFORMATION All ConnectServerHandler - Подключен узел File1 [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 10:51:13,791 3192299 [14] WARNING All NodesObserver - Не удалось добавить в список пингуемых [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 10:51:13,791 3192300 [14] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 10:51:14,634 3192301 [13] WARNING All NodesObserver - Не удалось добавить в список пингуемых [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 10:51:16,043 3192302 [18] WARNING All NodesObserver - Не удалось добавить в список пингуемых [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-20 10:51:21,958 3192303 [10] INFORMATION All PlatformValidationService - Запуск проверки целостности файлов
+2026-01-20 10:51:31,600 3192304 [18] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 10:51:31,608 3192305 [18] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:51:31,609 3192306 [18] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:51:31,613 3192307 [27] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=15604 завершился с кодом 0
+2026-01-20 10:51:31,619 3192308 [11] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:51:31,638 3192309 [28] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 5080.
+2026-01-20 10:51:32,709 3192310 [6] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=10) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:51:50,853 3192311 [11] INFORMATION All NodesObserver - Событие произошло 1 раз:
+Мониторинг узлов успешно остановлен
+2026-01-20 10:51:50,854 3192312 [15] INFORMATION All EventsStorageObserver - Событие произошло 2 раз:
+Успешно запущен
+2026-01-20 10:51:50,854 3192313 [28] INFORMATION All ProcessControl - Событие произошло 1 раз:
+Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:51:50,854 3192314 [10] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:51:50,854 3192315 [24] INFORMATION All ConnectServerHandler - Событие произошло 1 раз:
+Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:51:50,854 3192316 [30] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 10:51:50,854 3192317 [10] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [87654321-4321-0000-0000-123456789000]
+2026-01-20 10:51:50,854 3192318 [24] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:52:02,445 3192319 [26] INFORMATION All PlatformValidationService - Проверка целостности файлов завершена успешно
+2026-01-20 10:54:47,154 3192320 [29] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:54:47,154 3192321 [29] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:54:47,165 3192322 [29] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:54:47,250 3192323 [35] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 10:54:47,251 3192324 [35] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:54:47,251 3192325 [35] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:10, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:54:47,261 3192326 [36] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=5080 завершился с кодом 0
+2026-01-20 10:54:47,261 3192327 [29] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:54:47,289 3192328 [20] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:54:47,289 3192329 [20] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 7096.
+2026-01-20 10:54:48,323 3192330 [29] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=11) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:54:48,324 3192331 [20] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:54:48,601 3192332 [29] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 10:56:11,726 3192333 [33] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 10:56:11,727 3192334 [33] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 10:56:11,740 3192335 [33] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 10:56:11,775 3192336 [25] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:11, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 10:56:11,775 3192337 [25] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:56:11,794 3192338 [27] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=7096 завершился с кодом 0
+2026-01-20 10:56:11,794 3192339 [33] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 10:56:11,805 3192340 [18] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 10:56:11,805 3192341 [18] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 22888.
+2026-01-20 10:56:12,935 3192342 [33] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=12) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 10:56:12,937 3192343 [18] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 10:56:13,221 3192344 [33] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 11:15:57,124 3192345 [19] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 11:15:57,125 3192346 [19] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 11:15:57,149 3192347 [19] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 11:15:57,230 3192348 [74] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:15:57,230 3192349 [74] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 11:15:57,241 3192350 [77] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:9, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:15:57,285 3192351 [38] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=5348 завершился с кодом 0
+2026-01-20 11:15:57,285 3192352 [34] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81
+2026-01-20 11:15:57,301 3192353 [80] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:12, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:15:57,301 3192354 [80] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:15:57,330 3192355 [75] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=22888 завершился с кодом 0
+2026-01-20 11:15:57,331 3192356 [34] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 11:15:57,450 3192357 [34] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 11:15:57,450 3192358 [34] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 7820.
+2026-01-20 11:15:57,570 3192359 [34] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 11:15:57,570 3192360 [34] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 8740.
+2026-01-20 11:15:58,527 3192361 [19] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=13) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:15:58,531 3192362 [19] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:15:58,845 3192363 [19] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 11:16:00,457 3192364 [80] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=14) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:16:00,458 3192365 [80] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 11:16:00,486 3192366 [81] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 11:18:21,729 3192367 [34] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 11:18:21,729 3192368 [34] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 11:18:21,740 3192369 [34] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 11:18:21,775 3192370 [94] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:13, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:18:21,776 3192371 [94] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:18:21,776 3192372 [83] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:13, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:18:21,794 3192373 [87] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=7820 завершился с кодом 0
+2026-01-20 11:18:21,795 3192374 [92] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 11:18:21,810 3192375 [92] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 11:18:21,810 3192376 [92] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 8940.
+2026-01-20 11:18:22,756 3192377 [34] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=15) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:18:22,757 3192378 [92] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:18:23,030 3192379 [94] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 11:20:49,402 3192380 [99] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 11:20:49,403 3192381 [99] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 11:20:49,410 3192382 [99] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 11:20:49,442 3192383 [74] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:14, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:20:49,442 3192384 [74] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 11:20:49,442 3192385 [92] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:14, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:20:49,462 3192386 [100] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=8740 завершился с кодом 0
+2026-01-20 11:20:49,462 3192387 [85] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81
+2026-01-20 11:20:49,476 3192388 [90] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:15, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:20:49,476 3192389 [90] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:20:49,476 3192390 [92] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:15, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:20:49,495 3192391 [100] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=8940 завершился с кодом 0
+2026-01-20 11:20:49,495 3192392 [85] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 11:20:49,508 3192393 [85] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 11:20:49,508 3192394 [85] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 11808.
+2026-01-20 11:20:49,521 3192395 [85] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 11:20:49,522 3192396 [85] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 23328.
+2026-01-20 11:20:50,508 3192397 [99] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=16) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:20:50,509 3192398 [99] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:20:50,788 3192399 [74] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 11:20:52,269 3192400 [74] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=17) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:20:52,270 3192401 [74] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 11:20:52,297 3192402 [85] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 11:21:13,653 3192403 [84] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 11:21:13,654 3192404 [84] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 11:21:13,662 3192405 [84] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 11:21:13,697 3192406 [33] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:17, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 11:21:13,698 3192407 [33] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 11:21:13,698 3192408 [33] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:17, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:21:13,708 3192409 [100] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=23328 завершился с кодом 0
+2026-01-20 11:21:13,708 3192410 [85] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81
+2026-01-20 11:21:13,722 3192411 [65] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:16, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:21:13,722 3192412 [65] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:21:13,722 3192413 [26] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:16, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 11:21:13,748 3192414 [100] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=11808 завершился с кодом 0
+2026-01-20 11:21:13,748 3192415 [85] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 11:21:13,762 3192416 [85] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 11:21:13,762 3192417 [85] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 9340.
+2026-01-20 11:21:13,777 3192418 [85] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 11:21:13,777 3192419 [85] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 15632.
+2026-01-20 11:21:14,731 3192420 [63] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=18) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:21:14,732 3192421 [63] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 11:21:15,006 3192422 [63] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 11:21:16,539 3192423 [84] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=19) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 11:21:51,256 3192424 [84] INFORMATION All ConnectServerHandler - Событие произошло 1 раз:
+Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 11:21:51,256 3192425 [84] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 14:33:12,438 3192426 [51] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:3, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:12,462 3192427 [51] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 14:33:13,380 3192428 [77] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 PID=10388 завершился с кодом 0
+2026-01-20 14:33:13,876 3192429 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:13,877 3192430 [55] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 14:33:13,877 3192431 [95] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:5, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:14,165 3192432 [77] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea PID=9848 завершился с кодом 0
+2026-01-20 14:33:15,623 3192433 [40] WARNING All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 не запущен
+2026-01-20 14:33:15,624 3192434 [45] WARNING All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea не запущен
+2026-01-20 14:33:16,289 3192435 [40] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 успешно запущен
+2026-01-20 14:33:16,289 3192436 [40] INFORMATION All StartNodeService - Процесс  для узла [87654321-4321-0000-0000-123456789000, СервисМониторинга] запущен c параметрами -id="87654321-4321-0000-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000-local.json". Идентификатор запущенного процесса 25108.
+2026-01-20 14:33:16,353 3192437 [45] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-20 14:33:16,353 3192438 [45] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 19032.
+2026-01-20 14:33:16,693 3192439 [99] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:6, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:16,694 3192440 [99] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 14:33:16,880 3192441 [77] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 PID=5296 завершился с кодом 0
+2026-01-20 14:33:16,883 3192442 [40] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018
+2026-01-20 14:33:16,887 3192443 [40] WARNING All NodesObserver - Модуль [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] не отвечает на Ping-сообщения более 00:20:00 и будет перезапущен
+2026-01-20 14:33:17,241 3192444 [40] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 успешно запущен
+2026-01-20 14:33:17,241 3192445 [40] INFORMATION All StartNodeService - Процесс  для узла [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] запущен c параметрами -id="41d9723b-0c10-41e9-95e6-e9300da2e018" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018-local.json". Идентификатор запущенного процесса 18852.
+2026-01-20 14:33:17,629 3192446 [55] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:8, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:17,629 3192447 [55] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 14:33:17,736 3192448 [77] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e PID=16144 завершился с кодом 0
+2026-01-20 14:33:17,737 3192449 [40] INFORMATION All ProcessControl - Успешная остановка процесса сервиса c19daf81-5968-4964-b93a-81b09d63a36e
+2026-01-20 14:33:17,737 3192450 [40] WARNING All NodesObserver - Система [c19daf81-5968-4964-b93a-81b09d63a36e, File1] не отвечает на Ping-сообщения более 00:20:00 и будет перезапущена
+2026-01-20 14:33:17,807 3192451 [40] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e успешно запущен
+2026-01-20 14:33:17,807 3192452 [40] INFORMATION All StartNodeService - Процесс  для узла [c19daf81-5968-4964-b93a-81b09d63a36e, File1] запущен c параметрами -id="c19daf81-5968-4964-b93a-81b09d63a36e" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e-local.json". Идентификатор запущенного процесса 10516.
+2026-01-20 14:33:17,995 3192453 [88] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:19, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:17,995 3192454 [88] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 14:33:18,000 3192455 [51] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:19, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:18,244 3192456 [77] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=15632 завершился с кодом 0
+2026-01-20 14:33:18,244 3192457 [40] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81
+2026-01-20 14:33:18,244 3192458 [40] WARNING All NodesObserver - Система [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] не отвечает на Ping-сообщения более 00:20:00 и будет перезапущена
+2026-01-20 14:33:18,325 3192459 [40] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 14:33:18,325 3192460 [40] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 17844.
+2026-01-20 14:33:18,849 3192461 [51] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:7, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:33:18,849 3192462 [51] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 14:33:19,080 3192463 [77] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 PID=20136 завершился с кодом 0
+2026-01-20 14:33:19,080 3192464 [40] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 03ecf3d0-070b-4133-ae7b-832414500060
+2026-01-20 14:33:19,080 3192465 [40] WARNING All NodesObserver - Система [03ecf3d0-070b-4133-ae7b-832414500060, RestIn] не отвечает на Ping-сообщения более 00:20:00 и будет перезапущена
+2026-01-20 14:33:19,151 3192466 [40] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 успешно запущен
+2026-01-20 14:33:19,152 3192467 [40] INFORMATION All StartNodeService - Процесс  для узла [03ecf3d0-070b-4133-ae7b-832414500060, RestIn] запущен c параметрами -id="03ecf3d0-070b-4133-ae7b-832414500060" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060-local.json". Идентификатор запущенного процесса 19632.
+2026-01-20 14:33:19,747 3192468 [47] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=20) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:33:19,806 3192469 [47] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 14:33:20,583 3192470 [47] INFORMATION All ConnectServerHandler - Подключен узел СервисМониторинга [87654321-4321-0000-0000-123456789000]
+2026-01-20 14:33:23,140 3192471 [40] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=21) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:33:23,143 3192472 [47] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 14:33:23,147 3192473 [42] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=22) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:33:23,154 3192474 [42] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 14:33:23,906 3192475 [75] INFORMATION All ConnectServerHandler - Подключен узел Процессы [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 14:33:23,911 3192476 [40] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 14:33:25,293 3192477 [75] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=23) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:33:25,294 3192478 [47] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 14:33:25,446 3192479 [42] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=24) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:33:25,493 3192480 [40] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 14:33:25,560 3192481 [93] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 14:33:25,656 3192482 [73] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=25) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:33:25,662 3192483 [55] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 14:33:25,667 3192484 [53] INFORMATION All ConnectServerHandler - Подключен узел File1 [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 14:33:25,779 3192485 [98] INFORMATION All ConnectServerHandler - Подключен узел RestIn [03ecf3d0-070b-4133-ae7b-832414500060]
+2026-01-20 14:56:44,822 3192486 [9] INFORMATION All PlatformValidationService - PlatformValidationService успешно остановлен
+2026-01-20 14:56:44,826 3192487 [9] INFORMATION All ControlServerMonitor - ControlServerMonitor остановлен
+2026-01-20 14:56:44,852 3192488 [9] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 14:56:44,964 3192489 [51] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:23, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 14:56:44,964 3192490 [26] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:21, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 14:56:44,964 3192491 [97] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:25, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 14:56:44,964 3192492 [88] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:24, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 14:56:44,970 3192493 [88] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 14:56:44,971 3192494 [88] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:24, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:44,971 3192495 [51] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 14:56:44,971 3192496 [51] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:23, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:44,971 3192497 [26] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 14:56:44,971 3192498 [26] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:21, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:44,972 3192499 [97] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 14:56:44,973 3192500 [77] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e PID=10516 завершился с кодом -1
+2026-01-20 14:56:44,973 3192501 [44] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 PID=18852 завершился с кодом -1
+2026-01-20 14:56:44,973 3192502 [95] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 PID=17844 завершился с кодом -1
+2026-01-20 14:56:44,973 3192503 [97] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:25, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:44,981 3192504 [77] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 PID=19632 завершился с кодом -1
+2026-01-20 14:56:45,101 3192505 [88] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:2, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:45,101 3192506 [88] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-20 14:56:45,117 3192507 [40] ERROR All Server [NGARANINA->dt_platform_HostPipeServer] - Ошибка подключения ErrorBadRequest. Подробности: Нарушение протокола. Получена датаграмма Datagram[Type=ENDSESSION_DATAGRAM_TYPE] при состоянии FIN_ACK соединение: 5f1d010b-3515-46e7-a0be-2b18c5b7218f
+2026-01-20 14:56:45,163 3192508 [40] WARNING All Server [NGARANINA->dt_platform_HostPipeServer] - Не удалось отправить ErrorDatagram: Adk.Net2.Exceptions.TransportException: Не удалось отправить датаграмму: канал закрыт.
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+   at DT.Net.Protocols.DataProtocol.DataProtocolStateMachine.State.HandleError(ErrorStateCode errorCode, String errorMessage)
+2026-01-20 14:56:45,263 3192509 [77] INFORMATION All ProcessControl - Процесс для сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c PID=11820 завершился с кодом 0
+2026-01-20 14:56:45,263 3192510 [9] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c
+2026-01-20 14:56:45,266 3192511 [26] WARNING All StopNodeService - Попытка принудительной остановки сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 14:56:45,266 3192512 [40] WARNING All StopNodeService - Попытка принудительной остановки сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-20 14:56:45,266 3192513 [9] WARNING All StopNodeService - Попытка принудительной остановки сервиса 87654321-4321-0000-0000-123456789000
+2026-01-20 14:56:45,266 3192514 [82] WARNING All StopNodeService - Попытка принудительной остановки сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-20 14:56:45,299 3192515 [99] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:20, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:45,299 3192516 [99] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 14:56:45,343 3192517 [88] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:22, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:45,343 3192518 [88] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 14:56:45,345 3192519 [99] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:18, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:45,345 3192520 [99] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 14:56:45,373 3192521 [77] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 PID=25108 завершился с кодом 0
+2026-01-20 14:56:45,373 3192522 [9] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 87654321-4321-0000-0000-123456789000
+2026-01-20 14:56:45,389 3192523 [77] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea PID=19032 завершился с кодом 0
+2026-01-20 14:56:45,389 3192524 [40] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 12345678-0000-0000-0000-1234567890ea
+2026-01-20 14:56:45,449 3192525 [77] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=9340 завершился с кодом 1
+2026-01-20 14:56:45,449 3192526 [26] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 14:56:45,497 3192527 [47] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:1, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:56:45,497 3192528 [47] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 14:56:45,632 3192529 [77] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 PID=23032 завершился с кодом 0
+2026-01-20 14:56:45,632 3192530 [82] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-6a06-4239-bb04-fb60f8603770
+2026-01-20 14:56:45,636 3192531 [9] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения остановлен
+2026-01-20 14:56:45,636 3192532 [9] INFORMATION All NodeManagerActorService - Хост менеджера узла успешно остановлен
+2026-01-20 14:56:45,654 3192533 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Останов подключения
+2026-01-20 14:56:45,656 3192534 [9] INFORMATION All NodeManagerHost - Менеджер узлов полностью остановлен
+2026-01-20 14:56:45,660 3192535 [1] INFORMATION All Main - Завершение работы приложения
+2026-01-20 14:56:47,332 3192536 [1] INFORMATION All Main - Assembly: DatareonPlatformService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 14:56:47,348 3192537 [1] INFORMATION All Main - Идентификатор текущего процесса: 18860
+2026-01-20 14:56:47,650 3192538 [6] INFORMATION Connections CpBroker [Мониторинг] - Брокер точек подключения запущен
+2026-01-20 14:56:47,650 3192539 [6] INFORMATION All PlatformValidationService - Запуск PlatformValidationService
+2026-01-20 14:56:47,667 3192540 [6] INFORMATION All PlatformValidationService - Запуск проверки целостности основных файлов
+2026-01-20 14:56:48,856 3192541 [6] INFORMATION All PlatformValidationService - Проверка целостности основных файлов завершена успешно
+2026-01-20 14:56:48,857 3192542 [6] INFORMATION All PlatformValidationService - PlatformValidationService запущен
+2026-01-20 14:56:49,055 3192543 [6] INFORMATION All ProcessControl - Процесс для сервиса 418dcccf-6f65-4a33-a0d0-601528e5cc4c успешно запущен
+2026-01-20 14:56:49,058 3192544 [6] INFORMATION All StartNodeService - Процесс для Node запущен c параметрами -id="418dcccf-6f65-4a33-a0d0-601528e5cc4c" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\418dcccf-6f65-4a33-a0d0-601528e5cc4c.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\418dcccf-6f65-4a33-a0d0-601528e5cc4c-local.json". Идентификатор запущенного процесса 25392.
+2026-01-20 14:56:49,060 3192545 [6] INFORMATION All NodeManagerHost - Менеджер узлов полностью запущен
+2026-01-20 14:56:49,180 3192546 [15] INFORMATION All ProcessControl - Процесс для сервиса 00000000-6a06-4239-bb04-fb60f8603770 успешно запущен
+2026-01-20 14:56:49,180 3192547 [15] INFORMATION All StartNodeService - Процесс  для узла [00000000-6a06-4239-bb04-fb60f8603770, Control Server] запущен c параметрами -id="00000000-6a06-4239-bb04-fb60f8603770" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\00000000-6a06-4239-bb04-fb60f8603770-local.json". Идентификатор запущенного процесса 2108.
+2026-01-20 14:56:49,180 3192548 [15] INFORMATION All NodeManagerActorService - Сервер управления успешно запущен
+2026-01-20 14:56:49,393 3192549 [15] INFORMATION All ProcessControl - Процесс для сервиса 87654321-4321-0000-0000-123456789000 успешно запущен
+2026-01-20 14:56:49,393 3192550 [15] INFORMATION All StartNodeService - Процесс  для узла [87654321-4321-0000-0000-123456789000, СервисМониторинга] запущен c параметрами -id="87654321-4321-0000-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\87654321-4321-0000-0000-123456789000-local.json". Идентификатор запущенного процесса 1548.
+2026-01-20 14:56:49,400 3192551 [15] INFORMATION All EventsStorageObserver - Успешно запущен
+2026-01-20 14:56:49,527 3192552 [15] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 14:56:49,527 3192553 [15] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 7796.
+2026-01-20 14:56:49,711 3192554 [15] INFORMATION All ProcessControl - Процесс для сервиса 12345678-0000-0000-0000-1234567890ea успешно запущен
+2026-01-20 14:56:49,711 3192555 [15] INFORMATION All StartNodeService - Процесс  для узла [12345678-0000-0000-0000-1234567890ea, СборщикСобытий] запущен c параметрами -id="12345678-0000-0000-0000-1234567890ea" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\12345678-0000-0000-0000-1234567890ea-local.json". Идентификатор запущенного процесса 20644.
+2026-01-20 14:56:49,719 3192556 [15] INFORMATION All ControlServerMonitor - Пинги выключены, т.к пустой список серверов управления
+2026-01-20 14:56:49,720 3192557 [15] INFORMATION All ControlServerMonitor - ControlServerMonitor запущен
+2026-01-20 14:56:49,887 3192558 [14] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=1) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:56:50,749 3192559 [14] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-6a06-4239-bb04-fb60f8603770, ControlServer, DatareonPlatformControlCenter]
+2026-01-20 14:56:51,513 3192560 [4] INFORMATION All ConnectServerHandler - Подключен узел Control Server [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 14:56:51,784 3192561 [4] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=2) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:56:52,120 3192562 [4] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [418dcccf-6f65-4a33-a0d0-601528e5cc4c, NGARANINA, DatareonPlatformNode]
+2026-01-20 14:56:52,561 3192563 [12] INFORMATION All ConnectServerHandler - Подключен узел NM Node [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-20 14:56:58,018 3192564 [4] INFORMATION All UpdateConfigurationHandler - Обработка запроса на обновление конфигурации модулей.
+2026-01-20 14:56:58,019 3192565 [4] INFORMATION All UpdateConfigurationHandler - Начало обработки запроса на обновление конфигурации модулей.
+2026-01-20 14:56:58,126 3192566 [14] INFORMATION All NodesObserver - Мониторинг узлов успешно остановлен
+2026-01-20 14:56:58,130 3192567 [14] INFORMATION All NodeManagerActorService - Все модули успешно запущены
+2026-01-20 14:56:58,247 3192568 [6] INFORMATION All ProcessControl - Процесс для сервиса 41d9723b-0c10-41e9-95e6-e9300da2e018 успешно запущен
+2026-01-20 14:56:58,247 3192569 [6] INFORMATION All StartNodeService - Процесс  для узла [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы] запущен c параметрами -id="41d9723b-0c10-41e9-95e6-e9300da2e018" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\41d9723b-0c10-41e9-95e6-e9300da2e018-local.json". Идентификатор запущенного процесса 9456.
+2026-01-20 14:57:00,168 3192570 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=3) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:00,296 3192571 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=4) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:00,654 3192572 [10] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [87654321-4321-0000-0000-123456789000, СервисМониторинга, DatareonPlatformMonitoringService]
+2026-01-20 14:57:00,813 3192573 [10] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 14:57:01,226 3192574 [9] WARNING All NodesObserver - Не удалось добавить в список пингуемых [87654321-4321-0000-0000-123456789000]
+2026-01-20 14:57:01,229 3192575 [9] INFORMATION All ConnectServerHandler - Подключен узел СервисМониторинга [87654321-4321-0000-0000-123456789000]
+2026-01-20 14:57:01,384 3192576 [18] WARNING All NodesObserver - Не удалось добавить в список пингуемых [00000000-1234-5678-0000-123456789000]
+2026-01-20 14:57:01,392 3192577 [18] INFORMATION All ConnectServerHandler - Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 14:57:05,386 3192578 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=5) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:05,730 3192579 [15] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [12345678-0000-0000-0000-1234567890ea, СборщикСобытий, DatareonPlatformEventsStorage]
+2026-01-20 14:57:06,133 3192580 [9] WARNING All NodesObserver - Не удалось добавить в список пингуемых [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 14:57:06,133 3192581 [9] INFORMATION All ConnectServerHandler - Подключен узел СборщикСобытий [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 14:57:09,661 3192582 [12] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=6) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:09,663 3192583 [11] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы, DatareonPlatformProcess]
+2026-01-20 14:57:09,940 3192584 [11] WARNING All NodesObserver - Не удалось добавить в список пингуемых [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 14:57:09,941 3192585 [11] INFORMATION All ConnectServerHandler - Подключен узел Процессы [41d9723b-0c10-41e9-95e6-e9300da2e018]
+2026-01-20 14:57:11,656 3192586 [11] WARNING All NodesObserver - Не удалось добавить в список пингуемых [00000000-6a06-4239-bb04-fb60f8603770]
+2026-01-20 14:57:12,686 3192587 [11] WARNING All NodesObserver - Не удалось добавить в список пингуемых [418dcccf-6f65-4a33-a0d0-601528e5cc4c]
+2026-01-20 14:57:18,861 3192588 [15] INFORMATION All PlatformValidationService - Запуск проверки целостности файлов
+2026-01-20 14:57:28,365 3192589 [14] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:WORK, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: канал закрыт
+2026-01-20 14:57:28,379 3192590 [19] INFORMATION All ProcessControl - Процесс для сервиса 00000000-1234-5678-0000-123456789000 PID=7796 завершился с кодом 0
+2026-01-20 14:57:28,381 3192591 [14] INFORMATION Connections dt_platform_HostPipeServer - Отключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 14:57:28,382 3192592 [14] INFORMATION Connections dt_platform_nodemanagerhostpipeserver - Клиент ClientName:, ConnectionId:4, CurrentState:END, ServerAddress=dt_platform_nodemanagerhostpipeserver, IsServerConnection=True остановлен по причине: подключение остановлено
+2026-01-20 14:57:28,382 3192593 [4] INFORMATION All ProcessControl - Успешная остановка процесса сервиса 00000000-1234-5678-0000-123456789000
+2026-01-20 14:57:28,401 3192594 [25] INFORMATION All StartNodeService - Процесс  для узла [00000000-1234-5678-0000-123456789000, УправлениеПользователями] запущен c параметрами -id="00000000-1234-5678-0000-123456789000" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\DefaultServices\00000000-1234-5678-0000-123456789000-local.json". Идентификатор запущенного процесса 24956.
+2026-01-20 14:57:28,516 3192595 [25] INFORMATION All ProcessControl - Процесс для сервиса c19daf81-5968-4964-b93a-81b09d63a36e успешно запущен
+2026-01-20 14:57:28,516 3192596 [25] INFORMATION All StartNodeService - Процесс  для узла [c19daf81-5968-4964-b93a-81b09d63a36e, File1] запущен c параметрами -id="c19daf81-5968-4964-b93a-81b09d63a36e" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\c19daf81-5968-4964-b93a-81b09d63a36e-local.json". Идентификатор запущенного процесса 21524.
+2026-01-20 14:57:28,545 3192597 [28] INFORMATION All ProcessControl - Процесс для сервиса 8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81 успешно запущен
+2026-01-20 14:57:28,545 3192598 [28] INFORMATION All StartNodeService - Процесс  для узла [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2] запущен c параметрами -id="8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81-local.json". Идентификатор запущенного процесса 12016.
+2026-01-20 14:57:28,574 3192599 [11] INFORMATION All ProcessControl - Процесс для сервиса 03ecf3d0-070b-4133-ae7b-832414500060 успешно запущен
+2026-01-20 14:57:28,574 3192600 [11] INFORMATION All StartNodeService - Процесс  для узла [03ecf3d0-070b-4133-ae7b-832414500060, RestIn] запущен c параметрами -id="03ecf3d0-070b-4133-ae7b-832414500060" -c="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060.json" -lc="C:\ProgramData\Datareon\Platform\ClusterConfigs\LocalSettings\03ecf3d0-070b-4133-ae7b-832414500060-local.json". Идентификатор запущенного процесса 9932.
+2026-01-20 14:57:30,370 3192601 [32] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=7) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:34,175 3192602 [15] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=8) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:34,177 3192603 [15] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81, File2, DatareonPlatformSystem]
+2026-01-20 14:57:34,203 3192604 [32] INFORMATION All ConnectServerHandler - Подключен узел File2 [8fe6d5a7-ba5c-494c-bcf3-f8be6471ea81]
+2026-01-20 14:57:34,898 3192605 [4] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=9) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:34,900 3192606 [4] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [c19daf81-5968-4964-b93a-81b09d63a36e, File1, DatareonPlatformSystem]
+2026-01-20 14:57:34,960 3192607 [9] INFORMATION All ConnectServerHandler - Подключен узел File1 [c19daf81-5968-4964-b93a-81b09d63a36e]
+2026-01-20 14:57:35,149 3192608 [9] INFORMATION Connections PipeServer[dt_platform_nodemanagerhostpipeserver] - Принято новое NamedPipe-подключение (ConnectionID=10) к серверу dt_platform_nodemanagerhostpipeserver
+2026-01-20 14:57:35,154 3192609 [11] INFORMATION Connections dt_platform_HostPipeServer - Подключен клиент [03ecf3d0-070b-4133-ae7b-832414500060, RestIn, DatareonPlatformSystem]
+2026-01-20 14:57:35,302 3192610 [23] INFORMATION All ConnectServerHandler - Подключен узел RestIn [03ecf3d0-070b-4133-ae7b-832414500060]
+2026-01-20 14:57:46,280 3192611 [27] INFORMATION All PlatformValidationService - Проверка целостности файлов завершена успешно
+2026-01-20 14:57:47,317 3192612 [25] INFORMATION All ProcessControl - Событие произошло 1 раз:
+Процесс для сервиса 00000000-1234-5678-0000-123456789000 успешно запущен
+2026-01-20 14:57:47,318 3192613 [27] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [00000000-1234-5678-0000-123456789000]
+2026-01-20 14:57:47,318 3192614 [15] INFORMATION All EventsStorageObserver - Событие произошло 2 раз:
+Успешно запущен
+2026-01-20 14:57:47,318 3192615 [25] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [12345678-0000-0000-0000-1234567890ea]
+2026-01-20 14:57:47,318 3192616 [15] WARNING All NodesObserver - Событие произошло 1 раз:
+Не удалось добавить в список пингуемых [87654321-4321-0000-0000-123456789000]
+2026-01-20 14:57:47,318 3192617 [11] INFORMATION Connections dt_platform_HostPipeServer - Событие произошло 1 раз:
+Подключен клиент [00000000-1234-5678-0000-123456789000, УправлениеПользователями, DatareonPlatformCredential]
+2026-01-20 14:57:47,318 3192618 [31] INFORMATION All ConnectServerHandler - Событие произошло 1 раз:
+Подключен узел УправлениеПользователями [00000000-1234-5678-0000-123456789000]
+2026-01-20 14:57:47,318 3192619 [4] INFORMATION All NodesObserver - Событие произошло 1 раз:
+Мониторинг узлов успешно остановлен

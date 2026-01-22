@@ -1,0 +1,372 @@
+﻿2026-01-21 08:32:40,700 17950455 [42] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-21 08:32:41,345 17950456 [16] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 08:32:41,387 17950457 [16] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 08:32:42,101 17950458 [49] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 08:32:45,710 17950459 [42] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 08:32:46,843 17950460 [43] INFORMATION Queues AdapterQueue - Прекращение загрузки сообщений с узла для RestIn
+2026-01-21 08:32:46,845 17950461 [13] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 08:32:46,887 17950462 [13] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 08:32:46,888 17950463 [13] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 08:32:46,889 17950464 [13] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 08:32:46,893 17950465 [13] INFORMATION States AdapterUnit - Установлено новое состояние Останавливается. Состояние до изменения: Рабочее состояние
+2026-01-21 08:32:46,904 17950466 [13] INFORMATION All AdapterUnit - Все компоненты остановлены
+2026-01-21 08:32:46,904 17950467 [13] INFORMATION All AdapterModule[RestIn] - Адаптер успешно остановлен
+2026-01-21 08:32:46,908 17950468 [13] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 08:32:46,908 17950469 [13] INFORMATION All AdapterService - Модуль остановлен
+2026-01-21 08:32:47,583 17950470 [8] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 08:32:47,612 17950471 [8] INFORMATION All Main - Идентификатор текущего процесса: 19396
+2026-01-21 08:32:47,613 17950472 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 08:32:52,679 17950473 [10] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 08:32:52,681 17950474 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 08:32:57,684 17950475 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 08:32:57,684 17950476 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 08:33:00,442 17950477 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 08:33:00,453 17950478 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 08:33:00,476 17950479 [8] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 08:33:12,176 17950480 [10] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 24
+2026-01-21 08:33:12,225 17950481 [10] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 08:33:12,280 17950482 [18] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 08:33:12,347 17950483 [12] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 08:33:13,108 17950484 [18] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 08:33:13,592 17950485 [18] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 08:33:13,592 17950486 [18] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 08:33:13,595 17950487 [18] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-21 08:33:13,595 17950488 [18] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-21 08:33:13,595 17950489 [9] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-21 08:33:17,728 17950490 [13] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 11:41:46,253 17950491 [10] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 25
+2026-01-21 11:41:46,260 17950492 [10] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 11:41:46,827 17950493 [44] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 11:41:47,218 17950494 [44] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 11:41:47,218 17950495 [44] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 11:41:47,218 17950496 [44] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-21 11:41:54,473 17950497 [33] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:06:34,944 17950498 [59] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 26
+2026-01-21 12:06:34,949 17950499 [59] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 12:06:35,242 17950500 [12] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 12:06:35,332 17950501 [12] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 12:06:35,332 17950502 [12] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 12:06:35,332 17950503 [12] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-21 12:06:39,014 17950504 [34] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:10:13,599 17950505 [7] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:10:13,622 17950506 [7] INFORMATION All Main - Идентификатор текущего процесса: 9608
+2026-01-21 12:10:13,622 17950507 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:10:18,691 17950508 [9] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:18,693 17950509 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:23,703 17950510 [7] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:23,704 17950511 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:28,713 17950512 [7] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:28,715 17950513 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:33,710 17950514 [11] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:10:33,711 17950515 [7] ERROR Connections CpBroker [DataBroker] - Точка подключения NMDataClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerdatapipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:33,711 17950516 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:33,727 17950517 [7] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 12:10:38,713 17950518 [14] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:10:43,730 17950519 [7] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:10:48,709 17950520 [8] ERROR Connections CpBroker [DataBroker] - Точка подключения NMDataClient не запущена
+2026-01-21 12:11:13,584 17950521 [11] ERROR Connections CpBroker [CredentialBroker] - Событие произошло 1 раз:
+Точка подключения CredentialClient не запущена
+2026-01-21 12:11:13,584 17950522 [14] WARNING All MetadataModuleCacheManager - Событие произошло 3 раз:
+Получена пустая конфигурация от узла
+2026-01-21 12:11:13,584 17950523 [14] ERROR Connections CpBroker [DataBroker] - Событие произошло 1 раз:
+Точка подключения NMDataClient не запущена
+2026-01-21 12:11:13,584 17950524 [16] ERROR Connections CpBroker [DiagnosticBroker] - Событие произошло 2 раз:
+Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:11:13,584 17950525 [8] ERROR Connections CpBroker [ServiceBroker] - Событие произошло 2 раз:
+Точка подключения NMClient не запущена
+2026-01-21 12:11:13,764 17950526 [16] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:11:13,787 17950527 [16] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 12:11:13,823 17950528 [8] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:11:13,833 17950529 [14] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendLogData(SummaryLog logs)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:11:18,721 17950530 [12] ERROR Connections CpBroker [DataBroker] - Точка подключения NMDataClient не запущена
+2026-01-21 12:11:18,736 17950531 [6] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:11:23,766 17950532 [16] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:13,606 17950533 [12] ERROR Connections CpBroker [CredentialBroker] - Событие произошло 3 раз:
+Точка подключения CredentialClient не запущена
+2026-01-21 12:12:13,607 17950534 [11] WARNING All MetadataModuleCacheManager - Событие произошло 5 раз:
+Получена пустая конфигурация от узла
+2026-01-21 12:12:13,607 17950535 [16] ERROR Connections CpBroker [DataBroker] - Событие произошло 3 раз:
+Точка подключения NMDataClient не запущена
+2026-01-21 12:12:13,607 17950536 [8] ERROR Connections CpBroker [DiagnosticBroker] - Событие произошло 3 раз:
+Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:13,607 17950537 [8] ERROR Connections CpBroker [ServiceBroker] - Событие произошло 3 раз:
+Точка подключения NMClient не запущена
+2026-01-21 12:12:13,787 17950538 [11] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:12:13,838 17950539 [15] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:13,838 17950540 [7] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendLogData(SummaryLog logs)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:13,857 17950541 [7] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 12:12:18,784 17950542 [16] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:12:18,785 17950543 [11] ERROR Connections CpBroker [DataBroker] - Точка подключения NMDataClient не запущена
+2026-01-21 12:12:23,784 17950544 [16] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:35,368 17950545 [6] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:12:35,372 17950546 [6] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 12:12:35,487 17950547 [6] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:12:35,587 17950548 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:12:36,311 17950549 [6] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:12:36,963 17950550 [6] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 12:12:36,964 17950551 [6] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 12:12:36,970 17950552 [6] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-21 12:12:36,970 17950553 [6] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-21 12:12:36,971 17950554 [11] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-21 12:12:38,963 17950555 [6] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:12:49,302 17950556 [6] WARNING Connections CpBroker [ServiceBroker] - Точка подключения NMClient самостоятельно остановилась
+2026-01-21 12:12:49,309 17950557 [16] WARNING Connections CpBroker [DataBroker] - Точка подключения NMDataClient самостоятельно остановилась
+2026-01-21 12:12:53,818 17950558 [21] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-21 12:12:54,008 17950559 [12] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:55,608 17950560 [12] ERROR All NodeManagerHostObserver - Ключ сессии сервиса(a0399ef8-20b9-442d-813c-bfc9488d37ca) не совпадает с ключем сессии NodeManager(370144bb-5471-469c-83b0-1ebd427165df).
+2026-01-21 12:12:55,609 17950561 [22] INFORMATION Queues AdapterQueue - Прекращение загрузки сообщений с узла для RestIn
+2026-01-21 12:12:55,611 17950562 [22] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:55,627 17950563 [22] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:55,627 17950564 [22] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:55,627 17950565 [22] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:55,630 17950566 [22] INFORMATION States AdapterUnit - Установлено новое состояние Останавливается. Состояние до изменения: Рабочее состояние
+2026-01-21 12:12:55,636 17950567 [22] INFORMATION All AdapterUnit - Все компоненты остановлены
+2026-01-21 12:12:55,636 17950568 [22] INFORMATION All AdapterModule[RestIn] - Адаптер успешно остановлен
+2026-01-21 12:12:55,637 17950569 [22] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 12:12:55,637 17950570 [22] INFORMATION All AdapterService - Модуль остановлен
+2026-01-21 12:12:58,183 17950571 [7] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:58,213 17950572 [7] INFORMATION All Main - Идентификатор текущего процесса: 13592
+2026-01-21 12:12:58,213 17950573 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:13:03,363 17950574 [7] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:03,368 17950575 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:08,366 17950576 [7] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:08,368 17950577 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:13,359 17950578 [7] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:13,370 17950579 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:15,322 17950580 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:18,339 17950581 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:13:18,408 17950582 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 12:13:18,510 17950583 [20] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:13:18,578 17950584 [9] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:13:19,447 17950585 [20] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:13:20,605 17950586 [20] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 12:13:20,606 17950587 [20] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 12:13:20,620 17950588 [20] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-21 12:13:20,621 17950589 [20] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-21 12:13:20,623 17950590 [14] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-21 12:13:23,360 17950591 [7] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:13:37,702 17950592 [14] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 27
+2026-01-21 12:13:37,703 17950593 [14] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 12:13:37,903 17950594 [14] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 12:13:37,973 17950595 [14] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-21 12:13:43,407 17950596 [11] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:13:58,148 17950597 [14] INFORMATION All WebAdapter - Событие произошло 1 раз:
+Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 12:13:58,148 17950598 [14] INFORMATION All WebAdapter - Событие произошло 1 раз:
+Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 12:14:13,471 17950599 [18] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:21:40,815 17950600 [8] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 13:21:40,859 17950601 [8] INFORMATION All Main - Идентификатор текущего процесса: 22284
+2026-01-21 13:21:40,859 17950602 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 13:21:41,963 17950603 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:41,970 17950604 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:43,581 17950605 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:43,588 17950606 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:45,355 17950607 [11] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 27
+2026-01-21 13:21:45,419 17950608 [11] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 13:21:45,497 17950609 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 13:21:45,597 17950610 [12] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 13:21:46,374 17950611 [9] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 13:21:47,143 17950612 [9] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 13:21:47,143 17950613 [9] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 13:21:47,147 17950614 [9] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-21 13:21:47,148 17950615 [9] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-21 13:21:47,149 17950616 [16] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-21 13:21:50,966 17950617 [17] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 13:26:43,640 17950618 [28] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 28
+2026-01-21 13:26:43,642 17950619 [28] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 13:26:43,827 17950620 [28] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 13:26:43,878 17950621 [28] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 13:26:43,878 17950622 [28] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 13:26:43,878 17950623 [28] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-21 13:26:43,936 17950624 [28] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:28:20,431 17950625 [35] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 29
+2026-01-21 13:28:20,431 17950626 [35] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 13:28:20,675 17950627 [17] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 13:28:20,792 17950628 [17] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 13:28:20,792 17950629 [17] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 13:28:20,792 17950630 [17] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-21 13:28:26,388 17950631 [38] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:33:46,068 17950632 [37] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 30
+2026-01-21 13:33:46,069 17950633 [37] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 13:33:46,196 17950634 [4] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 13:33:46,313 17950635 [4] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 13:33:46,313 17950636 [4] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 13:33:46,313 17950637 [4] INFORMATION All WebAdapter - Сервис успешно перезапущен с новыми метаданными
+2026-01-21 13:33:46,769 17950638 [23] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 14:21:09,750 17950639 [31] ERROR Connections NMDataClient[dt_platform_nodemanagerdatapipeserver] - Не удалось отправить датаграмму
+System.IO.IOException: Pipe is broken.
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.GetResult(Int16 token)
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at DT.Net.Framing.Sender.SendBodyAsync(Boolean last, CancellationToken cancellationToken)
+   at DT.Net.Framing.Sender.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken)
+   at DT.Net.ConnectionServiceFraming.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken, Boolean specificHandle)
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+2026-01-21 14:21:09,920 17950640 [31] WARNING Queues AdapterQueue - Не удалось получить сообщения с узла:DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Не удалось отправить датаграмму
+ ---> Adk.Net2.Exceptions.TransportException: Не удалось отправить датаграмму
+ ---> System.IO.IOException: Pipe is broken.
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.GetResult(Int16 token)
+   at System.IO.Pipes.PipeStream.PipeValueTaskSource.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at DT.Net.Framing.Sender.SendBodyAsync(Boolean last, CancellationToken cancellationToken)
+   at DT.Net.Framing.Sender.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken)
+   at DT.Net.ConnectionServiceFraming.SendAsync(Func`3 serializeAsync, CancellationToken cancellationToken, Boolean specificHandle)
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Connection.SendDatagramAsync(Func`3 serializeAsync, Boolean specificHandle)
+   at DT.Net.Protocols.DataProtocol.DataProtocolStateMachine.WorkState.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT.Adapter.Queues.BaseQueue.TakeDataCoreAsync(Func`3 takeFunc, CancellationToken token); elapsed = 00:00:00.5663314
+2026-01-21 14:21:10,154 17950641 [3] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-21 14:21:10,176 17950642 [34] INFORMATION Queues AdapterQueue - Прекращение загрузки сообщений с узла для RestIn
+2026-01-21 14:21:10,233 17950643 [34] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:10,261 17950644 [34] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:10,261 17950645 [34] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:10,261 17950646 [34] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:10,269 17950647 [34] INFORMATION States AdapterUnit - Установлено новое состояние Останавливается. Состояние до изменения: Рабочее состояние
+2026-01-21 14:21:10,272 17950648 [34] INFORMATION All AdapterUnit - Все компоненты остановлены
+2026-01-21 14:21:10,272 17950649 [34] INFORMATION All AdapterModule[RestIn] - Адаптер успешно остановлен
+2026-01-21 14:21:10,274 17950650 [49] INFORMATION All WebAdapter - Модуль успешно остановлен
+2026-01-21 14:21:10,276 17950651 [34] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 14:21:10,277 17950652 [34] INFORMATION All AdapterService - Модуль остановлен
+2026-01-21 14:21:17,421 17950653 [7] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 14:21:17,459 17950654 [7] INFORMATION All Main - Идентификатор текущего процесса: 23272
+2026-01-21 14:21:17,460 17950655 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 14:21:22,716 17950656 [7] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 14:21:22,719 17950657 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:23,963 17950658 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:24,015 17950659 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:24,596 17950660 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:24,624 17950661 [7] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 14:21:34,038 17950662 [11] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 14:21:36,783 17950663 [12] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-21 14:21:36,857 17950664 [12] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [03ecf3d0-070b-4133-ae7b-832414500060, RestIn]
+2026-01-21 14:21:37,064 17950665 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 14:21:37,302 17950666 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 14:21:38,277 17950667 [7] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 14:21:39,559 17950668 [7] INFORMATION All WebAdapter - Веб-сервис системы успешно запущен по адресу: http://NGaranina:65535
+2026-01-21 14:21:39,559 17950669 [7] INFORMATION All WebAdapter - Swagger веб-сервиса системы успешно запущен по адресу: http://NGaranina:65535/swagger
+2026-01-21 14:21:39,565 17950670 [7] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-21 14:21:39,565 17950671 [7] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-21 14:21:39,567 17950672 [9] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для RestIn
+2026-01-21 14:21:42,829 17950673 [9] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается

@@ -8,7 +8,7 @@
     },
     "Items": [],
     "Name": "Категории",
-    "Id": "57cc0cac-a37b-4d8a-b46f-c013af5b702f",
+    "Id": "3be32d78-39cf-4d9c-8599-3f69c44ee10b",
     "IsArray": false,
     "IsRequired": false,
     "IsNullable": false,
@@ -72,6 +72,26 @@
         "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
       },
       "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 50,
+        "MaxLength": false,
+        "AutoTrim": false
+      },
+      "Name": "Поле2",
+      "Id": "f3a0d4ce-ba77-4c87-8a59-784eea45b0f9",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
     }
   ],
   "Interfaces": [],
@@ -82,13 +102,14 @@
   "StoreStates": false,
   "Codes": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
-    "Поле1": 1
+    "Поле1": 1,
+    "Поле2": 2
   },
   "EntityId": "ed6f4499-3f89-48c5-9c4f-5126a40ac8f0",
   "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
   "Name": "DataTypeFile",
   "Description": "DataTypeFile",
-  "Version": 5,
+  "Version": 6,
   "TagsCollection": [],
   "FieldsFromGlobalBusiness": {
     "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"

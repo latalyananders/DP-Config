@@ -1,0 +1,113 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.BusinessProcess, DT_Core",
+  "ProcessVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+      "DataTypeId": "515aa5c6-e6a8-4319-83c9-c06d5bbf30a6",
+      "Name": "ТипДанныхФайл",
+      "Id": "0da633df-6cbd-4ca2-86e7-f980e421ba97",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": false,
+    "OutVariable": false
+  },
+  "AutoStart": false,
+  "IsSystem": false,
+  "Steps": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.WriteEntityStepInfo, DT_Core",
+      "DataBankObject": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "0da633df-6cbd-4ca2-86e7-f980e421ba97",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "OnResponse": "00000000-0000-0000-0000-000000000000",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "Timeout": 60000,
+      "CheckVersion": false,
+      "WaitForReplyType": "WaitResponse",
+      "HasSystemVariables": true,
+      "Id": "7d6d09fb-db4d-4a8f-b824-d61df2b71f00",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "InterpretTimeoutAsError": false
+    }
+  ],
+  "FirstStep": "7d6d09fb-db4d-4a8f-b824-d61df2b71f00",
+  "Positions": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": [
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-1111-1111-1111-111111111111",
+        "X": 200,
+        "Y": 200
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-2222-3333-4444-555555555555",
+        "X": 200,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "7d6d09fb-db4d-4a8f-b824-d61df2b71f00",
+        "X": 200,
+        "Y": 256
+      }
+    ]
+  },
+  "FolderId": "b74a3dfc-65b7-415c-ac5d-2f6d0fbc6569",
+  "LoggingType": "Default",
+  "DumpOnStart": false,
+  "StepsOnError": [],
+  "FirstStepOnError": "00000000-0000-0000-0000-000000000000",
+  "IsRouter": false,
+  "DeleteIfEmptySubscribers": false,
+  "RouteDataTypes": [],
+  "RouteSystemDataTypes": [],
+  "Subprocess": false,
+  "IsProcessIssueFlow": true,
+  "Isolated": false,
+  "ProcessVariableNotUsed": false,
+  "Variables": [],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "ТипДанныхФайл": 2
+  },
+  "EntityId": "5c851b14-fceb-47a8-9b13-92268fd00df5",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "СозданиеИзменениеТипДанныхФайл",
+  "Description": "Создание изменение ТипДанныхФайл",
+  "Version": 1,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

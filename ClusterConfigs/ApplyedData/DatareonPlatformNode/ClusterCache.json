@@ -510,6 +510,15 @@
               "Roles": [],
               "ObjectConfigId": "0a57e233-d7a0-454f-b4ec-9b7f302f7a0e",
               "ObjectConfigAppliedId": null
+            },
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7312dc74-f66b-4fd8-8154-1ee02f350136",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница 1111",
+              "Roles": [],
+              "ObjectConfigId": "7312dc74-f66b-4fd8-8154-1ee02f350136",
+              "ObjectConfigAppliedId": null
             }
           ],
           "DashBoardContent": {
@@ -588,7 +597,7 @@
       "Name": "ПорталВАд",
       "Description": "Портал_В_Ад",
       "Comment": "Lasciate ogne speranza, voi ch'entrate",
-      "Version": 17,
+      "Version": 18,
       "TagsCollection": null,
       "FieldsFromGlobalBusiness": {
         "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
@@ -601,7 +610,17 @@
         "SendingStrategy": null,
         "Options": {
           "$type": "DT.ClusterConfiguration.BlazorPortalOptionConfig, DT_Core",
-          "UserMenu": [],
+          "UserMenu": [
+            {
+              "$type": "DT.ClusterConfiguration.RefBlazorMenu, DT_Core",
+              "EntityId": "7dd2aa25-194f-401a-a129-d825c022e870",
+              "PlatformTypeId": "00000000-0000-0000-0000-000000000000",
+              "Name": "Ссылочная страница страница №1",
+              "Roles": [],
+              "ObjectConfigId": "7dd2aa25-194f-401a-a129-d825c022e870",
+              "ObjectConfigAppliedId": null
+            }
+          ],
           "DashBoardContent": {
             "$type": "DT.ClusterConfiguration.ContentOption, DT_Core",
             "Layouts": [
@@ -678,7 +697,7 @@
       "Name": "ПорталВАд2",
       "Description": "Портал_В_Ад2",
       "Comment": "",
-      "Version": 6,
+      "Version": 7,
       "TagsCollection": [],
       "FieldsFromGlobalBusiness": {
         "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
@@ -1151,11 +1170,11 @@
     },
     {
       "$type": "DT.VirtualFolder, DT_Core",
-      "Type": "Triggers",
+      "Type": "SendingStrategies",
       "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
-      "EntityId": "0bb16ea6-8a50-44bd-813f-81a6bc7a986b",
+      "EntityId": "0df1e980-db7e-4dd3-9c91-add19cdd22e4",
       "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
-      "Name": "Задания по расписанию",
+      "Name": "Правила обработки очередей",
       "Description": null,
       "Comment": null,
       "Version": 1,
@@ -1166,11 +1185,11 @@
     },
     {
       "$type": "DT.VirtualFolder, DT_Core",
-      "Type": "SendingStrategies",
+      "Type": "Triggers",
       "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
-      "EntityId": "0df1e980-db7e-4dd3-9c91-add19cdd22e4",
+      "EntityId": "0bb16ea6-8a50-44bd-813f-81a6bc7a986b",
       "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
-      "Name": "Правила обработки очередей",
+      "Name": "Задания по расписанию",
       "Description": null,
       "Comment": null,
       "Version": 1,
@@ -1526,7 +1545,7 @@
     }
   ],
   "MinorVersion": 1,
-  "MajorVersion": 30,
+  "MajorVersion": 31,
   "DiagnosticVersion": 0,
   "Subsystems": [],
   "BusinessDomains": [],

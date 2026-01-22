@@ -1,0 +1,570 @@
+﻿2026-01-20 09:22:04,683 -1848342410 [8] INFORMATION All Main - Assembly: DatareonPlatformProcess, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 09:22:04,713 -1848342409 [8] INFORMATION All Main - Идентификатор текущего процесса: 14520
+2026-01-20 09:22:04,713 -1848342408 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 09:22:09,803 -1848342407 [9] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 09:22:09,807 -1848342406 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 09:22:14,815 -1848342405 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 09:22:14,815 -1848342404 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 09:22:19,824 -1848342403 [8] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 09:22:19,830 -1848342402 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 09:22:20,550 -1848342401 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 09:22:21,138 -1848342400 [13] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 09:22:21,595 -1848342399 [21] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 2
+2026-01-20 09:22:21,640 -1848342398 [21] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 09:22:21,797 -1848342397 [21] INFORMATION States ProcessModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 09:22:21,801 -1848342396 [21] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 09:22:21,802 -1848342395 [21] WARNING All ProcessManager - Не запущен.
+2026-01-20 09:22:21,880 -1848342394 [21] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 09:22:21,885 -1848342393 [21] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 09:22:21,898 -1848342392 [21] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 09:22:21,909 -1848342391 [21] INFORMATION All Runner - Успешный запуск.
+2026-01-20 09:22:21,909 -1848342390 [21] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 09:22:21,909 -1848342389 [21] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 09:22:21,945 -1848342388 [8] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 09:22:21,955 -1848342387 [21] WARNING All ProcessManager - Уже запущен.
+2026-01-20 09:22:21,960 -1848342386 [21] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-20 09:22:21,974 -1848342385 [21] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 09:22:21,993 -1848342384 [8] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 41d9723b-0c10-41e9-95e6-e9300da2e018 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-20 09:22:24,806 -1848342383 [8] INFORMATION States ProcessModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 09:22:24,826 -1848342382 [8] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-20 09:22:49,853 -1848342381 [9] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:23:04,659 -1848342380 [21] INFORMATION All ProcessModule - Событие произошло 1 раз:
+Все сервисы успешно запущены
+2026-01-20 09:23:59,926 -1848342379 [28] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:26:50,154 -1848342378 [12] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:29:31,744 -1848342377 [6] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:30:11,807 -1848342376 [42] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:32:53,665 -1848342375 [35] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:35:43,881 -1848342374 [44] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:38:04,008 -1848342373 [31] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:51:54,896 -1848342372 [30] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:54:30,260 -1848342371 [35] ERROR All Runner - Не удалось запустить обработку сообщения Id=d34cd956-aea9-4ccc-ad17-21840a9e7e7d,StreamId=d34cd956-aea9-4ccc-ad17-21840a9e7e7d,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=d34cd956-aea9-4ccc-ad17-21840a9e7e7d,StreamId=d34cd956-aea9-4ccc-ad17-21840a9e7e7d,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 9a016a79-5230-414f-ae46-1e90aba81cb0
+2026-01-20 09:54:35,052 -1848342370 [38] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 09:54:50,496 -1848342369 [10] ERROR All Runner - Не удалось запустить обработку сообщения Id=969f7c08-af9e-44b1-ad8f-bb8c8c78c32a,StreamId=969f7c08-af9e-44b1-ad8f-bb8c8c78c32a,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=969f7c08-af9e-44b1-ad8f-bb8c8c78c32a,StreamId=969f7c08-af9e-44b1-ad8f-bb8c8c78c32a,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 9a016a79-5230-414f-ae46-1e90aba81cb0
+2026-01-20 09:55:05,026 -1848342368 [38] WARNING Connections CpBroker [CredentialBroker] - Событие произошло 1 раз:
+Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:04:17,100 -1848342367 [8] ERROR All Runner - Не удалось запустить обработку сообщения Id=cd65d161-d66e-4d7e-aada-4228d52fc334,StreamId=cd65d161-d66e-4d7e-aada-4228d52fc334,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=cd65d161-d66e-4d7e-aada-4228d52fc334,StreamId=cd65d161-d66e-4d7e-aada-4228d52fc334,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 9a016a79-5230-414f-ae46-1e90aba81cb0
+2026-01-20 10:12:36,204 -1848342366 [58] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:12:44,673 -1848342365 [58] ERROR All Runner - Не удалось запустить обработку сообщения Id=ff18ef8b-4dac-4ea5-8c47-a544b4fab9ca,StreamId=ff18ef8b-4dac-4ea5-8c47-a544b4fab9ca,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=ff18ef8b-4dac-4ea5-8c47-a544b4fab9ca,StreamId=ff18ef8b-4dac-4ea5-8c47-a544b4fab9ca,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=9a016a79-5230-414f-ae46-1e90aba81cb0,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 9a016a79-5230-414f-ae46-1e90aba81cb0
+2026-01-20 10:26:17,071 -1848342364 [52] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:26:25,248 -1848342363 [56] ERROR All Runner - Не удалось запустить обработку сообщения Id=bf942ee8-dae3-4ff6-bbf6-46f6d45d78e5,StreamId=bf942ee8-dae3-4ff6-bbf6-46f6d45d78e5,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=bf942ee8-dae3-4ff6-bbf6-46f6d45d78e5,StreamId=bf942ee8-dae3-4ff6-bbf6-46f6d45d78e5,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:31:32,119 -1848342362 [56] ERROR All Runner - Не удалось запустить обработку сообщения Id=81d0b513-5eee-444d-b5b5-0b0df11ace8b,StreamId=81d0b513-5eee-444d-b5b5-0b0df11ace8b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=81d0b513-5eee-444d-b5b5-0b0df11ace8b,StreamId=81d0b513-5eee-444d-b5b5-0b0df11ace8b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:33:27,122 -1848342361 [57] ERROR All Runner - Не удалось запустить обработку сообщения Id=81d0b513-5eee-444d-b5b5-0b0df11ace8b,StreamId=81d0b513-5eee-444d-b5b5-0b0df11ace8b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=81d0b513-5eee-444d-b5b5-0b0df11ace8b,StreamId=81d0b513-5eee-444d-b5b5-0b0df11ace8b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:33:59,846 -1848342360 [18] ERROR All Runner - Не удалось запустить обработку сообщения Id=a8b10331-fdd3-4e10-854a-b3147220ab16,StreamId=a8b10331-fdd3-4e10-854a-b3147220ab16,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=a8b10331-fdd3-4e10-854a-b3147220ab16,StreamId=a8b10331-fdd3-4e10-854a-b3147220ab16,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:36:57,646 -1848342359 [56] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:37:40,370 -1848342358 [64] ERROR All Runner - Не удалось запустить обработку сообщения Id=f10ddf7d-6695-40a7-beda-551b09be370b,StreamId=f10ddf7d-6695-40a7-beda-551b09be370b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=f10ddf7d-6695-40a7-beda-551b09be370b,StreamId=f10ddf7d-6695-40a7-beda-551b09be370b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:43:17,240 -1848342357 [47] ERROR All Runner - Не удалось запустить обработку сообщения Id=657cadb5-bbb2-47a3-8f2a-71e7ed86a07b,StreamId=657cadb5-bbb2-47a3-8f2a-71e7ed86a07b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=657cadb5-bbb2-47a3-8f2a-71e7ed86a07b,StreamId=657cadb5-bbb2-47a3-8f2a-71e7ed86a07b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:43:18,003 -1848342356 [8] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:43:29,400 -1848342355 [64] ERROR All Runner - Не удалось запустить обработку сообщения Id=51fbfe59-1f6b-4dc7-8bff-b8b430081939,StreamId=51fbfe59-1f6b-4dc7-8bff-b8b430081939,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=51fbfe59-1f6b-4dc7-8bff-b8b430081939,StreamId=51fbfe59-1f6b-4dc7-8bff-b8b430081939,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:47:06,877 -1848342354 [15] ERROR All Runner - Не удалось запустить обработку сообщения Id=d681f8db-c999-4fb6-9acc-ee9b672ae8cb,StreamId=d681f8db-c999-4fb6-9acc-ee9b672ae8cb,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=d681f8db-c999-4fb6-9acc-ee9b672ae8cb,StreamId=d681f8db-c999-4fb6-9acc-ee9b672ae8cb,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:49:18,357 -1848342353 [47] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:49:21,299 -1848342352 [62] ERROR All Runner - Не удалось запустить обработку сообщения Id=3cfed1cd-b435-4d1b-afab-3269978f41e7,StreamId=3cfed1cd-b435-4d1b-afab-3269978f41e7,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=503dae61-3d48-4633-84ff-2081ea1f3134,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=3cfed1cd-b435-4d1b-afab-3269978f41e7,StreamId=3cfed1cd-b435-4d1b-afab-3269978f41e7,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=503dae61-3d48-4633-84ff-2081ea1f3134,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 503dae61-3d48-4633-84ff-2081ea1f3134
+2026-01-20 10:50:07,912 -1848342351 [15] ERROR All Runner - Не удалось запустить обработку сообщения Id=24889e1b-2301-4c21-94e6-983ee6bd6905,StreamId=24889e1b-2301-4c21-94e6-983ee6bd6905,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=503dae61-3d48-4633-84ff-2081ea1f3134,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=24889e1b-2301-4c21-94e6-983ee6bd6905,StreamId=24889e1b-2301-4c21-94e6-983ee6bd6905,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=503dae61-3d48-4633-84ff-2081ea1f3134,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 503dae61-3d48-4633-84ff-2081ea1f3134
+2026-01-20 10:50:07,921 -1848342350 [15] ERROR All Runner - Не удалось запустить обработку сообщения Id=738f3b35-a3d6-4204-997a-357ac94a6765,StreamId=24889e1b-2301-4c21-94e6-983ee6bd6905,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=738f3b35-a3d6-4204-997a-357ac94a6765,StreamId=24889e1b-2301-4c21-94e6-983ee6bd6905,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:50:08,403 -1848342349 [15] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:50:20,106 -1848342348 [61] ERROR All Runner - Не удалось запустить обработку сообщения Id=9845c612-5feb-4176-802a-8e3fab33d89b,StreamId=9845c612-5feb-4176-802a-8e3fab33d89b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=503dae61-3d48-4633-84ff-2081ea1f3134,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=9845c612-5feb-4176-802a-8e3fab33d89b,StreamId=9845c612-5feb-4176-802a-8e3fab33d89b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=503dae61-3d48-4633-84ff-2081ea1f3134,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id 503dae61-3d48-4633-84ff-2081ea1f3134
+2026-01-20 10:50:20,110 -1848342347 [61] ERROR All Runner - Не удалось запустить обработку сообщения Id=6a6e907d-ecb5-4872-8e52-e5d441f31826,StreamId=9845c612-5feb-4176-802a-8e3fab33d89b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как Не удалось запустить обработку сообщения Id=6a6e907d-ecb5-4872-8e52-e5d441f31826,StreamId=9845c612-5feb-4176-802a-8e3fab33d89b,MessageType=DataMessage,DataType=515aa5c6-e6a8-4319-83c9-c06d5bbf30a6,ProcessId=b8c5ad5d-2806-4bcf-bf58-459da5cd3899,Source=c19daf81-5968-4964-b93a-81b09d63a36e,BodySize=65,Properties=[Dt_OriginalFileName = test file.json; Dt_HandlerId = 3a5339ef-25db-4f0b-824b-7e3b68c562da; ProcessingStage = 10; DelayCount = 0; ], так как не найдена функция с Id b8c5ad5d-2806-4bcf-bf58-459da5cd3899
+2026-01-20 10:51:02,014 -1848342346 [8] INFORMATION All Main - Assembly: DatareonPlatformProcess, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 10:51:02,038 -1848342345 [8] INFORMATION All Main - Идентификатор текущего процесса: 5296
+2026-01-20 10:51:02,038 -1848342344 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 10:51:02,714 -1848342343 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:07,731 -1848342342 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 10:51:07,735 -1848342341 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:12,736 -1848342340 [8] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 10:51:12,737 -1848342339 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:12,757 -1848342338 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 10:51:13,180 -1848342337 [16] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 10:51:13,643 -1848342336 [8] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 18
+2026-01-20 10:51:13,680 -1848342335 [8] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 10:51:13,824 -1848342334 [7] WARNING All HealthManager - Работа модуля Processes завершилась некорректно, выполняем самовосстановление.
+2026-01-20 10:51:13,831 -1848342333 [7] INFORMATION States ProcessModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 10:51:13,835 -1848342332 [7] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 10:51:13,836 -1848342331 [7] WARNING All ProcessManager - Не запущен.
+2026-01-20 10:51:13,911 -1848342330 [7] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 10:51:13,916 -1848342329 [7] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 10:51:13,930 -1848342328 [7] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 10:51:13,955 -1848342327 [7] INFORMATION All Runner - Успешный запуск.
+2026-01-20 10:51:13,955 -1848342326 [7] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 10:51:13,955 -1848342325 [7] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 10:51:14,000 -1848342324 [8] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 10:51:14,022 -1848342323 [7] WARNING All ProcessManager - Уже запущен.
+2026-01-20 10:51:14,031 -1848342322 [7] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-20 10:51:14,066 -1848342321 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 10:51:14,086 -1848342320 [14] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 41d9723b-0c10-41e9-95e6-e9300da2e018 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-20 10:51:17,104 -1848342319 [16] INFORMATION States ProcessModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 10:51:17,140 -1848342318 [16] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-20 10:51:22,130 -1848342317 [8] WARNING AccessControl CredentialAccessManager - Запрос доступа из модуля Credential приостановлен, т.к. модуль не отвечает на запросы.
+2026-01-20 10:51:32,760 -1848342316 [9] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:52:02,011 -1848342315 [7] INFORMATION All ProcessModule - Событие произошло 1 раз:
+Все сервисы успешно запущены
+2026-01-20 10:54:47,085 -1848342314 [28] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 10:54:47,086 -1848342313 [28] WARNING All Runner - TakeData токен отменен!
+2026-01-20 10:54:47,086 -1848342312 [21] INFORMATION All Runner - Поток e82083ed-536d-47a7-b1df-7a577f120134 завершен 
+2026-01-20 10:54:47,086 -1848342311 [20] INFORMATION All Runner - Поток 1f8d6014-9543-425e-b55a-c1a13064006b завершен 
+2026-01-20 10:54:47,087 -1848342310 [19] INFORMATION All Runner - Поток ba1dcb2f-99f4-4965-824b-b2739461f0b5 завершен 
+2026-01-20 10:54:47,088 -1848342309 [18] INFORMATION All Runner - Поток f92711b3-a795-476e-8465-e582eac07817 завершен 
+2026-01-20 10:54:47,088 -1848342308 [17] INFORMATION All Runner - Поток 64e3b974-5772-42cc-805f-350a8b8cc986 завершен 
+2026-01-20 10:54:47,095 -1848342307 [37] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 19
+2026-01-20 10:54:47,096 -1848342306 [37] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 10:54:47,097 -1848342305 [28] INFORMATION All Runner - Остановлено.
+2026-01-20 10:54:47,097 -1848342304 [28] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 10:54:47,122 -1848342303 [28] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 10:54:47,122 -1848342302 [28] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 10:54:47,129 -1848342301 [28] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 10:54:47,139 -1848342300 [28] INFORMATION All Runner - Успешный запуск.
+2026-01-20 10:54:47,139 -1848342299 [28] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 10:54:47,139 -1848342298 [28] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 10:54:47,176 -1848342297 [28] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка обработки запроса MessageId = 4f3f6ee2-413d-42d5-846c-d3cae274855d[00000000-0000-0000-0000-000000000000], ProcessId = 00000000-0000-0000-0000-000000000000: Код 503: [Ошибка обработки сообщения на стороне сервера] Обработка данных узла остановлена для обновления конфигурации
+   at DT.TaskExtensions.WithCancellationSlow[T](Task`1 task, CancellationToken cancellationToken)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 10:54:54,154 -1848342296 [31] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:55:02,032 -1848342295 [28] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!
+2026-01-20 10:56:11,600 -1848342294 [30] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 10:56:11,601 -1848342293 [30] WARNING All Runner - TakeData токен отменен!
+2026-01-20 10:56:11,602 -1848342292 [42] INFORMATION All Runner - Поток 15893cb2-2f19-48b4-b468-1ed9b283c906 завершен 
+2026-01-20 10:56:11,602 -1848342291 [41] INFORMATION All Runner - Поток 19219a74-2fd7-433a-ba5d-02fef43816a3 завершен 
+2026-01-20 10:56:11,603 -1848342290 [39] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 20
+2026-01-20 10:56:11,603 -1848342289 [39] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 10:56:11,609 -1848342288 [43] INFORMATION All Runner - Поток c575d3a5-93c2-49b4-ada7-eb133ae6b5c2 завершен 
+2026-01-20 10:56:11,609 -1848342287 [40] INFORMATION All Runner - Поток a65881fa-3492-4f1a-8b95-eee127c08671 завершен 
+2026-01-20 10:56:11,609 -1848342286 [44] INFORMATION All Runner - Поток 69d14168-912e-409a-a2b6-d7c097462f43 завершен 
+2026-01-20 10:56:11,612 -1848342285 [30] INFORMATION All Runner - Остановлено.
+2026-01-20 10:56:11,612 -1848342284 [30] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 10:56:11,643 -1848342283 [30] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 10:56:11,643 -1848342282 [30] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 10:56:11,688 -1848342281 [30] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 10:56:11,701 -1848342280 [30] INFORMATION All Runner - Успешный запуск.
+2026-01-20 10:56:11,701 -1848342279 [30] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 10:56:11,701 -1848342278 [30] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 10:56:11,704 -1848342277 [37] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка обработки запроса MessageId = 81bc295a-6813-4ee8-9597-c7ec067a35d8[00000000-0000-0000-0000-000000000000], ProcessId = 00000000-0000-0000-0000-000000000000: Код 503: [Ошибка обработки сообщения на стороне сервера] Обработка данных узла остановлена для обновления конфигурации
+   at DT.TaskExtensions.WithCancellationSlow[T](Task`1 task, CancellationToken cancellationToken)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 10:56:14,226 -1848342276 [37] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 10:57:02,042 -1848342275 [30] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!
+2026-01-20 11:15:57,037 -1848342274 [47] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 11:15:57,039 -1848342273 [47] WARNING All Runner - TakeData токен отменен!
+2026-01-20 11:15:57,040 -1848342272 [20] INFORMATION All Runner - Поток 9642ad35-12cb-4400-a492-374ffeb4193a завершен 
+2026-01-20 11:15:57,040 -1848342271 [21] INFORMATION All Runner - Поток d1acdc5f-6ff9-4fec-a77e-c6b715cba60c завершен 
+2026-01-20 11:15:57,041 -1848342270 [24] INFORMATION All Runner - Поток e566be5e-b945-4ad6-9901-d9b4c234895b завершен 
+2026-01-20 11:15:57,041 -1848342269 [17] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 21
+2026-01-20 11:15:57,041 -1848342268 [17] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 11:15:57,042 -1848342267 [19] INFORMATION All Runner - Поток 83fca5d2-6015-4def-9863-01927e9d0570 завершен 
+2026-01-20 11:15:57,042 -1848342266 [25] INFORMATION All Runner - Поток d4acc5d1-98c8-4972-9dec-ec73fdb06cc5 завершен 
+2026-01-20 11:15:57,044 -1848342265 [47] INFORMATION All Runner - Остановлено.
+2026-01-20 11:15:57,044 -1848342264 [47] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 11:15:57,071 -1848342263 [47] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 11:15:57,071 -1848342262 [47] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 11:15:57,075 -1848342261 [47] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 11:15:57,079 -1848342260 [47] INFORMATION All Runner - Успешный запуск.
+2026-01-20 11:15:57,079 -1848342259 [47] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 11:15:57,079 -1848342258 [47] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 11:16:02,186 -1848342257 [47] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!
+2026-01-20 11:16:05,324 -1848342256 [47] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:18:21,634 -1848342255 [11] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 11:18:21,634 -1848342254 [11] WARNING All Runner - TakeData токен отменен!
+2026-01-20 11:18:21,635 -1848342253 [51] INFORMATION All Runner - Поток 15306443-d2e8-42a5-96a5-2fbcc3c11f4f завершен 
+2026-01-20 11:18:21,635 -1848342252 [14] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 22
+2026-01-20 11:18:21,635 -1848342251 [14] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 11:18:21,635 -1848342250 [52] INFORMATION All Runner - Поток c2e44d49-2e31-422b-92e9-0694874f7b34 завершен 
+2026-01-20 11:18:21,635 -1848342249 [49] INFORMATION All Runner - Поток 937e8076-ebff-4589-82bf-eefcfc4c4ddc завершен 
+2026-01-20 11:18:21,638 -1848342248 [53] INFORMATION All Runner - Поток 5d31daaa-4e5d-4580-a1b8-06b83bd1c438 завершен 
+2026-01-20 11:18:21,641 -1848342247 [50] INFORMATION All Runner - Поток cac3f120-b99b-4089-9f31-eb00520af1d3 завершен 
+2026-01-20 11:18:21,641 -1848342246 [11] INFORMATION All Runner - Остановлено.
+2026-01-20 11:18:21,641 -1848342245 [11] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 11:18:21,669 -1848342244 [11] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 11:18:21,669 -1848342243 [11] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 11:18:21,674 -1848342242 [11] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 11:18:21,687 -1848342241 [11] INFORMATION All Runner - Успешный запуск.
+2026-01-20 11:18:21,687 -1848342240 [11] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 11:18:21,687 -1848342239 [11] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 11:18:21,724 -1848342238 [40] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка обработки запроса MessageId = f76bb7ae-c05e-427e-8f9c-8db35cc78a96[00000000-0000-0000-0000-000000000000], ProcessId = 00000000-0000-0000-0000-000000000000: Код 503: [Ошибка обработки сообщения на стороне сервера] Обработка данных узла остановлена для обновления конфигурации
+   at DT.TaskExtensions.WithCancellationSlow[T](Task`1 task, CancellationToken cancellationToken)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 11:18:25,428 -1848342237 [14] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:19:02,220 -1848342236 [11] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!
+2026-01-20 11:20:49,268 -1848342235 [14] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 23
+2026-01-20 11:20:49,268 -1848342234 [14] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 11:20:49,268 -1848342233 [50] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 11:20:49,269 -1848342232 [50] WARNING All Runner - TakeData токен отменен!
+2026-01-20 11:20:49,269 -1848342231 [32] INFORMATION All Runner - Поток 3a8d45d6-d637-4b84-b51f-c66bdd92ae86 завершен 
+2026-01-20 11:20:49,269 -1848342230 [23] INFORMATION All Runner - Поток 77dd81cb-58ed-4280-8f40-0251e405a79d завершен 
+2026-01-20 11:20:49,269 -1848342229 [13] INFORMATION All Runner - Поток 6fde63c0-aa19-4e32-9ea1-cea04bbe3195 завершен 
+2026-01-20 11:20:49,270 -1848342228 [9] INFORMATION All Runner - Поток 9767f210-7642-474b-9b7e-4a779ffee5bb завершен 
+2026-01-20 11:20:49,270 -1848342227 [18] INFORMATION All Runner - Поток 1ee8e9f4-b88e-471e-9431-78ab57dc91db завершен 
+2026-01-20 11:20:49,270 -1848342226 [50] INFORMATION All Runner - Остановлено.
+2026-01-20 11:20:49,270 -1848342225 [50] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 11:20:49,311 -1848342224 [50] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 11:20:49,311 -1848342223 [50] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 11:20:49,325 -1848342222 [50] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 11:20:49,334 -1848342221 [50] INFORMATION All Runner - Успешный запуск.
+2026-01-20 11:20:49,334 -1848342220 [50] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 11:20:49,334 -1848342219 [50] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 11:20:49,338 -1848342218 [8] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка обработки запроса MessageId = 8b81cc37-93eb-4d65-b3d8-ca195b0d24fb[00000000-0000-0000-0000-000000000000], ProcessId = 00000000-0000-0000-0000-000000000000: Код 503: [Ошибка обработки сообщения на стороне сервера] Обработка данных узла остановлена для обновления конфигурации
+   at DT.TaskExtensions.WithCancellationSlow[T](Task`1 task, CancellationToken cancellationToken)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 11:20:55,506 -1848342217 [50] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:21:02,235 -1848342216 [50] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!
+2026-01-20 11:21:13,565 -1848342215 [51] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 11:21:13,566 -1848342214 [51] WARNING All Runner - TakeData токен отменен!
+2026-01-20 11:21:13,566 -1848342213 [17] INFORMATION All Runner - Поток 44993613-b87b-489f-9767-d784ae155c09 завершен 
+2026-01-20 11:21:13,566 -1848342212 [18] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 24
+2026-01-20 11:21:13,567 -1848342211 [49] INFORMATION All Runner - Поток 6d3e1de5-1e30-46ca-9559-1c6566fceb3d завершен 
+2026-01-20 11:21:13,567 -1848342210 [18] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 11:21:13,567 -1848342209 [43] INFORMATION All Runner - Поток 1d581943-ebb9-4a29-b21a-0492dae50733 завершен 
+2026-01-20 11:21:13,567 -1848342208 [31] INFORMATION All Runner - Поток 12a30784-db1b-42ec-8fa5-1b22c16b6452 завершен 
+2026-01-20 11:21:13,570 -1848342207 [48] INFORMATION All Runner - Поток 82e4dffe-bca1-4246-9299-d4e48be6eddc завершен 
+2026-01-20 11:21:13,571 -1848342206 [51] INFORMATION All Runner - Остановлено.
+2026-01-20 11:21:13,571 -1848342205 [51] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 11:21:13,603 -1848342204 [51] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 11:21:13,604 -1848342203 [51] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 11:21:13,613 -1848342202 [51] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 11:21:13,639 -1848342201 [51] INFORMATION All Runner - Успешный запуск.
+2026-01-20 11:21:13,639 -1848342200 [51] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 11:21:13,639 -1848342199 [51] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 11:21:13,669 -1848342198 [51] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка обработки запроса MessageId = 2a13554b-709e-4377-9f9b-af5a19334dd9[00000000-0000-0000-0000-000000000000], ProcessId = 00000000-0000-0000-0000-000000000000: Код 503: [Ошибка обработки сообщения на стороне сервера] Обработка данных узла остановлена для обновления конфигурации
+   at DT.TaskExtensions.WithCancellationSlow[T](Task`1 task, CancellationToken cancellationToken)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 11:21:15,525 -1848342197 [4] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 11:22:02,246 -1848342196 [51] WARNING All Runner - Событие произошло 4 раз:
+TakeData токен отменен!
+2026-01-20 14:33:15,951 -1848342195 [4] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-20 14:33:16,520 -1848342194 [43] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:16,647 -1848342193 [43] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:16,648 -1848342192 [43] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:16,655 -1848342191 [43] WARNING All Runner - TakeData токен отменен!
+2026-01-20 14:33:16,657 -1848342190 [45] INFORMATION All Runner - Поток e6eab301-fdce-4c8d-8d89-91abe07cef8c завершен 
+2026-01-20 14:33:16,658 -1848342189 [11] INFORMATION All Runner - Поток 20f645b8-d3f7-4776-a1a8-5eddee072689 завершен 
+2026-01-20 14:33:16,658 -1848342188 [13] INFORMATION All Runner - Поток 0f0ffb8f-88d8-4ba8-9d7b-8f504536b755 завершен 
+2026-01-20 14:33:16,658 -1848342187 [9] INFORMATION All Runner - Поток 5e862bf3-64c6-4ebc-b49a-d93588bc13c7 завершен 
+2026-01-20 14:33:16,660 -1848342186 [23] INFORMATION All Runner - Поток c0b4f5fc-84b6-4b44-92fa-8b5999995957 завершен 
+2026-01-20 14:33:16,666 -1848342185 [43] INFORMATION All Runner - Остановлено.
+2026-01-20 14:33:16,666 -1848342184 [43] INFORMATION All ProcessManager - Остановлено.
+2026-01-20 14:33:16,667 -1848342183 [43] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-20 14:33:16,684 -1848342182 [43] WARNING All ProcessManager - Не запущен.
+2026-01-20 14:33:16,686 -1848342181 [43] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-20 14:33:16,686 -1848342180 [43] INFORMATION All ModuleService - Модуль остановлен
+2026-01-20 14:33:18,620 -1848342179 [9] INFORMATION All Main - Assembly: DatareonPlatformProcess, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 14:33:18,647 -1848342178 [9] INFORMATION All Main - Идентификатор текущего процесса: 18852
+2026-01-20 14:33:18,649 -1848342177 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 14:33:19,667 -1848342176 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:23,100 -1848342175 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:23,106 -1848342174 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:23,147 -1848342173 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 14:33:24,357 -1848342172 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 14:33:25,868 -1848342171 [7] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 24
+2026-01-20 14:33:25,949 -1848342170 [7] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 14:33:26,274 -1848342169 [12] INFORMATION States ProcessModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 14:33:26,282 -1848342168 [12] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 14:33:26,283 -1848342167 [12] WARNING All ProcessManager - Не запущен.
+2026-01-20 14:33:26,599 -1848342166 [12] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 14:33:26,607 -1848342165 [12] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 14:33:26,625 -1848342164 [12] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 14:33:26,641 -1848342163 [12] INFORMATION All Runner - Успешный запуск.
+2026-01-20 14:33:26,641 -1848342162 [12] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 14:33:26,641 -1848342161 [12] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 14:33:26,705 -1848342160 [12] WARNING All ProcessManager - Уже запущен.
+2026-01-20 14:33:26,698 -1848342159 [15] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 14:33:26,740 -1848342158 [12] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-20 14:33:26,761 -1848342157 [12] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 14:33:27,921 -1848342156 [9] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа System.InvalidOperationException: Матрица доступов еще рассчитывается. Попробуйте позже
+   at DT.InternalMessageExtensions.CheckForErrors(InternalMessage response)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-20 14:33:28,799 -1848342155 [16] INFORMATION States ProcessModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 14:33:40,396 -1848342154 [9] WARNING AccessControl CredentialAccessManager - Запрос доступа из модуля Credential приостановлен, т.к. модуль не отвечает на запросы.
+2026-01-20 14:34:18,593 -1848342153 [12] INFORMATION All ProcessModule - Событие произошло 1 раз:
+Все сервисы успешно запущены
+2026-01-20 14:56:58,867 -1848342152 [7] INFORMATION All Main - Assembly: DatareonPlatformProcess, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-20 14:56:58,894 -1848342151 [7] INFORMATION All Main - Идентификатор текущего процесса: 9456
+2026-01-20 14:56:58,894 -1848342150 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-20 14:56:59,623 -1848342149 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:04,646 -1848342148 [7] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 14:57:04,648 -1848342147 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:09,646 -1848342146 [7] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-20 14:57:09,646 -1848342145 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:09,664 -1848342144 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-20 14:57:10,012 -1848342143 [15] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-20 14:57:10,338 -1848342142 [7] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 24
+2026-01-20 14:57:10,364 -1848342141 [7] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [41d9723b-0c10-41e9-95e6-e9300da2e018, Процессы]
+2026-01-20 14:57:10,469 -1848342140 [14] WARNING All HealthManager - Работа модуля Processes завершилась некорректно, выполняем самовосстановление.
+2026-01-20 14:57:10,474 -1848342139 [14] INFORMATION States ProcessModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-20 14:57:10,477 -1848342138 [14] INFORMATION All ProcessModule - Запуск компиляции
+2026-01-20 14:57:10,477 -1848342137 [14] WARNING All ProcessManager - Не запущен.
+2026-01-20 14:57:10,533 -1848342136 [14] INFORMATION All ProcessModule - Завершение компиляции
+2026-01-20 14:57:10,536 -1848342135 [14] INFORMATION Balancing Runner - Балансировка включена. Используются параметры: 
+Потоков: 5 
+Спящих (шт): 100 
+Спящих (МБ (байт)): 200 (209715200) 
+Новых (МБ (байт)): 30 (31457280) 
+Новых сообщений на поток (шт): 50 
+Минимальный таймаут запроса: 10000 
+Максимум запущенных ожидающих (шт): 50максимальное время ожидания: 1.00:00:00
+2026-01-20 14:57:10,545 -1848342134 [14] INFORMATION All SleepProcessExecutor - Параметры при создании: минимальный таймаут запроса = 10000 мс, максимум запущенных ожидающих = 50, максимальный период ожидания ответа = 1.00:00:00, максимальное количество в очереди спящих 100, максимальный размер очереди спящих 200
+2026-01-20 14:57:10,551 -1848342133 [14] INFORMATION All Runner - Успешный запуск.
+2026-01-20 14:57:10,551 -1848342132 [14] INFORMATION All ProcessManager - Успешный запуск.
+2026-01-20 14:57:10,551 -1848342131 [14] INFORMATION All ProcessModule - Все сервисы успешно запущены
+2026-01-20 14:57:10,577 -1848342130 [12] ERROR All Runner - Произошла ошибка в потоке получения процессов и алгоритмов.
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NMDataClient. Удаленный адрес не определен.
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.NodeManagerProxy.InnerTake[T](InternalMessage msg, CancellationToken token)
+   at DT_Processes.Engine.Execution.Runner.CollectDataAsync(CancellationToken token)
+2026-01-20 14:57:10,583 -1848342129 [14] WARNING All ProcessManager - Уже запущен.
+2026-01-20 14:57:10,586 -1848342128 [14] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-20 14:57:10,600 -1848342127 [14] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-20 14:57:10,614 -1848342126 [8] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 41d9723b-0c10-41e9-95e6-e9300da2e018 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-20 14:57:13,995 -1848342125 [13] INFORMATION States ProcessModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-20 14:57:14,033 -1848342124 [13] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-20 14:57:18,675 -1848342123 [8] WARNING AccessControl CredentialAccessManager - Запрос доступа из модуля Credential приостановлен, т.к. модуль не отвечает на запросы.
+2026-01-20 14:57:29,658 -1848342122 [14] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-20 14:57:58,862 -1848342121 [14] INFORMATION All ProcessModule - Событие произошло 1 раз:
+Все сервисы успешно запущены

@@ -1,0 +1,552 @@
+﻿2026-01-21 11:41:53,700 808644447 [9] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 11:41:53,784 808644448 [9] INFORMATION All Main - Идентификатор текущего процесса: 17580
+2026-01-21 11:41:53,791 808644449 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 11:41:55,575 808644450 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 11:41:55,658 808644451 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 11:41:57,483 808644452 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 11:41:57,506 808644453 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 11:41:58,013 808644454 [10] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 11:41:58,496 808644455 [14] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 25
+2026-01-21 11:41:58,527 808644456 [14] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 11:41:59,396 808644457 [10] INFORMATION Apply ConfigService - Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 11:41:59,473 808644458 [10] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 11:42:00,087 808644459 [10] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-21 11:42:00,091 808644460 [10] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 11:42:00,093 808644461 [10] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 11:42:03,932 808644462 [9] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 11:42:11,553 808644463 [10] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 8a49b2e4-d07e-4c96-b61a-82b070ee21a5[8a49b2e4-d07e-4c96-b61a-82b070ee21a5], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 11:42:11,644 808644464 [15] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = cfa627a0-7dea-48b3-a142-e95cf2ec4584[cfa627a0-7dea-48b3-a142-e95cf2ec4584], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 11:42:13,645 808644465 [22] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 708c6f39-36d5-4038-bc30-db6108145c35[708c6f39-36d5-4038-bc30-db6108145c35], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 11:42:13,656 808644466 [22] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 7427c6ea-7b1c-46b8-81fd-71d1685c585d[7427c6ea-7b1c-46b8-81fd-71d1685c585d], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 11:42:20,937 808644467 [26] ERROR All JUtils - В процессе работы программы произошло исключение
+System.InvalidOperationException: Неверный путь для задания значения. Добавление прервано
+2026-01-21 11:42:20,977 808644468 [7] ERROR All ProcessHelper - В ходе выполнения процесса (2447705f-aed6-4808-b429-51d22c7c92f6) произошла ошибка.: Newtonsoft.Json.JsonException: Unexpected character while parsing path:  
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, JsonSelectSettings settings)
+   at DT_TypeBuilder.UiMapper.MapMdmToObject(List`1 fields, String objName, JToken data, IReadOnlyList`1 links)
+   at DT.WebServiceModule.PortalRequestExecutor.StartProcess(Guid sourceId, JToken data, Guid userId, BusinessProcess process, List`1 mappingToProcess, List`1 mappingFromProcess, Boolean waitResponse, CancellationToken ct)
+   at DT.WebServiceModule.PortalRequestExecutor.ActionStart(JToken data, Guid processId, List`1 mappingToProcess, List`1 mappingFromProcess, Guid sourceId, Boolean waitResponse, Guid userId, CancellationToken ct)
+   at DT_BlazorMdmPortal.Services.DataProcessService.GetDataFromProcessAsync(ProcessMdmDataSource dataSource, JToken data, List`1 dataParameters, Nullable`1 userId, CancellationToken ct)
+   at DT.BlazorUiKit.Utils.ProcessHelper.RunBpAsync(IDataProcessService processService, ProcessConfig config, JToken value, Guid userId)
+2026-01-21 11:42:53,664 808644469 [22] ERROR All ProcessHelper - Событие произошло 1 раз:
+В ходе выполнения процесса (2447705f-aed6-4808-b429-51d22c7c92f6) произошла ошибка.: Newtonsoft.Json.JsonException: Unexpected character while parsing path:  
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, JsonSelectSettings settings)
+   at DT_TypeBuilder.UiMapper.MapMdmToObject(List`1 fields, String objName, JToken data, IReadOnlyList`1 links)
+   at DT.WebServiceModule.PortalRequestExecutor.StartProcess(Guid sourceId, JToken data, Guid userId, BusinessProcess process, List`1 mappingToProcess, List`1 mappingFromProcess, Boolean waitResponse, CancellationToken ct)
+   at DT.WebServiceModule.PortalRequestExecutor.ActionStart(JToken data, Guid processId, List`1 mappingToProcess, List`1 mappingFromProcess, Guid sourceId, Boolean waitResponse, Guid userId, CancellationToken ct)
+   at DT_BlazorMdmPortal.Services.DataProcessService.GetDataFromProcessAsync(ProcessMdmDataSource dataSource, JToken data, List`1 dataParameters, Nullable`1 userId, CancellationToken ct)
+   at DT.BlazorUiKit.Utils.ProcessHelper.RunBpAsync(IDataProcessService processService, ProcessConfig config, JToken value, Guid userId)
+2026-01-21 11:42:53,667 808644470 [22] ERROR All JUtils - Событие произошло 1 раз:
+В процессе работы программы произошло исключение
+System.InvalidOperationException: Неверный путь для задания значения. Добавление прервано
+2026-01-21 12:01:35,798 808644471 [43] ERROR All JUtils - В процессе работы программы произошло исключение
+System.InvalidOperationException: Неверный путь для задания значения. Добавление прервано
+2026-01-21 12:01:35,806 808644472 [23] ERROR All ProcessHelper - В ходе выполнения процесса (2447705f-aed6-4808-b429-51d22c7c92f6) произошла ошибка.: Newtonsoft.Json.JsonException: Unexpected character while parsing path:  
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, JsonSelectSettings settings)
+   at DT_TypeBuilder.UiMapper.MapMdmToObject(List`1 fields, String objName, JToken data, IReadOnlyList`1 links)
+   at DT.WebServiceModule.PortalRequestExecutor.StartProcess(Guid sourceId, JToken data, Guid userId, BusinessProcess process, List`1 mappingToProcess, List`1 mappingFromProcess, Boolean waitResponse, CancellationToken ct)
+   at DT.WebServiceModule.PortalRequestExecutor.ActionStart(JToken data, Guid processId, List`1 mappingToProcess, List`1 mappingFromProcess, Guid sourceId, Boolean waitResponse, Guid userId, CancellationToken ct)
+   at DT_BlazorMdmPortal.Services.DataProcessService.GetDataFromProcessAsync(ProcessMdmDataSource dataSource, JToken data, List`1 dataParameters, Nullable`1 userId, CancellationToken ct)
+   at DT.BlazorUiKit.Utils.ProcessHelper.RunBpAsync(IDataProcessService processService, ProcessConfig config, JToken value, Guid userId)
+2026-01-21 12:01:53,870 808644473 [43] ERROR All ProcessHelper - Событие произошло 1 раз:
+В ходе выполнения процесса (2447705f-aed6-4808-b429-51d22c7c92f6) произошла ошибка.: Newtonsoft.Json.JsonException: Unexpected character while parsing path:  
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, JsonSelectSettings settings)
+   at DT_TypeBuilder.UiMapper.MapMdmToObject(List`1 fields, String objName, JToken data, IReadOnlyList`1 links)
+   at DT.WebServiceModule.PortalRequestExecutor.StartProcess(Guid sourceId, JToken data, Guid userId, BusinessProcess process, List`1 mappingToProcess, List`1 mappingFromProcess, Boolean waitResponse, CancellationToken ct)
+   at DT.WebServiceModule.PortalRequestExecutor.ActionStart(JToken data, Guid processId, List`1 mappingToProcess, List`1 mappingFromProcess, Guid sourceId, Boolean waitResponse, Guid userId, CancellationToken ct)
+   at DT_BlazorMdmPortal.Services.DataProcessService.GetDataFromProcessAsync(ProcessMdmDataSource dataSource, JToken data, List`1 dataParameters, Nullable`1 userId, CancellationToken ct)
+   at DT.BlazorUiKit.Utils.ProcessHelper.RunBpAsync(IDataProcessService processService, ProcessConfig config, JToken value, Guid userId)
+2026-01-21 12:01:53,874 808644474 [43] ERROR All JUtils - Событие произошло 2 раз:
+В процессе работы программы произошло исключение
+System.InvalidOperationException: Неверный путь для задания значения. Добавление прервано
+2026-01-21 12:06:34,775 808644475 [51] INFORMATION Apply ConfigService - Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 12:06:34,869 808644476 [51] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 26
+2026-01-21 12:06:34,870 808644477 [51] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 12:06:38,916 808644478 [25] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:09:42,836 808644479 [7] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:09:42,856 808644480 [7] INFORMATION All Main - Идентификатор текущего процесса: 7308
+2026-01-21 12:09:42,857 808644481 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:09:43,404 808644482 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:48,427 808644483 [7] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:09:48,429 808644484 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:53,423 808644485 [7] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:09:53,424 808644486 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:53,442 808644487 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:09:53,818 808644488 [13] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:09:54,177 808644489 [10] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:09:54,212 808644490 [10] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 12:09:54,934 808644491 [14] INFORMATION Apply ConfigService - Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 12:09:54,996 808644492 [14] WARNING All HealthManager - Работа модуля BlazorPortal завершилась некорректно, выполняем самовосстановление.
+2026-01-21 12:09:54,999 808644493 [14] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:09:55,398 808644494 [14] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-21 12:09:55,402 808644495 [14] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 12:09:55,409 808644496 [14] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:09:55,422 808644497 [7] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 0be98576-8b31-415d-9dcb-6931feba4b57 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-21 12:09:57,927 808644498 [7] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:09:57,951 808644499 [7] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:10:13,381 808644500 [9] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:10:13,421 808644501 [9] INFORMATION All Main - Идентификатор текущего процесса: 24152
+2026-01-21 12:10:13,422 808644502 [9] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:10:18,532 808644503 [9] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:18,534 808644504 [9] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:23,532 808644505 [9] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:23,533 808644506 [9] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:28,532 808644507 [9] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:28,533 808644508 [9] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:10:33,558 808644509 [13] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:10:33,558 808644510 [9] ERROR Connections CpBroker [Подключение к менеджеру узла] - Точка подключения NmHostClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerhostpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:10:33,561 808644511 [9] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:10:33,581 808644512 [3] ERROR All NodeConnector - Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:10:38,551 808644513 [8] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:10:43,557 808644514 [16] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:10:48,586 808644515 [13] ERROR Connections CpBroker [Подключение к менеджеру узла] - Точка подключения NmHostClient не запущена
+2026-01-21 12:11:13,353 808644516 [11] ERROR Connections CpBroker [CredentialBroker] - Событие произошло 1 раз:
+Точка подключения CredentialClient не запущена
+2026-01-21 12:11:13,353 808644517 [16] ERROR Connections CpBroker [Подключение к менеджеру узла] - Событие произошло 1 раз:
+Точка подключения NmHostClient не запущена
+2026-01-21 12:11:13,353 808644518 [13] ERROR Connections CpBroker [DiagnosticBroker] - Событие произошло 2 раз:
+Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:11:13,353 808644519 [11] ERROR All NodeConnector - Событие произошло 7 раз:
+Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:11:13,353 808644520 [11] ERROR Connections CpBroker [ServiceBroker] - Событие произошло 2 раз:
+Точка подключения NMClient не запущена
+2026-01-21 12:11:13,589 808644521 [3] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:11:13,664 808644522 [15] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:11:13,668 808644523 [15] ERROR All NodeConnector - Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:11:13,676 808644524 [13] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendLogData(SummaryLog logs)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:11:18,620 808644525 [3] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:11:18,663 808644526 [17] ERROR Connections CpBroker [Подключение к менеджеру узла] - Точка подключения NmHostClient не запущена
+2026-01-21 12:11:23,581 808644527 [11] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:13,371 808644528 [17] ERROR Connections CpBroker [CredentialBroker] - Событие произошло 3 раз:
+Точка подключения CredentialClient не запущена
+2026-01-21 12:12:13,371 808644529 [14] ERROR Connections CpBroker [Подключение к менеджеру узла] - Событие произошло 3 раз:
+Точка подключения NmHostClient не запущена
+2026-01-21 12:12:13,371 808644530 [15] ERROR Connections CpBroker [DiagnosticBroker] - Событие произошло 3 раз:
+Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:13,371 808644531 [17] ERROR All NodeConnector - Событие произошло 11 раз:
+Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:12:13,371 808644532 [17] ERROR Connections CpBroker [ServiceBroker] - Событие произошло 3 раз:
+Точка подключения NMClient не запущена
+2026-01-21 12:12:13,624 808644533 [11] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена
+2026-01-21 12:12:13,664 808644534 [11] WARNING Diagnostic IssueModuleService - Не удалось отправить данные со сводным состоянием на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Issues.IssueModuleService.SendIssueStateData(List`1 states)
+   at DT.Diagnostics.Issues.IssueModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:13,687 808644535 [11] WARNING All LogModuleService - Не удалось отправить данные со сводным состоянием на узел 00000000-0000-0000-0000-000000000000: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.Log.LogModuleService.SendLogData(SummaryLog logs)
+   at DT.Diagnostics.Log.LogModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-21 12:12:13,789 808644536 [17] ERROR All NodeConnector - Не удалось подключиться к менеджеру узла
+DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: NmHostClient. Локальный адрес: dt_platform_nodemanagerhostpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.NodeManagerClientService.NodeConnector.<Start>b__12_0()
+2026-01-21 12:12:18,665 808644537 [15] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена
+2026-01-21 12:12:23,599 808644538 [18] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена
+2026-01-21 12:12:24,363 808644539 [17] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:12:24,370 808644540 [9] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 12:12:35,242 808644541 [3] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:12:35,245 808644542 [3] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 12:12:36,558 808644543 [14] INFORMATION Apply ConfigService - Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 12:12:36,636 808644544 [14] WARNING All HealthManager - Работа модуля BlazorPortal завершилась некорректно, выполняем самовосстановление.
+2026-01-21 12:12:36,640 808644545 [14] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:12:37,371 808644546 [14] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-21 12:12:37,378 808644547 [14] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 12:12:37,381 808644548 [14] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:12:37,412 808644549 [9] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 0be98576-8b31-415d-9dcb-6931feba4b57 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-21 12:12:38,855 808644550 [11] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:12:44,380 808644551 [3] ERROR All NodeManagerHostObserver - Ключ сессии сервиса(a0399ef8-20b9-442d-813c-bfc9488d37ca) не совпадает с ключем сессии NodeManager(370144bb-5471-469c-83b0-1ebd427165df).
+2026-01-21 12:12:44,402 808644552 [13] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,403 808644553 [13] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,403 808644554 [13] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,403 808644555 [13] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,411 808644556 [13] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 12:12:44,411 808644557 [13] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 12:12:58,128 808644558 [10] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 12:12:58,172 808644559 [10] INFORMATION All Main - Идентификатор текущего процесса: 24068
+2026-01-21 12:12:58,172 808644560 [10] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 12:13:03,336 808644561 [10] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:03,340 808644562 [10] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:08,332 808644563 [10] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:08,332 808644564 [10] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:13,343 808644565 [10] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 12:13:13,345 808644566 [10] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:15,098 808644567 [10] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 12:13:16,818 808644568 [7] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 12:13:18,005 808644569 [15] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 26
+2026-01-21 12:13:18,077 808644570 [15] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 12:13:19,872 808644571 [7] INFORMATION Apply ConfigService - Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 12:13:19,992 808644572 [7] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 12:13:21,116 808644573 [7] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-21 12:13:21,136 808644574 [7] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 12:13:21,173 808644575 [7] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 12:13:21,192 808644576 [9] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 0be98576-8b31-415d-9dcb-6931feba4b57 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-21 12:13:23,391 808644577 [15] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 12:13:37,800 808644578 [8] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 27
+2026-01-21 12:13:37,801 808644579 [8] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 12:13:43,391 808644580 [8] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:13:58,099 808644581 [8] INFORMATION Apply ConfigService - Событие произошло 1 раз:
+Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 12:14:13,438 808644582 [16] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 12:18:38,901 808644583 [26] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа System.InvalidOperationException: Матрица доступов еще рассчитывается. Попробуйте позже
+   at DT.InternalMessageExtensions.CheckForErrors(InternalMessage response)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-21 12:22:09,528 808644584 [32] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = cad41d78-5386-4bb2-9679-6854912d13a9[cad41d78-5386-4bb2-9679-6854912d13a9], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:22:09,528 808644585 [13] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 174eb4cd-43cf-4560-97b9-3683ee140583[174eb4cd-43cf-4560-97b9-3683ee140583], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:22:36,115 808644586 [33] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = fdcb6d6e-6d51-41f6-a9af-dd9011e0adbb[fdcb6d6e-6d51-41f6-a9af-dd9011e0adbb], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:22:36,146 808644587 [11] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 18139160-16e9-45c8-88bd-db106f3dfd1c[18139160-16e9-45c8-88bd-db106f3dfd1c], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:22:36,705 808644588 [32] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 8cc53f9e-8d35-449a-a0f1-d36c944e441d[8cc53f9e-8d35-449a-a0f1-d36c944e441d], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:22:36,738 808644589 [31] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 92e88608-8fee-4b68-88ad-7534e6549f7c[92e88608-8fee-4b68-88ad-7534e6549f7c], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:23:02,627 808644590 [20] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = d5550f12-f76b-4cad-99c1-4b313976b4d8[d5550f12-f76b-4cad-99c1-4b313976b4d8], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:23:02,644 808644591 [33] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 2321dfe9-b276-4e9d-87fa-708297963560[2321dfe9-b276-4e9d-87fa-708297963560], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:23:03,779 808644592 [32] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 4ffa8050-bb36-4fc3-9b16-c131426dd755[4ffa8050-bb36-4fc3-9b16-c131426dd755], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:23:03,811 808644593 [36] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = c7a47237-b947-40e0-a95e-b4c6bb2062e7[c7a47237-b947-40e0-a95e-b4c6bb2062e7], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:24:39,992 808644594 [39] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа System.InvalidOperationException: Матрица доступов еще рассчитывается. Попробуйте позже
+   at DT.InternalMessageExtensions.CheckForErrors(InternalMessage response)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-21 12:26:55,127 808644595 [3] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 4c7477d5-f790-464d-8230-7815eaba2745[4c7477d5-f790-464d-8230-7815eaba2745], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:26:55,152 808644596 [21] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = b8cecd2c-858d-4beb-85cf-a0c42f88dcf6[b8cecd2c-858d-4beb-85cf-a0c42f88dcf6], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:26:55,702 808644597 [46] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = c812e46d-57d5-4a98-a6bd-cd30ca00b444[c812e46d-57d5-4a98-a6bd-cd30ca00b444], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:26:55,721 808644598 [46] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 098d8a70-9f30-431f-b690-4c65b846a2e3[098d8a70-9f30-431f-b690-4c65b846a2e3], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:36:30,716 808644599 [36] ERROR All BaseContentComponent - При получении количества записей произошла ошибка:System.ArgumentException: Не найден источник данных 94fa8600-a180-444b-8682-cc267aab5ffd
+   at DT_BlazorMdmPortal.Services.DataSourceService.GetDataCount(Guid ownerId, Guid userId, DataFilter filter)
+   at DT.BlazorUiKit.Components.Base.BaseUIComponent`1.GetCount(DataFilter remoteFilter)
+2026-01-21 12:36:30,717 808644600 [36] ERROR All BaseContentComponent - При инициализации компонента произошла ошибка: 
+2026-01-21 12:36:42,378 808644601 [17] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 32ec9ee2-94fe-4c80-a6a6-9fddf1f35a30[32ec9ee2-94fe-4c80-a6a6-9fddf1f35a30], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:36:42,381 808644602 [20] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 8105fffc-fd98-4cc8-960e-dc35e4d135dc[8105fffc-fd98-4cc8-960e-dc35e4d135dc], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 12:36:58,298 808644603 [30] ERROR All BaseContentComponent - Событие произошло 6 раз:
+При инициализации компонента произошла ошибка: 
+2026-01-21 12:36:58,299 808644604 [30] ERROR All BaseContentComponent - Событие произошло 6 раз:
+При получении количества записей произошла ошибка:System.ArgumentException: Не найден источник данных 94fa8600-a180-444b-8682-cc267aab5ffd
+   at DT_BlazorMdmPortal.Services.DataSourceService.GetDataCount(Guid ownerId, Guid userId, DataFilter filter)
+   at DT.BlazorUiKit.Components.Base.BaseUIComponent`1.GetCount(DataFilter remoteFilter)
+2026-01-21 12:37:00,357 808644605 [21] ERROR All BaseContentComponent - При получении количества записей произошла ошибка:System.ArgumentException: Не найден источник данных 94fa8600-a180-444b-8682-cc267aab5ffd
+   at DT_BlazorMdmPortal.Services.DataSourceService.GetDataCount(Guid ownerId, Guid userId, DataFilter filter)
+   at DT.BlazorUiKit.Components.Base.BaseUIComponent`1.GetCount(DataFilter remoteFilter)
+2026-01-21 12:37:00,357 808644606 [21] ERROR All BaseContentComponent - При инициализации компонента произошла ошибка: 
+2026-01-21 13:18:45,869 808644607 [48] ERROR All JUtils - В процессе работы программы произошло исключение
+System.InvalidOperationException: Неверный путь для задания значения. Добавление прервано
+2026-01-21 13:18:45,935 808644608 [37] ERROR All ProcessHelper - В ходе выполнения процесса (2447705f-aed6-4808-b429-51d22c7c92f6) произошла ошибка.: Newtonsoft.Json.JsonException: Unexpected character while parsing path:  
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, JsonSelectSettings settings)
+   at DT_TypeBuilder.UiMapper.MapMdmToObject(List`1 fields, String objName, JToken data, IReadOnlyList`1 links)
+   at DT.WebServiceModule.PortalRequestExecutor.StartProcess(Guid sourceId, JToken data, Guid userId, BusinessProcess process, List`1 mappingToProcess, List`1 mappingFromProcess, Boolean waitResponse, CancellationToken ct)
+   at DT.WebServiceModule.PortalRequestExecutor.ActionStart(JToken data, Guid processId, List`1 mappingToProcess, List`1 mappingFromProcess, Guid sourceId, Boolean waitResponse, Guid userId, CancellationToken ct)
+   at DT_BlazorMdmPortal.Services.DataProcessService.GetDataFromProcessAsync(ProcessMdmDataSource dataSource, JToken data, List`1 dataParameters, Nullable`1 userId, CancellationToken ct)
+   at DT.BlazorUiKit.Utils.ProcessHelper.RunBpAsync(IDataProcessService processService, ProcessConfig config, JToken value, Guid userId)
+2026-01-21 13:19:35,243 808644609 [41] ERROR All BaseContentComponent - При перерисовке контейнера подсказок произошла ошибка: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at DT.BlazorUiKit.Components.Popup.DatareonPopupContainer.OnAfterRenderAsync(Boolean firstRender)
+2026-01-21 13:19:58,723 808644610 [41] ERROR All BaseContentComponent - Событие произошло 1 раз:
+При перерисовке контейнера подсказок произошла ошибка: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at DT.BlazorUiKit.Components.Popup.DatareonPopupContainer.OnAfterRenderAsync(Boolean firstRender)
+2026-01-21 13:21:10,393 808644611 [8] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 13:21:10,433 808644612 [8] INFORMATION All Main - Идентификатор текущего процесса: 20548
+2026-01-21 13:21:10,434 808644613 [8] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 13:21:11,559 808644614 [8] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:16,584 808644615 [11] ERROR Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_monitoringpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 13:21:16,586 808644616 [8] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:21,591 808644617 [8] ERROR Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_credentialpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 13:21:21,591 808644618 [8] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:21,632 808644619 [8] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 13:21:22,543 808644620 [13] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 13:21:24,022 808644621 [12] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 27
+2026-01-21 13:21:24,136 808644622 [12] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 13:21:25,737 808644623 [8] INFORMATION Apply ConfigService - Для UI элемента 6467971a-29f6-4b78-9555-001998285608 будет изменен тип данных с нулевого значения на 00000000-0000-0000-0000-000000000000
+2026-01-21 13:21:25,839 808644624 [8] WARNING All HealthManager - Работа модуля BlazorPortal завершилась некорректно, выполняем самовосстановление.
+2026-01-21 13:21:25,845 808644625 [8] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 13:21:27,254 808644626 [8] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-21 13:21:27,263 808644627 [8] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 13:21:27,274 808644628 [8] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 13:21:27,299 808644629 [8] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа DT.Net.Exceptions.RequestException: При обращении к прокси-менеджеру в модуле 0be98576-8b31-415d-9dcb-6931feba4b57 произошла ошибка: DT.Net.Exceptions.RequestException: Ошибка отправки сообщения Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   at MDM_ModuleProxy.ModuleProxyBase.SendWithResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+ ---> Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: CredentialClient. Локальный адрес: dt_platform_credentialpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Net.RequestExecutor.ClientRequestExecutorHandler.SendRequestAsync(RequestFromClient request)
+   at DT.Net.RequestExecutor.RequestExecutorHandler`1.ExecuteRequest(T request, CancellationToken ct, Int32 millisecondsTimeout)
+   --- End of inner exception stack trace ---
+   at MDM_ModuleProxy.ModuleProxyBase.SendAndWaitResponse(InternalMessage message, CancellationToken token, Int32 timeout, EventHandler onSend)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()
+2026-01-21 13:21:30,549 808644630 [8] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 13:21:41,626 808644631 [16] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:24:17,130 808644632 [31] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 90c5f5d5-6ed8-4869-ae57-6503310e1f98[90c5f5d5-6ed8-4869-ae57-6503310e1f98], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:24:17,228 808644633 [21] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 02df48a8-e327-4fa3-b228-0b563928e681[02df48a8-e327-4fa3-b228-0b563928e681], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:24:18,543 808644634 [29] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 6ddccbe0-4caf-479f-99d1-a294ac179e57[6ddccbe0-4caf-479f-99d1-a294ac179e57], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:24:18,574 808644635 [29] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 4e5f7b74-f937-4cdf-8a60-f29e3c35e6f7[4e5f7b74-f937-4cdf-8a60-f29e3c35e6f7], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:26:43,704 808644636 [32] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 28
+2026-01-21 13:26:43,706 808644637 [32] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 13:26:43,936 808644638 [24] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:28:20,669 808644639 [14] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 29
+2026-01-21 13:28:20,669 808644640 [14] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 13:28:26,356 808644641 [24] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 13:31:48,087 808644642 [15] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 06fa939b-f318-4bce-8c25-225ae5e492db[06fa939b-f318-4bce-8c25-225ae5e492db], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:31:48,100 808644643 [15] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 5daf24e5-0ed8-4996-9391-292b4525bf4c[5daf24e5-0ed8-4996-9391-292b4525bf4c], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:31:48,973 808644644 [11] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = eccd6f7e-8ed4-4a4f-bf45-d7f8a0e0c0ed[eccd6f7e-8ed4-4a4f-bf45-d7f8a0e0c0ed], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:31:48,994 808644645 [26] ERROR All DataProcessService - В процессе выполнения запроса SELECT  ТипДанныхФайл.Object FROM ТипДанныхФайл   с фильтром <не задан>, произошла ошибка : Ошибка обработки запроса MessageId = 98ba91e9-d905-442c-abe7-656aee2195e9[98ba91e9-d905-442c-abe7-656aee2195e9], ProcessId = 00000000-0000-0000-0000-000000000000: Код 500: [Ошибка обработки сообщения на стороне сервера] Тип 515aa5c6-e6a8-4319-83c9-c06d5bbf30a6 не является типом банка данных или банк не заполнен
+2026-01-21 13:33:46,192 808644646 [23] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 30
+2026-01-21 13:33:46,193 808644647 [23] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 13:33:46,707 808644648 [13] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 14:21:07,368 808644649 [40] ERROR All NodeManagerHostObserver - Нет пингов от NM за таймаут 00:05:00
+2026-01-21 14:21:08,196 808644650 [36] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:08,217 808644651 [36] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:08,217 808644652 [36] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:08,218 808644653 [36] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-21 14:21:08,297 808644654 [36] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-21 14:21:08,297 808644655 [36] INFORMATION All ModuleService - Модуль остановлен
+2026-01-21 14:21:17,128 808644656 [7] INFORMATION All Main - Assembly: DatareonPlatformMdmUI, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-21 14:21:17,160 808644657 [7] INFORMATION All Main - Идентификатор текущего процесса: 26584
+2026-01-21 14:21:17,160 808644658 [7] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-21 14:21:22,364 808644659 [7] ERROR Connections CpBroker [ServiceBroker] - Точка подключения NMClient не запущена:Adk.Net2.Exceptions.CannotConnectException: Истекло время ожидания установки подключения к pipe-серверу dt_platform_nodemanagerpipeserver
+ ---> System.TimeoutException: The operation has timed out.
+   at System.IO.Pipes.NamedPipeClientStream.ConnectInternal(Int32 timeout, CancellationToken cancellationToken, Int32 startTime)
+   at System.IO.Pipes.NamedPipeClientStream.Connect(Int32 timeout)
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   --- End of inner exception stack trace ---
+   at Adk.Net2.Channel.Pipe.PipeClient.BuildStream()
+   at Adk.Net2.Channel.Client.InitConnection()
+   at DT.Net.PlatformInnerClient.Start()
+   at DT.ConnectionPoints.ConnectionPointBroker.StartableObject.Start()
+2026-01-21 14:21:22,376 808644660 [7] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:23,676 808644661 [7] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:23,692 808644662 [7] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:23,729 808644663 [7] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-21 14:21:24,641 808644664 [8] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-21 14:21:24,650 808644665 [7] WARNING All MetadataModuleCacheManager - Получена пустая конфигурация от узла
+2026-01-21 14:21:33,730 808644666 [14] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-21 14:21:36,508 808644667 [13] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-21 14:21:36,600 808644668 [13] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0be98576-8b31-415d-9dcb-6931feba4b57, ПорталВАд]
+2026-01-21 14:21:39,360 808644669 [13] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-21 14:21:41,248 808644670 [13] INFORMATION All MdmUIApi - Веб-сервис модуля МДМ успешно запущен по адресу: http://NGaranina:666
+2026-01-21 14:21:41,287 808644671 [13] INFORMATION All ModuleService - Модуль успешно запущен
+2026-01-21 14:21:41,317 808644672 [13] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-21 14:21:42,452 808644673 [12] INFORMATION States BlazorMdmPortalModule - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-21 15:07:08,661 808644674 [44] ERROR All BaseContentComponent - При получении количества записей произошла ошибка:System.ArgumentException: Не найден источник данных 94fa8600-a180-444b-8682-cc267aab5ffd
+   at DT_BlazorMdmPortal.Services.DataSourceService.GetDataCount(Guid ownerId, Guid userId, DataFilter filter)
+   at DT.BlazorUiKit.Components.Base.BaseUIComponent`1.GetCount(DataFilter remoteFilter)
+2026-01-21 15:07:08,662 808644675 [44] ERROR All BaseContentComponent - При инициализации компонента произошла ошибка: 
+2026-01-21 15:07:42,768 808644676 [58] ERROR AccessControl CredentialAccessManager - Возникла ошибка запроса таблицы доступа System.InvalidOperationException: Матрица доступов еще рассчитывается. Попробуйте позже
+   at DT.InternalMessageExtensions.CheckForErrors(InternalMessage response)
+   at DT.Credential.Module.CredentialModuleProxy.GetAsync[T](InternalMessage message, CancellationToken ct, Int32 timeout)
+   at DT.Credential.CredentialAccessManager.TryGetCredentialAccess()

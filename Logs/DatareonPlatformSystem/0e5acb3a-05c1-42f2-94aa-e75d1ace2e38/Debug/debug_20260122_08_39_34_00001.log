@@ -1,0 +1,45 @@
+﻿2026-01-22 08:39:34,204 -1481202747 [13] INFORMATION All UpstreamOutgoingMessagesSender - Поток передачи сообщений остановлен
+2026-01-22 08:39:34,204 -1481202746 [59] INFORMATION Queues AdapterQueue - Прекращение загрузки сообщений с узла для FileOut
+2026-01-22 08:39:34,284 -1481202745 [25] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:34,289 -1481202744 [25] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:34,298 -1481202743 [25] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:34,302 -1481202742 [25] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения остановлен
+2026-01-22 08:39:34,311 -1481202741 [25] INFORMATION States AdapterUnit - Установлено новое состояние Останавливается. Состояние до изменения: Рабочее состояние
+2026-01-22 08:39:34,318 -1481202740 [25] INFORMATION All AdapterUnit - Все компоненты остановлены
+2026-01-22 08:39:34,318 -1481202739 [25] INFORMATION All AdapterModule[FileOut] - Адаптер успешно остановлен
+2026-01-22 08:39:34,320 -1481202738 [25] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения остановлен
+2026-01-22 08:39:34,320 -1481202737 [25] INFORMATION All AdapterService - Модуль остановлен
+2026-01-22 08:39:35,261 -1481202736 [10] INFORMATION All Main - Assembly: DatareonPlatformAdapter, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+2026-01-22 08:39:35,291 -1481202735 [10] INFORMATION All Main - Идентификатор текущего процесса: 2960
+2026-01-22 08:39:35,291 -1481202734 [10] INFORMATION All Main - Процесс запущен на физическом сервере: NGARANINA
+2026-01-22 08:39:39,703 -1481202733 [10] INFORMATION Connections CpBroker [ServiceBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,747 -1481202732 [10] INFORMATION Connections CpBroker [DiagnosticBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,767 -1481202731 [10] INFORMATION Connections CpBroker [CredentialBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:39,782 -1481202730 [10] INFORMATION Connections CpBroker [DataBroker] - Брокер точек подключения запущен
+2026-01-22 08:39:41,131 -1481202729 [11] INFORMATION All MetadataModuleCacheManager - Загрузка кэшей при старте модуля успешно завершена. Версия до обновления 0 после обновления 30
+2026-01-22 08:39:41,183 -1481202728 [11] INFORMATION All MetadataModuleCacheManager - Отправляем информацию об обновлении [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut]
+2026-01-22 08:39:41,245 -1481202727 [11] INFORMATION Connections CpBroker [Подключение к менеджеру узла] - Брокер точек подключения запущен
+2026-01-22 08:39:41,317 -1481202726 [14] INFORMATION All NodeConnector - Сервис успешно подключен к менеджеру узла
+2026-01-22 08:39:41,782 -1481202725 [11] INFORMATION States AdapterUnit - Установлено новое состояние Запускается. Состояние до изменения: Неизвестно
+2026-01-22 08:39:41,786 -1481202724 [11] INFORMATION All FileAdapter - Директория для получения сообщений ToPlatform не настроена.
+2026-01-22 08:39:41,820 -1481202723 [11] INFORMATION All AdapterUnit - Все компоненты успешно запущены
+2026-01-22 08:39:41,822 -1481202722 [11] INFORMATION All AdapterService - Модуль успешно запущен
+2026-01-22 08:39:41,826 -1481202721 [14] INFORMATION Queues AdapterQueue - Старт загрузки сообщений с узла для FileOut
+2026-01-22 08:39:41,833 -1481202720 [17] INFORMATION All UpstreamOutgoingMessagesSender - Поток передачи сообщений запущен
+2026-01-22 08:39:45,426 -1481202719 [11] INFORMATION States AdapterUnit - Установлено новое состояние Рабочее состояние. Состояние до изменения: Запускается
+2026-01-22 08:39:45,497 -1481202718 [11] WARNING Diagnostic DiagnosticComponentModuleService - Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 08:39:49,770 -1481202717 [11] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась
+2026-01-22 08:39:49,770 -1481202716 [8] WARNING Connections CpBroker [DiagnosticBroker] - Точка подключения DatareonMonitoringClient самостоятельно остановилась
+2026-01-22 08:40:35,261 -1481202715 [7] INFORMATION All UpstreamOutgoingMessagesSender - Событие произошло 4 раз:
+Поток передачи сообщений запущен
+2026-01-22 08:40:35,264 -1481202714 [11] WARNING Diagnostic DiagnosticComponentModuleService - Событие произошло 1 раз:
+Не удалось отправить данные с деревом состояний на сервис мониторинга: Adk.Net2.Exceptions.TransportException: Подключение еще не установлено. Клиент: DatareonMonitoringClient. Локальный адрес: dt_platform_monitoringpipeserver
+   at DT.Net.PlatformInnerClient.SendMessageAsync(InternalMessage message)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendComponentData(DiagnosticComponentState data)
+   at DT.Diagnostics.ComponentDiagnostics.DiagnosticComponentModuleService.SendDataToMonitoringAsync(CancellationToken cancellationToken)
+2026-01-22 09:31:59,480 -1481202713 [49] INFORMATION Apply ModuleMetadataHandler - Обновление кешэй успешной завершено. Версия 31
+2026-01-22 09:31:59,488 -1481202712 [49] INFORMATION Apply ModuleMetadataHandler - Отправляем информацию об обновлении [0e5acb3a-05c1-42f2-94aa-e75d1ace2e38, FileOut]
+2026-01-22 09:32:03,519 -1481202711 [11] WARNING Connections CpBroker [CredentialBroker] - Точка подключения CredentialClient самостоятельно остановилась

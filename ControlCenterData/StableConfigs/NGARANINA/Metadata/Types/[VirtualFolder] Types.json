@@ -1,0 +1,12 @@
+{
+  "$type": "DT.VirtualFolder, DT_Core",
+  "Type": "Types",
+  "FolderId": "785bd3dc-4e68-4fa3-84da-ae19520cf57a",
+  "EntityId": "4e0e9318-d8a3-4e2f-ac81-2d352517a167",
+  "ClusterId": "8b7ea74b-365a-48da-8746-d36ab2adcb19",
+  "Name": "Типы",
+  "Version": 1,
+  "FieldsFromGlobalBusiness": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+  }
+}

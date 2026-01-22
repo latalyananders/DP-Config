@@ -1,0 +1,9 @@
+{
+  "$type": "DT.MdmMetadata.MetaVersionInfo, DT_TypeBuilder.Entities",
+  "Version": 1,
+  "SnapshotVersion": 0,
+  "ApplyTs": "0001-01-01T00:00:00",
+  "SnapshotTs": "0001-01-01T00:00:00",
+  "PlatformVersion": null,
+  "Description": null
+}
